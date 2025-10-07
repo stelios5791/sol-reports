@@ -1,449 +1,473 @@
-date,symbol,name,address,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,source,data_status,missing_streak,whale_transfers_24h,large_buys,large_sells,net_whale_flow_usd,top_10_holders_pct,holder_concentration
-2025-10-01,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.002432,276665.81,477817.5,2430672.0,dexscreener,ok,0,,,,,,
-2025-10-01,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,7.615e-05,109441.57,65850.04,76157.0,dexscreener,ok,0,,,,,,
-2025-10-01,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0003985,62131.44,129122.01,398570.0,dexscreener,ok,0,,,,,,
-2025-10-01,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.0005349,58592.95,150951.1,534827.0,dexscreener,ok,0,,,,,,
-2025-10-01,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0002284,54289.13,60028.37,228447.0,dexscreener,ok,0,,,,,,
-2025-10-01,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0002207,51367.27,74920.63,220030.0,dexscreener,ok,0,,,,,,
-2025-10-01,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,0.0001137,40083.9,57379.59,113606.0,dexscreener,ok,0,,,,,,
-2025-10-01,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.0002318,38782.89,63971.48,231813.0,dexscreener,ok,0,,,,,,
-2025-10-01,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0004807,37995.33,177524.6,480773.0,dexscreener,ok,0,,,,,,
-2025-10-01,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001469,20277.96,56442.08,142551.0,dexscreener,ok,0,,,,,,
-2025-10-01,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,5.748e-05,18990.41,36478.85,57483.0,dexscreener,ok,0,,,,,,
-2025-10-01,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,8.371e-05,14531.95,40389.58,83711.0,dexscreener,ok,0,,,,,,
-2025-10-01,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0001553,12739.4,87542.91,155274.0,dexscreener,ok,0,,,,,,
-2025-10-01,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.35e-05,9853.4,15495.85,13467.0,dexscreener,ok,0,,,,,,
-2025-10-01,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,1.747e-05,6395.93,17452.45,17298.0,dexscreener,ok,0,,,,,,
-2025-10-01,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.004e-05,1515.15,13286.19,10050.0,dexscreener,ok,0,,,,,,
-2025-10-01,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,219.91,259582561.83,56168439.7,0.0,dexscreener,ok,0,,,,,,
-2025-10-01,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001726,394252.31,231080.18,1341708.0,dexscreener,ok,0,,,,,,
-2025-10-01,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001844,188489.97,53951.15,184487.0,dexscreener,ok,0,,,,,,
-2025-10-01,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0004328,137942.87,126267.14,432781.0,dexscreener,ok,0,,,,,,
-2025-10-01,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001823,116997.28,191646.88,1823967.0,dexscreener,ok,0,,,,,,
-2025-10-01,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.001084,65188.66,165250.29,1084547.0,dexscreener,ok,0,,,,,,
-2025-10-01,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01617,62090.26,2118707.76,80891077.0,dexscreener,ok,0,,,,,,
-2025-10-01,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,4.456e-05,62015.89,27850.99,44564.0,dexscreener,ok,0,,,,,,
-2025-10-01,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0006872,57889.22,104399.63,490795.0,dexscreener,ok,0,,,,,,
-2025-10-01,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,9.171e-05,13818.28,39217.27,91713.0,dexscreener,ok,0,,,,,,
-2025-10-01,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.004002,11553.47,582527.48,4002407.0,dexscreener,ok,0,,,,,,
-2025-10-01,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,1.117e-05,9704.63,14555.56,11174.0,dexscreener,ok,0,,,,,,
-2025-10-01,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,1.497e-05,5523.5,13479.5,14980.0,dexscreener,ok,0,,,,,,
-2025-10-01,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1593.51,2850.38,14676.54,25735246.0,dexscreener,ok,0,,,,,,
-2025-10-01,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.914e-05,2157.62,18082.41,19037.0,dexscreener,ok,0,,,,,,
-2025-10-01,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,2.614e-05,1997.97,22381.22,26145.0,dexscreener,ok,0,,,,,,
-2025-10-01,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,6.998e-06,1939.0,10485.2,6996.0,dexscreener,ok,0,,,,,,
-2025-10-01,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0009206,1914.58,3898.87,920614.0,dexscreener,ok,0,,,,,,
-2025-10-01,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,1.986e-05,1893.86,9318.98,19867.0,dexscreener,ok,0,,,,,,
-2025-10-01,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,2.93e-05,1690.77,21427.45,29302.0,dexscreener,ok,0,,,,,,
-2025-10-01,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.171e-06,1369.57,13685.87,9081.0,dexscreener,ok,0,,,,,,
-2025-10-01,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,5.982e-06,1158.81,9638.06,5978.0,dexscreener,ok,0,,,,,,
-2025-10-01,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.265e-05,941.98,16380.08,12435.0,dexscreener,ok,0,,,,,,
-2025-10-01,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,2.335e-05,864.15,23195.42,23349.0,dexscreener,ok,0,,,,,,
-2025-10-01,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.589e-06,759.61,7112.64,4589.0,dexscreener,ok,0,,,,,,
-2025-10-01,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.046e-05,687.65,14446.99,10461.0,dexscreener,ok,0,,,,,,
-2025-10-01,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,4.526e-06,642.75,8417.78,4520.0,dexscreener,ok,0,,,,,,
-2025-10-01,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,1.01e-07,582.43,9274.73,6974.0,dexscreener,ok,0,,,,,,
-2025-10-01,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003176,206.62,69742.26,317691.0,dexscreener,ok,0,,,,,,
-2025-10-01,Jewcat,Jewish Cat,7oBcd1aAkUjUTcfZsR3rQvnG5oMPDzjX9uDnRVn6pump,6.292e-06,205.44,0.0,6292.37,dexscreener,ok,0,,,,,,
-2025-10-01,MINDWORMS,mindworms,iD9FqgeKmp58a4pTvh45MtKkHkudKNptFRdR8m6pump,4.784e-06,199.06,8673.87,4784.0,dexscreener,ok,0,,,,,,
-2025-10-01,retail,retail,6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,4.28e-06,136.0,8306.22,4277.0,dexscreener,ok,0,,,,,,
-2025-10-01,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.259e-06,132.59,9058.29,5257.0,dexscreener,ok,0,,,,,,
-2025-10-01,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,9.445e-06,102.52,12495.07,9442.0,dexscreener,ok,0,,,,,,
-2025-10-01,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01512,74.93,135.9,15127.0,dexscreener,ok,0,,,,,,
-2025-10-01,HAMSTERUN,Hamster Runner,FwYBWjDBDqqfLQYewPZm1Vv555ireHpgUyJP4rMYpump,4.477e-06,59.08,8595.59,4476.0,dexscreener,ok,0,,,,,,
-2025-10-01,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,5.164e-06,56.03,9134.9,5001.0,dexscreener,ok,0,,,,,,
-2025-10-01,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.26,51.32,2856793.86,26561845.0,dexscreener,ok,0,,,,,,
-2025-10-01,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001332,29.86,897.45,133176.0,dexscreener,ok,0,,,,,,
-2025-10-01,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.146e-06,26.12,9891.75,6144.0,dexscreener,ok,0,,,,,,
-2025-10-01,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.067e-06,23.09,9463.24,5036.0,dexscreener,ok,0,,,,,,
-2025-10-01,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.831e-06,20.77,10623.41,6293.0,dexscreener,ok,0,,,,,,
-2025-10-01,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.17e-06,16.67,8050.02,4168.0,dexscreener,ok,0,,,,,,
-2025-10-01,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.064e-06,10.79,9904.93,6061.0,dexscreener,ok,0,,,,,,
-2025-10-01,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.533e-06,9.45,8438.99,4533.0,dexscreener,ok,0,,,,,,
-2025-10-01,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,5.416e-06,6.34,9441.14,5397.0,dexscreener,ok,0,,,,,,
-2025-10-01,NeverDie,MEMES WILL NEVER DIE,2Jz5Wf6PGs4x1dJH4FvfMcgEERTmPadLBDsFmtyCpump,4.051e-06,5.06,7946.58,4049.0,dexscreener,ok,0,,,,,,
-2025-10-01,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.906e-06,3.3,11302.56,5904.0,dexscreener,ok,0,,,,,,
-2025-10-01,KENNY,KENNY KO,AkhHVVk58FmoS8h1fDWzHMZ9YrnqHcZi97mFzhjbpump,4.372e-06,2.26,8259.79,4372.0,dexscreener,ok,0,,,,,,
-2025-10-01,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.101e-06,2.04,9400.45,5089.0,dexscreener,ok,0,,,,,,
-2025-10-02,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,224.21,273677061.63,55970866.16,0.0,dexscreener,ok,0,,,,,,
-2025-10-02,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,0.0002109,1008177.73,80684.73,210623.0,dexscreener,ok,0,,,,,,
-2025-10-02,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.002344,295773.41,475031.37,2343371.0,dexscreener,ok,0,,,,,,
-2025-10-02,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0002254,240068.21,73563.77,225448.0,dexscreener,ok,0,,,,,,
-2025-10-02,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0002086,193233.18,57439.18,208659.0,dexscreener,ok,0,,,,,,
-2025-10-02,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,4.016e-05,110479.88,26675.7,39756.0,dexscreener,ok,0,,,,,,
-2025-10-02,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.0006397,91492.08,166990.72,639619.0,dexscreener,ok,0,,,,,,
-2025-10-02,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0002239,88560.81,106667.13,223900.0,dexscreener,ok,0,,,,,,
-2025-10-02,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.000433,74895.19,136357.94,433013.0,dexscreener,ok,0,,,,,,
-2025-10-02,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,5.536e-05,69189.28,30755.91,55360.0,dexscreener,ok,0,,,,,,
-2025-10-02,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,0.0001522,59686.15,81765.93,152280.0,dexscreener,ok,0,,,,,,
-2025-10-02,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.0002651,43778.32,69185.7,265116.0,dexscreener,ok,0,,,,,,
-2025-10-02,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0004933,42042.81,182117.74,493308.0,dexscreener,ok,0,,,,,,
-2025-10-02,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0002451,32230.12,63019.69,245107.0,dexscreener,ok,0,,,,,,
-2025-10-02,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001899,30591.85,71671.96,189321.0,dexscreener,ok,0,,,,,,
-2025-10-02,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,8.279e-05,16684.65,40633.46,82793.0,dexscreener,ok,0,,,,,,
-2025-10-02,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001707,12397.99,61729.01,165667.0,dexscreener,ok,0,,,,,,
-2025-10-02,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,7.876e-06,10742.41,9789.19,7877.0,dexscreener,ok,0,,,,,,
-2025-10-02,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.501e-05,10375.88,16590.32,14970.0,dexscreener,ok,0,,,,,,
-2025-10-02,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001425,8481.83,62061.65,142434.0,dexscreener,ok,0,,,,,,
-2025-10-02,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1593.7,2279.91,22034.24,25738278.0,dexscreener,ok,0,,,,,,
-2025-10-02,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.002e-05,1564.6,13469.47,10020.0,dexscreener,ok,0,,,,,,
-2025-10-02,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0009978,1372.62,4060.69,997863.0,dexscreener,ok,0,,,,,,
-2025-10-02,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,1.058e-07,948.13,9485.74,7303.0,dexscreener,ok,0,,,,,,
-2025-10-02,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.17e-06,835.04,6780.68,4170.0,dexscreener,ok,0,,,,,,
-2025-10-02,MINDWORMS,mindworms,iD9FqgeKmp58a4pTvh45MtKkHkudKNptFRdR8m6pump,4.682e-06,370.19,8662.39,4682.0,dexscreener,ok,0,,,,,,
-2025-10-02,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.659e-05,267.34,24574.96,16592.0,dexscreener,ok,0,,,,,,
-2025-10-02,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,9.608e-06,142.45,12703.85,9605.0,dexscreener,ok,0,,,,,,
-2025-10-02,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.518e-06,99.0,0.0,6518.81,dexscreener,ok,0,,,,,,
-2025-10-02,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003183,93.68,6074.85,318389.0,dexscreener,ok,0,,,,,,
-2025-10-02,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.565e-06,80.74,9632.41,5565.0,dexscreener,ok,0,,,,,,
-2025-10-02,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.017,79.01,146.53,17010.0,dexscreener,ok,0,,,,,,
-2025-10-02,HAMSTERUN,Hamster Runner,FwYBWjDBDqqfLQYewPZm1Vv555ireHpgUyJP4rMYpump,4.434e-06,62.11,8548.65,4434.0,dexscreener,ok,0,,,,,,
-2025-10-02,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.421e-06,57.85,8326.25,4421.0,dexscreener,ok,0,,,,,,
-2025-10-02,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,5.164e-06,54.46,9134.9,5001.0,dexscreener,ok,0,,,,,,
-2025-10-02,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,7.73e-06,48.33,11153.88,7726.0,dexscreener,ok,0,,,,,,
-2025-10-02,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.201e-06,48.25,10029.65,6200.0,dexscreener,ok,0,,,,,,
-2025-10-02,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.29,40.91,2920441.85,27153632.0,dexscreener,ok,0,,,,,,
-2025-10-02,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.157e-06,27.96,9636.36,5124.0,dexscreener,ok,0,,,,,,
-2025-10-02,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,5.858e-06,19.34,10152.23,5838.0,dexscreener,ok,0,,,,,,
-2025-10-02,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.992e-06,12.82,10804.01,6442.0,dexscreener,ok,0,,,,,,
-2025-10-02,NeverDie,MEMES WILL NEVER DIE,2Jz5Wf6PGs4x1dJH4FvfMcgEERTmPadLBDsFmtyCpump,4.046e-06,8.22,7945.7,4044.0,dexscreener,ok,0,,,,,,
-2025-10-02,KENNY,KENNY KO,AkhHVVk58FmoS8h1fDWzHMZ9YrnqHcZi97mFzhjbpump,4.437e-06,6.7,8389.54,4437.0,dexscreener,ok,0,,,,,,
-2025-10-02,Supershiro,Super Shiro,B1PrDviUajpkxghL1v2w2P8jnxu3FNjcxUDdBNanPLyR,4.377e-06,5.79,8265.62,4377.0,dexscreener,ok,0,,,,,,
-2025-10-02,MOONCOIN,MOON COIN,4h49bD28nPPLXWB1ZmP8JPuv4iKk3KzFpS8bSmGJpump,4.123e-06,5.57,8005.21,4123.0,dexscreener,ok,0,,,,,,
-2025-10-02,retail,retail,6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,4.294e-06,5.48,8341.17,4291.0,dexscreener,ok,0,,,,,,
-2025-10-02,GAZABOY,GAZA BOY,Fk6e19okXWGxtrHmXBLzkFeDPR2uuyeVYsqGyt89pump,4.533e-06,5.3,8495.11,4530.0,dexscreener,ok,0,,,,,,
-2025-10-02,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001982,4.47,46.69,1540388.0,dexscreener,ok,0,,,,,,
-2025-10-02,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.259e-06,3.91,9058.29,5257.0,dexscreener,ok,0,,,,,,
-2025-10-02,COUNT,Counting live till $100M,H2zbT5whzb2ZpM1fQ8gqhTQ5V3ytywSYMdto9Dcy5r3e,4.214e-06,3.86,8411.92,4214.0,dexscreener,ok,0,,,,,,
-2025-10-03,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,229.55,319839257.62,56782453.16,0.0,dexscreener,ok,0,,,,,,
-2025-10-03,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001741,730915.78,238700.14,1353533.0,dexscreener,ok,0,,,,,,
-2025-10-03,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.001313,124315.32,186049.81,1312898.0,dexscreener,ok,0,,,,,,
-2025-10-03,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01624,96869.1,2168881.31,81213099.0,dexscreener,ok,0,,,,,,
-2025-10-03,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0003803,93795.47,121099.95,380297.0,dexscreener,ok,0,,,,,,
-2025-10-03,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001483,89989.32,48590.7,148391.0,dexscreener,ok,0,,,,,,
-2025-10-03,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0005984,21218.25,99546.81,427350.0,dexscreener,ok,0,,,,,,
-2025-10-03,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,6.126e-05,19049.49,32249.4,61269.0,dexscreener,ok,0,,,,,,
-2025-10-03,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.00208,15526.44,208893.75,2080100.0,dexscreener,ok,0,,,,,,
-2025-10-03,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,7.962e-05,9516.66,37321.95,79618.0,dexscreener,ok,0,,,,,,
-2025-10-03,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.004198,9412.73,609423.68,4198488.0,dexscreener,ok,0,,,,,,
-2025-10-03,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,5.98e-06,9031.9,9886.49,5971.0,dexscreener,ok,0,,,,,,
-2025-10-03,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1142.24,7876.07,19028.72,18447161.0,dexscreener,ok,0,,,,,,
-2025-10-03,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.788e-05,3269.5,17828.82,17791.0,dexscreener,ok,0,,,,,,
-2025-10-03,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.898e-05,2825.26,19480.68,18987.0,dexscreener,ok,0,,,,,,
-2025-10-03,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,5.649e-06,2030.03,8298.68,5649.0,dexscreener,ok,0,,,,,,
-2025-10-03,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.698e-06,1762.65,14354.95,9602.0,dexscreener,ok,0,,,,,,
-2025-10-03,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,1.845e-05,1669.42,21044.15,18448.0,dexscreener,ok,0,,,,,,
-2025-10-03,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,2.995e-05,1083.37,22086.03,29950.0,dexscreener,ok,0,,,,,,
-2025-10-03,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,1.135e-05,997.15,14973.28,11349.0,dexscreener,ok,0,,,,,,
-2025-10-03,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,6.124e-06,840.06,10050.65,6121.0,dexscreener,ok,0,,,,,,
-2025-10-03,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.000937,826.18,3936.96,937041.0,dexscreener,ok,0,,,,,,
-2025-10-03,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,8.837e-06,780.16,6379.17,8837.0,dexscreener,ok,0,,,,,,
-2025-10-03,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003306,726.9,5449.46,330668.0,dexscreener,ok,0,,,,,,
-2025-10-03,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.098e-05,655.99,15171.81,10981.0,dexscreener,ok,0,,,,,,
-2025-10-03,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,5.376e-06,635.69,9432.58,5376.0,dexscreener,ok,0,,,,,,
-2025-10-03,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,8.42e-08,617.64,8497.09,5810.0,dexscreener,ok,0,,,,,,
-2025-10-03,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.201e-05,489.46,16353.97,11802.0,dexscreener,ok,0,,,,,,
-2025-10-03,Fun,Cult of Fun,Hcz9pkmcmxW4DWkz9CxDFz5Q2Kswkq1jTkjB9hVgJ4Kp,6.609e-06,136.18,0.0,6609.75,dexscreener,ok,0,,,,,,
-2025-10-03,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.981e-06,119.24,11567.46,5978.0,dexscreener,ok,0,,,,,,
-2025-10-03,GAZABOY,GAZA BOY,Fk6e19okXWGxtrHmXBLzkFeDPR2uuyeVYsqGyt89pump,4.56e-06,114.74,8779.53,4558.0,dexscreener,ok,0,,,,,,
-2025-10-03,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,5.48e-06,107.57,10229.08,5476.0,dexscreener,ok,0,,,,,,
-2025-10-03,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,8.149e-06,105.7,11693.64,8145.0,dexscreener,ok,0,,,,,,
-2025-10-03,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.992e-06,72.02,13013.6,7989.0,dexscreener,ok,0,,,,,,
-2025-10-03,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01551,53.22,8809.02,15516.0,dexscreener,ok,0,,,,,,
-2025-10-03,AMG,ASCII MEME GENERATOR,6rhFUUZsUbjD4tSHrLetmCuvuM3L2ASTLEAgemZtpump,6.723e-06,33.74,0.0,6723.12,dexscreener,ok,0,,,,,,
-2025-10-03,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.186e-06,17.65,10193.75,6181.0,dexscreener,ok,0,,,,,,
-2025-10-03,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.839e-06,14.04,10130.64,5839.0,dexscreener,ok,0,,,,,,
-2025-10-03,YOU,YOU can change your life.,3nJXYRGSFdfhVAg48cLE3iF3Hhda4CXqTt9XS56Mpump,7.724e-06,14.04,0.0,7724.33,dexscreener,ok,0,,,,,,
-2025-10-03,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0002645,13.22,61.11,264520.0,dexscreener,ok,0,,,,,,
-2025-10-03,UPC,Upcoin,DHSZ2zaQ2mNtTJFXH3iNUG1oWXr6ZFj4TyfqVdexpump,4.146e-06,12.31,8226.41,4146.0,dexscreener,ok,0,,,,,,
-2025-10-03,KENNY,KENNY KO,AkhHVVk58FmoS8h1fDWzHMZ9YrnqHcZi97mFzhjbpump,4.67e-06,6.59,8777.04,4670.0,dexscreener,ok,0,,,,,,
-2025-10-03,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.351e-06,6.38,8418.78,4349.0,dexscreener,ok,0,,,,,,
-2025-10-03,BONKZ,Bonkzilla,6asZKPjABE4c7V46psw1yDrmCQBzefGtxKCzR8zmbonk,3.329e-06,4.89,5932.68,3330.0,dexscreener,ok,0,,,,,,
-2025-10-03,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.34,3.93,3029302.92,28165796.0,dexscreener,ok,0,,,,,,
-2025-10-03,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.398e-06,3.81,9955.18,5384.0,dexscreener,ok,0,,,,,,
-2025-10-03,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001919,3.73,17.34,1918624.0,dexscreener,ok,0,,,,,,
-2025-10-03,BIRCHY,BIRCHY,4Wt3BgMs8m1qiCcMXwSf2SC5gnJW6Adi7uq7cZTCpump,6.572e-06,3.26,0.0,6572.12,dexscreener,ok,0,,,,,,
-2025-10-03,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.54e-06,2.75,9548.35,5538.0,dexscreener,ok,0,,,,,,
-2025-10-03,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0005528,2.66,83.75,552775.0,dexscreener,ok,0,,,,,,
-2025-10-04,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.795e-06,40.95,0.0,6795.34,dexscreener,ok,0,,,,,,
-2025-10-04,GIVE50,GIVING $50 AWAY EVERY 10MINUTES,DQTiKmdc2evtLotMR5j7UAexvTbSL3Ef6dtbaY7Jpump,6.459e-06,4.75,0.0,6459.51,dexscreener,ok,0,,,,,,
-2025-10-04,Gaming,Gaming Cult,3hiutVNCbwCY1vmoPKdXtMtuzg4epn1WzuU1jgpHpump,6.616e-06,2.96,0.0,6616.59,dexscreener,ok,0,,,,,,
-2025-10-04,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,5.877e-06,17.16,10273.46,5856.0,dexscreener,ok,0,,,,,,
-2025-10-04,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.226e-06,0.69,9771.65,5193.0,dexscreener,ok,0,,,,,,
-2025-10-04,FATMEOW,BIG FAT CAT,6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,7.398e-06,0.12,14204.27,7396.0,dexscreener,ok,0,,,,,,
-2025-10-04,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0001838,151102.97,84187.52,183865.0,dexscreener,ok,0,,,,,,
-2025-10-04,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.001017,94869.04,163358.8,1016903.0,dexscreener,ok,0,,,,,,
-2025-10-04,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01613,28044.13,2153331.02,80673678.0,dexscreener,ok,0,,,,,,
-2025-10-04,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.003998,10006.38,591779.49,3998583.0,dexscreener,ok,0,,,,,,
-2025-10-04,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001752,7913.63,190445.57,1752540.0,dexscreener,ok,0,,,,,,
-2025-10-04,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,5.337e-05,7123.3,30459.88,53367.0,dexscreener,ok,0,,,,,,
-2025-10-04,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0004713,6115.69,88162.76,336590.0,dexscreener,ok,0,,,,,,
-2025-10-04,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.069e-05,3513.34,13729.59,10641.0,dexscreener,ok,0,,,,,,
-2025-10-04,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,1.148e-05,1866.16,14087.31,11480.0,dexscreener,ok,0,,,,,,
-2025-10-04,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.839e-05,1860.43,19108.2,18394.0,dexscreener,ok,0,,,,,,
-2025-10-04,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,1.848e-05,1538.58,20979.52,18485.0,dexscreener,ok,0,,,,,,
-2025-10-04,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,9.995e-06,929.94,13969.71,9989.0,dexscreener,ok,0,,,,,,
-2025-10-04,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,2.654e-05,811.72,20743.91,26547.0,dexscreener,ok,0,,,,,,
-2025-10-04,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,5.908e-06,756.74,9776.21,5907.0,dexscreener,ok,0,,,,,,
-2025-10-04,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,6.275e-06,303.8,10040.66,6271.0,dexscreener,ok,0,,,,,,
-2025-10-04,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,9.484e-06,290.63,6583.05,9484.0,dexscreener,ok,0,,,,,,
-2025-10-04,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.387e-06,237.26,10544.24,5882.0,dexscreener,ok,0,,,,,,
-2025-10-04,MOONCOIN,MOON COIN,4h49bD28nPPLXWB1ZmP8JPuv4iKk3KzFpS8bSmGJpump,4.182e-06,29.5,8173.57,4182.0,dexscreener,ok,0,,,,,,
-2025-10-04,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.088e-06,26.77,10093.14,6084.0,dexscreener,ok,0,,,,,,
-2025-10-04,ACTIVITIES,REAL LIFE ACTIVITIES,FfTMftfnF64keWwxiREcSBca2PsQtkorb2LWCEdZpump,4.078e-06,22.2,8060.82,4077.0,dexscreener,ok,0,,,,,,
-2025-10-04,NeverDie,MEMES WILL NEVER DIE,2Jz5Wf6PGs4x1dJH4FvfMcgEERTmPadLBDsFmtyCpump,4.19e-06,6.66,8237.7,4188.0,dexscreener,ok,0,,,,,,
-2025-10-04,YARA,Justice for Yara,DgAHh7SXLssDjufrLnrU1kPgrxmT7UbZYyCCqmcW6k6e,6.518e-06,1.99,0.0,6518.06,dexscreener,ok,0,,,,,,
-2025-10-04,UPC,Upcoin,DHSZ2zaQ2mNtTJFXH3iNUG1oWXr6ZFj4TyfqVdexpump,4.176e-06,1.72,8300.16,4176.0,dexscreener,ok,0,,,,,,
-2025-10-04,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,227.67,165015431.73,57425889.06,0.0,dexscreener,ok,0,,,,,,
-2025-10-04,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001783,145108.89,419325.23,1782045.0,dexscreener,ok,0,,,,,,
-2025-10-04,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.0002177,113477.82,63865.48,217666.0,dexscreener,ok,0,,,,,,
-2025-10-04,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.0005239,87102.4,152899.73,523829.0,dexscreener,ok,0,,,,,,
-2025-10-04,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0002936,81632.92,85294.2,293629.0,dexscreener,ok,0,,,,,,
-2025-10-04,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001211,72736.92,44073.54,121119.0,dexscreener,ok,0,,,,,,
-2025-10-04,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0003344,43598.17,120959.02,334398.0,dexscreener,ok,0,,,,,,
-2025-10-04,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.00021,43226.93,104590.96,209959.0,dexscreener,ok,0,,,,,,
-2025-10-04,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0004972,38567.5,184430.26,497281.0,dexscreener,ok,0,,,,,,
-2025-10-04,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0001798,20460.19,54535.1,179886.0,dexscreener,ok,0,,,,,,
-2025-10-04,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,8.865e-05,20317.56,53003.1,88508.0,dexscreener,ok,0,,,,,,
-2025-10-04,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001362,16401.04,55621.73,132181.0,dexscreener,ok,0,,,,,,
-2025-10-04,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,0.000104,16174.8,45669.84,104028.0,dexscreener,ok,0,,,,,,
-2025-10-04,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001343,11557.02,64046.27,133928.0,dexscreener,ok,0,,,,,,
-2025-10-04,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,3.504e-05,6576.25,25157.39,34696.0,dexscreener,ok,0,,,,,,
-2025-10-04,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,3.686e-05,5234.66,25697.78,36865.0,dexscreener,ok,0,,,,,,
-2025-10-04,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.000115,3703.92,56009.05,114996.0,dexscreener,ok,0,,,,,,
-2025-10-04,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,6.665e-06,2574.92,9014.08,6666.0,dexscreener,ok,0,,,,,,
-2025-10-04,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,5.094e-05,2062.75,57459.08,50943.0,dexscreener,ok,0,,,,,,
-2025-10-04,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1090.71,1498.83,18453.12,17615083.0,dexscreener,ok,0,,,,,,
-2025-10-04,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.163e-05,1288.07,14671.94,11597.0,dexscreener,ok,0,,,,,,
-2025-10-04,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0008182,669.14,3682.87,818245.0,dexscreener,ok,0,,,,,,
-2025-10-04,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.158e-06,247.78,13910.71,9068.0,dexscreener,ok,0,,,,,,
-2025-10-04,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.061e-05,190.84,13910.61,10619.0,dexscreener,ok,0,,,,,,
-2025-10-04,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.532e-06,150.15,7069.32,4532.0,dexscreener,ok,0,,,,,,
-2025-10-04,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.604e-05,145.04,24381.07,16039.0,dexscreener,ok,0,,,,,,
-2025-10-04,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,7.56e-06,109.83,11280.54,7556.0,dexscreener,ok,0,,,,,,
-2025-10-04,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003188,79.68,5255.37,318833.0,dexscreener,ok,0,,,,,,
-2025-10-04,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.00182,63.47,73.68,1450837.0,dexscreener,ok,0,,,,,,
-2025-10-04,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,5.185e-06,50.37,9213.13,5177.0,dexscreener,ok,0,,,,,,
-2025-10-04,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,8.08e-08,43.64,8330.81,5576.0,dexscreener,ok,0,,,,,,
-2025-10-04,MMGA,MAKE MEMES GREAT AGAIN,Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,4.16e-06,32.11,8151.09,4156.0,dexscreener,ok,0,,,,,,
-2025-10-04,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.23,19.59,2877066.87,25889906.0,dexscreener,ok,0,,,,,,
-2025-10-04,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.741e-06,15.12,9974.52,5741.0,dexscreener,ok,0,,,,,,
-2025-10-04,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.261e-06,11.62,10186.58,6259.0,dexscreener,ok,0,,,,,,
-2025-10-04,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.182e-05,11.31,16129.28,11611.0,dexscreener,ok,0,,,,,,
-2025-10-04,PROFIT,Profit Protocol,HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,1.922e-06,10.5,2964.08,1923.0,dexscreener,ok,0,,,,,,
-2025-10-04,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.067e-05,10.12,14798.58,10676.0,dexscreener,ok,0,,,,,,
-2025-10-04,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.31e-06,9.62,8367.09,4308.0,dexscreener,ok,0,,,,,,
-2025-10-04,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01643,8.65,148.88,16430.0,dexscreener,ok,0,,,,,,
-2025-10-04,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,4.854e-06,6.53,8958.68,4701.0,dexscreener,ok,0,,,,,,
-2025-10-04,SLOW,Slow Runner,9iQikUHRe69UScUaytfQabQDmZRqtTkjCEF94ZV5pump,4.761e-06,5.65,9142.93,4758.0,dexscreener,ok,0,,,,,,
-2025-10-04,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,5.274e-06,4.18,9957.53,5270.0,dexscreener,ok,0,,,,,,
-2025-10-04,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.281e-06,2.29,9742.73,5267.0,dexscreener,ok,0,,,,,,
-2025-10-04,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.366e-06,2.09,9306.27,5364.0,dexscreener,ok,0,,,,,,
-2025-10-04,BEANS,BEANS,BMdxkiQTJbLjZF4on3ivYDibWVCMsriEHra469zM49hV,5.188e-06,1.89,10068.05,5184.0,dexscreener,ok,0,,,,,,
-2025-10-04,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.889e-06,1.59,11511.88,5887.0,dexscreener,ok,0,,,,,,
-2025-10-04,Supershiro,Super Shiro,B1PrDviUajpkxghL1v2w2P8jnxu3FNjcxUDdBNanPLyR,4.539e-06,0.88,8583.61,4539.0,dexscreener,ok,0,,,,,,
-2025-10-04,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.565e-06,0.78,8601.3,4564.0,dexscreener,ok,0,,,,,,
-2025-10-04,PUMPFOLIO,Retail Summer,3iE3HmcrKQyNdqoVo4Xrjz291VvtcKtUgJnQDxUepump,4.967e-06,0.38,9455.48,4967.0,dexscreener,ok,0,,,,,,
-2025-10-05,ACTIVITIES,REAL LIFE ACTIVITIES,FfTMftfnF64keWwxiREcSBca2PsQtkorb2LWCEdZpump,4.235e-06,20.51,8392.37,4234.0,dexscreener,ok,0,,,,,,
-2025-10-05,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.261e-06,11.62,10186.58,6259.0,dexscreener,ok,0,,,,,,
-2025-10-05,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.23,4.86,2877066.87,25889906.0,dexscreener,ok,0,,,,,,
-2025-10-05,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.281e-06,2.26,9742.73,5267.0,dexscreener,ok,0,,,,,,
-2025-10-05,YARA,Justice for Yara,DgAHh7SXLssDjufrLnrU1kPgrxmT7UbZYyCCqmcW6k6e,6.518e-06,1.99,0.0,6518.06,dexscreener,ok,0,,,,,,
-2025-10-05,PUMPFOLIO,Retail Summer,3iE3HmcrKQyNdqoVo4Xrjz291VvtcKtUgJnQDxUepump,4.967e-06,0.38,9455.48,4967.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,0.0,unknown
-2025-10-05,MOONCOIN,MOON COIN,4h49bD28nPPLXWB1ZmP8JPuv4iKk3KzFpS8bSmGJpump,4.182e-06,8.06,8173.57,4182.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.65,high
-2025-10-05,MMGA,MAKE MEMES GREAT AGAIN,Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,4.16e-06,17.07,8151.09,4156.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.12,high
-2025-10-05,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.565e-06,0.78,8601.3,4564.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.33,high
-2025-10-05,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.156e-06,149.27,6770.76,4157.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.01,high
-2025-10-05,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.00027,171314.37,102438.93,269976.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,50.98,medium
-2025-10-05,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001736,102861.31,190329.96,1736815.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,31.97,low
-2025-10-05,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.0008878,65892.86,152996.88,887727.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,25.99,low
-2025-10-05,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0004722,24740.72,88284.02,337243.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,44.35,low
-2025-10-05,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01603,20834.22,2147524.52,80158746.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,57.84,medium
-2025-10-05,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,5.228e-05,2711.35,30185.57,52284.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,69.04,medium
-2025-10-05,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,2.794e-05,2503.98,21285.58,27940.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,60.04,medium
-2025-10-05,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,4.808e-06,1375.62,8891.21,4807.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.36,high
-2025-10-05,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,8.325e-06,667.73,12798.96,8320.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,90.03,high
-2025-10-05,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,9.591e-06,547.27,6633.17,9591.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,71.36,medium
-2025-10-05,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,1.73e-05,507.0,20405.81,17302.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,81.95,high
-2025-10-05,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,6.518e-06,275.94,10349.38,6514.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,94.65,high
-2025-10-05,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.016e-05,257.93,13516.4,10114.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,81.98,high
-2025-10-05,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01573,207.38,8828.16,15737.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,34.58,low
-2025-10-05,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.58e-06,195.96,14453.69,9485.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,88.38,high
-2025-10-05,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,5.11e-06,182.85,10010.58,5106.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.24,high
-2025-10-05,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.922e-06,84.38,10164.06,5923.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,92.28,high
-2025-10-05,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,6.036e-06,57.01,10485.3,6014.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,95.54,high
-2025-10-05,FATMEOW,BIG FAT CAT,6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,7.393e-06,48.45,14290.77,7390.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.5,high
-2025-10-05,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.83e-05,34.1,19071.21,18303.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,79.4,medium
-2025-10-05,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,1.202e-05,29.68,14696.89,12021.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,94.96,high
-2025-10-05,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.837e-06,16.91,2259.39,7834.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.78,high
-2025-10-05,BEANIE,BEANIE,94bmDAx9PQUZoLCG97h7kCtm1T9uzZCThuUW1cUqAXZy,5.305e-06,14.5,9933.55,5304.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.96,high
-2025-10-05,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.279e-06,9.37,9890.29,5246.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.87,high
-2025-10-05,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.291e-06,7.4,10400.7,5793.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.54,high
-2025-10-05,NeverDie,MEMES WILL NEVER DIE,2Jz5Wf6PGs4x1dJH4FvfMcgEERTmPadLBDsFmtyCpump,4.19e-06,6.47,8237.7,4188.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.63,high
-2025-10-05,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.94e-06,2.84,11613.56,5937.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.5,high
-2025-10-05,FALCONS,THE FALCONS,447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,5.847e-06,1.8,11287.87,5845.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.05,high
-2025-10-05,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.211e-06,1.7,10298.11,6206.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.28,high
-2025-10-05,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.478e-06,1.36,9504.09,5475.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.49,high
-2025-10-05,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.071e-05,1.24,14845.04,10708.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,92.28,high
-2025-10-05,retail,retail,6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,4.601e-06,0.34,8940.23,4597.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.31,high
-2025-10-05,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,228.46,288189531.1,57586173.97,0.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,0.0,unknown
-2025-10-05,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001767,208526.25,418186.89,1766100.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,23.2,low
-2025-10-05,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.000392,131581.24,132616.54,391970.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,32.38,low
-2025-10-05,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0003127,80582.46,117287.97,312749.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,36.11,low
-2025-10-05,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0001578,75879.2,62774.58,157819.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,41.45,low
-2025-10-05,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,9.497e-05,50488.42,55059.61,94823.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,47.26,low
-2025-10-05,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001208,28726.21,44069.0,120816.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,33.63,low
-2025-10-05,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.0002254,25440.45,65129.73,225408.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,34.78,low
-2025-10-05,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0002299,18266.47,109638.3,229891.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,38.35,low
-2025-10-05,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0002182,16822.86,60244.9,218286.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,42.72,low
-2025-10-05,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,5.11e-05,16278.24,30472.57,50590.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,54.52,medium
-2025-10-05,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,7.612e-05,13338.57,39107.21,76121.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,46.13,low
-2025-10-05,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001354,10877.0,64368.6,134969.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,28.89,low
-2025-10-05,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001313,9921.1,54694.68,127401.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,54.44,medium
-2025-10-05,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,2.533e-05,4675.92,21828.68,25335.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,64.26,medium
-2025-10-05,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001177,3797.19,56755.94,117668.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,42.33,low
-2025-10-05,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,4.282e-05,3455.82,54800.03,42819.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,58.95,medium
-2025-10-05,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0009561,888.6,3983.4,956113.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,33.36,low
-2025-10-05,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.013e-05,840.74,14981.6,9954.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,84.78,high
-2025-10-05,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.421e-05,774.42,23002.74,14210.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,90.17,high
-2025-10-05,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,6.009e-06,735.25,8561.17,6009.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,88.42,high
-2025-10-05,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1082.2,716.99,18366.09,17477653.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.07,high
-2025-10-05,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0006663,384.15,27620.93,666391.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,42.55,low
-2025-10-05,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003382,177.09,5606.09,338245.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,91.73,high
-2025-10-05,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,5.036e-06,149.19,9100.22,5028.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.69,high
-2025-10-05,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,7.727e-06,127.24,11400.01,7722.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,89.46,high
-2025-10-05,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.149e-05,97.79,14598.31,11454.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,77.25,medium
-2025-10-05,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,7.751e-08,82.3,8166.21,5348.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,88.9,high
-2025-10-05,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.069e-05,61.78,14122.17,10690.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,90.06,high
-2025-10-05,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001887,42.23,90.11,1504628.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,25.31,low
-2025-10-05,2,TWO IS BETTER THAN ONE,9kfdKdj5yiZgozQB9V6qRvBxat5WKHcpNESNjAPxpump,6.722e-06,17.29,0.0,6722.36,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.81,high
-2025-10-05,Gaming,Gaming Cult,3hiutVNCbwCY1vmoPKdXtMtuzg4epn1WzuU1jgpHpump,6.525e-06,12.84,0.0,6525.21,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.96,high
-2025-10-05,1SOL,1SOL,mDJpLmXubnSYmesFYSeYck9AxmA76rpn6nnAs9ppump,4.79e-06,3.69,9274.95,4790.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.77,high
-2025-10-05,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.774e-06,3.66,0.0,6774.08,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.74,high
-2025-10-05,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.003812,2.26,207.91,3812446.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,61.9,medium
-2025-10-05,PROFIT,Profit Protocol,HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,1.923e-06,0.45,2965.91,1923.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,95.86,high
-2025-10-05,WSTPANDA,Wall Street Panda,EFRoRp8wJsLy5kUZYSL95Tqp6ijVPsejWYMCn7ZjcG8L,1.745e-06,0.31,0.0,8727.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,55.26,medium
-2025-10-05,Supershiro,Super Shiro,B1PrDviUajpkxghL1v2w2P8jnxu3FNjcxUDdBNanPLyR,4.517e-06,0.18,8541.69,4516.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.51,high
-2025-10-05,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,4.925e-06,0.15,9095.12,4770.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.47,high
-2025-10-06,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001798,423650.11,196698.2,1798483.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,31.96,low
-2025-10-06,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0002876,111484.71,107091.24,287661.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,50.56,medium
-2025-10-06,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.0008942,48868.03,155161.84,894140.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,26.1,low
-2025-10-06,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.000467,25617.45,88315.89,333510.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,44.66,low
-2025-10-06,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01599,25595.32,2159523.4,79997445.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,57.84,medium
-2025-10-06,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.003697,18019.37,575756.96,3697956.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,61.92,medium
-2025-10-06,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,3.864e-05,8426.13,25314.29,38641.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,55.28,medium
-2025-10-06,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,5.114e-05,4546.79,30250.78,51142.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,69.73,medium
-2025-10-06,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,9.463e-06,607.51,6622.34,9463.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,71.25,medium
-2025-10-06,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,1.732e-05,350.77,20549.87,17323.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,82.28,high
-2025-10-06,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,4.762e-06,336.86,8878.26,4762.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.49,high
-2025-10-06,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,8.329e-06,191.72,12877.86,8324.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,89.98,high
-2025-10-06,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.227e-06,150.85,14101.49,9136.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,88.96,high
-2025-10-06,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.007e-05,77.72,13456.11,10022.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,82.17,high
-2025-10-06,1SOL,1 SOL and a dream,8D7n3WYZxUkmhUPveQU4XZdqLfDe4XLEEpPToAk4pump,6.627e-06,53.38,0.0,6627.46,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.65,high
-2025-10-06,GAZABOY,GAZA BOY,Fk6e19okXWGxtrHmXBLzkFeDPR2uuyeVYsqGyt89pump,4.422e-06,52.6,8568.02,4420.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.06,high
-2025-10-06,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,6.518e-06,41.26,10349.38,6514.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,94.65,high
-2025-10-06,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01582,37.76,8934.27,15821.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,34.79,low
-2025-10-06,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.876e-05,30.66,19557.63,18769.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,79.4,medium
-2025-10-06,2,TWO IS BETTER THAN ONE,9kfdKdj5yiZgozQB9V6qRvBxat5WKHcpNESNjAPxpump,6.722e-06,16.51,0.0,6722.36,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.81,high
-2025-10-06,retail,retail,6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,4.451e-06,15.17,8663.62,4447.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.35,high
-2025-10-06,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.309e-06,14.03,9958.1,5275.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.99,high
-2025-10-06,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.186e-06,13.79,10270.89,6182.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.47,high
-2025-10-06,Gaming,Gaming Cult,3hiutVNCbwCY1vmoPKdXtMtuzg4epn1WzuU1jgpHpump,6.454e-06,13.04,0.0,6454.87,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.97,high
-2025-10-06,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,6.036e-06,11.88,10485.3,6014.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,95.54,high
-2025-10-06,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.076e-05,10.56,14930.58,10762.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,92.38,high
-2025-10-06,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.983e-06,7.99,13019.56,7981.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.79,high
-2025-10-06,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.291e-06,7.4,10400.7,5793.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.54,high
-2025-10-06,BITX,Mega Bitminer X,BiTXcnGHmSvX6pwhZPmhsctjG3NjzMbTXtM2b7h5nDZC,1.556e-06,6.52,3059.61,1557.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.68,high
-2025-10-06,1SOL,1SOL,mDJpLmXubnSYmesFYSeYck9AxmA76rpn6nnAs9ppump,4.79e-06,3.69,9274.95,4790.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.77,high
-2025-10-06,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.774e-06,3.66,0.0,6774.08,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.74,high
-2025-10-06,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,5.046e-06,2.51,9887.77,5042.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.24,high
-2025-10-06,BEANIE,BEANIE,94bmDAx9PQUZoLCG97h7kCtm1T9uzZCThuUW1cUqAXZy,5.305e-06,2.25,9933.55,5304.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.96,high
-2025-10-06,FALCONS,THE FALCONS,447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,5.847e-06,1.31,11287.87,5845.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.05,high
-2025-10-06,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,233.6,330220735.03,58413684.46,0.0,dexscreener,ok,0,6.0,0.0,0.0,0.0,0.0,unknown
-2025-10-06,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001575,437730.56,400607.09,1574998.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,24.08,low
-2025-10-06,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.000321,99101.49,121516.83,320947.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,36.53,low
-2025-10-06,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001218,41820.82,44339.16,121860.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,33.3,low
-2025-10-06,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0001378,40365.97,59430.32,137877.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,43.01,low
-2025-10-06,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0002843,37031.86,113285.48,284306.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,37.97,low
-2025-10-06,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.000203,25039.59,62566.21,203026.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,35.89,low
-2025-10-06,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0003853,23718.12,164513.64,385354.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,43.34,low
-2025-10-06,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,9.469e-05,21144.61,55579.6,94537.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,47.17,low
-2025-10-06,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0001891,20540.08,100566.92,189105.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,40.67,low
-2025-10-06,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,2.629e-05,13550.33,22082.97,26028.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,60.76,medium
-2025-10-06,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001139,10666.12,61529.58,113599.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,29.76,low
-2025-10-06,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.000229,9102.31,62732.13,229017.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,42.65,low
-2025-10-06,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001391,7614.35,56938.16,134961.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,54.25,medium
-2025-10-06,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,7.201e-05,6935.31,65384.01,72009.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,59.32,medium
-2025-10-06,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,2.718e-05,5538.1,22517.46,27186.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,64.33,medium
-2025-10-06,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.001362,3066.95,4764.89,1362601.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,31.63,low
-2025-10-06,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,9.043e-06,1604.79,12490.55,9038.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,89.44,high
-2025-10-06,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001219,1387.12,58723.97,121933.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,42.21,low
-2025-10-06,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,7.695e-05,990.0,39786.82,76952.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,46.15,low
-2025-10-06,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.254e-05,595.96,15451.95,12504.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,76.86,medium
-2025-10-06,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1100.18,258.02,18824.43,17767904.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.07,high
-2025-10-06,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.086e-05,217.33,14378.04,10866.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,89.62,high
-2025-10-06,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003383,186.0,5762.69,338322.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,91.82,high
-2025-10-06,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,5.639e-06,133.28,8293.86,5639.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,89.69,high
-2025-10-06,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.082e-05,112.34,15688.74,10633.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,84.0,high
-2025-10-06,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.219e-06,105.72,10273.57,6217.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.97,high
-2025-10-06,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,7.614e-08,34.63,8096.94,5254.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,89.61,high
-2025-10-06,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001752,25.27,61.51,1353070.0,dexscreener,ok,0,1.0,0.0,0.0,0.0,26.5,low
-2025-10-06,FATMEOW,BIG FAT CAT,6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,7.516e-06,20.52,14552.4,7514.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.57,high
-2025-10-06,SLOW,Slow Runner,9iQikUHRe69UScUaytfQabQDmZRqtTkjCEF94ZV5pump,4.904e-06,12.38,9435.85,4901.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.04,high
-2025-10-06,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.477e-05,8.47,23764.62,14767.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,90.11,high
-2025-10-06,MMGA,MAKE MEMES GREAT AGAIN,Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,4.28e-06,5.12,8411.96,4275.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.24,high
-2025-10-06,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.973e-06,2.69,10256.27,5974.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,92.32,high
-2025-10-06,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.23,2.34,2876544.69,25885141.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,39.37,low
-2025-10-06,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.398e-06,1.53,9962.21,5384.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.07,high
-2025-10-06,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.597e-06,1.31,9712.14,5594.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.52,high
-2025-10-06,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,1.173e-05,0.74,14434.64,11735.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,94.96,high
-2025-10-06,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.426e-06,0.73,8614.8,4424.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.17,high
-2025-10-06,YOU,YOU can change your life.,3nJXYRGSFdfhVAg48cLE3iF3Hhda4CXqTt9XS56Mpump,8.096e-06,0.0,0.0,8096.36,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.99,high
-2025-10-07,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,229.095,329143749.38,58509701.74,0.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,0.0,unknown
-2025-10-07,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001775,180526.36,194507.61,1775190.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,31.97,low
-2025-10-07,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0002417,147217.36,97469.61,241766.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,52.41,medium
-2025-10-07,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,9.458e-05,41429.67,39102.7,94581.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,37.03,low
-2025-10-07,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.0008037,41410.54,145815.7,803585.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,26.64,low
-2025-10-07,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,390.48,25629.97,11158.64,6306311.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.6,high
-2025-10-07,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01564,24531.85,2127183.42,78249864.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,57.84,medium
-2025-10-07,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.00382,12907.49,580305.48,3820019.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,61.93,medium
-2025-10-07,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,4.04e-05,7561.5,26892.81,40403.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,69.7,medium
-2025-10-07,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,2.23e-05,7034.52,20685.53,22302.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,67.29,medium
-2025-10-07,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0003699,5065.24,78244.77,264212.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,46.57,low
-2025-10-07,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.00117,4490.21,4419.27,1170043.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,32.12,low
-2025-10-07,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,3.604e-05,2674.1,24341.36,36038.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,56.24,medium
-2025-10-07,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,2.158e-05,1705.15,23001.95,21579.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,82.87,high
-2025-10-07,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,7.034e-06,1036.02,5758.31,7034.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,74.04,medium
-2025-10-07,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,5.284e-06,914.16,9407.36,5283.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.39,high
-2025-10-07,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,8.626e-06,721.41,13061.85,8621.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,90.52,high
-2025-10-07,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,5.698e-06,646.84,9709.84,5695.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.2,high
-2025-10-07,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.386e-05,299.6,23019.68,13857.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,90.7,high
-2025-10-07,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.063e-05,196.49,15017.9,10632.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,92.28,high
-2025-10-07,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,5.53e-06,173.2,8213.89,5531.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,90.41,high
-2025-10-07,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003279,146.79,5630.64,327977.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,91.66,high
-2025-10-07,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,9.844e-06,121.42,13287.57,9791.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,83.31,high
-2025-10-07,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.278e-06,114.96,9385.07,5276.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.71,high
-2025-10-07,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.849e-05,92.73,19368.16,18498.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,79.46,medium
-2025-10-07,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01621,76.21,9014.0,16219.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,34.3,low
-2025-10-07,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001597,32.6,58.45,1233645.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,26.93,low
-2025-10-07,YOU,YOU can change your life.,3nJXYRGSFdfhVAg48cLE3iF3Hhda4CXqTt9XS56Mpump,7.941e-06,29.77,0.0,7941.95,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.99,high
-2025-10-07,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,7.614e-08,23.46,8096.94,5254.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,89.61,high
-2025-10-07,SLOW,Slow Runner,9iQikUHRe69UScUaytfQabQDmZRqtTkjCEF94ZV5pump,4.904e-06,12.38,9435.85,4901.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.04,high
-2025-10-07,PROFIT,Profit Protocol,HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,1.945e-06,8.51,3009.93,1945.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.11,high
-2025-10-07,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.229e-06,7.44,10366.69,6224.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,96.59,high
-2025-10-07,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.876e-06,7.1,12856.57,7874.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.88,high
-2025-10-07,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.314e-06,7.1,9976.72,5281.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.13,high
-2025-10-07,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,6.036e-06,5.59,10491.64,6014.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,95.63,high
-2025-10-07,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.00022,5.22,61.89,220065.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,40.51,low
-2025-10-07,AMG,ASCII MEME GENERATOR,6rhFUUZsUbjD4tSHrLetmCuvuM3L2ASTLEAgemZtpump,6.727e-06,4.95,0.0,6727.32,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.82,high
-2025-10-07,MMGA,MAKE MEMES GREAT AGAIN,Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,4.28e-06,4.61,8411.96,4275.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.24,high
-2025-10-07,2,TWO IS BETTER THAN ONE,9kfdKdj5yiZgozQB9V6qRvBxat5WKHcpNESNjAPxpump,6.656e-06,3.07,0.0,6656.41,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.83,high
-2025-10-07,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001784,2.86,16.91,1783103.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,23.05,low
-2025-10-07,FALCONS,THE FALCONS,447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,5.908e-06,2.12,11407.75,5906.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.1,high
-2025-10-07,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.521e-06,1.81,10781.83,6005.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.57,high
-2025-10-07,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.398e-06,1.15,9962.21,5384.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,97.07,high
-2025-10-07,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,1.173e-05,0.74,14434.64,11735.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,94.96,high
-2025-10-07,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.426e-06,0.73,8614.8,4424.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.17,high
-2025-10-07,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0003792,0.6,75.91,379195.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,42.95,low
-2025-10-07,BITX,Mega Bitminer X,BiTXcnGHmSvX6pwhZPmhsctjG3NjzMbTXtM2b7h5nDZC,1.615e-06,0.37,3175.99,1616.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,99.71,high
-2025-10-07,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,4.966e-06,0.19,9124.06,4959.0,dexscreener,ok,0,0.0,0.0,0.0,0.0,98.69,high
+date,symbol,name,address,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,source,data_status,missing_streak,top_10_holders_pct,top_5_holders_pct,holder_concentration,concentration_risk,whale_transfers_24h,large_buys,large_sells,net_whale_flow_usd
+2025-10-01,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.002432,276665.81,477817.5,2430672.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,7.615e-05,109441.57,65850.04,76157.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0003985,62131.44,129122.01,398570.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.0005349,58592.95,150951.1,534827.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0002284,54289.13,60028.37,228447.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0002207,51367.27,74920.63,220030.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,0.0001137,40083.9,57379.59,113606.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.0002318,38782.89,63971.48,231813.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0004807,37995.33,177524.6,480773.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001469,20277.96,56442.08,142551.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,5.748e-05,18990.41,36478.85,57483.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,8.371e-05,14531.95,40389.58,83711.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0001553,12739.4,87542.91,155274.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.35e-05,9853.4,15495.85,13467.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,1.747e-05,6395.93,17452.45,17298.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.004e-05,1515.15,13286.19,10050.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,219.91,259582561.83,56168439.7,0.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001726,394252.31,231080.18,1341708.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001844,188489.97,53951.15,184487.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0004328,137942.87,126267.14,432781.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001823,116997.28,191646.88,1823967.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.001084,65188.66,165250.29,1084547.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01617,62090.26,2118707.76,80891077.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,4.456e-05,62015.89,27850.99,44564.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0006872,57889.22,104399.63,490795.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,9.171e-05,13818.28,39217.27,91713.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.004002,11553.47,582527.48,4002407.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,1.117e-05,9704.63,14555.56,11174.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,1.497e-05,5523.5,13479.5,14980.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1593.51,2850.38,14676.54,25735246.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.914e-05,2157.62,18082.41,19037.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,2.614e-05,1997.97,22381.22,26145.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,6.998e-06,1939.0,10485.2,6996.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0009206,1914.58,3898.87,920614.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,1.986e-05,1893.86,9318.98,19867.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,2.93e-05,1690.77,21427.45,29302.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.171e-06,1369.57,13685.87,9081.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,5.982e-06,1158.81,9638.06,5978.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.265e-05,941.98,16380.08,12435.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,2.335e-05,864.15,23195.42,23349.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.589e-06,759.61,7112.64,4589.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.046e-05,687.65,14446.99,10461.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,4.526e-06,642.75,8417.78,4520.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,1.01e-07,582.43,9274.73,6974.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003176,206.62,69742.26,317691.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,Jewcat,Jewish Cat,7oBcd1aAkUjUTcfZsR3rQvnG5oMPDzjX9uDnRVn6pump,6.292e-06,205.44,0.0,6292.37,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,MINDWORMS,mindworms,iD9FqgeKmp58a4pTvh45MtKkHkudKNptFRdR8m6pump,4.784e-06,199.06,8673.87,4784.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,retail,retail,6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,4.28e-06,136.0,8306.22,4277.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.259e-06,132.59,9058.29,5257.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,9.445e-06,102.52,12495.07,9442.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01512,74.93,135.9,15127.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,HAMSTERUN,Hamster Runner,FwYBWjDBDqqfLQYewPZm1Vv555ireHpgUyJP4rMYpump,4.477e-06,59.08,8595.59,4476.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,5.164e-06,56.03,9134.9,5001.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.26,51.32,2856793.86,26561845.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001332,29.86,897.45,133176.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.146e-06,26.12,9891.75,6144.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.067e-06,23.09,9463.24,5036.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.831e-06,20.77,10623.41,6293.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.17e-06,16.67,8050.02,4168.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.064e-06,10.79,9904.93,6061.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.533e-06,9.45,8438.99,4533.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,5.416e-06,6.34,9441.14,5397.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,NeverDie,MEMES WILL NEVER DIE,2Jz5Wf6PGs4x1dJH4FvfMcgEERTmPadLBDsFmtyCpump,4.051e-06,5.06,7946.58,4049.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.906e-06,3.3,11302.56,5904.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,KENNY,KENNY KO,AkhHVVk58FmoS8h1fDWzHMZ9YrnqHcZi97mFzhjbpump,4.372e-06,2.26,8259.79,4372.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-01,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.101e-06,2.04,9400.45,5089.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,224.21,273677061.63,55970866.16,0.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,0.0002109,1008177.73,80684.73,210623.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.002344,295773.41,475031.37,2343371.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0002254,240068.21,73563.77,225448.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0002086,193233.18,57439.18,208659.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,4.016e-05,110479.88,26675.7,39756.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.0006397,91492.08,166990.72,639619.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0002239,88560.81,106667.13,223900.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.000433,74895.19,136357.94,433013.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,5.536e-05,69189.28,30755.91,55360.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,0.0001522,59686.15,81765.93,152280.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.0002651,43778.32,69185.7,265116.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0004933,42042.81,182117.74,493308.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0002451,32230.12,63019.69,245107.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001899,30591.85,71671.96,189321.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,8.279e-05,16684.65,40633.46,82793.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001707,12397.99,61729.01,165667.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,7.876e-06,10742.41,9789.19,7877.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.501e-05,10375.88,16590.32,14970.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001425,8481.83,62061.65,142434.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1593.7,2279.91,22034.24,25738278.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.002e-05,1564.6,13469.47,10020.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0009978,1372.62,4060.69,997863.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,1.058e-07,948.13,9485.74,7303.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.17e-06,835.04,6780.68,4170.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,MINDWORMS,mindworms,iD9FqgeKmp58a4pTvh45MtKkHkudKNptFRdR8m6pump,4.682e-06,370.19,8662.39,4682.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.659e-05,267.34,24574.96,16592.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,9.608e-06,142.45,12703.85,9605.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.518e-06,99.0,0.0,6518.81,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003183,93.68,6074.85,318389.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.565e-06,80.74,9632.41,5565.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.017,79.01,146.53,17010.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,HAMSTERUN,Hamster Runner,FwYBWjDBDqqfLQYewPZm1Vv555ireHpgUyJP4rMYpump,4.434e-06,62.11,8548.65,4434.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.421e-06,57.85,8326.25,4421.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,5.164e-06,54.46,9134.9,5001.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,7.73e-06,48.33,11153.88,7726.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.201e-06,48.25,10029.65,6200.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.29,40.91,2920441.85,27153632.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.157e-06,27.96,9636.36,5124.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,5.858e-06,19.34,10152.23,5838.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.992e-06,12.82,10804.01,6442.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,NeverDie,MEMES WILL NEVER DIE,2Jz5Wf6PGs4x1dJH4FvfMcgEERTmPadLBDsFmtyCpump,4.046e-06,8.22,7945.7,4044.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,KENNY,KENNY KO,AkhHVVk58FmoS8h1fDWzHMZ9YrnqHcZi97mFzhjbpump,4.437e-06,6.7,8389.54,4437.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,Supershiro,Super Shiro,B1PrDviUajpkxghL1v2w2P8jnxu3FNjcxUDdBNanPLyR,4.377e-06,5.79,8265.62,4377.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,MOONCOIN,MOON COIN,4h49bD28nPPLXWB1ZmP8JPuv4iKk3KzFpS8bSmGJpump,4.123e-06,5.57,8005.21,4123.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,retail,retail,6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,4.294e-06,5.48,8341.17,4291.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,GAZABOY,GAZA BOY,Fk6e19okXWGxtrHmXBLzkFeDPR2uuyeVYsqGyt89pump,4.533e-06,5.3,8495.11,4530.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001982,4.47,46.69,1540388.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.259e-06,3.91,9058.29,5257.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-02,COUNT,Counting live till $100M,H2zbT5whzb2ZpM1fQ8gqhTQ5V3ytywSYMdto9Dcy5r3e,4.214e-06,3.86,8411.92,4214.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,229.55,319839257.62,56782453.16,0.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001741,730915.78,238700.14,1353533.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.001313,124315.32,186049.81,1312898.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01624,96869.1,2168881.31,81213099.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0003803,93795.47,121099.95,380297.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001483,89989.32,48590.7,148391.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0005984,21218.25,99546.81,427350.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,6.126e-05,19049.49,32249.4,61269.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.00208,15526.44,208893.75,2080100.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,7.962e-05,9516.66,37321.95,79618.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.004198,9412.73,609423.68,4198488.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,5.98e-06,9031.9,9886.49,5971.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1142.24,7876.07,19028.72,18447161.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.788e-05,3269.5,17828.82,17791.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.898e-05,2825.26,19480.68,18987.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,5.649e-06,2030.03,8298.68,5649.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.698e-06,1762.65,14354.95,9602.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,1.845e-05,1669.42,21044.15,18448.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,2.995e-05,1083.37,22086.03,29950.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,1.135e-05,997.15,14973.28,11349.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,6.124e-06,840.06,10050.65,6121.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.000937,826.18,3936.96,937041.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,8.837e-06,780.16,6379.17,8837.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003306,726.9,5449.46,330668.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.098e-05,655.99,15171.81,10981.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,5.376e-06,635.69,9432.58,5376.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,8.42e-08,617.64,8497.09,5810.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.201e-05,489.46,16353.97,11802.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,Fun,Cult of Fun,Hcz9pkmcmxW4DWkz9CxDFz5Q2Kswkq1jTkjB9hVgJ4Kp,6.609e-06,136.18,0.0,6609.75,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.981e-06,119.24,11567.46,5978.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,GAZABOY,GAZA BOY,Fk6e19okXWGxtrHmXBLzkFeDPR2uuyeVYsqGyt89pump,4.56e-06,114.74,8779.53,4558.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,5.48e-06,107.57,10229.08,5476.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,8.149e-06,105.7,11693.64,8145.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.992e-06,72.02,13013.6,7989.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01551,53.22,8809.02,15516.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,AMG,ASCII MEME GENERATOR,6rhFUUZsUbjD4tSHrLetmCuvuM3L2ASTLEAgemZtpump,6.723e-06,33.74,0.0,6723.12,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.186e-06,17.65,10193.75,6181.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.839e-06,14.04,10130.64,5839.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,YOU,YOU can change your life.,3nJXYRGSFdfhVAg48cLE3iF3Hhda4CXqTt9XS56Mpump,7.724e-06,14.04,0.0,7724.33,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0002645,13.22,61.11,264520.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,UPC,Upcoin,DHSZ2zaQ2mNtTJFXH3iNUG1oWXr6ZFj4TyfqVdexpump,4.146e-06,12.31,8226.41,4146.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,KENNY,KENNY KO,AkhHVVk58FmoS8h1fDWzHMZ9YrnqHcZi97mFzhjbpump,4.67e-06,6.59,8777.04,4670.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.351e-06,6.38,8418.78,4349.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,BONKZ,Bonkzilla,6asZKPjABE4c7V46psw1yDrmCQBzefGtxKCzR8zmbonk,3.329e-06,4.89,5932.68,3330.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.34,3.93,3029302.92,28165796.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.398e-06,3.81,9955.18,5384.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001919,3.73,17.34,1918624.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,BIRCHY,BIRCHY,4Wt3BgMs8m1qiCcMXwSf2SC5gnJW6Adi7uq7cZTCpump,6.572e-06,3.26,0.0,6572.12,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.54e-06,2.75,9548.35,5538.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-03,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0005528,2.66,83.75,552775.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.795e-06,40.95,0.0,6795.34,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,GIVE50,GIVING $50 AWAY EVERY 10MINUTES,DQTiKmdc2evtLotMR5j7UAexvTbSL3Ef6dtbaY7Jpump,6.459e-06,4.75,0.0,6459.51,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Gaming,Gaming Cult,3hiutVNCbwCY1vmoPKdXtMtuzg4epn1WzuU1jgpHpump,6.616e-06,2.96,0.0,6616.59,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,5.877e-06,17.16,10273.46,5856.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.226e-06,0.69,9771.65,5193.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,FATMEOW,BIG FAT CAT,6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,7.398e-06,0.12,14204.27,7396.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0001838,151102.97,84187.52,183865.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.001017,94869.04,163358.8,1016903.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01613,28044.13,2153331.02,80673678.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.003998,10006.38,591779.49,3998583.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001752,7913.63,190445.57,1752540.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,5.337e-05,7123.3,30459.88,53367.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0004713,6115.69,88162.76,336590.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.069e-05,3513.34,13729.59,10641.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,1.148e-05,1866.16,14087.31,11480.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.839e-05,1860.43,19108.2,18394.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,1.848e-05,1538.58,20979.52,18485.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,9.995e-06,929.94,13969.71,9989.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,2.654e-05,811.72,20743.91,26547.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,5.908e-06,756.74,9776.21,5907.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,6.275e-06,303.8,10040.66,6271.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,9.484e-06,290.63,6583.05,9484.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.387e-06,237.26,10544.24,5882.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,MOONCOIN,MOON COIN,4h49bD28nPPLXWB1ZmP8JPuv4iKk3KzFpS8bSmGJpump,4.182e-06,29.5,8173.57,4182.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.088e-06,26.77,10093.14,6084.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,ACTIVITIES,REAL LIFE ACTIVITIES,FfTMftfnF64keWwxiREcSBca2PsQtkorb2LWCEdZpump,4.078e-06,22.2,8060.82,4077.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,NeverDie,MEMES WILL NEVER DIE,2Jz5Wf6PGs4x1dJH4FvfMcgEERTmPadLBDsFmtyCpump,4.19e-06,6.66,8237.7,4188.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,YARA,Justice for Yara,DgAHh7SXLssDjufrLnrU1kPgrxmT7UbZYyCCqmcW6k6e,6.518e-06,1.99,0.0,6518.06,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,UPC,Upcoin,DHSZ2zaQ2mNtTJFXH3iNUG1oWXr6ZFj4TyfqVdexpump,4.176e-06,1.72,8300.16,4176.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,227.67,165015431.73,57425889.06,0.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001783,145108.89,419325.23,1782045.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.0002177,113477.82,63865.48,217666.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.0005239,87102.4,152899.73,523829.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0002936,81632.92,85294.2,293629.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001211,72736.92,44073.54,121119.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0003344,43598.17,120959.02,334398.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.00021,43226.93,104590.96,209959.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0004972,38567.5,184430.26,497281.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0001798,20460.19,54535.1,179886.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,8.865e-05,20317.56,53003.1,88508.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001362,16401.04,55621.73,132181.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,0.000104,16174.8,45669.84,104028.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001343,11557.02,64046.27,133928.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,3.504e-05,6576.25,25157.39,34696.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,3.686e-05,5234.66,25697.78,36865.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.000115,3703.92,56009.05,114996.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,6.665e-06,2574.92,9014.08,6666.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,5.094e-05,2062.75,57459.08,50943.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1090.71,1498.83,18453.12,17615083.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.163e-05,1288.07,14671.94,11597.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0008182,669.14,3682.87,818245.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.158e-06,247.78,13910.71,9068.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.061e-05,190.84,13910.61,10619.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.532e-06,150.15,7069.32,4532.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.604e-05,145.04,24381.07,16039.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,7.56e-06,109.83,11280.54,7556.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003188,79.68,5255.37,318833.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.00182,63.47,73.68,1450837.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,5.185e-06,50.37,9213.13,5177.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,8.08e-08,43.64,8330.81,5576.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,MMGA,MAKE MEMES GREAT AGAIN,Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,4.16e-06,32.11,8151.09,4156.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.23,19.59,2877066.87,25889906.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.741e-06,15.12,9974.52,5741.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.261e-06,11.62,10186.58,6259.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.182e-05,11.31,16129.28,11611.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,PROFIT,Profit Protocol,HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,1.922e-06,10.5,2964.08,1923.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.067e-05,10.12,14798.58,10676.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.31e-06,9.62,8367.09,4308.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01643,8.65,148.88,16430.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,4.854e-06,6.53,8958.68,4701.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,SLOW,Slow Runner,9iQikUHRe69UScUaytfQabQDmZRqtTkjCEF94ZV5pump,4.761e-06,5.65,9142.93,4758.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,5.274e-06,4.18,9957.53,5270.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.281e-06,2.29,9742.73,5267.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.366e-06,2.09,9306.27,5364.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,BEANS,BEANS,BMdxkiQTJbLjZF4on3ivYDibWVCMsriEHra469zM49hV,5.188e-06,1.89,10068.05,5184.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.889e-06,1.59,11511.88,5887.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Supershiro,Super Shiro,B1PrDviUajpkxghL1v2w2P8jnxu3FNjcxUDdBNanPLyR,4.539e-06,0.88,8583.61,4539.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.565e-06,0.78,8601.3,4564.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-04,PUMPFOLIO,Retail Summer,3iE3HmcrKQyNdqoVo4Xrjz291VvtcKtUgJnQDxUepump,4.967e-06,0.38,9455.48,4967.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-05,ACTIVITIES,REAL LIFE ACTIVITIES,FfTMftfnF64keWwxiREcSBca2PsQtkorb2LWCEdZpump,4.235e-06,20.51,8392.37,4234.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-05,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.261e-06,11.62,10186.58,6259.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-05,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.23,4.86,2877066.87,25889906.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-05,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.281e-06,2.26,9742.73,5267.0,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-05,YARA,Justice for Yara,DgAHh7SXLssDjufrLnrU1kPgrxmT7UbZYyCCqmcW6k6e,6.518e-06,1.99,0.0,6518.06,dexscreener,ok,0,,0.0,,unknown,,,,
+2025-10-05,PUMPFOLIO,Retail Summer,3iE3HmcrKQyNdqoVo4Xrjz291VvtcKtUgJnQDxUepump,4.967e-06,0.38,9455.48,4967.0,dexscreener,ok,0,0.0,0.0,unknown,unknown,0.0,0.0,0.0,0.0
+2025-10-05,MOONCOIN,MOON COIN,4h49bD28nPPLXWB1ZmP8JPuv4iKk3KzFpS8bSmGJpump,4.182e-06,8.06,8173.57,4182.0,dexscreener,ok,0,99.65,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,MMGA,MAKE MEMES GREAT AGAIN,Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,4.16e-06,17.07,8151.09,4156.0,dexscreener,ok,0,99.12,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.565e-06,0.78,8601.3,4564.0,dexscreener,ok,0,99.33,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.156e-06,149.27,6770.76,4157.0,dexscreener,ok,0,98.01,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.00027,171314.37,102438.93,269976.0,dexscreener,ok,0,50.98,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001736,102861.31,190329.96,1736815.0,dexscreener,ok,0,31.97,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.0008878,65892.86,152996.88,887727.0,dexscreener,ok,0,25.99,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0004722,24740.72,88284.02,337243.0,dexscreener,ok,0,44.35,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01603,20834.22,2147524.52,80158746.0,dexscreener,ok,0,57.84,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,5.228e-05,2711.35,30185.57,52284.0,dexscreener,ok,0,69.04,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,2.794e-05,2503.98,21285.58,27940.0,dexscreener,ok,0,60.04,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,4.808e-06,1375.62,8891.21,4807.0,dexscreener,ok,0,97.36,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,8.325e-06,667.73,12798.96,8320.0,dexscreener,ok,0,90.03,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,9.591e-06,547.27,6633.17,9591.0,dexscreener,ok,0,71.36,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,1.73e-05,507.0,20405.81,17302.0,dexscreener,ok,0,81.95,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,6.518e-06,275.94,10349.38,6514.0,dexscreener,ok,0,94.65,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.016e-05,257.93,13516.4,10114.0,dexscreener,ok,0,81.98,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01573,207.38,8828.16,15737.0,dexscreener,ok,0,34.58,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.58e-06,195.96,14453.69,9485.0,dexscreener,ok,0,88.38,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,5.11e-06,182.85,10010.58,5106.0,dexscreener,ok,0,99.24,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.922e-06,84.38,10164.06,5923.0,dexscreener,ok,0,92.28,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,6.036e-06,57.01,10485.3,6014.0,dexscreener,ok,0,95.54,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,FATMEOW,BIG FAT CAT,6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,7.393e-06,48.45,14290.77,7390.0,dexscreener,ok,0,98.5,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.83e-05,34.1,19071.21,18303.0,dexscreener,ok,0,79.4,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,1.202e-05,29.68,14696.89,12021.0,dexscreener,ok,0,94.96,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.837e-06,16.91,2259.39,7834.0,dexscreener,ok,0,97.78,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,BEANIE,BEANIE,94bmDAx9PQUZoLCG97h7kCtm1T9uzZCThuUW1cUqAXZy,5.305e-06,14.5,9933.55,5304.0,dexscreener,ok,0,98.96,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.279e-06,9.37,9890.29,5246.0,dexscreener,ok,0,96.87,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.291e-06,7.4,10400.7,5793.0,dexscreener,ok,0,97.54,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,NeverDie,MEMES WILL NEVER DIE,2Jz5Wf6PGs4x1dJH4FvfMcgEERTmPadLBDsFmtyCpump,4.19e-06,6.47,8237.7,4188.0,dexscreener,ok,0,99.63,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.94e-06,2.84,11613.56,5937.0,dexscreener,ok,0,98.5,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,FALCONS,THE FALCONS,447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,5.847e-06,1.8,11287.87,5845.0,dexscreener,ok,0,98.05,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.211e-06,1.7,10298.11,6206.0,dexscreener,ok,0,96.28,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.478e-06,1.36,9504.09,5475.0,dexscreener,ok,0,96.49,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.071e-05,1.24,14845.04,10708.0,dexscreener,ok,0,92.28,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,retail,retail,6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,4.601e-06,0.34,8940.23,4597.0,dexscreener,ok,0,99.31,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,228.46,288189531.1,57586173.97,0.0,dexscreener,ok,0,0.0,0.0,unknown,unknown,0.0,0.0,0.0,0.0
+2025-10-05,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001767,208526.25,418186.89,1766100.0,dexscreener,ok,0,23.2,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.000392,131581.24,132616.54,391970.0,dexscreener,ok,0,32.38,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0003127,80582.46,117287.97,312749.0,dexscreener,ok,0,36.11,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0001578,75879.2,62774.58,157819.0,dexscreener,ok,0,41.45,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,9.497e-05,50488.42,55059.61,94823.0,dexscreener,ok,0,47.26,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001208,28726.21,44069.0,120816.0,dexscreener,ok,0,33.63,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.0002254,25440.45,65129.73,225408.0,dexscreener,ok,0,34.78,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0002299,18266.47,109638.3,229891.0,dexscreener,ok,0,38.35,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0002182,16822.86,60244.9,218286.0,dexscreener,ok,0,42.72,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,5.11e-05,16278.24,30472.57,50590.0,dexscreener,ok,0,54.52,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,7.612e-05,13338.57,39107.21,76121.0,dexscreener,ok,0,46.13,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001354,10877.0,64368.6,134969.0,dexscreener,ok,0,28.89,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001313,9921.1,54694.68,127401.0,dexscreener,ok,0,54.44,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,2.533e-05,4675.92,21828.68,25335.0,dexscreener,ok,0,64.26,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001177,3797.19,56755.94,117668.0,dexscreener,ok,0,42.33,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,4.282e-05,3455.82,54800.03,42819.0,dexscreener,ok,0,58.95,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0009561,888.6,3983.4,956113.0,dexscreener,ok,0,33.36,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.013e-05,840.74,14981.6,9954.0,dexscreener,ok,0,84.78,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.421e-05,774.42,23002.74,14210.0,dexscreener,ok,0,90.17,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,6.009e-06,735.25,8561.17,6009.0,dexscreener,ok,0,88.42,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1082.2,716.99,18366.09,17477653.0,dexscreener,ok,0,97.07,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0006663,384.15,27620.93,666391.0,dexscreener,ok,0,42.55,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003382,177.09,5606.09,338245.0,dexscreener,ok,0,91.73,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,5.036e-06,149.19,9100.22,5028.0,dexscreener,ok,0,98.69,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,7.727e-06,127.24,11400.01,7722.0,dexscreener,ok,0,89.46,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.149e-05,97.79,14598.31,11454.0,dexscreener,ok,0,77.25,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,7.751e-08,82.3,8166.21,5348.0,dexscreener,ok,0,88.9,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.069e-05,61.78,14122.17,10690.0,dexscreener,ok,0,90.06,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001887,42.23,90.11,1504628.0,dexscreener,ok,0,25.31,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-05,2,TWO IS BETTER THAN ONE,9kfdKdj5yiZgozQB9V6qRvBxat5WKHcpNESNjAPxpump,6.722e-06,17.29,0.0,6722.36,dexscreener,ok,0,99.81,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,Gaming,Gaming Cult,3hiutVNCbwCY1vmoPKdXtMtuzg4epn1WzuU1jgpHpump,6.525e-06,12.84,0.0,6525.21,dexscreener,ok,0,99.96,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,1SOL,1SOL,mDJpLmXubnSYmesFYSeYck9AxmA76rpn6nnAs9ppump,4.79e-06,3.69,9274.95,4790.0,dexscreener,ok,0,99.77,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.774e-06,3.66,0.0,6774.08,dexscreener,ok,0,99.74,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.003812,2.26,207.91,3812446.0,dexscreener,ok,0,61.9,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,PROFIT,Profit Protocol,HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,1.923e-06,0.45,2965.91,1923.0,dexscreener,ok,0,95.86,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,WSTPANDA,Wall Street Panda,EFRoRp8wJsLy5kUZYSL95Tqp6ijVPsejWYMCn7ZjcG8L,1.745e-06,0.31,0.0,8727.0,dexscreener,ok,0,55.26,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-05,Supershiro,Super Shiro,B1PrDviUajpkxghL1v2w2P8jnxu3FNjcxUDdBNanPLyR,4.517e-06,0.18,8541.69,4516.0,dexscreener,ok,0,99.51,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-05,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,4.925e-06,0.15,9095.12,4770.0,dexscreener,ok,0,97.47,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001798,423650.11,196698.2,1798483.0,dexscreener,ok,0,31.96,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0002876,111484.71,107091.24,287661.0,dexscreener,ok,0,50.56,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.0008942,48868.03,155161.84,894140.0,dexscreener,ok,0,26.1,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.000467,25617.45,88315.89,333510.0,dexscreener,ok,0,44.66,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01599,25595.32,2159523.4,79997445.0,dexscreener,ok,0,57.84,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.003697,18019.37,575756.96,3697956.0,dexscreener,ok,0,61.92,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,3.864e-05,8426.13,25314.29,38641.0,dexscreener,ok,0,55.28,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,5.114e-05,4546.79,30250.78,51142.0,dexscreener,ok,0,69.73,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,9.463e-06,607.51,6622.34,9463.0,dexscreener,ok,0,71.25,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,1.732e-05,350.77,20549.87,17323.0,dexscreener,ok,0,82.28,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,4.762e-06,336.86,8878.26,4762.0,dexscreener,ok,0,97.49,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,8.329e-06,191.72,12877.86,8324.0,dexscreener,ok,0,89.98,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,DARE,DareCoin,4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,9.227e-06,150.85,14101.49,9136.0,dexscreener,ok,0,88.96,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,1.007e-05,77.72,13456.11,10022.0,dexscreener,ok,0,82.17,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,1SOL,1 SOL and a dream,8D7n3WYZxUkmhUPveQU4XZdqLfDe4XLEEpPToAk4pump,6.627e-06,53.38,0.0,6627.46,dexscreener,ok,0,99.65,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,GAZABOY,GAZA BOY,Fk6e19okXWGxtrHmXBLzkFeDPR2uuyeVYsqGyt89pump,4.422e-06,52.6,8568.02,4420.0,dexscreener,ok,0,99.06,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,6.518e-06,41.26,10349.38,6514.0,dexscreener,ok,0,94.65,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01582,37.76,8934.27,15821.0,dexscreener,ok,0,34.79,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.876e-05,30.66,19557.63,18769.0,dexscreener,ok,0,79.4,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,2,TWO IS BETTER THAN ONE,9kfdKdj5yiZgozQB9V6qRvBxat5WKHcpNESNjAPxpump,6.722e-06,16.51,0.0,6722.36,dexscreener,ok,0,99.81,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,retail,retail,6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,4.451e-06,15.17,8663.62,4447.0,dexscreener,ok,0,99.35,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.309e-06,14.03,9958.1,5275.0,dexscreener,ok,0,96.99,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.186e-06,13.79,10270.89,6182.0,dexscreener,ok,0,96.47,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,Gaming,Gaming Cult,3hiutVNCbwCY1vmoPKdXtMtuzg4epn1WzuU1jgpHpump,6.454e-06,13.04,0.0,6454.87,dexscreener,ok,0,99.97,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,6.036e-06,11.88,10485.3,6014.0,dexscreener,ok,0,95.54,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.076e-05,10.56,14930.58,10762.0,dexscreener,ok,0,92.38,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.983e-06,7.99,13019.56,7981.0,dexscreener,ok,0,97.79,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.291e-06,7.4,10400.7,5793.0,dexscreener,ok,0,97.54,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,BITX,Mega Bitminer X,BiTXcnGHmSvX6pwhZPmhsctjG3NjzMbTXtM2b7h5nDZC,1.556e-06,6.52,3059.61,1557.0,dexscreener,ok,0,99.68,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,1SOL,1SOL,mDJpLmXubnSYmesFYSeYck9AxmA76rpn6nnAs9ppump,4.79e-06,3.69,9274.95,4790.0,dexscreener,ok,0,99.77,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.774e-06,3.66,0.0,6774.08,dexscreener,ok,0,99.74,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,5.046e-06,2.51,9887.77,5042.0,dexscreener,ok,0,99.24,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,BEANIE,BEANIE,94bmDAx9PQUZoLCG97h7kCtm1T9uzZCThuUW1cUqAXZy,5.305e-06,2.25,9933.55,5304.0,dexscreener,ok,0,98.96,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,FALCONS,THE FALCONS,447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,5.847e-06,1.31,11287.87,5845.0,dexscreener,ok,0,98.05,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,233.6,330220735.03,58413684.46,0.0,dexscreener,ok,0,0.0,0.0,unknown,unknown,6.0,0.0,0.0,0.0
+2025-10-06,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001575,437730.56,400607.09,1574998.0,dexscreener,ok,0,24.08,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.000321,99101.49,121516.83,320947.0,dexscreener,ok,0,36.53,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,0.0001218,41820.82,44339.16,121860.0,dexscreener,ok,0,33.3,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0001378,40365.97,59430.32,137877.0,dexscreener,ok,0,43.01,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0002843,37031.86,113285.48,284306.0,dexscreener,ok,0,37.97,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,0.000203,25039.59,62566.21,203026.0,dexscreener,ok,0,35.89,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0003853,23718.12,164513.64,385354.0,dexscreener,ok,0,43.34,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,9.469e-05,21144.61,55579.6,94537.0,dexscreener,ok,0,47.17,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0001891,20540.08,100566.92,189105.0,dexscreener,ok,0,40.67,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,2.629e-05,13550.33,22082.97,26028.0,dexscreener,ok,0,60.76,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001139,10666.12,61529.58,113599.0,dexscreener,ok,0,29.76,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.000229,9102.31,62732.13,229017.0,dexscreener,ok,0,42.65,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001391,7614.35,56938.16,134961.0,dexscreener,ok,0,54.25,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,7.201e-05,6935.31,65384.01,72009.0,dexscreener,ok,0,59.32,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,2.718e-05,5538.1,22517.46,27186.0,dexscreener,ok,0,64.33,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.001362,3066.95,4764.89,1362601.0,dexscreener,ok,0,31.63,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,9.043e-06,1604.79,12490.55,9038.0,dexscreener,ok,0,89.44,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001219,1387.12,58723.97,121933.0,dexscreener,ok,0,42.21,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,7.695e-05,990.0,39786.82,76952.0,dexscreener,ok,0,46.15,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.254e-05,595.96,15451.95,12504.0,dexscreener,ok,0,76.86,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-06,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,1100.18,258.02,18824.43,17767904.0,dexscreener,ok,0,97.07,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.086e-05,217.33,14378.04,10866.0,dexscreener,ok,0,89.62,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003383,186.0,5762.69,338322.0,dexscreener,ok,0,91.82,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,5.639e-06,133.28,8293.86,5639.0,dexscreener,ok,0,89.69,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.082e-05,112.34,15688.74,10633.0,dexscreener,ok,0,84.0,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,Noxi,Noxi Labs AI,F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,6.219e-06,105.72,10273.57,6217.0,dexscreener,ok,0,97.97,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,7.614e-08,34.63,8096.94,5254.0,dexscreener,ok,0,89.61,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001752,25.27,61.51,1353070.0,dexscreener,ok,0,26.5,0.0,low,unknown,1.0,0.0,0.0,0.0
+2025-10-06,FATMEOW,BIG FAT CAT,6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,7.516e-06,20.52,14552.4,7514.0,dexscreener,ok,0,98.57,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,SLOW,Slow Runner,9iQikUHRe69UScUaytfQabQDmZRqtTkjCEF94ZV5pump,4.904e-06,12.38,9435.85,4901.0,dexscreener,ok,0,99.04,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.477e-05,8.47,23764.62,14767.0,dexscreener,ok,0,90.11,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,MMGA,MAKE MEMES GREAT AGAIN,Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,4.28e-06,5.12,8411.96,4275.0,dexscreener,ok,0,99.24,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.973e-06,2.69,10256.27,5974.0,dexscreener,ok,0,92.32,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.23,2.34,2876544.69,25885141.0,dexscreener,ok,0,39.37,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-06,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.398e-06,1.53,9962.21,5384.0,dexscreener,ok,0,97.07,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.597e-06,1.31,9712.14,5594.0,dexscreener,ok,0,96.52,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,1.173e-05,0.74,14434.64,11735.0,dexscreener,ok,0,94.96,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.426e-06,0.73,8614.8,4424.0,dexscreener,ok,0,99.17,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-06,YOU,YOU can change your life.,3nJXYRGSFdfhVAg48cLE3iF3Hhda4CXqTt9XS56Mpump,8.096e-06,0.0,0.0,8096.36,dexscreener,ok,0,99.99,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.001775,180526.36,194507.61,1775190.0,dexscreener,ok,0,31.97,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-07,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0002417,147217.36,97469.61,241766.0,dexscreener,ok,0,52.41,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-07,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.0008037,41410.54,145815.7,803585.0,dexscreener,ok,0,26.64,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-07,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01564,24531.85,2127183.42,78249864.0,dexscreener,ok,0,57.84,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-07,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.00382,12907.49,580305.48,3820019.0,dexscreener,ok,0,61.93,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-07,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,4.04e-05,7561.5,26892.81,40403.0,dexscreener,ok,0,69.7,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-07,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0003699,5065.24,78244.77,264212.0,dexscreener,ok,0,46.57,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-07,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,3.604e-05,2674.1,24341.36,36038.0,dexscreener,ok,0,56.24,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-07,AUSBAGWORK,AUSSIE BAG WORKERS,9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,2.158e-05,1705.15,23001.95,21579.0,dexscreener,ok,0,82.87,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,7.034e-06,1036.02,5758.31,7034.0,dexscreener,ok,0,74.04,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-07,1,1 pill can change your life,qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,5.284e-06,914.16,9407.36,5283.0,dexscreener,ok,0,97.39,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,8.626e-06,721.41,13061.85,8621.0,dexscreener,ok,0,90.52,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,5.698e-06,646.84,9709.84,5695.0,dexscreener,ok,0,96.2,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.386e-05,299.6,23019.68,13857.0,dexscreener,ok,0,90.7,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,1.063e-05,196.49,15017.9,10632.0,dexscreener,ok,0,92.28,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,FARTWORM,FARTWORM,9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,9.844e-06,121.42,13287.57,9791.0,dexscreener,ok,0,83.31,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,5.278e-06,114.96,9385.07,5276.0,dexscreener,ok,0,96.71,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,IDIOT,IDIOT,GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,1.849e-05,92.73,19368.16,18498.0,dexscreener,ok,0,79.46,0.0,medium,unknown,0.0,0.0,0.0,0.0
+2025-10-07,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.01621,76.21,9014.0,16219.0,dexscreener,ok,0,34.3,0.0,low,unknown,0.0,0.0,0.0,0.0
+2025-10-07,YOU,YOU can change your life.,3nJXYRGSFdfhVAg48cLE3iF3Hhda4CXqTt9XS56Mpump,7.941e-06,29.77,0.0,7941.95,dexscreener,ok,0,99.99,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,SLOW,Slow Runner,9iQikUHRe69UScUaytfQabQDmZRqtTkjCEF94ZV5pump,4.904e-06,12.38,9435.85,4901.0,dexscreener,ok,0,99.04,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,PROFIT,Profit Protocol,HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,1.945e-06,8.51,3009.93,1945.0,dexscreener,ok,0,96.11,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,6.229e-06,7.44,10366.69,6224.0,dexscreener,ok,0,96.59,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.876e-06,7.1,12856.57,7874.0,dexscreener,ok,0,97.88,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.314e-06,7.1,9976.72,5281.0,dexscreener,ok,0,97.13,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,6.036e-06,5.59,10491.64,6014.0,dexscreener,ok,0,95.63,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,AMG,ASCII MEME GENERATOR,6rhFUUZsUbjD4tSHrLetmCuvuM3L2ASTLEAgemZtpump,6.727e-06,4.95,0.0,6727.32,dexscreener,ok,0,99.82,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,MMGA,MAKE MEMES GREAT AGAIN,Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,4.28e-06,4.61,8411.96,4275.0,dexscreener,ok,0,99.24,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,2,TWO IS BETTER THAN ONE,9kfdKdj5yiZgozQB9V6qRvBxat5WKHcpNESNjAPxpump,6.656e-06,3.07,0.0,6656.41,dexscreener,ok,0,99.83,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,FALCONS,THE FALCONS,447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,5.908e-06,2.12,11407.75,5906.0,dexscreener,ok,0,98.1,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,PILL,Getpilled,2JaJ353mgRVrGbrxsvHr17hseGtf1kD4ixErXGcNP1LL,6.521e-06,1.81,10781.83,6005.0,dexscreener,ok,0,97.57,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,5.398e-06,1.15,9962.21,5384.0,dexscreener,ok,0,97.07,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,7,7 Coin,CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,1.173e-05,0.74,14434.64,11735.0,dexscreener,ok,0,94.96,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,ORE,Ore Labs,4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,4.426e-06,0.73,8614.8,4424.0,dexscreener,ok,0,99.17,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,BITX,Mega Bitminer X,BiTXcnGHmSvX6pwhZPmhsctjG3NjzMbTXtM2b7h5nDZC,1.615e-06,0.37,3175.99,1616.0,dexscreener,ok,0,99.71,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,4.966e-06,0.19,9124.06,4959.0,dexscreener,ok,0,98.69,0.0,high,unknown,0.0,0.0,0.0,0.0
+2025-10-07,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,224.15,415687132.37,57500191.97,0.0,dexscreener,ok,0,0.0,0.0,unknown,unknown,,,,
+2025-10-07,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.002649,467103.67,509492.74,2647651.0,dexscreener,ok,0,21.19,15.43,low,low,,,,
+2025-10-07,early,not wrong just early,7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,6.919e-05,123231.56,35846.33,69181.0,dexscreener,ok,0,43.22,34.7,low,low,,,,
+2025-10-07,USDUT,unstable tether,3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,0.0002608,77018.49,107193.39,260765.0,dexscreener,ok,0,38.82,30.56,low,low,,,,
+2025-10-07,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,8.644e-05,42656.51,37408.42,86446.0,dexscreener,ok,0,39.61,31.03,low,low,,,,
+2025-10-07,CHARLIE,RIP CHARLIE KIRK,CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,0.0002384,40885.42,101734.39,238398.0,dexscreener,ok,0,41.88,32.91,low,low,,,,
+2025-10-07,Useless,Useless Coin,5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,0.0001121,34875.7,52524.73,112101.0,dexscreener,ok,0,45.74,36.23,low,low,,,,
+2025-10-07,gib,gib,6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,0.0003914,31520.55,162772.49,391440.0,dexscreener,ok,0,43.09,35.46,low,low,,,,
+2025-10-07,67,67coin,2sjdF9vLNWkTpK2XgY2kVWCL4YTMu6vaVA4VxrzUpump,9.32e-05,29139.03,53962.03,93052.0,dexscreener,ok,0,51.7,42.19,low,low,,,,
+2025-10-07,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,387.47,25816.01,10962.23,6257686.0,dexscreener,ok,0,96.6,95.45,critical,extreme,,,,
+2025-10-07,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0002131,21489.77,104654.89,213083.0,dexscreener,ok,0,40.37,33.61,low,low,,,,
+2025-10-07,BAR,BullArena,Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,0.0002011,13718.73,57383.89,201108.0,dexscreener,ok,0,43.17,34.56,low,low,,,,
+2025-10-07,T-2049,Token 2049,2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,4.611e-05,12064.37,55853.26,46111.0,dexscreener,ok,0,58.54,54.22,medium,medium,,,,
+2025-10-07,DETECTIVE,Just can't prove it,14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,2.234e-05,9342.47,19912.23,22114.0,dexscreener,ok,0,63.08,54.27,medium,medium,,,,
+2025-10-07,VIBECODER,Vibe Coding Meta,7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,0.0001319,9140.09,54327.69,127941.0,dexscreener,ok,0,54.31,40.98,low,low,,,,
+2025-10-07,CRND,Crundle,BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,0.0001072,9028.96,58711.16,106852.0,dexscreener,ok,0,30.14,25.05,low,low,,,,
+2025-10-07,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,2.702e-05,7441.67,22468.47,27030.0,dexscreener,ok,0,62.97,53.67,medium,medium,,,,
+2025-10-07,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.001055,5242.53,4200.53,1055373.0,dexscreener,ok,0,32.73,27.49,low,low,,,,
+2025-10-07,walkusa,WALKING ACROSS AMERICA,3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,5.999e-05,4841.69,34315.16,59991.0,dexscreener,ok,0,48.04,38.36,low,low,,,,
+2025-10-07,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,0.0001099,1526.39,54322.31,109893.0,dexscreener,ok,0,42.94,34.34,low,low,,,,
+2025-10-07,1dog,1 dog can change your life,8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1.215e-05,1327.7,14816.56,12115.0,dexscreener,ok,0,77.04,69.01,medium,medium,,,,
+2025-10-07,PILL,PumpFun Pill,8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,8.192e-06,458.33,11740.52,8187.0,dexscreener,ok,0,89.51,84.59,high,high,,,,
+2025-10-07,MOON,Moon Moon,99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,1.067e-05,235.5,14075.99,10677.0,dexscreener,ok,0,88.84,84.34,high,high,,,,
+2025-10-07,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,5.53e-06,161.32,8213.89,5531.0,dexscreener,ok,0,90.41,83.16,high,high,,,,
+2025-10-07,grandma,101 Year Old Pumpfun Livestreamr,4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,1.028e-05,149.59,14991.48,10106.0,dexscreener,ok,0,84.4,79.77,high,high,,,,
+2025-10-07,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0003045,142.95,5276.82,304589.0,dexscreener,ok,0,91.72,80.86,high,high,,,,
+2025-10-07,ELIZABETH,Just Elizabeth Cat,DiiTPZdpd9t3XorHiuZUu4E1FoSaQ7uGN4q9YkQupump,0.001705,40.1,58.84,1317442.0,dexscreener,ok,0,26.76,18.19,low,low,,,,
+2025-10-07,RWA,Real World Asses,7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,7.611e-08,23.44,8095.4,5252.0,dexscreener,ok,0,89.62,85.02,high,high,,,,
+2025-10-07,FATMEOW,BIG FAT CAT,6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,7.303e-06,21.61,14162.23,7301.0,dexscreener,ok,0,98.58,98.06,critical,extreme,,,,
+2025-10-07,Pochita,Pochita,CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,5.921e-06,5.1,10176.77,5921.0,dexscreener,ok,0,92.41,90.06,critical,extreme,,,,
+2025-10-07,Hamu,Hamu,ESJy7EVySoXbYvkq1V2RcDXYUicyZVe8hBHQeoDQpump,6.425e-06,2.55,0.0,6425.66,dexscreener,ok,0,99.88,99.76,critical,extreme,,,,
+2025-10-07,1SOL,1 SOL and a dream,8D7n3WYZxUkmhUPveQU4XZdqLfDe4XLEEpPToAk4pump,6.635e-06,1.9,0.0,6635.33,dexscreener,ok,0,99.68,99.48,critical,extreme,,,,
+2025-10-07,VAN,Man with a Van,4e3Qx8W2HoNQLh8zssRzNuwbatGnChzKee6gN63Zpump,6.285e-06,1.47,0.0,6285.01,dexscreener,ok,0,100.0,99.96,critical,extreme,,,,
+2025-10-07,1cat,1 cat can change your life,8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,6.729e-06,0.98,0.0,6729.06,dexscreener,ok,0,99.72,99.24,critical,extreme,,,,
+2025-10-07,BLUB,Blub,HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,4.973e-06,0.35,9184.78,4816.0,dexscreener,ok,0,97.48,96.32,critical,extreme,,,,
+2025-10-07,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.982e-06,0.29,11698.02,5980.0,dexscreener,ok,0,98.51,98.03,critical,extreme,,,,
