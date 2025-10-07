@@ -1,0 +1,33 @@
+symbol,name,momentum_signal,price_usd,volume_24h_usd,volume_momentum_pct,volume_trend,volume_spike,divergence_status,liquidity_trend,price_change_pct
+SOL,Solana,BUY,380.99,25909.21,338.1905178160307,explosive,True,bullish,decreasing,-65.3702121471032
+obvious,in hindsight,BUY,5.183e-06,113.86,209.07821770659635,explosive,True,bullish,stable,-7.396819724852599
+FARTLESS,FARTLESS COIN,BUY,0.001096,4211.16,127.64380584791527,explosive,True,bullish,stable,-19.53010279001468
+early,not wrong just early,BUY,6.727e-05,123567.79,100.33317043463796,explosive,True,bullish,decreasing,-66.86206896551724
+viewer,in a streamers world,WATCH,5.319e-06,8.48,149.28956393924545,explosive,True,none,stable,-1.4635050018525275
+YOU,YOU can change your life.,WATCH,7.941e-06,29.77,103.85756676557862,explosive,True,none,stable,-1.9145256916995979
+PILL,PumpFun Pill,WATCH,8.083e-06,475.95,42.71853393990798,rising,False,none,stable,23.953381383223448
+wSOL,Wrapped SOL,WATCH,223.11,413030228.78,41.06534699973649,rising,False,none,stable,-4.4905821917808115
+PROFIT,Profit Protocol,WATCH,1.897e-06,9.71,40.997095837366906,rising,False,none,stable,-1.3520540821632898
+HAROLD,Harold,WATCH,0.003774,13732.16,31.35298599297235,rising,False,none,stable,2.082769813362173
+AI4,AI⁴,WATCH,0.0002316,178746.55,27.01277686743948,rising,False,bullish,stable,-19.47148817802503
+1,1 pill can change your life,WATCH,5.284e-06,914.16,23.707800656128157,rising,False,bullish,decreasing,-36.559010685556494
+1,1 pill can change your life,SELL,8.512e-06,536.4,-21.435042883477053,declining,False,bearish,increasing,61.09008327024983
+AUSBAGWORK,AUSSIE BAG WORKERS,SELL,2.008e-05,712.81,-24.205836536570065,declining,False,bearish,stable,15.935334872979222
+$CrepSol,Crepe on Solana,SELL,3.134e-05,2092.01,-24.421513031687166,declining,False,none,stable,-18.892339544513458
+CHARLIE,RIP CHARLIE KIRK,SELL,0.0002215,42756.13,-24.768224777324612,declining,False,none,stable,-22.089342244108344
+USDUT,unstable tether,SELL,0.0002852,63672.14,-28.127481105454837,declining,False,none,decreasing,-11.152647975077878
+APOLLO,Apollo AI,SELL,6.664e-06,465.09,-39.13125038171935,declining,False,none,stable,-29.578357814646527
+BAR,BullArena,SELL,0.0001828,14839.59,-39.735339864441364,declining,False,none,stable,-20.17467248908298
+RUECAT,Rue Cat,SELL,0.0002452,12163.36,-50.60386941825118,dead,False,none,decreasing,-47.49464668094219
+1Bull,One bull run to change your life,SELL,3.579e-05,3226.78,-52.71327371898017,dead,False,none,stable,-30.01564333202972
+Useless,Useless Coin,SELL,0.0001491,38477.95,-53.3990980404173,dead,False,bearish,decreasing,8.200290275761969
+1nu,1nu,SELL,8.225e-05,43796.18,-53.464374068561185,dead,False,none,stable,-32.4712643678161
+walkusa,WALKING ACROSS AMERICA,SELL,5.803e-05,5150.43,-53.787355840551264,dead,False,none,decreasing,-24.58739441195582
+DETECTIVE,Just can't prove it,SELL,2.089e-05,8483.1,-68.53522109066105,dead,False,none,decreasing,-20.540129326740196
+T-2049,Token 2049,SELL,5.332e-05,7284.98,-76.85674193920386,dead,False,none,stable,-25.954728509929183
+1SOL,1 SOL and a dream,SELL,6.635e-06,1.9,-87.87105011171401,dead,False,bearish,decreasing,38.51774530271399
+PILL,Getpilled,SELL,6.521e-06,1.81,-99.39543738935836,dead,False,none,stable,-27.888974897710938
+ELIZABETH,Just Elizabeth Cat,SELL,0.002298,45.57,-99.97165412937193,dead,False,bearish,stable,31.164383561643838
+USEFUL,USEFUL COIN,SELL,0.0002095,3.07,-99.98827924606263,dead,False,bearish,decreasing,10.78794288736118
+gib,gib,SELL,0.0004004,1.28,-99.9937216145681,dead,False,none,decreasing,3.9190241370360646
+XBT,XBT,SELL,0.002507,5.39,-99.99723349379802,dead,False,bearish,decreasing,59.17460317460319
