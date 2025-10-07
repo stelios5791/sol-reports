@@ -1,12 +1,12 @@
 address,symbol,name,category,price_change_24h_pct,volume_change_24h_pct,current_price,yesterday_price,volume_24h,volume_yesterday,liquidity_usd,concentration_risk,rank
 7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,early,not wrong just early,"loser, volume_spike",-70.64,375.99,5.961e-05,0.000203,119186.84,25039.59,33190.12,low,1
 9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,SOL,Solana,"loser, volume_spike",-63.56,10185.39,400.92,1100.18,26538.36,258.02,11189.13,extreme,2
-AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,RUECAT,Rue Cat,loser,-47.34,-53.15,0.0002459,0.000467,12002.34,25617.45,63097.95,low,3
-44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,1nu,1nu,loser,-37.52,-5.51,7.61e-05,0.0001218,39516.02,41820.82,35113.65,low,4
+AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,RUECAT,Rue Cat,loser,-47.94,-53.09,0.0002431,0.000467,12016.42,25617.45,62539.88,low,3
+44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,1nu,1nu,loser,-37.5,-5.44,7.612e-05,0.0001218,39547.15,41820.82,35119.83,low,4
 2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,T-2049,Token 2049,loser,-31.57,7.37,4.928e-05,7.201e-05,7446.66,6935.31,56711.84,medium,5
 EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,1Bull,One bull run to change your life,loser,-30.41,-34.74,3.559e-05,5.114e-05,2967.26,4546.79,24638.22,medium,6
-6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,APOLLO,Apollo AI,loser,-29.85,-22.74,6.638e-06,9.463e-06,469.34,607.51,5464.18,medium,7
-FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,FARTLESS,FARTLESS COIN,loser,-28.08,24.22,0.0009796,0.001362,3809.84,3066.95,4048.73,low,8
+6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,APOLLO,Apollo AI,loser,-29.85,-22.75,6.638e-06,9.463e-06,469.3,607.51,5464.18,medium,7
+FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,FARTLESS,FARTLESS COIN,loser,-29.08,24.23,0.0009659,0.001362,3810.14,3066.95,4020.52,low,8
 A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,XBT,XBT,gainer,25.84,-100.0,0.001982,0.001575,6.41,437730.56,17.4,low,9
 CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,CHARLIE,RIP CHARLIE KIRK,loser,-20.72,22.52,0.0002254,0.0002843,45372.68,37031.86,98585.46,low,10
 3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,walkusa,WALKING ACROSS AMERICA,"loser, volume_spike",-20.47,384.91,6.12e-05,7.695e-05,4800.56,990.0,34681.65,low,11
@@ -20,6 +20,7 @@ EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,obvious,in hindsight,volume_spike,-
 4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,grandma,101 Year Old Pumpfun Livestreamr,volume_spike,-6.93,594.74,1.007e-05,1.082e-05,780.47,112.34,14792.34,high,19
 GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,IDIOT,IDIOT,volume_spike,-6.45,5319.28,1.755e-05,1.876e-05,1661.55,30.66,18509.46,medium,20
 9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,FARTWORM,FARTWORM,volume_spike,-5.43,254.72,9.523e-06,1.007e-05,275.69,77.72,12846.26,high,21
-7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,JIFFPOM,Jiffpom,volume_spike,-3.92,100.63,7.67e-06,7.983e-06,16.03,7.99,12532.86,extreme,22
-447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,FALCONS,THE FALCONS,volume_spike,-2.5,235.88,5.701e-06,5.847e-06,4.4,1.31,11007.12,extreme,23
-8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,viewer,in a streamers world,volume_spike,-1.46,418.3,5.319e-06,5.398e-06,7.93,1.53,9823.86,extreme,24
+8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,1cat,1 cat can change your life,volume_spike,-4.62,104.1,6.461e-06,6.774e-06,7.47,3.66,0.0,extreme,22
+7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,JIFFPOM,Jiffpom,volume_spike,-3.92,100.63,7.67e-06,7.983e-06,16.03,7.99,12532.86,extreme,23
+447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,FALCONS,THE FALCONS,volume_spike,-2.5,235.88,5.701e-06,5.847e-06,4.4,1.31,11007.12,extreme,24
+8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,viewer,in a streamers world,volume_spike,-1.46,418.3,5.319e-06,5.398e-06,7.93,1.53,9823.86,extreme,25

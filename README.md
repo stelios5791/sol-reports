@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Daily Reports
 
-**Last Updated**: 2025-10-07 22:00 UTC
+**Last Updated**: 2025-10-07 23:06 UTC
 
 Automated daily analysis of Solana tokens with whale tracking and momentum indicators.
 
@@ -8,31 +8,31 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 
 ## 🔥 Today's Top 50 Tokens
 
-**Total Tokens**: 33
-**Combined 24h Volume**: $409.44M
-**Combined Liquidity**: $59.02M
+**Total Tokens**: 50
+**Combined 24h Volume**: $407.82M
+**Combined Liquidity**: $61.01M
 
 **Concentration Risk Distribution**:
-- 🟢 Low: 17 tokens
-- 🔴 Extreme: 6 tokens
-- 🟡 High: 5 tokens
-- 🟢 Medium: 4 tokens
+- 🔴 Extreme: 20 tokens
+- 🟢 Low: 13 tokens
+- 🟡 High: 10 tokens
+- 🟢 Medium: 6 tokens
 - 🟢 Unknown: 1 tokens
 
 ### Top 10 by Volume
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $408.39M | $57.46M | 🟢 unknown |
-| 2 | XBT | XBT | $587.34K | $444.63K | 🟢 low |
-| 3 | early | not wrong just early | $119.19K | $33.19K | 🟢 low |
-| 4 | USDUT | unstable tether | $57.89K | $114.66K | 🟢 low |
-| 5 | CHARLIE | RIP CHARLIE KIRK | $45.37K | $98.59K | 🟢 low |
-| 6 | 1nu | 1nu | $38.77K | $36.41K | 🟢 low |
-| 7 | gib | gib | $30.56K | $158.28K | 🟢 low |
-| 8 | 67 | 67coin | $27.51K | $54.06K | 🟢 low |
-| 9 | Useless | Useless Coin | $27.30K | $56.29K | 🟢 low |
-| 10 | SOL | Solana | $26.54K | $11.19K | 🔴 extreme |
+| 1 | wSOL | Wrapped SOL | $407.32M | $57.51M | 🟢 unknown |
+| 2 | AI4 | AI⁴ | $179.87K | $94.43K | 🟢 low |
+| 3 | DREAM | Dreamsync | $111.27K | $176.39K | 🟢 low |
+| 4 | RAGEGUY | Rage Guy | $76.00K | $152.97K | 🟢 low |
+| 5 | 1nu | 1nu | $39.55K | $35.12K | 🟢 low |
+| 6 | LION | Loaded Lions | $26.54K | $2.06M | 🟢 low |
+| 7 | SOL | Solana | $26.54K | $11.19K | 🔴 extreme |
+| 8 | RUECAT | Rue Cat | $12.02K | $62.54K | 🟢 low |
+| 9 | HAROLD | Harold | $10.54K | $572.07K | 🟢 medium |
+| 10 | SHITTER | SHITTERCOIN | $4.40K | $22.19K | 🟢 medium |
 
 📄 [Full data: daily_top50.csv](data/daily_top50.csv)
 
@@ -50,16 +50,16 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 Tokens with significant price or volume changes in the last 24 hours.
 
-**Total Movers**: 23
+**Total Movers**: 25
 - 🚀 **Gainers** (>+20%): 1
 - 📉 **Losers** (<-20%): 11
-- 📊 **Volume Spikes** (>+100%): 14
+- 📊 **Volume Spikes** (>+100%): 16
 
 ### 🚀 Top Gainers
 
 | # | Symbol | Name | Change 24h | Current Price | Volume Change | Risk |
 |---|--------|------|------------|---------------|---------------|------|
-| 9 | XBT | XBT | +28.44% | $0.00 | +34.2% | 🟢 |
+| 9 | XBT | XBT | +25.84% | $0.00 | -100.0% | 🟢 |
 
 ### 📉 Biggest Losers
 
@@ -67,12 +67,12 @@ Tokens with significant price or volume changes in the last 24 hours.
 |---|--------|------|------------|---------------|---------------|------|
 | 1 | early | not wrong just early | -70.64% | $0.00 | +376.0% | 🟢 |
 | 2 | SOL | Solana | -63.56% | $400.92 | +10185.4% | 🔴 |
-| 3 | RUECAT | Rue Cat | -47.71% | $0.00 | -53.2% | 🟢 |
-| 4 | 1nu | 1nu | -32.80% | $0.00 | -7.3% | 🟢 |
+| 3 | RUECAT | Rue Cat | -47.94% | $0.00 | -53.1% | 🟢 |
+| 4 | 1nu | 1nu | -37.50% | $0.00 | -5.4% | 🟢 |
 | 5 | T-2049 | Token 2049 | -31.57% | $0.00 | +7.4% | 🟢 |
-| 6 | FARTLESS | FARTLESS COIN | -31.11% | $0.00 | +31.9% | 🟢 |
-| 7 | 1Bull | One bull run to change yo | -31.09% | $0.00 | -34.8% | 🟢 |
-| 8 | APOLLO | Apollo AI | -29.85% | $0.00 | -22.3% | 🟢 |
+| 6 | 1Bull | One bull run to change yo | -30.41% | $0.00 | -34.7% | 🟢 |
+| 7 | APOLLO | Apollo AI | -29.85% | $0.00 | -22.8% | 🟢 |
+| 8 | FARTLESS | FARTLESS COIN | -29.08% | $0.00 | +24.2% | 🟢 |
 | 10 | CHARLIE | RIP CHARLIE KIRK | -20.72% | $0.00 | +22.5% | 🟢 |
 | 11 | walkusa | WALKING ACROSS AMERICA | -20.47% | $0.00 | +384.9% | 🟢 |
 
@@ -86,14 +86,13 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 **Signal Distribution**:
 - 👀 **Watch**: 3 tokens
-- 🚀 **Breakout**: 2 tokens
+- 🚀 **Breakout**: 1 tokens
 
 ### 🚀 Breakout Signals
 
 | Symbol | Score | Vol 3v1 | Z-Score Vol | Liq 3d | Streak |
 |--------|-------|---------|-------------|--------|--------|
-| wSOL | 57832.09 | 2.51x | 1.69 | $57.82M | 7d |
-| XBT | 430.91 | 2.10x | 1.74 | $421.14K | 7d |
+| wSOL | 57845.95 | 2.52x | 1.68 | $57.84M | 7d |
 
 ### 👀 Watch List
 
@@ -105,23 +104,23 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 ## 📈 Historical Data
 
-**Total Historical Records**: 474
+**Total Historical Records**: 475
 **Unique Tokens Tracked**: 101
 **Date Range**: 2025-10-01 to 2025-10-07
 
 **Master Aggregations**: 101 tokens
-**Performance Metrics**: 474 records
+**Performance Metrics**: 475 records
 
 ### Available Datasets
 
 | File | Description | Records |
 |------|-------------|---------|
-| [history.csv](data/history.csv) | Complete historical snapshots | 474 |
+| [history.csv](data/history.csv) | Complete historical snapshots | 475 |
 | [master.csv](data/master.csv) | Aggregated per-token metrics | 101 |
-| [performance.csv](data/performance.csv) | Rolling performance indicators | 474 |
-| [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 33 |
+| [performance.csv](data/performance.csv) | Rolling performance indicators | 475 |
+| [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 50 |
 | [new_viable.csv](data/new_viable.csv) | New tokens with potential | 0 |
-| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 5 |
+| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 4 |
 
 ---
 
