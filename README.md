@@ -1,123 +1,125 @@
-# 🌊 Solana Radar - Daily Analysis Dashboard
+# 📊 Solana Radar - Daily Reports
 
-> **Live tracking of top Solana tokens with whale concentration analysis**
+**Last Updated**: 2025-10-07 21:34 UTC
 
-📅 **Latest Data**: 2025-10-07  
-🔄 **Last Updated**: 2025-10-07 18:09 UTC  
-📊 **Data Source**: [Private Radar System](https://github.com/stelios5791) → DexScreener + Helius RPC
+Automated daily analysis of Solana tokens with whale tracking and momentum indicators.
 
 ---
 
-## 📈 Daily Overview
+## 🔥 Today's Top 50 Tokens
 
-| Metric | Value |
-|--------|-------|
-| 🪙 **Tokens Tracked** | 72 |
-| 📊 **Avg Concentration** | 73.86% (top 10 holders) |
-| 📉 **Median Concentration** | 89.06% |
-| 💰 **Total 24h Volume** | $413.89M |
-| 💧 **Avg Liquidity** | $858.57K |
+**Total Tokens**: 35
+**Combined 24h Volume**: $408.89M
+**Combined Liquidity**: $59.31M
 
----
+**Concentration Risk Distribution**:
+- 🟢 Low: 17 tokens
+- 🔴 Extreme: 7 tokens
+- 🟡 High: 6 tokens
+- 🟢 Medium: 4 tokens
+- 🟢 Unknown: 1 tokens
 
-## ⚠️ Risk Distribution
+### Top 10 by Volume
 
-| Risk Level | Count | Percentage | Description |
-|------------|-------|------------|-------------|
-| 🔴 **Critical** | 25 | 34.7% | Top 10 hold >90% |
-| 🟠 **High** | 15 | 20.8% | Top 10 hold 70-90% |
-| 🟡 **Medium** | 9 | 12.5% | Top 10 hold 50-70% |
-| 🟢 **Low** | 22 | 30.6% | Top 10 hold <50% |
+| # | Symbol | Name | Volume 24h | Liquidity | Risk |
+|---|--------|------|------------|-----------|------|
+| 1 | wSOL | Wrapped SOL | $407.85M | $57.70M | 🟢 unknown |
+| 2 | XBT | XBT | $566.74K | $433.41K | 🟢 low |
+| 3 | early | not wrong just early | $121.95K | $34.00K | 🟢 low |
+| 4 | USDUT | unstable tether | $59.11K | $115.19K | 🟢 low |
+| 5 | CHARLIE | RIP CHARLIE KIRK | $45.84K | $99.80K | 🟢 low |
+| 6 | 1nu | 1nu | $38.82K | $35.88K | 🟢 low |
+| 7 | gib | gib | $31.25K | $160.04K | 🟢 low |
+| 8 | Useless | Useless Coin | $27.25K | $57.44K | 🟢 low |
+| 9 | 67 | 67coin | $27.24K | $55.17K | 🟢 low |
+| 10 | SOL | Solana | $26.54K | $11.19K | 🔴 extreme |
 
----
-
-## 🏆 Safety Leaderboard (Lowest Concentration)
-
-| Rank | Symbol | Name | Top 10% | Top 5% | Risk | Liquidity |
-|------|--------|------|---------|--------|------|-----------|
-| 1 | **XBT** | XBT | 21.63% | 15.87% | 🟢 low | $19.58 |
-| 2 | **ELIZABETH** | Just Elizabeth Cat | 25.54% | 16.97% | 🟢 low | $67.93 |
-| 3 | **RAGEGUY** | Rage Guy | 25.66% | 18.07% | 🟢 low | $159.59K |
-| 4 | **CRND** | Crundle | 30.08% | 24.93% | 🟢 low | $58.92K |
-| 5 | **DREAM** | Dreamsync | 32.00% | 17.84% | 🟢 low | $187.37K |
-| 6 | **FARTLESS** | FARTLESS COIN | 32.47% | 27.24% | 🟢 low | $4.28K |
-| 7 | **FLY** | Nexa | 34.30% | 32.54% | 🟢 low | $9.01K |
-| 8 | **USDUT** | unstable tether | 37.75% | 29.49% | 🟢 low | $112.08K |
-| 9 | **1nu** | 1nu | 39.20% | 31.39% | 🟢 low | $36.50K |
-| 10 | **USEFUL** | USEFUL COIN | 40.53% | 33.77% | 🟢 low | $58.44 |
+📄 [Full data: daily_top50.csv](data/daily_top50.csv)
 
 ---
 
-## 🚨 High Risk Alert
+## 🌱 New Viable Tokens (7-14 Days Old)
 
-| Rank | Symbol | Name | Top 10% | Top 5% | Risk |
-|------|--------|------|---------|--------|------|
-| 1 | **VAN** | Man with a Van | 100.00% | 99.96% | 🔴 extreme |
-| 2 | **YOU** | YOU can change your  | 99.99% | 99.93% | 🔴 extreme |
-| 3 | **Hamu** | Hamu | 99.88% | 99.76% | 🔴 extreme |
-| 4 | **2** | TWO IS BETTER THAN O | 99.84% | 99.66% | 🔴 extreme |
-| 5 | **AMG** | ASCII MEME GENERATOR | 99.82% | 99.54% | 🔴 extreme |
-| 6 | **1cat** | 1 cat can change you | 99.72% | 99.24% | 🔴 extreme |
-| 7 | **BITX** | Mega Bitminer X | 99.71% | 0.00% | ⚪ unknown |
-| 8 | **1SOL** | 1 SOL and a dream | 99.68% | 99.48% | 🔴 extreme |
-| 9 | **MMGA** | MAKE MEMES GREAT AGA | 99.24% | 98.73% | 🔴 extreme |
-| 10 | **ORE** | Ore Labs | 99.17% | 0.00% | ⚪ unknown |
+New tokens showing potential with healthy metrics and lower concentration risk.
+
+*No viable new tokens found with current criteria*
 
 ---
 
-## 🔥 Volume Momentum Signals
+## 🎯 Trading Signals (Whale Filtered)
 
-### 🟢 BUY Signals
+Signals filtered to exclude tokens with extreme concentration risk.
 
-| Symbol | Volume Trend | Volume Δ | Price Δ |
-|--------|--------------|----------|--------|
-| **SOL** | explosive | +338.2% | -65.4% |
-| **obvious** | explosive | +209.1% | -7.4% |
-| **FARTLESS** | explosive | +127.6% | -19.5% |
-| **early** | explosive | +100.3% | -66.9% |
+**Signal Distribution**:
+- 👀 **Watch**: 3 tokens
+- 🚀 **Breakout**: 2 tokens
 
-### 🔴 SELL Signals
+### 🚀 Breakout Signals
 
-| Symbol | Volume Trend | Volume Δ | Price Δ |
-|--------|--------------|----------|--------|
-| **1** | declining | -21.4% | +61.1% |
-| **AUSBAGWORK** | declining | -24.2% | +15.9% |
-| **$CrepSol** | declining | -24.4% | -18.9% |
-| **CHARLIE** | declining | -24.8% | -22.1% |
-| **USDUT** | declining | -28.1% | -11.2% |
+| Symbol | Score | Vol 3v1 | Z-Score Vol | Liq 3d | Streak |
+|--------|-------|---------|-------------|--------|--------|
+| wSOL | 57909.60 | 2.52x | 1.68 | $57.90M | 7d |
+| XBT | 427.19 | 2.14x | 1.68 | $417.40K | 7d |
 
----
+### 👀 Watch List
 
-## 🚀 Top Gainers (24h)
+*3 tokens showing elevated activity*
 
-| Symbol | Name | Price Δ | Volume Δ | Price |
-|--------|------|---------|----------|-------|
-| 🚀 **XBT** | XBT | +59.2% | -100.0% | $0.002507 |
-| 📈 **ELIZABETH** | Just Elizabeth  | +31.2% | +80.3% | $0.002298 |
-| 📈 **AUSBAGWORK** | AUSSIE BAG WORK | +15.9% | +103.2% | $0.000020 |
-| 📈 **USEFUL** | USEFUL COIN | +10.8% | -100.0% | $0.000209 |
-| 📈 **RAGEGUY** | Rage Guy | +10.3% | +48.4% | $0.000986 |
+📄 [Full data: signals_filtered.csv](data/signals_filtered.csv)
 
 ---
 
-## 📉 Top Losers (24h)
+## 📈 Historical Data
 
-| Symbol | Name | Price Δ | Volume Δ | Price |
-|--------|------|---------|----------|-------|
-| 💥 **early** | not wrong just  | -66.9% | +393.5% | $0.000067 |
-| 💥 **SOL** | Solana | -65.4% | +9941.6% | $380.990000 |
-| 📉 **RUECAT** | Rue Cat | -47.5% | -52.5% | $0.000245 |
-| 📉 **1nu** | 1nu | -32.5% | +4.7% | $0.000082 |
-| 📉 **1Bull** | One bull run to | -30.0% | -29.0% | $0.000036 |
+**Total Historical Records**: 474
+**Unique Tokens Tracked**: 101
+**Date Range**: 2025-10-01 to 2025-10-07
+
+**Master Aggregations**: 101 tokens
+**Performance Metrics**: 474 records
+
+### Available Datasets
+
+| File | Description | Records |
+|------|-------------|---------|
+| [history.csv](data/history.csv) | Complete historical snapshots | 474 |
+| [master.csv](data/master.csv) | Aggregated per-token metrics | 101 |
+| [performance.csv](data/performance.csv) | Rolling performance indicators | 474 |
+| [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 35 |
+| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 0 |
+| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 5 |
 
 ---
 
-## 📊 Data Files
+## 📋 Data Schema
 
-- **history.csv** - Complete daily snapshots (19 columns)
-- **momentum.csv** - Volume momentum indicators (NEW!)
-- **momentum_signals.csv** - Actionable signals (NEW!)
+### Key Columns
+
+**Market Data**:
+- `price_usd`: Current token price
+- `volume_24h_usd`: 24-hour trading volume
+- `liquidity_usd`: Total liquidity
+- `fdv_usd`: Fully diluted valuation
+
+**Whale Metrics (Holder Concentration)**:
+- `top_10_holders_pct`: % held by top 10 wallets
+- `top_5_holders_pct`: % held by top 5 wallets
+- `holder_concentration`: Rating (critical/high/medium/low)
+- `concentration_risk`: Risk level (extreme/high/medium/low)
+
+**Performance Indicators**:
+- `vol_mom_3v1`: 3-day vs 1-day volume momentum
+- `zscore_vol_10d`: 10-day volume z-score
+- `presence_7d`/`presence_30d`: Days seen in period
+- `current_streak_days`: Consecutive days with data
 
 ---
 
-**Generated by Solana Radar v4.0** | 2025-10-07 18:09 UTC
+## 🔗 Links
+
+- **Data Repository**: [stelios5791/sol-reports](https://github.com/stelios5791/sol-reports)
+- **Analysis Pipeline**: Private repository (automated daily)
+
+---
+
+*Generated automatically by Solana Radar pipeline*
