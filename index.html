@@ -1,136 +1,4 @@
-riskFilter.addEventListener('change', applyFilters);
-            liquidityFilter.addEventListener('input', applyFilters);
-            searchFilter.addEventListener('input', applyFilters);
-        }
-        
-        // Modal Functions
-        function openTokenModal(address) {
-            const modal = document.getElementById('tokenModal');
-            const tokenHistory = fullHistoryData.filter(row => row.address === address);
-            
-            if (tokenHistory.length === 0) {
-                alert('No historical data available for this token');
-                return;
-            }
-            
-            // Sort by date
-            tokenHistory.sort((a, b) => new Date(a.date) - new Date(b.date));
-            
-            const latestData = tokenHistory[tokenHistory.length - 1];
-            const firstData = tokenHistory[0];
-            
-            // Update modal header
-            document.getElementById('modalTitle').textContent = 
-                `${latestData.symbol || 'Unknown'} - ${latestData.name || 'Unknown Token'}`;
-            document.getElementById('modalSubtitle').textContent = 
-                `${address.substring(0, 8)}...${address.substring(address.length - 6)}`;
-            
-            // Calculate stats
-            const daysTracked = tokenHistory.length;
-            const firstSeen = new Date(firstData.date).toLocaleDateString();
-            const lastSeen = new Date(latestData.date).toLocaleDateString();
-            
-            const concentrations = tokenHistory
-                .map(d => d.top_10_holders_pct)
-                .filter(v => v != null && !isNaN(v));
-            
-            const firstConc = concentrations[0] || 0;
-            const lastConc = concentrations[concentrations.length - 1] || 0;
-            const concChange = lastConc - firstConc;
-            const concTrend = concChange > 5 ? '📈 Increasing' : 
-                             concChange < -5 ? '📉 Decreasing' : 
-                             '➡️ Stable';
-            
-            // Generate alerts
-            generateAlerts(tokenHistory, concChange);
-            
-            // Update stats cards
-            const statsHTML = `
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Days Tracked</div>
-                    <div class="modal-stat-value">${daysTracked}</div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">First Seen</div>
-                    <div class="modal-stat-value">${firstSeen}</div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Current Concentration</div>
-                    <div class="modal-stat-value">${lastConc.toFixed(1)}%</div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Trend</div>
-                    <div class="modal-stat-value" style="font-size: 1.2rem;">${concTrend}</div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Change</div>
-                    <div class="modal-stat-value" style="color: ${concChange < 0 ? '#10b981' : '#ef4444'}">
-                        ${concChange > 0 ? '+' : ''}${concChange.toFixed(1)}%
-                    </div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Current Risk</div>
-                    <div class="modal-stat-value">
-                        <span class="risk-badge risk-${latestData.concentration_risk || 'unknown'}" 
-                              style="font-size: 0.9rem; padding: 6px 14px;">
-                            ${(latestData.concentration_risk || 'unknown').toUpperCase()}
-                        </span>
-                    </div>
-                </div>
-            `;
-            document.getElementById('modalStats').innerHTML = statsHTML;
-            
-            // Create charts
-            createModalCharts(tokenHistory);
-            
-            // Show modal
-            modal.style.display = 'block';
-        }
-        
-        function generateAlerts(history, concChange) {
-            const alertsDiv = document.getElementById('modalAlerts');
-            const alerts = [];
-            
-            // Rug pull warning
-            if (concChange > 15) {
-                alerts.push({
-                    type: 'alert',
-                    title: '⚠️ RUG PULL RISK',
-                    message: `Concentration increased by ${concChange.toFixed(1)}% - possible whale accumulation!`
-                });
-            }
-            
-            // Improving decentralization
-            if (concChange < -15) {
-                alerts.push({
-                    type: 'info',
-                    title: '✅ IMPROVING DISTRIBUTION',
-                    message: `Concentration decreased by ${Math.abs(concChange).toFixed(1)}% - better decentralization!`
-                });
-            }
-            
-            // New token
-            if (history.length <= 3) {
-                alerts.push({
-                    type: 'warning',
-                    title: '🆕 NEW TOKEN',
-                    message: `Only ${history.length} days of data - exercise caution with new tokens.`
-                });
-            }
-            
-            // Stable concentration
-            if (Math.abs(concChange) < 2 && history.length > 7) {
-                alerts.push({
-                    type: 'info',
-                    title: 'ℹ️ STABLE PATTERN',
-                    message: 'Concentration has remained stable over time.'
-                });
-            }
-            
-            alertsDiv.innerHTML = alerts.map(alert => `
-                <div class="alert-box ${alert.type}">
-                    <strong>${alert.title}</strong><br>
-                    ${alert.message}<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -899,6 +767,278 @@ riskFilter.addEventListener('change', applyFilters);
             riskFilter.addEventListener('change', applyFilters);
             liquidityFilter.addEventListener('input', applyFilters);
             searchFilter.addEventListener('input', applyFilters);
+        }
+        
+        // Modal Functions
+        function openTokenModal(address) {
+            const modal = document.getElementById('tokenModal');
+            const tokenHistory = fullHistoryData.filter(row => row.address === address);
+            
+            if (tokenHistory.length === 0) {
+                alert('No historical data available for this token');
+                return;
+            }
+            
+            // Sort by date
+            tokenHistory.sort((a, b) => new Date(a.date) - new Date(b.date));
+            
+            const latestData = tokenHistory[tokenHistory.length - 1];
+            const firstData = tokenHistory[0];
+            
+            // Update modal header
+            document.getElementById('modalTitle').textContent = 
+                `${latestData.symbol || 'Unknown'} - ${latestData.name || 'Unknown Token'}`;
+            document.getElementById('modalSubtitle').textContent = 
+                `${address.substring(0, 8)}...${address.substring(address.length - 6)}`;
+            
+            // Calculate stats
+            const daysTracked = tokenHistory.length;
+            const firstSeen = new Date(firstData.date).toLocaleDateString();
+            const lastSeen = new Date(latestData.date).toLocaleDateString();
+            
+            const concentrations = tokenHistory
+                .map(d => d.top_10_holders_pct)
+                .filter(v => v != null && !isNaN(v));
+            
+            const firstConc = concentrations[0] || 0;
+            const lastConc = concentrations[concentrations.length - 1] || 0;
+            const concChange = lastConc - firstConc;
+            const concTrend = concChange > 5 ? '📈 Increasing' : 
+                             concChange < -5 ? '📉 Decreasing' : 
+                             '➡️ Stable';
+            
+            // Generate alerts
+            generateAlerts(tokenHistory, concChange);
+            
+            // Update stats cards
+            const statsHTML = `
+                <div class="modal-stat-card">
+                    <div class="modal-stat-label">Days Tracked</div>
+                    <div class="modal-stat-value">${daysTracked}</div>
+                </div>
+                <div class="modal-stat-card">
+                    <div class="modal-stat-label">First Seen</div>
+                    <div class="modal-stat-value">${firstSeen}</div>
+                </div>
+                <div class="modal-stat-card">
+                    <div class="modal-stat-label">Current Concentration</div>
+                    <div class="modal-stat-value">${lastConc.toFixed(1)}%</div>
+                </div>
+                <div class="modal-stat-card">
+                    <div class="modal-stat-label">Trend</div>
+                    <div class="modal-stat-value" style="font-size: 1.2rem;">${concTrend}</div>
+                </div>
+                <div class="modal-stat-card">
+                    <div class="modal-stat-label">Change</div>
+                    <div class="modal-stat-value" style="color: ${concChange < 0 ? '#10b981' : '#ef4444'}">
+                        ${concChange > 0 ? '+' : ''}${concChange.toFixed(1)}%
+                    </div>
+                </div>
+                <div class="modal-stat-card">
+                    <div class="modal-stat-label">Current Risk</div>
+                    <div class="modal-stat-value">
+                        <span class="risk-badge risk-${latestData.concentration_risk || 'unknown'}" 
+                              style="font-size: 0.9rem; padding: 6px 14px;">
+                            ${(latestData.concentration_risk || 'unknown').toUpperCase()}
+                        </span>
+                    </div>
+                </div>
+            `;
+            document.getElementById('modalStats').innerHTML = statsHTML;
+            
+            // Create charts
+            createModalCharts(tokenHistory);
+            
+            // Show modal
+            modal.style.display = 'block';
+        }
+        
+        function generateAlerts(history, concChange) {
+            const alertsDiv = document.getElementById('modalAlerts');
+            const alerts = [];
+            
+            // Rug pull warning
+            if (concChange > 15) {
+                alerts.push({
+                    type: 'alert',
+                    title: '⚠️ RUG PULL RISK',
+                    message: `Concentration increased by ${concChange.toFixed(1)}% - possible whale accumulation!`
+                });
+            }
+            
+            // Improving decentralization
+            if (concChange < -15) {
+                alerts.push({
+                    type: 'info',
+                    title: '✅ IMPROVING DISTRIBUTION',
+                    message: `Concentration decreased by ${Math.abs(concChange).toFixed(1)}% - better decentralization!`
+                });
+            }
+            
+            // New token
+            if (history.length <= 3) {
+                alerts.push({
+                    type: 'warning',
+                    title: '🆕 NEW TOKEN',
+                    message: `Only ${history.length} days of data - exercise caution with new tokens.`
+                });
+            }
+            
+            // Stable concentration
+            if (Math.abs(concChange) < 2 && history.length > 7) {
+                alerts.push({
+                    type: 'info',
+                    title: 'ℹ️ STABLE PATTERN',
+                    message: 'Concentration has remained stable over time.'
+                });
+            }
+            
+            alertsDiv.innerHTML = alerts.map(alert => `
+                <div class="alert-box ${alert.type}">
+                    <strong>${alert.title}</strong><br>
+                    ${alert.message}
+                </div>
+            `).join('');
+        }
+        
+        function createModalCharts(history) {
+            // Destroy existing charts
+            if (modalCharts.concentration) modalCharts.concentration.destroy();
+            if (modalCharts.priceVolume) modalCharts.priceVolume.destroy();
+            
+            const dates = history.map(d => new Date(d.date).toLocaleDateString());
+            const top10 = history.map(d => d.top_10_holders_pct ?? null);
+            const top5 = history.map(d => d.top_5_holders_pct ?? null);
+            const prices = history.map(d => d.price_usd ?? null);
+            const volumes = history.map(d => d.volume_24h_usd ?? null);
+            
+            // Concentration Chart
+            modalCharts.concentration = new Chart(
+                document.getElementById('modalConcentrationChart'),
+                {
+                    type: 'line',
+                    data: {
+                        labels: dates,
+                        datasets: [
+                            {
+                                label: 'Top 10 Holders %',
+                                data: top10,
+                                borderColor: '#ef4444',
+                                backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                                tension: 0.4,
+                                fill: true
+                            },
+                            {
+                                label: 'Top 5 Holders %',
+                                data: top5,
+                                borderColor: '#f59e0b',
+                                backgroundColor: 'rgba(245, 158, 11, 0.1)',
+                                tension: 0.4,
+                                fill: true
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                labels: { color: '#fff' }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                ticks: { color: '#fff' },
+                                grid: { color: 'rgba(255,255,255,0.1)' }
+                            },
+                            y: {
+                                ticks: { color: '#fff' },
+                                grid: { color: 'rgba(255,255,255,0.1)' },
+                                min: 0,
+                                max: 100
+                            }
+                        }
+                    }
+                }
+            );
+            
+            // Price & Volume Chart
+            modalCharts.priceVolume = new Chart(
+                document.getElementById('modalPriceVolumeChart'),
+                {
+                    type: 'line',
+                    data: {
+                        labels: dates,
+                        datasets: [
+                            {
+                                label: 'Price (USD)',
+                                data: prices,
+                                borderColor: '#10b981',
+                                backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                                yAxisID: 'y',
+                                tension: 0.4
+                            },
+                            {
+                                label: '24h Volume (USD)',
+                                data: volumes,
+                                borderColor: '#3b82f6',
+                                backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                                yAxisID: 'y1',
+                                tension: 0.4
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                labels: { color: '#fff' }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                ticks: { color: '#fff' },
+                                grid: { color: 'rgba(255,255,255,0.1)' }
+                            },
+                            y: {
+                                type: 'linear',
+                                position: 'left',
+                                ticks: { color: '#fff' },
+                                grid: { color: 'rgba(255,255,255,0.1)' },
+                                title: {
+                                    display: true,
+                                    text: 'Price (USD)',
+                                    color: '#fff'
+                                }
+                            },
+                            y1: {
+                                type: 'linear',
+                                position: 'right',
+                                ticks: { color: '#fff' },
+                                grid: { display: false },
+                                title: {
+                                    display: true,
+                                    text: 'Volume (USD)',
+                                    color: '#fff'
+                                }
+                            }
+                        }
+                    }
+                }
+            );
+        }
+        
+        function closeModal() {
+            document.getElementById('tokenModal').style.display = 'none';
+        }
+        
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('tokenModal');
+            if (event.target === modal) {
+                closeModal();
+            }
         }
     </script>
 </body>
