@@ -392,7 +392,14 @@
             const total = allTokens.length;
             const extreme = allTokens.filter(t => t.concentration_risk === 'extreme').length;
             const safe = allTokens.filter(t => ['low', 'medium'].includes(t.concentration_risk)).length;
-            const avgConc = (allTokens.reduce((sum, t) => sum + t.top_10_holders_pct, 0) / total).toFixed(1);
+            
+            // Safe average calculation
+            const validConcentrations = allTokens
+                .map(t => t.top_10_holders_pct)
+                .filter(v => v != null && !isNaN(v));
+            const avgConc = validConcentrations.length > 0 
+                ? (validConcentrations.reduce((sum, v) => sum + v, 0) / validConcentrations.length).toFixed(1)
+                : '0.0';
             
             document.getElementById('totalTokens').textContent = total;
             document.getElementById('extremeRisk').textContent = extreme;
@@ -405,20 +412,24 @@
                 extreme: 0,
                 high: 0,
                 medium: 0,
-                low: 0
+                low: 0,
+                unknown: 0
             };
             
             allTokens.forEach(t => {
-                riskCounts[t.concentration_risk]++;
+                const risk = t.concentration_risk || 'unknown';
+                if (risk in riskCounts) {
+                    riskCounts[risk]++;
+                }
             });
             
             new Chart(document.getElementById('riskChart'), {
                 type: 'doughnut',
                 data: {
-                    labels: ['Extreme Risk', 'High Risk', 'Medium Risk', 'Low Risk'],
+                    labels: ['Extreme Risk', 'High Risk', 'Medium Risk', 'Low Risk', 'Unknown'],
                     datasets: [{
-                        data: [riskCounts.extreme, riskCounts.high, riskCounts.medium, riskCounts.low],
-                        backgroundColor: ['#ef4444', '#f59e0b', '#eab308', '#10b981']
+                        data: [riskCounts.extreme, riskCounts.high, riskCounts.medium, riskCounts.low, riskCounts.unknown],
+                        backgroundColor: ['#ef4444', '#f59e0b', '#eab308', '#10b981', '#6b7280']
                     }]
                 },
                 options: {
@@ -432,23 +443,32 @@
                 }
             });
             
+            // Filter out tokens with null values for scatter plot
+            const validTokens = allTokens.filter(t => 
+                t.top_10_holders_pct != null && 
+                t.top_5_holders_pct != null &&
+                !isNaN(t.top_10_holders_pct) &&
+                !isNaN(t.top_5_holders_pct)
+            );
+            
             new Chart(document.getElementById('concentrationChart'), {
                 type: 'scatter',
                 data: {
                     datasets: [{
                         label: 'Tokens',
-                        data: allTokens.map(t => ({
+                        data: validTokens.map(t => ({
                             x: t.top_10_holders_pct,
                             y: t.top_5_holders_pct
                         })),
-                        backgroundColor: allTokens.map(t => {
+                        backgroundColor: validTokens.map(t => {
                             const colors = {
                                 extreme: '#ef4444',
                                 high: '#f59e0b',
                                 medium: '#eab308',
-                                low: '#10b981'
+                                low: '#10b981',
+                                unknown: '#6b7280'
                             };
-                            return colors[t.concentration_risk];
+                            return colors[t.concentration_risk] || colors.unknown;
                         })
                     }]
                 },
@@ -479,15 +499,22 @@
             tbody.innerHTML = '';
             
             filteredTokens.forEach(token => {
+                // Safe value extraction with defaults
+                const top10 = token.top_10_holders_pct ?? 0;
+                const top5 = token.top_5_holders_pct ?? 0;
+                const liq = token.liquidity_usd ?? 0;
+                const vol = token.volume_24h_usd ?? 0;
+                const risk = token.concentration_risk || 'unknown';
+                
                 const row = tbody.insertRow();
                 row.innerHTML = `
-                    <td><strong>${token.symbol}</strong></td>
-                    <td>${token.name}</td>
-                    <td>${token.top_10_holders_pct.toFixed(2)}%</td>
-                    <td>${token.top_5_holders_pct.toFixed(2)}%</td>
-                    <td><span class="risk-badge risk-${token.concentration_risk}">${token.concentration_risk}</span></td>
-                    <td>$${token.liquidity_usd.toLocaleString()}</td>
-                    <td>$${token.volume_24h_usd.toLocaleString()}</td>
+                    <td><strong>${token.symbol || 'N/A'}</strong></td>
+                    <td>${token.name || 'Unknown'}</td>
+                    <td>${top10.toFixed(2)}%</td>
+                    <td>${top5.toFixed(2)}%</td>
+                    <td><span class="risk-badge risk-${risk}">${risk}</span></td>
+                    <td>${liq.toLocaleString()}</td>
+                    <td>${vol.toLocaleString()}</td>
                 `;
             });
         }
