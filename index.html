@@ -305,23 +305,79 @@
         let sortColumn = 'top_10_holders_pct';
         let sortAscending = true;
         
-        // Load data from GitHub repo
+        // Sample data για fallback
+        const sampleCSV = `date,symbol,name,address,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,source,data_status,missing_streak,top_10_holders_pct,top_5_holders_pct,holder_concentration,concentration_risk
+2025-10-08,FLY,Nexa,9NcUwy9JVekfsY4UA62ZaTprn4TDnJZwp5B6vMAAtkzt,0.015,42.43,8555.11,5401.0,dexscreener,ok,0,34.3,32.53,low,low
+2025-10-08,PROFIT,Profit Protocol,HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,1.897e-06,1.19,2937.81,897.0,dexscreener,ok,0,96.18,89.55,high,high
+2025-10-08,BULLCOIN,BULLCOIN,4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,5.941e-06,1.14,9890.32,5936.0,dexscreener,ok,0,96.61,95.03,critical,extreme
+2025-10-08,Bagwork,African Bagwork,6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,5.25e-06,0.64,9864.69,5217.0,dexscreener,ok,0,97.14,96.1,critical,extreme
+2025-10-08,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.73e-06,1.61,11206.94,5728.0,dexscreener,ok,0,98.53,98.05,critical,extreme
+2025-10-08,1% Club,The 1% Club,HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,4.151e-06,2.18,6766.39,4151.0,dexscreener,ok,0,98.06,94.3,critical,extreme
+2025-10-08,Hamu,HamuES,Jy7EVySoXbYvkq1V2RcDXYUicyZVe8hBHQeoDQpump,6.425e-06,2.55,0.0,6425.66,dexscreener,ok,0,99.88,99.76,critical,extreme
+2025-10-08,Jewcat,Jewish Cat,7oBcd1aAkUjUTcfZsR3rQvnG5oMPDzjX9uDnRVn6pump,6.348e-06,2.14,0.0,6348.1,dexscreener,ok,0,99.83,99.61,critical,extreme
+2025-10-08,1SOL,1 SOL and a dream,8D7n3WYZxUkmhUPveQU4XZdqLfDe4XLEEpPToAk4pump,6.635e-06,1.9,0.0,6635.33,dexscreener,ok,0,99.68,99.48,critical,extreme
+2025-10-08,VAN,Man with a Van,4e3Qx8W2HoNQLh8zssRzNuwbatGnChzKee6gN63Zpump,6.285e-06,1.47,0.0,6285.01,dexscreener,ok,0,100.0,99.96,critical,extreme`;
+        
+        // Try loading from GitHub, fallback to sample data
         const csvUrl = 'https://raw.githubusercontent.com/stelios5791/sol-reports/main/data/history.csv';
         
+        // Προσπάθεια φόρτωσης από GitHub
         Papa.parse(csvUrl, {
             download: true,
             header: true,
             dynamicTyping: true,
             skipEmptyLines: true,
             complete: function(results) {
-                allTokens = results.data.filter(row => row.symbol && row.concentration_risk);
-                filteredTokens = [...allTokens];
-                initDashboard();
+                if (results.data && results.data.length > 0) {
+                    // Group by address, keep latest date only
+                    const grouped = {};
+                    results.data.forEach(row => {
+                        if (row.address && row.concentration_risk) {
+                            const addr = row.address;
+                            const date = new Date(row.date);
+                            if (!grouped[addr] || new Date(grouped[addr].date) < date) {
+                                grouped[addr] = row;
+                            }
+                        }
+                    });
+                    
+                    allTokens = Object.values(grouped);
+                    filteredTokens = [...allTokens];
+                    initDashboard();
+                    document.getElementById('loading').innerHTML = 
+                        `<span style="color: #10b981;">✓ Loaded ${allTokens.length} tokens from GitHub (latest snapshot)</span>`;
+                    setTimeout(() => {
+                        document.getElementById('loading').style.display = 'none';
+                        document.getElementById('tokenTable').style.display = 'table';
+                    }, 1000);
+                } else {
+                    loadSampleData();
+                }
             },
             error: function(error) {
-                document.getElementById('loading').textContent = 'Error loading data: ' + error.message;
+                console.error('GitHub load failed:', error);
+                loadSampleData();
             }
         });
+        
+        function loadSampleData() {
+            Papa.parse(sampleCSV, {
+                header: true,
+                dynamicTyping: true,
+                skipEmptyLines: true,
+                complete: function(results) {
+                    allTokens = results.data;
+                    filteredTokens = [...allTokens];
+                    initDashboard();
+                    document.getElementById('loading').innerHTML = 
+                        `<span style="color: #f59e0b;">⚠ Using sample data. To load live data, deploy this HTML to the sol-reports repo.</span>`;
+                    setTimeout(() => {
+                        document.getElementById('loading').style.opacity = '0.7';
+                        document.getElementById('tokenTable').style.display = 'table';
+                    }, 1000);
+                }
+            });
+        }
         
         function initDashboard() {
             updateStats();
