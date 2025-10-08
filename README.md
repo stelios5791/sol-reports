@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Daily Reports
 
-**Last Updated**: 2025-10-07 23:06 UTC
+**Last Updated**: 2025-10-08 08:37 UTC
 
 Automated daily analysis of Solana tokens with whale tracking and momentum indicators.
 
@@ -9,12 +9,12 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 ## 🔥 Today's Top 50 Tokens
 
 **Total Tokens**: 50
-**Combined 24h Volume**: $407.82M
-**Combined Liquidity**: $61.01M
+**Combined 24h Volume**: $393.08M
+**Combined Liquidity**: $63.71M
 
 **Concentration Risk Distribution**:
-- 🔴 Extreme: 20 tokens
-- 🟢 Low: 13 tokens
+- 🔴 Extreme: 19 tokens
+- 🟢 Low: 14 tokens
 - 🟡 High: 10 tokens
 - 🟢 Medium: 6 tokens
 - 🟢 Unknown: 1 tokens
@@ -23,16 +23,16 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $407.32M | $57.51M | 🟢 unknown |
-| 2 | AI4 | AI⁴ | $179.87K | $94.43K | 🟢 low |
-| 3 | DREAM | Dreamsync | $111.27K | $176.39K | 🟢 low |
-| 4 | RAGEGUY | Rage Guy | $76.00K | $152.97K | 🟢 low |
-| 5 | 1nu | 1nu | $39.55K | $35.12K | 🟢 low |
-| 6 | LION | Loaded Lions | $26.54K | $2.06M | 🟢 low |
-| 7 | SOL | Solana | $26.54K | $11.19K | 🔴 extreme |
-| 8 | RUECAT | Rue Cat | $12.02K | $62.54K | 🟢 low |
-| 9 | HAROLD | Harold | $10.54K | $572.07K | 🟢 medium |
-| 10 | SHITTER | SHITTERCOIN | $4.40K | $22.19K | 🟢 medium |
+| 1 | wSOL | Wrapped SOL | $392.69M | $57.48M | 🟢 unknown |
+| 2 | AI4 | AI⁴ | $176.06K | $97.82K | 🟢 low |
+| 3 | RAGEGUY | Rage Guy | $81.77K | $137.63K | 🟢 low |
+| 4 | HAROLD | Harold | $41.31K | $543.53K | 🟢 medium |
+| 5 | 1nu | 1nu | $27.78K | $31.22K | 🟢 low |
+| 6 | LION | Loaded Lions | $24.55K | $2.08M | 🟢 low |
+| 7 | DREAM | Dreamsync | $11.76K | $177.75K | 🟢 low |
+| 8 | RUECAT | Rue Cat | $10.72K | $61.53K | 🟢 low |
+| 9 | SHITTER | SHITTERCOIN | $4.63K | $21.36K | 🟢 medium |
+| 10 | FARTLESS | FARTLESS COIN | $2.88K | $4.13K | 🟢 low |
 
 📄 [Full data: daily_top50.csv](data/daily_top50.csv)
 
@@ -42,7 +42,22 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 
 New tokens showing potential with healthy metrics and lower concentration risk.
 
-*No viable new tokens found with current criteria*
+**Found**: 3 viable new tokens
+
+**Criteria**:
+- First seen 7-14 days ago
+- Volume > $50K
+- Liquidity > $100K
+- Missing streak < 2 (stable presence)
+- Concentration risk: low/medium
+
+| Symbol | Name | Age (days) | Volume 24h | Liquidity | Top 10% |
+|--------|------|------------|------------|-----------|---------|
+| wSOL | Wrapped SOL | 7 | $392.69M | $57.48M | 0.00% |
+| RAGEGUY | Rage Guy | 7 | $81.77K | $137.63K | 26.91% |
+| USDUT | unstable tether | 7 | $57.89K | $114.66K | 37.30% |
+
+📄 [Full data: new_viable.csv](data/new_viable.csv)
 
 ---
 
@@ -50,31 +65,17 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 Tokens with significant price or volume changes in the last 24 hours.
 
-**Total Movers**: 25
-- 🚀 **Gainers** (>+20%): 1
-- 📉 **Losers** (<-20%): 11
-- 📊 **Volume Spikes** (>+100%): 16
-
-### 🚀 Top Gainers
-
-| # | Symbol | Name | Change 24h | Current Price | Volume Change | Risk |
-|---|--------|------|------------|---------------|---------------|------|
-| 9 | XBT | XBT | +25.84% | $0.00 | -100.0% | 🟢 |
+**Total Movers**: 9
+- 🚀 **Gainers** (>+20%): 0
+- 📉 **Losers** (<-20%): 2
+- 📊 **Volume Spikes** (>+100%): 7
 
 ### 📉 Biggest Losers
 
 | # | Symbol | Name | Change 24h | Current Price | Volume Change | Risk |
 |---|--------|------|------------|---------------|---------------|------|
-| 1 | early | not wrong just early | -70.64% | $0.00 | +376.0% | 🟢 |
-| 2 | SOL | Solana | -63.56% | $400.92 | +10185.4% | 🔴 |
-| 3 | RUECAT | Rue Cat | -47.94% | $0.00 | -53.1% | 🟢 |
-| 4 | 1nu | 1nu | -37.50% | $0.00 | -5.4% | 🟢 |
-| 5 | T-2049 | Token 2049 | -31.57% | $0.00 | +7.4% | 🟢 |
-| 6 | 1Bull | One bull run to change yo | -30.41% | $0.00 | -34.7% | 🟢 |
-| 7 | APOLLO | Apollo AI | -29.85% | $0.00 | -22.8% | 🟢 |
-| 8 | FARTLESS | FARTLESS COIN | -29.08% | $0.00 | +24.2% | 🟢 |
-| 10 | CHARLIE | RIP CHARLIE KIRK | -20.72% | $0.00 | +22.5% | 🟢 |
-| 11 | walkusa | WALKING ACROSS AMERICA | -20.47% | $0.00 | +384.9% | 🟢 |
+| 1 | 1nu | 1nu | -26.57% | $0.00 | -28.3% | 🟢 |
+| 2 | RAGEGUY | Rage Guy | -23.43% | $0.00 | +10.8% | 🟢 |
 
 📄 [Full data: top_movers.csv](data/top_movers.csv)
 
@@ -86,13 +87,6 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 **Signal Distribution**:
 - 👀 **Watch**: 3 tokens
-- 🚀 **Breakout**: 1 tokens
-
-### 🚀 Breakout Signals
-
-| Symbol | Score | Vol 3v1 | Z-Score Vol | Liq 3d | Streak |
-|--------|-------|---------|-------------|--------|--------|
-| wSOL | 57845.95 | 2.52x | 1.68 | $57.84M | 7d |
 
 ### 👀 Watch List
 
@@ -104,23 +98,23 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 ## 📈 Historical Data
 
-**Total Historical Records**: 475
+**Total Historical Records**: 524
 **Unique Tokens Tracked**: 101
-**Date Range**: 2025-10-01 to 2025-10-07
+**Date Range**: 2025-10-01 to 2025-10-08
 
 **Master Aggregations**: 101 tokens
-**Performance Metrics**: 475 records
+**Performance Metrics**: 524 records
 
 ### Available Datasets
 
 | File | Description | Records |
 |------|-------------|---------|
-| [history.csv](data/history.csv) | Complete historical snapshots | 475 |
+| [history.csv](data/history.csv) | Complete historical snapshots | 524 |
 | [master.csv](data/master.csv) | Aggregated per-token metrics | 101 |
-| [performance.csv](data/performance.csv) | Rolling performance indicators | 475 |
+| [performance.csv](data/performance.csv) | Rolling performance indicators | 524 |
 | [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 50 |
-| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 0 |
-| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 4 |
+| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 3 |
+| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 3 |
 
 ---
 

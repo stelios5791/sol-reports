@@ -1,26 +1,10 @@
 address,symbol,name,category,price_change_24h_pct,volume_change_24h_pct,current_price,yesterday_price,volume_24h,volume_yesterday,liquidity_usd,concentration_risk,rank
-7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,early,not wrong just early,"loser, volume_spike",-70.64,375.99,5.961e-05,0.000203,119186.84,25039.59,33190.12,low,1
-9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,SOL,Solana,"loser, volume_spike",-63.56,10185.39,400.92,1100.18,26538.36,258.02,11189.13,extreme,2
-AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,RUECAT,Rue Cat,loser,-47.94,-53.09,0.0002431,0.000467,12016.42,25617.45,62539.88,low,3
-44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,1nu,1nu,loser,-37.5,-5.44,7.612e-05,0.0001218,39547.15,41820.82,35119.83,low,4
-2UfyNHveDrYDogW1LypkworjhYVEte8tLDqRTZbguPLx,T-2049,Token 2049,loser,-31.57,7.37,4.928e-05,7.201e-05,7446.66,6935.31,56711.84,medium,5
-EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,1Bull,One bull run to change your life,loser,-30.41,-34.74,3.559e-05,5.114e-05,2967.26,4546.79,24638.22,medium,6
-6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,APOLLO,Apollo AI,loser,-29.85,-22.75,6.638e-06,9.463e-06,469.3,607.51,5464.18,medium,7
-FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,FARTLESS,FARTLESS COIN,loser,-29.08,24.23,0.0009659,0.001362,3810.14,3066.95,4020.52,low,8
-A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,XBT,XBT,gainer,25.84,-100.0,0.001982,0.001575,6.41,437730.56,17.4,low,9
-CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,CHARLIE,RIP CHARLIE KIRK,loser,-20.72,22.52,0.0002254,0.0002843,45372.68,37031.86,98585.46,low,10
-3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,walkusa,WALKING ACROSS AMERICA,"loser, volume_spike",-20.47,384.91,6.12e-05,7.695e-05,4800.56,990.0,34681.65,low,11
-14GMPMf3cRANLfJ9QYU19F5XogVGPjCB7f3NLACrpump,DETECTIVE,Just can't prove it,loser,-20.31,-55.43,2.095e-05,2.629e-05,6039.99,13550.33,19320.51,medium,12
-9h5y3WCqfeNt2fiAP7iM2ZRp9apFb58ipvTzcWi9pump,AUSBAGWORK,AUSSIE BAG WORKERS,volume_spike,18.3,105.11,2.049e-05,1.732e-05,719.47,350.77,21903.81,high,13
-Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,BAR,BullArena,volume_spike,-13.8,104.09,0.0001974,0.000229,18576.9,9102.31,56811.35,low,14
-qG9NJP4pgFxWWfpFWV7GcYkTKyafDGsnUGCDZLRpump,1,1 pill can change your life,volume_spike,10.96,171.38,5.284e-06,4.762e-06,914.16,336.86,9407.36,extreme,15
-4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,MOCHI,MOCHI CULT,volume_spike,-10.63,3476.27,1.32e-05,1.477e-05,302.91,8.47,21945.43,high,16
-LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,volume_spike,-8.38,1594.51,9.858e-06,1.076e-05,178.94,10.56,14118.14,high,17
-EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,obvious,in hindsight,volume_spike,-7.4,8539.69,5.183e-06,5.597e-06,113.18,1.31,9216.54,extreme,18
-4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,grandma,101 Year Old Pumpfun Livestreamr,volume_spike,-6.93,594.74,1.007e-05,1.082e-05,780.47,112.34,14792.34,high,19
-GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,IDIOT,IDIOT,volume_spike,-6.45,5319.28,1.755e-05,1.876e-05,1661.55,30.66,18509.46,medium,20
-9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,FARTWORM,FARTWORM,volume_spike,-5.43,254.72,9.523e-06,1.007e-05,275.69,77.72,12846.26,high,21
-8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,1cat,1 cat can change your life,volume_spike,-4.62,104.1,6.461e-06,6.774e-06,7.47,3.66,0.0,extreme,22
-7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,JIFFPOM,Jiffpom,volume_spike,-3.92,100.63,7.67e-06,7.983e-06,16.03,7.99,12532.86,extreme,23
-447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,FALCONS,THE FALCONS,volume_spike,-2.5,235.88,5.701e-06,5.847e-06,4.4,1.31,11007.12,extreme,24
-8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,viewer,in a streamers world,volume_spike,-1.46,418.3,5.319e-06,5.398e-06,7.93,1.53,9823.86,extreme,25
+44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,1nu,1nu,loser,-26.57,-28.34,6.01e-05,8.185e-05,27777.93,38765.52,31221.03,low,1
+GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,RAGEGUY,Rage Guy,loser,-23.43,10.85,0.0007362,0.0009615,81772.98,73766.54,137625.75,low,2
+7N8qk43L1PCcaqudkEasGpKqcunX1ChXYo2VB1g8bonk,RWA,Real World Asses,volume_spike,15.98,39409.21,8.827e-08,7.611e-08,300.27,0.76,8694.4,high,3
+VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,YAO,YAO MING,volume_spike,-11.81,114.53,0.0001045,0.0001185,30.57,14.25,771.19,low,4
+3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,HAROLD,Harold,volume_spike,-8.5,289.25,0.003467,0.003789,41314.08,10613.67,543530.58,medium,5
+GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,pibble,pibble,volume_spike,-4.52,107.66,5.256e-06,5.505e-06,102.52,49.37,8008.8,high,6
+4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,REVIVE,reviving the memes,volume_spike,-4.21,455.17,5.73e-06,5.982e-06,1.61,0.29,11206.94,extreme,7
+8ghXDEBVbbYtfdV2cU8jpqsNmiZtDkSjBYmRzj8cpump,1cat,1 cat can change your life,volume_spike,-3.98,662.24,6.461e-06,6.729e-06,7.47,0.98,0.0,extreme,8
+9zFU5vR7YNBzZU8HwJLUKjoDEonpgvHUdLbMgBa7pump,FARTWORM,FARTWORM,volume_spike,-0.74,423.0,9.27e-06,9.339e-06,281.53,53.83,12629.72,high,9
