@@ -706,6 +706,8 @@
                 const risk = token.concentration_risk || 'unknown';
                 
                 const row = tbody.insertRow();
+                row.className = 'clickable-row';
+                row.onclick = () => openTokenModal(token.address);
                 row.innerHTML = `
                     <td><strong>${token.symbol || 'N/A'}</strong></td>
                     <td>${token.name || 'Unknown'}</td>
