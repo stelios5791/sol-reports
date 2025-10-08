@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Daily Reports
 
-**Last Updated**: 2025-10-08 21:51 UTC
+**Last Updated**: 2025-10-08 21:57 UTC
 
 Automated daily analysis of Solana tokens with whale tracking and momentum indicators.
 
@@ -9,8 +9,8 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 ## 🔥 Today's Top 50 Tokens
 
 **Total Tokens**: 50
-**Combined 24h Volume**: $343.47M
-**Combined Liquidity**: $64.95M
+**Combined 24h Volume**: $343.23M
+**Combined Liquidity**: $64.91M
 
 **Concentration Risk Distribution**:
 - 🔴 Extreme: 21 tokens
@@ -23,14 +23,14 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $342.90M | $58.63M | 🟢 unknown |
-| 2 | AI4 | AI⁴ | $156.55K | $99.84K | 🟢 low |
+| 1 | wSOL | Wrapped SOL | $342.66M | $58.59M | 🟢 unknown |
+| 2 | AI4 | AI⁴ | $156.25K | $99.78K | 🟢 low |
 | 3 | DREAM | Dreamsync | $96.63K | $184.66K | 🟢 low |
 | 4 | AI20X | Ai20x.ai | $90.87K | $2.74M | 🟢 low |
-| 5 | RAGEGUY | Rage Guy | $88.23K | $147.79K | 🟢 low |
+| 5 | RAGEGUY | Rage Guy | $88.24K | $146.45K | 🟢 low |
 | 6 | LION | Loaded Lions | $49.14K | $2.11M | 🟢 low |
 | 7 | HAROLD | Harold | $42.12K | $558.53K | 🟢 medium |
-| 8 | 1nu | 1nu | $27.56K | $33.13K | 🟢 low |
+| 8 | 1nu | 1nu | $27.45K | $33.13K | 🟢 low |
 | 9 | $CrepSol | Crepe on Solana | $5.95K | $27.65K | 🟢 low |
 | 10 | SHITTER | SHITTERCOIN | $4.02K | $22.73K | 🟢 medium |
 
@@ -53,10 +53,10 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 | Symbol | Name | Age (days) | Volume 24h | Liquidity | Top 10% |
 |--------|------|------------|------------|-----------|---------|
-| wSOL | Wrapped SOL | 7 | $342.90M | $58.63M | 0.00% |
+| wSOL | Wrapped SOL | 7 | $342.66M | $58.59M | 0.00% |
 | DREAM | Dreamsync | 7 | $96.63K | $184.66K | 32.23% |
 | AI20X | Ai20x.ai | 7 | $90.87K | $2.74M | 41.38% |
-| RAGEGUY | Rage Guy | 7 | $88.23K | $147.79K | 27.40% |
+| RAGEGUY | Rage Guy | 7 | $88.24K | $146.45K | 27.40% |
 | USDUT | unstable tether | 7 | $57.89K | $114.66K | 37.30% |
 
 📄 [Full data: new_viable.csv](data/new_viable.csv)
