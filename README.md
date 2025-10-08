@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Daily Reports
 
-**Last Updated**: 2025-10-08 08:37 UTC
+**Last Updated**: 2025-10-08 20:17 UTC
 
 Automated daily analysis of Solana tokens with whale tracking and momentum indicators.
 
@@ -9,30 +9,30 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 ## 🔥 Today's Top 50 Tokens
 
 **Total Tokens**: 50
-**Combined 24h Volume**: $393.08M
-**Combined Liquidity**: $63.71M
+**Combined 24h Volume**: $340.74M
+**Combined Liquidity**: $65.05M
 
 **Concentration Risk Distribution**:
-- 🔴 Extreme: 19 tokens
-- 🟢 Low: 14 tokens
-- 🟡 High: 10 tokens
-- 🟢 Medium: 6 tokens
+- 🔴 Extreme: 21 tokens
+- 🟢 Low: 15 tokens
+- 🟡 High: 9 tokens
+- 🟢 Medium: 4 tokens
 - 🟢 Unknown: 1 tokens
 
 ### Top 10 by Volume
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $392.69M | $57.48M | 🟢 unknown |
-| 2 | AI4 | AI⁴ | $176.06K | $97.82K | 🟢 low |
-| 3 | RAGEGUY | Rage Guy | $81.77K | $137.63K | 🟢 low |
-| 4 | HAROLD | Harold | $41.31K | $543.53K | 🟢 medium |
-| 5 | 1nu | 1nu | $27.78K | $31.22K | 🟢 low |
-| 6 | LION | Loaded Lions | $24.55K | $2.08M | 🟢 low |
-| 7 | DREAM | Dreamsync | $11.76K | $177.75K | 🟢 low |
-| 8 | RUECAT | Rue Cat | $10.72K | $61.53K | 🟢 low |
-| 9 | SHITTER | SHITTERCOIN | $4.63K | $21.36K | 🟢 medium |
-| 10 | FARTLESS | FARTLESS COIN | $2.88K | $4.13K | 🟢 low |
+| 1 | wSOL | Wrapped SOL | $340.17M | $58.73M | 🟢 unknown |
+| 2 | AI4 | AI⁴ | $160.45K | $97.97K | 🟢 low |
+| 3 | DREAM | Dreamsync | $96.61K | $184.29K | 🟢 low |
+| 4 | AI20X | Ai20x.ai | $90.87K | $2.74M | 🟢 low |
+| 5 | RAGEGUY | Rage Guy | $88.55K | $153.17K | 🟢 low |
+| 6 | LION | Loaded Lions | $50.60K | $2.11M | 🟢 low |
+| 7 | HAROLD | Harold | $40.71K | $558.81K | 🟢 medium |
+| 8 | 1nu | 1nu | $27.63K | $30.57K | 🟢 low |
+| 9 | $CrepSol | Crepe on Solana | $5.87K | $28.15K | 🟢 low |
+| 10 | SHITTER | SHITTERCOIN | $4.42K | $22.73K | 🟢 medium |
 
 📄 [Full data: daily_top50.csv](data/daily_top50.csv)
 
@@ -42,7 +42,7 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 
 New tokens showing potential with healthy metrics and lower concentration risk.
 
-**Found**: 3 viable new tokens
+**Found**: 6 viable new tokens
 
 **Criteria**:
 - First seen 7-14 days ago
@@ -53,9 +53,12 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 | Symbol | Name | Age (days) | Volume 24h | Liquidity | Top 10% |
 |--------|------|------------|------------|-----------|---------|
-| wSOL | Wrapped SOL | 7 | $392.69M | $57.48M | 0.00% |
-| RAGEGUY | Rage Guy | 7 | $81.77K | $137.63K | 26.91% |
+| wSOL | Wrapped SOL | 7 | $340.17M | $58.73M | 0.00% |
+| DREAM | Dreamsync | 7 | $96.61K | $184.29K | 32.23% |
+| AI20X | Ai20x.ai | 7 | $90.87K | $2.74M | 41.38% |
+| RAGEGUY | Rage Guy | 7 | $88.55K | $153.17K | 27.04% |
 | USDUT | unstable tether | 7 | $57.89K | $114.66K | 37.30% |
+| LION | Loaded Lions | 7 | $50.60K | $2.11M | 57.84% |
 
 📄 [Full data: new_viable.csv](data/new_viable.csv)
 
@@ -65,17 +68,22 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 Tokens with significant price or volume changes in the last 24 hours.
 
-**Total Movers**: 9
-- 🚀 **Gainers** (>+20%): 0
-- 📉 **Losers** (<-20%): 2
-- 📊 **Volume Spikes** (>+100%): 7
+**Total Movers**: 11
+- 🚀 **Gainers** (>+20%): 1
+- 📉 **Losers** (<-20%): 1
+- 📊 **Volume Spikes** (>+100%): 10
+
+### 🚀 Top Gainers
+
+| # | Symbol | Name | Change 24h | Current Price | Volume Change | Risk |
+|---|--------|------|------------|---------------|---------------|------|
+| 1 | $CrepSol | Crepe on Solana | +55.53% | $0.00 | +222.2% | 🟢 |
 
 ### 📉 Biggest Losers
 
 | # | Symbol | Name | Change 24h | Current Price | Volume Change | Risk |
 |---|--------|------|------------|---------------|---------------|------|
-| 1 | 1nu | 1nu | -26.57% | $0.00 | -28.3% | 🟢 |
-| 2 | RAGEGUY | Rage Guy | -23.43% | $0.00 | +10.8% | 🟢 |
+| 2 | 1nu | 1nu | -29.73% | $0.00 | -28.7% | 🟢 |
 
 📄 [Full data: top_movers.csv](data/top_movers.csv)
 
@@ -86,11 +94,11 @@ Tokens with significant price or volume changes in the last 24 hours.
 Signals filtered to exclude tokens with extreme concentration risk.
 
 **Signal Distribution**:
-- 👀 **Watch**: 3 tokens
+- 👀 **Watch**: 5 tokens
 
 ### 👀 Watch List
 
-*3 tokens showing elevated activity*
+*5 tokens showing elevated activity*
 
 📄 [Full data: signals_filtered.csv](data/signals_filtered.csv)
 
@@ -113,8 +121,8 @@ Signals filtered to exclude tokens with extreme concentration risk.
 | [master.csv](data/master.csv) | Aggregated per-token metrics | 101 |
 | [performance.csv](data/performance.csv) | Rolling performance indicators | 524 |
 | [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 50 |
-| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 3 |
-| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 3 |
+| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 6 |
+| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 5 |
 
 ---
 

@@ -1,4 +1,7 @@
 address,symbol,name,first_seen_date,days_since_first_seen,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,data_status,missing_streak,top_10_holders_pct,top_5_holders_pct,holder_concentration,concentration_risk
-So11111111111111111111111111111111111111112,wSOL,Wrapped SOL,2025-10-01,7,222.19,392691032.2,57481687.23,0.0,ok,0,0.0,0.0,unknown,unknown
-GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,RAGEGUY,Rage Guy,2025-10-01,7,0.0007362,81772.98,137625.75,736157.0,ok,0,26.91,19.32,low,low
+So11111111111111111111111111111111111111112,wSOL,Wrapped SOL,2025-10-01,7,229.39,340168930.77,58731749.64,0.0,ok,0,0.0,0.0,unknown,unknown
+B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,DREAM,Dreamsync,2025-10-01,7,0.001605,96609.88,184286.82,1605686.0,ok,0,32.23,18.07,low,low
+DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,AI20X,Ai20x.ai,2025-10-01,7,1.13,90865.1,2742155.13,23791169.0,ok,0,41.38,33.05,low,low
+GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,RAGEGUY,Rage Guy,2025-10-01,7,0.0008819,88547.84,153169.37,881820.0,ok,0,27.04,19.45,low,low
 3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,USDUT,unstable tether,2025-10-01,7,0.0002986,57894.98,114664.16,298609.0,ok,0,37.3,29.04,low,low
+7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,LION,Loaded Lions,2025-10-01,7,0.01539,50597.77,2110646.19,76998080.0,ok,0,57.84,32.05,low,low
