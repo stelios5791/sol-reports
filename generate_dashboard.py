@@ -3,6 +3,7 @@
 """
 Enhanced Dashboard Generator for sol-reports
 Generates README.md with:
+  - Interactive Chart.js visualizations
   - Daily Top 50 overview
   - New Viable Tokens (7-14 day old with potential)
   - Whale-filtered Signals
@@ -12,6 +13,7 @@ Generates README.md with:
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
+import json
 
 DATA_DIR = Path("data")
 
@@ -52,6 +54,302 @@ def format_pct(value):
     except:
         return "N/A"
 
+def create_chart_script(chart_id: str, chart_config: dict) -> str:
+    """Create a Chart.js script block"""
+    config_json = json.dumps(chart_config, indent=2)
+    return f"""
+<div style="max-width: 900px; margin: 20px auto;">
+  <canvas id="{chart_id}"></canvas>
+</div>
+<script>
+(function() {{
+  const ctx = document.getElementById('{chart_id}');
+  if (!ctx) return;
+  new Chart(ctx, {config_json});
+}})();
+</script>
+"""
+
+def generate_risk_distribution_chart(history: pd.DataFrame) -> str:
+    """Generate risk distribution pie chart"""
+    if history.empty or 'concentration_risk' not in history.columns:
+        return ""
+    
+    latest = history[history['date'] == history['date'].max()]
+    risk_counts = latest['concentration_risk'].value_counts()
+    
+    chart_config = {
+        'type': 'pie',
+        'data': {
+            'labels': ['Extreme Risk', 'High Risk', 'Medium Risk', 'Low Risk', 'Unknown'],
+            'datasets': [{
+                'data': [
+                    int(risk_counts.get('extreme', 0)),
+                    int(risk_counts.get('high', 0)),
+                    int(risk_counts.get('medium', 0)),
+                    int(risk_counts.get('low', 0)),
+                    int(risk_counts.get('unknown', 0))
+                ],
+                'backgroundColor': ['#ef4444', '#f97316', '#eab308', '#22c55e', '#94a3b8']
+            }]
+        },
+        'options': {
+            'responsive': True,
+            'plugins': {
+                'legend': {'position': 'bottom'},
+                'title': {'display': True, 'text': 'Token Concentration Risk Distribution'}
+            }
+        }
+    }
+    
+    return create_chart_script('riskPieChart', chart_config)
+
+def generate_concentration_trends_chart(history: pd.DataFrame) -> str:
+    """Generate concentration trends line chart for top tokens"""
+    if history.empty:
+        return ""
+    
+    # Get top 5 tokens by latest volume
+    latest = history[history['date'] == history['date'].max()]
+    if 'volume_24h_usd' not in latest.columns:
+        return ""
+    
+    top_tokens = latest.nlargest(5, 'volume_24h_usd')['symbol'].tolist()
+    
+    # Get historical data for these tokens
+    history['date'] = pd.to_datetime(history['date'])
+    history_sorted = history.sort_values('date')
+    
+    datasets = []
+    colors = ['#3b82f6', '#ef4444', '#22c55e', '#eab308', '#8b5cf6']
+    
+    all_dates = []
+    for i, symbol in enumerate(top_tokens):
+        token_data = history_sorted[history_sorted['symbol'] == symbol]
+        if not token_data.empty and 'top_10_holders_pct' in token_data.columns:
+            dates = token_data['date'].dt.strftime('%Y-%m-%d').tolist()
+            concentrations = token_data['top_10_holders_pct'].fillna(0).tolist()
+            
+            if not all_dates:
+                all_dates = dates
+            
+            datasets.append({
+                'label': symbol,
+                'data': concentrations,
+                'borderColor': colors[i % len(colors)],
+                'backgroundColor': colors[i % len(colors)] + '20',
+                'tension': 0.1,
+                'fill': False
+            })
+    
+    if not datasets:
+        return ""
+    
+    chart_config = {
+        'type': 'line',
+        'data': {
+            'labels': all_dates,
+            'datasets': datasets
+        },
+        'options': {
+            'responsive': True,
+            'plugins': {
+                'legend': {'position': 'top'},
+                'title': {'display': True, 'text': 'Top 10 Holder Concentration Over Time'}
+            },
+            'scales': {
+                'y': {
+                    'beginAtZero': True,
+                    'max': 100,
+                    'title': {'display': True, 'text': 'Concentration (%)'}
+                },
+                'x': {
+                    'title': {'display': True, 'text': 'Date'}
+                }
+            }
+        }
+    }
+    
+    return create_chart_script('trendLineChart', chart_config)
+
+def generate_volume_leaders_chart(daily: pd.DataFrame) -> str:
+    """Generate volume leaders bar chart"""
+    if daily.empty or 'volume_24h_usd' not in daily.columns:
+        return ""
+    
+    top10 = daily.nlargest(10, 'volume_24h_usd')
+    
+    # Color-code by risk
+    colors = []
+    for risk in top10.get('concentration_risk', ['unknown'] * len(top10)):
+        if risk == 'low':
+            colors.append('#22c55e')
+        elif risk == 'medium':
+            colors.append('#eab308')
+        elif risk == 'high':
+            colors.append('#f97316')
+        elif risk == 'extreme':
+            colors.append('#ef4444')
+        else:
+            colors.append('#94a3b8')
+    
+    chart_config = {
+        'type': 'bar',
+        'data': {
+            'labels': top10['symbol'].tolist(),
+            'datasets': [{
+                'label': '24h Volume (USD)',
+                'data': top10['volume_24h_usd'].tolist(),
+                'backgroundColor': colors
+            }]
+        },
+        'options': {
+            'responsive': True,
+            'plugins': {
+                'legend': {'display': False},
+                'title': {'display': True, 'text': 'Top 10 Tokens by 24h Volume'}
+            },
+            'scales': {
+                'y': {
+                    'beginAtZero': True,
+                    'title': {'display': True, 'text': 'Volume (USD)'}
+                }
+            }
+        }
+    }
+    
+    return create_chart_script('volumeBarChart', chart_config)
+
+def generate_scatter_chart(history: pd.DataFrame) -> str:
+    """Generate FDV vs Concentration scatter plot"""
+    if history.empty:
+        return ""
+    
+    latest = history[history['date'] == history['date'].max()].copy()
+    
+    # Filter valid data
+    valid = latest[
+        (latest['fdv_usd'] > 0) & 
+        (latest['top_10_holders_pct'] > 0) &
+        (latest['concentration_risk'] != 'unknown')
+    ].copy()
+    
+    if valid.empty:
+        return ""
+    
+    # Create scatter data with colors
+    scatter_data = []
+    risk_colors = {
+        'extreme': '#ef4444',
+        'high': '#f97316',
+        'medium': '#eab308',
+        'low': '#22c55e'
+    }
+    
+    for _, row in valid.iterrows():
+        scatter_data.append({
+            'x': float(row['fdv_usd']),
+            'y': float(row['top_10_holders_pct']),
+            'symbol': row['symbol'],
+            'risk': row['concentration_risk'],
+            'backgroundColor': risk_colors.get(row['concentration_risk'], '#94a3b8')
+        })
+    
+    chart_config = {
+        'type': 'scatter',
+        'data': {
+            'datasets': [{
+                'label': 'Tokens',
+                'data': scatter_data,
+                'backgroundColor': [d['backgroundColor'] for d in scatter_data]
+            }]
+        },
+        'options': {
+            'responsive': True,
+            'plugins': {
+                'legend': {'display': False},
+                'title': {'display': True, 'text': 'Market Cap (FDV) vs Holder Concentration'},
+                'tooltip': {
+                    'callbacks': {
+                        'label': 'function(context) { const d = context.raw; return d.symbol + ": $" + d.x.toLocaleString() + " FDV, " + d.y.toFixed(1) + "% concentration (" + d.risk + " risk)"; }'
+                    }
+                }
+            },
+            'scales': {
+                'x': {
+                    'type': 'logarithmic',
+                    'title': {'display': True, 'text': 'FDV (USD) - Log Scale'}
+                },
+                'y': {
+                    'beginAtZero': True,
+                    'max': 100,
+                    'title': {'display': True, 'text': 'Top 10 Holder %'}
+                }
+            }
+        }
+    }
+    
+    return create_chart_script('scatterChart', chart_config)
+
+def generate_leaderboards(history: pd.DataFrame) -> tuple:
+    """Generate safest and riskiest token leaderboards"""
+    if history.empty:
+        return "", ""
+    
+    latest = history[history['date'] == history['date'].max()].copy()
+    known = latest[latest['concentration_risk'] != 'unknown'].copy()
+    
+    if known.empty:
+        return "", ""
+    
+    # Safest tokens (lowest concentration)
+    safest = known.nsmallest(10, 'top_10_holders_pct')
+    safest_lines = []
+    safest_lines.append("### 🏆 Safest Tokens (Lowest Holder Concentration)")
+    safest_lines.append("")
+    safest_lines.append("Top 10 tokens with the most distributed ownership:")
+    safest_lines.append("")
+    safest_lines.append("| Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |")
+    safest_lines.append("|------|--------|------|---------|------|------------|-----------|")
+    
+    for i, row in enumerate(safest.itertuples(), 1):
+        symbol = getattr(row, 'symbol', '???')
+        name = getattr(row, 'name', '???')[:25]
+        top10 = format_pct(getattr(row, 'top_10_holders_pct', 0))
+        risk = getattr(row, 'concentration_risk', 'unknown')
+        risk_emoji = '🟢' if risk == 'low' else '🟡' if risk == 'medium' else '🟠' if risk == 'high' else '🔴'
+        vol = format_usd(getattr(row, 'volume_24h_usd', 0))
+        liq = format_usd(getattr(row, 'liquidity_usd', 0))
+        
+        safest_lines.append(f"| {i} | {symbol} | {name} | {top10} | {risk_emoji} {risk} | {vol} | {liq} |")
+    
+    safest_lines.append("")
+    
+    # Riskiest tokens (highest concentration)
+    riskiest = known.nlargest(10, 'top_10_holders_pct')
+    riskiest_lines = []
+    riskiest_lines.append("### ⚠️ Highest Risk Tokens (Highest Holder Concentration)")
+    riskiest_lines.append("")
+    riskiest_lines.append("Top 10 tokens with the most concentrated ownership:")
+    riskiest_lines.append("")
+    riskiest_lines.append("| Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |")
+    riskiest_lines.append("|------|--------|------|---------|------|------------|-----------|")
+    
+    for i, row in enumerate(riskiest.itertuples(), 1):
+        symbol = getattr(row, 'symbol', '???')
+        name = getattr(row, 'name', '???')[:25]
+        top10 = format_pct(getattr(row, 'top_10_holders_pct', 0))
+        risk = getattr(row, 'concentration_risk', 'unknown')
+        risk_emoji = '🟢' if risk == 'low' else '🟡' if risk == 'medium' else '🟠' if risk == 'high' else '🔴'
+        vol = format_usd(getattr(row, 'volume_24h_usd', 0))
+        liq = format_usd(getattr(row, 'liquidity_usd', 0))
+        
+        riskiest_lines.append(f"| {i} | {symbol} | {name} | {top10} | {risk_emoji} {risk} | {vol} | {liq} |")
+    
+    riskiest_lines.append("")
+    
+    return "\n".join(safest_lines), "\n".join(riskiest_lines)
+
 def generate_markdown():
     """Generate the README.md content"""
     
@@ -68,11 +366,82 @@ def generate_markdown():
     lines.append("---")
     lines.append("")
     
+    # Load all data
+    daily = safe_read_csv("daily_top50.csv")
+    history = safe_read_csv("history.csv")
+    viable = safe_read_csv("new_viable.csv")
+    movers = safe_read_csv("top_movers.csv")
+    signals = safe_read_csv("signals_filtered.csv")
+    master = safe_read_csv("master.csv")
+    performance = safe_read_csv("performance.csv")
+    
+    # === NEW SECTION: Interactive Dashboard ===
+    lines.append("## 📈 Interactive Dashboard")
+    lines.append("")
+    lines.append('<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>')
+    lines.append("")
+    
+    # Risk Distribution Pie Chart
+    lines.append("### 🥧 Risk Distribution")
+    lines.append("")
+    lines.append("Current distribution of concentration risk across all tracked tokens:")
+    lines.append("")
+    risk_chart = generate_risk_distribution_chart(history)
+    if risk_chart:
+        lines.append(risk_chart)
+    else:
+        lines.append("*Chart unavailable - insufficient data*")
+    lines.append("")
+    
+    # Leaderboards
+    safest_table, riskiest_table = generate_leaderboards(history)
+    if safest_table:
+        lines.append(safest_table)
+    if riskiest_table:
+        lines.append(riskiest_table)
+    
+    # Concentration Trends
+    lines.append("### 📈 Concentration Trends")
+    lines.append("")
+    lines.append("Historical holder concentration for top volume tokens:")
+    lines.append("")
+    trend_chart = generate_concentration_trends_chart(history)
+    if trend_chart:
+        lines.append(trend_chart)
+    else:
+        lines.append("*Chart unavailable - insufficient historical data*")
+    lines.append("")
+    
+    # Volume Leaders
+    lines.append("### 📊 Volume Leaders")
+    lines.append("")
+    lines.append("Top tokens by 24h trading volume (color-coded by risk):")
+    lines.append("")
+    volume_chart = generate_volume_leaders_chart(daily)
+    if volume_chart:
+        lines.append(volume_chart)
+    else:
+        lines.append("*Chart unavailable - no volume data*")
+    lines.append("")
+    
+    # Scatter Plot
+    lines.append("### 💰 Market Cap vs Concentration")
+    lines.append("")
+    lines.append("Relationship between token valuation (FDV) and holder concentration:")
+    lines.append("")
+    scatter_chart = generate_scatter_chart(history)
+    if scatter_chart:
+        lines.append(scatter_chart)
+    else:
+        lines.append("*Chart unavailable - insufficient data*")
+    lines.append("")
+    
+    lines.append("---")
+    lines.append("")
+    
     # === Section 1: Daily Top 50 ===
     lines.append("## 🔥 Today's Top 50 Tokens")
     lines.append("")
-    
-    daily = safe_read_csv("daily_top50.csv")
     
     if not daily.empty:
         # Summary stats
@@ -102,7 +471,7 @@ def generate_markdown():
         top10 = daily.head(10)
         for idx, row in enumerate(top10.itertuples(), 1):
             symbol = getattr(row, "symbol", "???")
-            name = getattr(row, "name", "???")[:30]  # Truncate long names
+            name = getattr(row, "name", "???")[:30]
             vol = format_usd(getattr(row, "volume_24h_usd", 0))
             liq = format_usd(getattr(row, "liquidity_usd", 0))
             risk = getattr(row, "concentration_risk", "unknown")
@@ -125,13 +494,10 @@ def generate_markdown():
     lines.append("New tokens showing potential with healthy metrics and lower concentration risk.")
     lines.append("")
     
-    viable = safe_read_csv("new_viable.csv")
-    
     if not viable.empty:
         lines.append(f"**Found**: {len(viable)} viable new tokens")
         lines.append("")
         
-        # Criteria reminder
         lines.append("**Criteria**:")
         lines.append("- First seen 7-14 days ago")
         lines.append("- Volume > $50K")
@@ -140,7 +506,6 @@ def generate_markdown():
         lines.append("- Concentration risk: low/medium")
         lines.append("")
         
-        # Show table
         lines.append("| Symbol | Name | Age (days) | Volume 24h | Liquidity | Top 10% |")
         lines.append("|--------|------|------------|------------|-----------|---------|")
         
@@ -169,10 +534,7 @@ def generate_markdown():
     lines.append("Tokens with significant price or volume changes in the last 24 hours.")
     lines.append("")
     
-    movers = safe_read_csv("top_movers.csv")
-    
     if not movers.empty:
-        # Summary stats
         gainers = movers[movers["category"].str.contains("gainer", na=False)]
         losers = movers[movers["category"].str.contains("loser", na=False)]
         spikes = movers[movers["category"].str.contains("volume_spike", na=False)]
@@ -183,7 +545,6 @@ def generate_markdown():
         lines.append(f"- 📊 **Volume Spikes** (>+100%): {len(spikes)}")
         lines.append("")
         
-        # Top Gainers
         if not gainers.empty:
             lines.append("### 🚀 Top Gainers")
             lines.append("")
@@ -196,31 +557,6 @@ def generate_markdown():
                 symbol = getattr(row, "symbol", "???")
                 name = getattr(row, "name", "???")[:25]
                 price_chg = f"+{getattr(row, 'price_change_24h_pct', 0):.2f}%"
-                price = format_usd(getattr(row, "current_price", 0))
-                vol_chg = f"+{getattr(row, 'volume_change_24h_pct', 0):.1f}%" if getattr(row, "volume_change_24h_pct", 0) > 0 else f"{getattr(row, 'volume_change_24h_pct', 0):.1f}%"
-                risk = getattr(row, "concentration_risk", "unknown")
-                risk_emoji = "🔴" if risk == "extreme" else "🟡" if risk == "high" else "🟢"
-                
-                lines.append(f"| {rank} | {symbol} | {name} | {price_chg} | {price} | {vol_chg} | {risk_emoji} |")
-            
-            lines.append("")
-        
-        # Top Losers
-        if not losers.empty:
-            lines.append("### 📉 Biggest Losers")
-            lines.append("")
-            lines.append("| # | Symbol | Name | Change 24h | Current Price | Volume Change | Risk |")
-            lines.append("|---|--------|------|------------|---------------|---------------|------|")
-            
-            # Sort losers by price change (most negative first)
-            losers_sorted = losers.sort_values("price_change_24h_pct", ascending=True)
-            top_losers = losers_sorted.head(10)
-            
-            for row in top_losers.itertuples():
-                rank = getattr(row, "rank", "?")
-                symbol = getattr(row, "symbol", "???")
-                name = getattr(row, "name", "???")[:25]
-                price_chg = f"{getattr(row, 'price_change_24h_pct', 0):.2f}%"
                 price = format_usd(getattr(row, "current_price", 0))
                 vol_chg = f"+{getattr(row, 'volume_change_24h_pct', 0):.1f}%" if getattr(row, "volume_change_24h_pct", 0) > 0 else f"{getattr(row, 'volume_change_24h_pct', 0):.1f}%"
                 risk = getattr(row, "concentration_risk", "unknown")
@@ -244,10 +580,7 @@ def generate_markdown():
     lines.append("Signals filtered to exclude tokens with extreme concentration risk.")
     lines.append("")
     
-    signals = safe_read_csv("signals_filtered.csv")
-    
     if not signals.empty:
-        # Count by signal type
         if "signal" in signals.columns:
             signal_counts = signals["signal"].value_counts()
             lines.append("**Signal Distribution**:")
@@ -256,7 +589,6 @@ def generate_markdown():
                 lines.append(f"- {emoji} **{sig}**: {count} tokens")
             lines.append("")
         
-        # Breakout signals
         breakouts = signals[signals["signal"] == "Breakout"] if "signal" in signals.columns else pd.DataFrame()
         if not breakouts.empty:
             lines.append("### 🚀 Breakout Signals")
@@ -276,7 +608,6 @@ def generate_markdown():
             
             lines.append("")
         
-        # Watch signals
         watch = signals[signals["signal"] == "Watch"] if "signal" in signals.columns else pd.DataFrame()
         if not watch.empty:
             lines.append("### 👀 Watch List")
@@ -292,13 +623,9 @@ def generate_markdown():
     lines.append("---")
     lines.append("")
     
-    # === Section 4: Historical Data ===
+    # === Section 5: Historical Data ===
     lines.append("## 📈 Historical Data")
     lines.append("")
-    
-    history = safe_read_csv("history.csv")
-    master = safe_read_csv("master.csv")
-    performance = safe_read_csv("performance.csv")
     
     if not history.empty:
         lines.append(f"**Total Historical Records**: {len(history):,}")
@@ -342,7 +669,7 @@ def generate_markdown():
     lines.append("---")
     lines.append("")
     
-    # === Section 5: Data Schema ===
+    # === Section 6: Data Schema ===
     lines.append("## 📋 Data Schema")
     lines.append("")
     lines.append("### Key Columns")
@@ -384,7 +711,7 @@ def generate_markdown():
 def main():
     """Generate and save the dashboard"""
     print("=" * 60)
-    print("Generating Enhanced Dashboard")
+    print("Generating Enhanced Dashboard with Interactive Charts")
     print("=" * 60)
     print("")
     
