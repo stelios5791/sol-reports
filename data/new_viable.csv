@@ -1,7 +1,6 @@
 address,symbol,name,first_seen_date,days_since_first_seen,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,data_status,missing_streak,top_10_holders_pct,top_5_holders_pct,holder_concentration,concentration_risk
-So11111111111111111111111111111111111111112,wSOL,Wrapped SOL,2025-10-01,7,229.32,342445240.57,58750395.37,0.0,ok,0,0.0,0.0,unknown,unknown
-CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,AI4,AI⁴,2025-10-01,7,0.0002529,154294.78,100282.28,252903.0,ok,0,51.35,39.44,low,low
-B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,DREAM,Dreamsync,2025-10-01,7,0.001609,96625.04,184655.77,1609164.0,ok,0,32.23,18.07,low,low
-DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,AI20X,Ai20x.ai,2025-10-01,7,1.13,90865.1,2742155.13,23791169.0,ok,0,41.38,33.05,low,low
-GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,RAGEGUY,Rage Guy,2025-10-01,7,0.0008425,86744.22,149829.93,842378.0,ok,0,27.29,19.7,low,low
-3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,USDUT,unstable tether,2025-10-01,7,0.0002986,57894.98,114664.16,298609.0,ok,0,37.3,29.04,low,low
+So11111111111111111111111111111111111111112,wSOL,Wrapped SOL,2025-10-01,8,221.43,372774327.45,57866098.6,0.0,ok,0,0.0,0.0,unknown,unknown
+B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,DREAM,Dreamsync,2025-10-01,8,0.001589,190372.69,181060.03,1589712.0,ok,0,32.18,18.02,low,low
+DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,AI20X,Ai20x.ai,2025-10-01,8,1.083,93186.0,2678225.52,22763939.0,ok,0,41.36,33.03,low,low
+GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,RAGEGUY,Rage Guy,2025-10-01,8,0.000789,72771.17,142508.58,788885.0,ok,0,27.44,19.85,low,low
+3vz82EWYv8xnc7Cm7qSgERcpMeqw92PcX8PBz88npump,USDUT,unstable tether,2025-10-01,8,0.0002986,57894.98,114664.16,298609.0,ok,0,37.3,29.04,low,low
