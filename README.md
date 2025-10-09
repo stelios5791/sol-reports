@@ -10,13 +10,39 @@ Automated daily analysis of Solana tokens with whale tracking and momentum indic
 
 ## 📈 Interactive Dashboard
 
-Explore the data with our **[live interactive dashboard](https://stelios5791.github.io/sol-reports/)** featuring:
+Explore live data with our **[interactive dashboard](https://stelios5791.github.io/sol-reports/)** featuring:
 
-- 📊 Real-time risk distribution charts
-- 🔍 Token concentration analysis
-- 📉 Historical trends & patterns
-- 🎯 Filterable token leaderboard
-- 📱 Click any token for detailed history
+- 📊 Real-time risk distribution & momentum charts
+- 🔍 Token concentration analysis with historical trends
+- 📉 Filterable token leaderboard with sorting
+- 🎯 Click any token for detailed history & alerts
+- 🔥 Volume momentum indicators (Hot/Warming/Cooling)
+
+### Quick Stats
+
+![Total Tokens](https://img.shields.io/badge/Total_Tokens-50-blue?style=for-the-badge)
+![Extreme Risk](https://img.shields.io/badge/Extreme_Risk-21-red?style=for-the-badge)
+![Safe Tokens](https://img.shields.io/badge/Safe_Tokens-19-green?style=for-the-badge)
+![Combined Volume](https://img.shields.io/badge/24h_Volume-$342.58M-purple?style=for-the-badge)
+
+### Risk Distribution
+
+```mermaid
+%%{init: {'theme':'dark'}}%%
+pie title Token Concentration Risk
+    "Extreme (21)" : 21
+    "High (9)" : 9
+    "Medium (4)" : 4
+    "Low (15)" : 15
+    "Unknown (1)" : 1
+```
+
+**Legend:**
+- 🔴 **Extreme Risk** (21 tokens): 99%+ holder concentration - High rug pull risk
+- 🟠 **High Risk** (9 tokens): 90-99% concentration - Caution advised
+- 🟡 **Medium Risk** (4 tokens): 70-90% concentration - Moderate decentralization
+- 🟢 **Low Risk** (15 tokens): <70% concentration - Healthy distribution
+- ⚪ **Unknown** (1 token): Insufficient holder data
 
 ---
 
@@ -77,6 +103,31 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 ---
 
+## 🔥 Volume Momentum Analysis
+
+Track tokens with elevated trading activity:
+
+```mermaid
+%%{init: {'theme':'dark'}}%%
+graph LR
+    A[All Tokens: 50] --> B[🔥 Hot: High Momentum]
+    A --> C[📈 Warming: Moderate]
+    A --> D[📉 Cooling: Low Activity]
+    
+    style B fill:#ef4444
+    style C fill:#f59e0b
+    style D fill:#3b82f6
+```
+
+**Momentum Categories:**
+- 🔥 **Hot**: Volume 2x+ above average (immediate attention)
+- 📈 **Warming**: Volume above average (watch closely)
+- 📉 **Cooling**: Volume below average (stable/declining)
+
+> **Tip**: Check the [interactive dashboard](https://stelios5791.github.io/sol-reports/) to filter tokens by momentum and see historical trends!
+
+---
+
 ## 📈 Top Movers (24h Change)
 
 Tokens with significant price or volume changes in the last 24 hours.
@@ -120,6 +171,18 @@ Signals filtered to exclude tokens with extreme concentration risk.
 **Master Aggregations**: 101 tokens
 **Performance Metrics**: 524 records
 
+### Historical Trend
+
+```mermaid
+%%{init: {'theme':'dark'}}%%
+timeline
+    title Token Discovery Timeline
+    2025-10-01 : Initial tracking started
+    2025-10-04 : 50+ tokens tracked
+    2025-10-08 : 101 unique tokens discovered
+              : 524 historical snapshots
+```
+
 ### Available Datasets
 
 | File | Description | Records |
@@ -159,10 +222,33 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 ## 🔗 Links
 
-- **Data Repository**: [stelios5791/sol-reports](https://github.com/stelios5791/sol-reports)
 - **Interactive Dashboard**: [Live Dashboard](https://stelios5791.github.io/sol-reports/)
+- **Data Repository**: [stelios5791/sol-reports](https://github.com/stelios5791/sol-reports)
 - **Analysis Pipeline**: Private repository (automated daily)
 
 ---
 
+## 💡 How to Use This Data
+
+### For Traders
+1. Check **Risk Distribution** to understand market safety
+2. Filter **Low Risk** tokens on the dashboard
+3. Monitor **Volume Momentum** for entry/exit signals
+4. Review **Top Movers** for opportunities
+
+### For Researchers
+1. Download **history.csv** for time-series analysis
+2. Use **performance.csv** for momentum backtesting
+3. Analyze **master.csv** for token comparisons
+4. Track **concentration trends** over time
+
+### For Developers
+1. Fork this repo and customize filters
+2. Use CSV data in your own tools
+3. Build alerts based on risk thresholds
+4. Integrate with trading bots
+
+---
+
 *Generated automatically by Solana Radar pipeline*
+*Dashboard updates in real-time | Data refreshes daily at 08:05 UTC*
