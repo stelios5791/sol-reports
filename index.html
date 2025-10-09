@@ -8,7 +8,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -16,26 +15,16 @@
             min-height: 100vh;
             padding: 20px;
         }
-        
         .container { max-width: 1400px; margin: 0 auto; }
-        
         header { text-align: center; margin-bottom: 40px; }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-        
+        h1 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
         .subtitle { font-size: 1.1rem; opacity: 0.9; }
-        
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
             margin-bottom: 30px;
         }
-        
         .stat-card {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -43,7 +32,6 @@
             padding: 25px;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-        
         .stat-card h3 {
             font-size: 0.9rem;
             opacity: 0.8;
@@ -51,10 +39,8 @@
             text-transform: uppercase;
             letter-spacing: 1px;
         }
-        
         .stat-value { font-size: 2.5rem; font-weight: bold; }
         .stat-label { font-size: 0.85rem; opacity: 0.7; margin-top: 5px; }
-        
         .chart-container {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -63,19 +49,10 @@
             margin-bottom: 30px;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-        
         .chart-title { font-size: 1.3rem; margin-bottom: 20px; }
-        
-        .charts-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        
+        .charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px; }
         canvas { max-height: 300px; }
-        
-        .filters {
+        .filters, .export-toolbar {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             border-radius: 15px;
@@ -87,10 +64,8 @@
             flex-wrap: wrap;
             align-items: center;
         }
-        
         .filter-group { display: flex; flex-direction: column; gap: 5px; }
         .filter-group label { font-size: 0.85rem; opacity: 0.8; }
-        
         select, input {
             padding: 8px 12px;
             border-radius: 8px;
@@ -99,9 +74,22 @@
             color: #fff;
             font-size: 0.9rem;
         }
-        
         select option { background: #764ba2; color: #fff; }
-        
+        .btn {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .btn-primary { background: #3b82f6; color: white; }
+        .btn-primary:hover { background: #2563eb; transform: translateY(-2px); }
+        .btn-success { background: #10b981; color: white; }
+        .btn-success:hover { background: #059669; transform: translateY(-2px); }
+        .btn-secondary { background: rgba(255, 255, 255, 0.2); color: white; }
+        .btn-secondary:hover { background: rgba(255, 255, 255, 0.3); }
         .table-container {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -110,9 +98,9 @@
             overflow-x: auto;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-        
+        .table-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .results-count { font-size: 0.9rem; opacity: 0.8; }
         table { width: 100%; border-collapse: collapse; }
-        
         th {
             text-align: left;
             padding: 15px 10px;
@@ -121,11 +109,9 @@
             cursor: pointer;
             user-select: none;
         }
-        
         th:hover { background: rgba(255, 255, 255, 0.1); }
         td { padding: 12px 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
         tr:hover { background: rgba(255, 255, 255, 0.05); }
-        
         .risk-badge {
             display: inline-block;
             padding: 4px 12px;
@@ -134,35 +120,30 @@
             font-weight: 600;
             text-transform: uppercase;
         }
-        
         .risk-extreme { background: #ef4444; }
         .risk-high { background: #f59e0b; }
         .risk-medium { background: #eab308; }
         .risk-low { background: #10b981; }
-        
-        .momentum-badge {
-            display: inline-block;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            font-weight: 600;
-        }
-        
-        .momentum-hot {
-            background: #ef4444;
-            animation: pulse 2s infinite;
-        }
-        
+        .momentum-badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+        .momentum-hot { background: #ef4444; animation: pulse 2s infinite; }
         .momentum-warming { background: #f59e0b; }
         .momentum-cooling { background: #3b82f6; }
-        
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
-        
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
         .loading { text-align: center; padding: 50px; font-size: 1.2rem; }
-        
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #10b981;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s;
+            z-index: 10000;
+        }
+        .toast.show { opacity: 1; transform: translateY(0); }
         .modal {
             display: none;
             position: fixed;
@@ -173,11 +154,7 @@
             height: 100%;
             background: rgba(0, 0, 0, 0.8);
             backdrop-filter: blur(5px);
-            animation: fadeIn 0.3s;
         }
-        
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        
         .modal-content {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             margin: 3% auto;
@@ -188,15 +165,7 @@
             max-width: 1200px;
             max-height: 85vh;
             overflow-y: auto;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-            animation: slideIn 0.3s;
         }
-        
-        @keyframes slideIn {
-            from { transform: translateY(-50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        
         .modal-header {
             padding: 30px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -204,10 +173,8 @@
             justify-content: space-between;
             align-items: center;
         }
-        
         .modal-title { font-size: 1.8rem; font-weight: bold; }
         .modal-subtitle { font-size: 0.9rem; opacity: 0.8; margin-top: 5px; }
-        
         .close-btn {
             background: rgba(255, 255, 255, 0.2);
             border: none;
@@ -220,48 +187,20 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.3s;
         }
-        
-        .close-btn:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: rotate(90deg);
-        }
-        
+        .close-btn:hover { background: rgba(255, 255, 255, 0.3); transform: rotate(90deg); }
         .modal-body { padding: 30px; }
-        
-        .modal-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        
+        .modal-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
         .modal-stat-card {
             background: rgba(255, 255, 255, 0.1);
             padding: 15px;
             border-radius: 10px;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-        
-        .modal-stat-label {
-            font-size: 0.75rem;
-            opacity: 0.7;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
+        .modal-stat-label { font-size: 0.75rem; opacity: 0.7; text-transform: uppercase; }
         .modal-stat-value { font-size: 1.5rem; font-weight: bold; margin-top: 5px; }
-        
-        .modal-chart-container {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        
+        .modal-chart-container { background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 20px; margin-bottom: 20px; }
         .modal-chart-title { font-size: 1.1rem; margin-bottom: 15px; font-weight: 600; }
-        
         .alert-box {
             background: rgba(239, 68, 68, 0.2);
             border: 1px solid #ef4444;
@@ -269,26 +208,13 @@
             padding: 15px;
             margin-bottom: 20px;
         }
-        
-        .alert-box.warning {
-            background: rgba(245, 158, 11, 0.2);
-            border-color: #f59e0b;
-        }
-        
-        .alert-box.info {
-            background: rgba(59, 130, 246, 0.2);
-            border-color: #3b82f6;
-        }
-        
-        .clickable-row { cursor: pointer; transition: background 0.2s; }
+        .alert-box.warning { background: rgba(245, 158, 11, 0.2); border-color: #f59e0b; }
+        .alert-box.info { background: rgba(59, 130, 246, 0.2); border-color: #3b82f6; }
+        .clickable-row { cursor: pointer; }
         .clickable-row:hover { background: rgba(255, 255, 255, 0.1) !important; }
-        
         @media (max-width: 768px) {
             .charts-row { grid-template-columns: 1fr; }
             h1 { font-size: 1.8rem; }
-            .modal-content { width: 95%; margin: 5% auto; }
-            .modal-header { padding: 20px; }
-            .modal-body { padding: 20px; }
         }
     </style>
 </head>
@@ -373,17 +299,28 @@
             </div>
         </div>
         
+        <div class="export-toolbar">
+            <span style="font-size: 0.9rem; opacity: 0.8;">📥 Export:</span>
+            <button class="btn btn-primary" onclick="exportCSV()">📄 CSV</button>
+            <button class="btn btn-success" onclick="exportJSON()">📦 JSON</button>
+            <button class="btn btn-secondary" onclick="copyTable()">📋 Copy</button>
+            <span class="results-count" id="exportCount"></span>
+        </div>
+        
         <div class="table-container">
-            <h2 class="chart-title">Token Leaderboard</h2>
+            <div class="table-header">
+                <h2 class="chart-title">Token Leaderboard</h2>
+                <span class="results-count" id="resultsCount">Loading...</span>
+            </div>
             <div id="loading" class="loading">Loading data...</div>
             <table id="tokenTable" style="display: none;">
                 <thead>
                     <tr>
                         <th onclick="sortTable('symbol')">Symbol</th>
                         <th onclick="sortTable('name')">Name</th>
-                        <th onclick="sortTable('top_10_holders_pct')">Top 10 %</th>
+                        <th onclick="sortTable('top_10_holders_pct')">Top 10%</th>
                         <th onclick="sortTable('concentration_risk')">Risk</th>
-                        <th onclick="sortTable('volume_24h_usd')">24h Volume</th>
+                        <th onclick="sortTable('volume_24h_usd')">Volume</th>
                         <th onclick="sortTable('vol_mom_3v1')">Momentum</th>
                         <th onclick="sortTable('liquidity_usd')">Liquidity</th>
                     </tr>
@@ -400,7 +337,10 @@
                     <div class="modal-title" id="modalTitle">Token History</div>
                     <div class="modal-subtitle" id="modalSubtitle">Loading...</div>
                 </div>
-                <button class="close-btn" onclick="closeModal()">&times;</button>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-secondary" onclick="exportModalCSV()">📥 Export</button>
+                    <button class="close-btn" onclick="closeModal()">&times;</button>
+                </div>
             </div>
             <div class="modal-body">
                 <div id="modalAlerts"></div>
@@ -417,637 +357,12 @@
         </div>
     </div>
     
+    <div id="toast" class="toast"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <script>
-        let allTokens = [];
-        let filteredTokens = [];
-        let sortColumn = 'volume_24h_usd';
-        let sortAscending = false;
-        let fullHistoryData = [];
-        let modalCharts = {};
-        
-        const historyUrl = 'https://raw.githubusercontent.com/stelios5791/sol-reports/main/data/history.csv';
-        const performanceUrl = 'https://raw.githubusercontent.com/stelios5791/sol-reports/main/data/performance.csv';
-        
-        let dataLoaded = { history: false, performance: false };
-        let performanceData = [];
-        
-        // Load history
-        Papa.parse(historyUrl, {
-            download: true,
-            header: true,
-            dynamicTyping: true,
-            skipEmptyLines: true,
-            complete: function(results) {
-                if (results.data && results.data.length > 0) {
-                    fullHistoryData = results.data.filter(row => row.address && row.date);
-                    
-                    const grouped = {};
-                    fullHistoryData.forEach(row => {
-                        if (row.concentration_risk) {
-                            const addr = row.address;
-                            const date = new Date(row.date);
-                            if (!grouped[addr] || new Date(grouped[addr].date) < date) {
-                                grouped[addr] = row;
-                            }
-                        }
-                    });
-                    
-                    allTokens = Object.values(grouped);
-                }
-                dataLoaded.history = true;
-                checkDataLoaded();
-            },
-            error: function() {
-                dataLoaded.history = true;
-                checkDataLoaded();
-            }
-        });
-        
-        // Load performance
-        Papa.parse(performanceUrl, {
-            download: true,
-            header: true,
-            dynamicTyping: true,
-            skipEmptyLines: true,
-            complete: function(results) {
-                if (results.data && results.data.length > 0) {
-                    const grouped = {};
-                    results.data.forEach(row => {
-                        if (row.address && row.date) {
-                            const addr = row.address;
-                            const date = new Date(row.date);
-                            if (!grouped[addr] || new Date(grouped[addr].date) < date) {
-                                grouped[addr] = row;
-                            }
-                        }
-                    });
-                    performanceData = Object.values(grouped);
-                }
-                dataLoaded.performance = true;
-                checkDataLoaded();
-            },
-            error: function() {
-                dataLoaded.performance = true;
-                checkDataLoaded();
-            }
-        });
-        
-        function checkDataLoaded() {
-            if (dataLoaded.history && dataLoaded.performance) {
-                mergeDataAndInit();
-            }
-        }
-        
-        function mergeDataAndInit() {
-            const perfMap = {};
-            performanceData.forEach(p => {
-                perfMap[p.address] = p;
-            });
-            
-            allTokens = allTokens.map(token => {
-                const perf = perfMap[token.address] || {};
-                
-                // Determine momentum label
-                let momentumLabel = 'cooling';
-                const mom3v1 = perf.vol_mom_3v1 || 0;
-                
-                if (mom3v1 > 2) momentumLabel = 'hot';
-                else if (mom3v1 > 1) momentumLabel = 'warming';
-                
-                return {
-                    ...token,
-                    vol_mom_3v1: perf.vol_mom_3v1,
-                    zscore_vol_10d: perf.zscore_vol_10d,
-                    presence_7d: perf.presence_7d,
-                    presence_30d: perf.presence_30d,
-                    vol_momentum: momentumLabel
-                };
-            });
-            
-            filteredTokens = [...allTokens];
-            initDashboard();
-        }
-        
-        function initDashboard() {
-            updateStats();
-            createCharts();
-            renderTable();
-            setupFilters();
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('tokenTable').style.display = 'table';
-        }
-        
-        function updateStats() {
-            const total = allTokens.length;
-            const extreme = allTokens.filter(t => t.concentration_risk === 'extreme').length;
-            const safe = allTokens.filter(t => ['low', 'medium'].includes(t.concentration_risk)).length;
-            const hot = allTokens.filter(t => t.vol_momentum === 'hot').length;
-            
-            const validConcentrations = allTokens
-                .map(t => t.top_10_holders_pct)
-                .filter(v => v != null && !isNaN(v));
-            const avgConc = validConcentrations.length > 0 
-                ? (validConcentrations.reduce((sum, v) => sum + v, 0) / validConcentrations.length).toFixed(1)
-                : '0.0';
-            
-            document.getElementById('totalTokens').textContent = total;
-            document.getElementById('extremeRisk').textContent = extreme;
-            document.getElementById('safeTokens').textContent = safe;
-            document.getElementById('hotTokens').textContent = hot;
-            document.getElementById('avgConcentration').textContent = avgConc + '%';
-        }
-        
-        function createCharts() {
-            const riskCounts = { extreme: 0, high: 0, medium: 0, low: 0, unknown: 0 };
-            allTokens.forEach(t => {
-                const risk = t.concentration_risk || 'unknown';
-                if (risk in riskCounts) riskCounts[risk]++;
-            });
-            
-            new Chart(document.getElementById('riskChart'), {
-                type: 'doughnut',
-                data: {
-                    labels: ['Extreme Risk', 'High Risk', 'Medium Risk', 'Low Risk', 'Unknown'],
-                    datasets: [{
-                        data: [riskCounts.extreme, riskCounts.high, riskCounts.medium, riskCounts.low, riskCounts.unknown],
-                        backgroundColor: ['#ef4444', '#f59e0b', '#eab308', '#10b981', '#6b7280']
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { labels: { color: '#fff' } } }
-                }
-            });
-            
-            const momentumCounts = {
-                hot: allTokens.filter(t => t.vol_momentum === 'hot').length,
-                warming: allTokens.filter(t => t.vol_momentum === 'warming').length,
-                cooling: allTokens.filter(t => t.vol_momentum === 'cooling').length
-            };
-            
-            new Chart(document.getElementById('momentumChart'), {
-                type: 'bar',
-                data: {
-                    labels: ['🔥 Hot', '📈 Warming', '📉 Cooling'],
-                    datasets: [{
-                        label: 'Tokens',
-                        data: [momentumCounts.hot, momentumCounts.warming, momentumCounts.cooling],
-                        backgroundColor: ['#ef4444', '#f59e0b', '#3b82f6']
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { display: false } },
-                    scales: {
-                        x: {
-                            ticks: { color: '#fff' },
-                            grid: { color: 'rgba(255,255,255,0.1)' }
-                        },
-                        y: {
-                            ticks: { color: '#fff' },
-                            grid: { color: 'rgba(255,255,255,0.1)' }
-                        }
-                    }
-                }
-            });
-            
-            const validTokens = allTokens.filter(t => 
-                t.top_10_holders_pct != null && 
-                !isNaN(t.top_10_holders_pct) &&
-                t.volume_24h_usd != null &&
-                !isNaN(t.volume_24h_usd) &&
-                t.volume_24h_usd > 0
-            );
-            
-            new Chart(document.getElementById('concentrationChart'), {
-                type: 'scatter',
-                data: {
-                    datasets: [{
-                        label: 'Tokens',
-                        data: validTokens.map(t => ({
-                            x: t.top_10_holders_pct,
-                            y: Math.log10(t.volume_24h_usd + 1)
-                        })),
-                        backgroundColor: validTokens.map(t => {
-                            const colors = {
-                                hot: '#ef4444',
-                                warming: '#f59e0b',
-                                cooling: '#3b82f6'
-                            };
-                            return colors[t.vol_momentum] || '#6b7280';
-                        }),
-                        pointRadius: 6,
-                        pointHoverRadius: 8
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        x: {
-                            title: { display: true, text: 'Top 10 Holders %', color: '#fff' },
-                            ticks: { color: '#fff' },
-                            grid: { color: 'rgba(255,255,255,0.1)' }
-                        },
-                        y: {
-                            title: { display: true, text: 'Volume (log scale)', color: '#fff' },
-                            ticks: { 
-                                color: '#fff',
-                                callback: function(value) {
-                                    return '$' + Math.pow(10, value).toFixed(0);
-                                }
-                            },
-                            grid: { color: 'rgba(255,255,255,0.1)' }
-                        }
-                    },
-                    plugins: {
-                        legend: { display: false },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    const token = validTokens[context.dataIndex];
-                                    return [
-                                        `Symbol: ${token.symbol}`,
-                                        `Concentration: ${token.top_10_holders_pct.toFixed(1)}%`,
-                                        `Volume: $${token.volume_24h_usd.toLocaleString()}`,
-                                        `Momentum: ${token.vol_momentum}`,
-                                        `3v1 Ratio: ${(token.vol_mom_3v1 || 0).toFixed(2)}x`
-                                    ];
-                                }
-                            }
-                        }
-                    }
-                }
-            });
-        }
-        
-        function renderTable() {
-            const tbody = document.getElementById('tableBody');
-            tbody.innerHTML = '';
-            
-            filteredTokens.forEach(token => {
-                const top10 = token.top_10_holders_pct ?? 0;
-                const liq = token.liquidity_usd ?? 0;
-                const vol = token.volume_24h_usd ?? 0;
-                const risk = token.concentration_risk || 'unknown';
-                const momentum = token.vol_momentum || 'cooling';
-                const mom3v1 = token.vol_mom_3v1 || 0;
-                
-                const momentumColors = {
-                    hot: 'momentum-hot',
-                    warming: 'momentum-warming',
-                    cooling: 'momentum-cooling'
-                };
-                
-                const momentumEmojis = {
-                    hot: '🔥',
-                    warming: '📈',
-                    cooling: '📉'
-                };
-                
-                const row = tbody.insertRow();
-                row.className = 'clickable-row';
-                row.onclick = () => openTokenModal(token.address);
-                row.innerHTML = `
-                    <td><strong>${token.symbol || 'N/A'}</strong></td>
-                    <td>${token.name || 'Unknown'}</td>
-                    <td>${top10.toFixed(2)}%</td>
-                    <td><span class="risk-badge risk-${risk}">${risk}</span></td>
-                    <td>$${vol.toLocaleString()}</td>
-                    <td>
-                        <span class="momentum-badge ${momentumColors[momentum]}">
-                            ${momentumEmojis[momentum]} ${mom3v1.toFixed(2)}x
-                        </span>
-                    </td>
-                    <td>${liq.toLocaleString()}</td>
-                `;
-            });
-        }
-        
-        function sortTable(column) {
-            if (sortColumn === column) {
-                sortAscending = !sortAscending;
-            } else {
-                sortColumn = column;
-                sortAscending = true;
-            }
-            
-            filteredTokens.sort((a, b) => {
-                let aVal = a[column];
-                let bVal = b[column];
-                
-                if (typeof aVal === 'string') {
-                    aVal = aVal.toLowerCase();
-                    bVal = bVal.toLowerCase();
-                }
-                
-                if (sortAscending) {
-                    return aVal > bVal ? 1 : -1;
-                } else {
-                    return aVal < bVal ? 1 : -1;
-                }
-            });
-            
-            renderTable();
-        }
-        
-        function setupFilters() {
-            const riskFilter = document.getElementById('riskFilter');
-            const momentumFilter = document.getElementById('momentumFilter');
-            const liquidityFilter = document.getElementById('liquidityFilter');
-            const searchFilter = document.getElementById('searchFilter');
-            
-            function applyFilters() {
-                filteredTokens = allTokens.filter(token => {
-                    const riskMatch = riskFilter.value === 'all' || token.concentration_risk === riskFilter.value;
-                    const momentumMatch = momentumFilter.value === 'all' || token.vol_momentum === momentumFilter.value;
-                    const liquidityMatch = !liquidityFilter.value || token.liquidity_usd >= parseFloat(liquidityFilter.value);
-                    const searchMatch = !searchFilter.value || 
-                        token.symbol.toLowerCase().includes(searchFilter.value.toLowerCase()) ||
-                        token.name.toLowerCase().includes(searchFilter.value.toLowerCase());
-                    
-                    return riskMatch && momentumMatch && liquidityMatch && searchMatch;
-                });
-                
-                renderTable();
-            }
-            
-            riskFilter.addEventListener('change', applyFilters);
-            momentumFilter.addEventListener('change', applyFilters);
-            liquidityFilter.addEventListener('input', applyFilters);
-            searchFilter.addEventListener('input', applyFilters);
-        }
-        
-        function openTokenModal(address) {
-            const modal = document.getElementById('tokenModal');
-            const tokenHistory = fullHistoryData.filter(row => row.address === address);
-            
-            if (tokenHistory.length === 0) {
-                alert('No historical data available for this token');
-                return;
-            }
-            
-            tokenHistory.sort((a, b) => new Date(a.date) - new Date(b.date));
-            
-            const latestData = tokenHistory[tokenHistory.length - 1];
-            const firstData = tokenHistory[0];
-            
-            document.getElementById('modalTitle').textContent = 
-                `${latestData.symbol || 'Unknown'} - ${latestData.name || 'Unknown Token'}`;
-            document.getElementById('modalSubtitle').textContent = 
-                `${address.substring(0, 8)}...${address.substring(address.length - 6)}`;
-            
-            const daysTracked = tokenHistory.length;
-            const firstSeen = new Date(firstData.date).toLocaleDateString();
-            const lastSeen = new Date(latestData.date).toLocaleDateString();
-            
-            const concentrations = tokenHistory
-                .map(d => d.top_10_holders_pct)
-                .filter(v => v != null && !isNaN(v));
-            
-            const firstConc = concentrations[0] || 0;
-            const lastConc = concentrations[concentrations.length - 1] || 0;
-            const concChange = lastConc - firstConc;
-            const concTrend = concChange > 5 ? '📈 Increasing' : 
-                             concChange < -5 ? '📉 Decreasing' : 
-                             '➡️ Stable';
-            
-            const currentToken = allTokens.find(t => t.address === address);
-            const momentum = currentToken?.vol_momentum || 'unknown';
-            const mom3v1 = currentToken?.vol_mom_3v1 || 0;
-            
-            generateAlerts(tokenHistory, concChange, momentum);
-            
-            const statsHTML = `
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Days Tracked</div>
-                    <div class="modal-stat-value">${daysTracked}</div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">First Seen</div>
-                    <div class="modal-stat-value">${firstSeen}</div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Current Concentration</div>
-                    <div class="modal-stat-value">${lastConc.toFixed(1)}%</div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Trend</div>
-                    <div class="modal-stat-value" style="font-size: 1.2rem;">${concTrend}</div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Change</div>
-                    <div class="modal-stat-value" style="color: ${concChange < 0 ? '#10b981' : '#ef4444'}">
-                        ${concChange > 0 ? '+' : ''}${concChange.toFixed(1)}%
-                    </div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Volume Momentum</div>
-                    <div class="modal-stat-value" style="font-size: 1.2rem;">
-                        ${momentum === 'hot' ? '🔥' : momentum === 'warming' ? '📈' : '📉'} ${mom3v1.toFixed(2)}x
-                    </div>
-                </div>
-                <div class="modal-stat-card">
-                    <div class="modal-stat-label">Current Risk</div>
-                    <div class="modal-stat-value">
-                        <span class="risk-badge risk-${latestData.concentration_risk || 'unknown'}" 
-                              style="font-size: 0.9rem; padding: 6px 14px;">
-                            ${(latestData.concentration_risk || 'unknown').toUpperCase()}
-                        </span>
-                    </div>
-                </div>
-            `;
-            document.getElementById('modalStats').innerHTML = statsHTML;
-            
-            createModalCharts(tokenHistory);
-            modal.style.display = 'block';
-        }
-        
-        function generateAlerts(history, concChange, momentum) {
-            const alertsDiv = document.getElementById('modalAlerts');
-            const alerts = [];
-            
-            if (concChange > 15) {
-                alerts.push({
-                    type: 'alert',
-                    title: '⚠️ RUG PULL RISK',
-                    message: `Concentration increased by ${concChange.toFixed(1)}% - possible whale accumulation!`
-                });
-            }
-            
-            if (concChange < -15) {
-                alerts.push({
-                    type: 'info',
-                    title: '✅ IMPROVING DISTRIBUTION',
-                    message: `Concentration decreased by ${Math.abs(concChange).toFixed(1)}% - better decentralization!`
-                });
-            }
-            
-            if (momentum === 'hot') {
-                alerts.push({
-                    type: 'warning',
-                    title: '🔥 HIGH VOLUME MOMENTUM',
-                    message: 'Volume is 2x+ above average - increased trading activity detected!'
-                });
-            }
-            
-            if (history.length <= 3) {
-                alerts.push({
-                    type: 'warning',
-                    title: '🆕 NEW TOKEN',
-                    message: `Only ${history.length} days of data - exercise caution with new tokens.`
-                });
-            }
-            
-            if (Math.abs(concChange) < 2 && history.length > 7) {
-                alerts.push({
-                    type: 'info',
-                    title: 'ℹ️ STABLE PATTERN',
-                    message: 'Concentration has remained stable over time.'
-                });
-            }
-            
-            alertsDiv.innerHTML = alerts.map(alert => `
-                <div class="alert-box ${alert.type}">
-                    <strong>${alert.title}</strong><br>
-                    ${alert.message}
-                </div>
-            `).join('');
-        }
-        
-        function createModalCharts(history) {
-            if (modalCharts.concentration) modalCharts.concentration.destroy();
-            if (modalCharts.priceVolume) modalCharts.priceVolume.destroy();
-            
-            const dates = history.map(d => new Date(d.date).toLocaleDateString());
-            const top10 = history.map(d => d.top_10_holders_pct ?? null);
-            const top5 = history.map(d => d.top_5_holders_pct ?? null);
-            const prices = history.map(d => d.price_usd ?? null);
-            const volumes = history.map(d => d.volume_24h_usd ?? null);
-            
-            modalCharts.concentration = new Chart(
-                document.getElementById('modalConcentrationChart'),
-                {
-                    type: 'line',
-                    data: {
-                        labels: dates,
-                        datasets: [
-                            {
-                                label: 'Top 10 Holders %',
-                                data: top10,
-                                borderColor: '#ef4444',
-                                backgroundColor: 'rgba(239, 68, 68, 0.1)',
-                                tension: 0.4,
-                                fill: true
-                            },
-                            {
-                                label: 'Top 5 Holders %',
-                                data: top5,
-                                borderColor: '#f59e0b',
-                                backgroundColor: 'rgba(245, 158, 11, 0.1)',
-                                tension: 0.4,
-                                fill: true
-                            }
-                        ]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: {
-                            legend: { labels: { color: '#fff' } }
-                        },
-                        scales: {
-                            x: {
-                                ticks: { color: '#fff' },
-                                grid: { color: 'rgba(255,255,255,0.1)' }
-                            },
-                            y: {
-                                ticks: { color: '#fff' },
-                                grid: { color: 'rgba(255,255,255,0.1)' },
-                                min: 0,
-                                max: 100
-                            }
-                        }
-                    }
-                }
-            );
-            
-            modalCharts.priceVolume = new Chart(
-                document.getElementById('modalPriceVolumeChart'),
-                {
-                    type: 'line',
-                    data: {
-                        labels: dates,
-                        datasets: [
-                            {
-                                label: 'Price (USD)',
-                                data: prices,
-                                borderColor: '#10b981',
-                                backgroundColor: 'rgba(16, 185, 129, 0.1)',
-                                yAxisID: 'y',
-                                tension: 0.4
-                            },
-                            {
-                                label: '24h Volume (USD)',
-                                data: volumes,
-                                borderColor: '#3b82f6',
-                                backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                                yAxisID: 'y1',
-                                tension: 0.4
-                            }
-                        ]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: {
-                            legend: { labels: { color: '#fff' } }
-                        },
-                        scales: {
-                            x: {
-                                ticks: { color: '#fff' },
-                                grid: { color: 'rgba(255,255,255,0.1)' }
-                            },
-                            y: {
-                                type: 'linear',
-                                position: 'left',
-                                ticks: { color: '#fff' },
-                                grid: { color: 'rgba(255,255,255,0.1)' },
-                                title: {
-                                    display: true,
-                                    text: 'Price (USD)',
-                                    color: '#fff'
-                                }
-                            },
-                            y1: {
-                                type: 'linear',
-                                position: 'right',
-                                ticks: { color: '#fff' },
-                                grid: { display: false },
-                                title: {
-                                    display: true,
-                                    text: 'Volume (USD)',
-                                    color: '#fff'
-                                }
-                            }
-                        }
-                    }
-                }
-            );
-        }
-        
-        function closeModal() {
-            document.getElementById('tokenModal').style.display = 'none';
-        }
-        
-        window.onclick = function(event) {
-            const modal = document.getElementById('tokenModal');
-            if (event.target === modal) {
-                closeModal();
-            }
-        }
+let allTokens=[];let filteredTokens=[];let sortColumn='volume_24h_usd';let sortAscending=false;let fullHistoryData=[];let modalCharts={};let currentModalAddress=null;const historyUrl='https://raw.githubusercontent.com/stelios5791/sol-reports/main/data/history.csv';const performanceUrl='https://raw.githubusercontent.com/stelios5791/sol-reports/main/data/performance.csv';let dataLoaded={history:false,performance:false};let performanceData=[];Papa.parse(historyUrl,{download:true,header:true,dynamicTyping:true,skipEmptyLines:true,complete:function(r){if(r.data&&r.data.length>0){fullHistoryData=r.data.filter(row=>row.address&&row.date);const g={};fullHistoryData.forEach(row=>{if(row.concentration_risk){const a=row.address;const d=new Date(row.date);if(!g[a]||new Date(g[a].date)<d){g[a]=row}}});allTokens=Object.values(g)}dataLoaded.history=true;checkDataLoaded()},error:function(){dataLoaded.history=true;checkDataLoaded()}});Papa.parse(performanceUrl,{download:true,header:true,dynamicTyping:true,skipEmptyLines:true,complete:function(r){if(r.data&&r.data.length>0){const g={};r.data.forEach(row=>{if(row.address&&row.date){const a=row.address;const d=new Date(row.date);if(!g[a]||new Date(g[a].date)<d){g[a]=row}}});performanceData=Object.values(g)}dataLoaded.performance=true;checkDataLoaded()},error:function(){dataLoaded.performance=true;checkDataLoaded()}});function checkDataLoaded(){if(dataLoaded.history&&dataLoaded.performance){mergeDataAndInit()}}function mergeDataAndInit(){const perfMap={};performanceData.forEach(p=>{perfMap[p.address]=p});allTokens=allTokens.map(token=>{const perf=perfMap[token.address]||{};let momentumLabel='cooling';const mom3v1=perf.vol_mom_3v1||0;if(mom3v1>2)momentumLabel='hot';else if(mom3v1>1)momentumLabel='warming';return{...token,vol_mom_3v1:perf.vol_mom_3v1,zscore_vol_10d:perf.zscore_vol_10d,presence_7d:perf.presence_7d,presence_30d:perf.presence_30d,vol_momentum:momentumLabel}});filteredTokens=[...allTokens];initDashboard()}function initDashboard(){updateStats();createCharts();renderTable();setupFilters();document.getElementById('loading').style.display='none';document.getElementById('tokenTable').style.display='table'}function updateStats(){const total=allTokens.length;const extreme=allTokens.filter(t=>t.concentration_risk==='extreme').length;const safe=allTokens.filter(t=>['low','medium'].includes(t.concentration_risk)).length;const hot=allTokens.filter(t=>t.vol_momentum==='hot').length;const validConc=allTokens.map(t=>t.top_10_holders_pct).filter(v=>v!=null&&!isNaN(v));const avgConc=validConc.length>0?(validConc.reduce((sum,v)=>sum+v,0)/validConc.length).toFixed(1):'0.0';document.getElementById('totalTokens').textContent=total;document.getElementById('extremeRisk').textContent=extreme;document.getElementById('safeTokens').textContent=safe;document.getElementById('hotTokens').textContent=hot;document.getElementById('avgConcentration').textContent=avgConc+'%'}function createCharts(){const riskCounts={extreme:0,high:0,medium:0,low:0,unknown:0};allTokens.forEach(t=>{const risk=t.concentration_risk||'unknown';if(risk in riskCounts)riskCounts[risk]++});new Chart(document.getElementById('riskChart'),{type:'doughnut',data:{labels:['Extreme','High','Medium','Low','Unknown'],datasets:[{data:[riskCounts.extreme,riskCounts.high,riskCounts.medium,riskCounts.low,riskCounts.unknown],backgroundColor:['#ef4444','#f59e0b','#eab308','#10b981','#6b7280']}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#fff'}}}}});const momentumCounts={hot:allTokens.filter(t=>t.vol_momentum==='hot').length,warming:allTokens.filter(t=>t.vol_momentum==='warming').length,cooling:allTokens.filter(t=>t.vol_momentum==='cooling').length};new Chart(document.getElementById('momentumChart'),{type:'bar',data:{labels:['🔥 Hot','📈 Warming','📉 Cooling'],datasets:[{label:'Tokens',data:[momentumCounts.hot,momentumCounts.warming,momentumCounts.cooling],backgroundColor:['#ef4444','#f59e0b','#3b82f6']}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#fff'},grid:{color:'rgba(255,255,255,0.1)'}},y:{ticks:{color:'#fff'},grid:{color:'rgba(255,255,255,0.1)'}}}}});const validTokens=allTokens.filter(t=>t.top_10_holders_pct!=null&&!isNaN(t.top_10_holders_pct)&&t.volume_24h_usd!=null&&!isNaN(t.volume_24h_usd)&&t.volume_24h_usd>0);new Chart(document.getElementById('concentrationChart'),{type:'scatter',data:{datasets:[{label:'Tokens',data:validTokens.map(t=>({x:t.top_10_holders_pct,y:Math.log10(t.volume_24h_usd+1)})),backgroundColor:validTokens.map(t=>{const colors={hot:'#ef4444',warming:'#f59e0b',cooling:'#3b82f6'};return colors[t.vol_momentum]||'#6b7280'}),pointRadius:6}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{title:{display:true,text:'Top 10%',color:'#fff'},ticks:{color:'#fff'},grid:{color:'rgba(255,255,255,0.1)'}},y:{title:{display:true,text:'Volume (log)',color:'#fff'},ticks:{color:'#fff',callback:v=>'$'+Math.pow(10,v).toFixed(0)},grid:{color:'rgba(255,255,255,0.1)'}}},plugins:{legend:{display:false}}}})}function renderTable(){const tbody=document.getElementById('tableBody');tbody.innerHTML='';filteredTokens.forEach(token=>{const top10=token.top_10_holders_pct??0;const liq=token.liquidity_usd??0;const vol=token.volume_24h_usd??0;const risk=token.concentration_risk||'unknown';const momentum=token.vol_momentum||'cooling';const mom3v1=token.vol_mom_3v1||0;const momentumColors={hot:'momentum-hot',warming:'momentum-warming',cooling:'momentum-cooling'};const momentumEmojis={hot:'🔥',warming:'📈',cooling:'📉'};const row=tbody.insertRow();row.className='clickable-row';row.onclick=()=>openTokenModal(token.address);row.innerHTML=`<td><strong>${token.symbol||'N/A'}</strong></td><td>${token.name||'Unknown'}</td><td>${top10.toFixed(2)}%</td><td><span class="risk-badge risk-${risk}">${risk}</span></td><td>$${vol.toLocaleString()}</td><td><span class="momentum-badge ${momentumColors[momentum]}">${momentumEmojis[momentum]} ${mom3v1.toFixed(2)}x</span></td><td>$${liq.toLocaleString()}</td>`});updateResultsCount()}function updateResultsCount(){const count=filteredTokens.length;const total=allTokens.length;document.getElementById('resultsCount').textContent=`Showing ${count} of ${total} tokens`;document.getElementById('exportCount').textContent=`(${count} tokens)`}function sortTable(column){if(sortColumn===column){sortAscending=!sortAscending}else{sortColumn=column;sortAscending=true}filteredTokens.sort((a,b)=>{let aVal=a[column];let bVal=b[column];if(aVal==null)aVal=sortAscending?Infinity:-Infinity;if(bVal==null)bVal=sortAscending?Infinity:-Infinity;if(typeof aVal==='string'){aVal=aVal.toLowerCase();bVal=(bVal||'').toLowerCase()}return sortAscending?(aVal>bVal?1:-1):(aVal<bVal?1:-1)});renderTable()}function setupFilters(){const riskFilter=document.getElementById('riskFilter');const momentumFilter=document.getElementById('momentumFilter');const liquidityFilter=document.getElementById('liquidityFilter');const searchFilter=document.getElementById('searchFilter');function applyFilters(){filteredTokens=allTokens.filter(token=>{const riskMatch=riskFilter.value==='all'||token.concentration_risk===riskFilter.value;const momentumMatch=momentumFilter.value==='all'||token.vol_momentum===momentumFilter.value;const liquidityMatch=!liquidityFilter.value||token.liquidity_usd>=parseFloat(liquidityFilter.value);const searchMatch=!searchFilter.value||(token.symbol||'').toLowerCase().includes(searchFilter.value.toLowerCase())||(token.name||'').toLowerCase().includes(searchFilter.value.toLowerCase());return riskMatch&&momentumMatch&&liquidityMatch&&searchMatch});renderTable()}riskFilter.addEventListener('change',applyFilters);momentumFilter.addEventListener('change',applyFilters);liquidityFilter.addEventListener('input',applyFilters);searchFilter.addEventListener('input',applyFilters)}function exportCSV(){const csv=Papa.unparse(filteredTokens);downloadFile(csv,'solana-radar-export.csv','text/csv');showToast('✅ CSV downloaded!')}function exportJSON(){const json=JSON.stringify(filteredTokens,null,2);downloadFile(json,'solana-radar-export.json','application/json');showToast('✅ JSON downloaded!')}function copyTable(){const headers=['Symbol','Name','Top 10%','Risk','Volume','Momentum','Liquidity'];const rows=filteredTokens.map(t=>[t.symbol||'',t.name||'',(t.top_10_holders_pct||0).toFixed(2)+'%',t.concentration_risk||'','$'+(t.volume_24h_usd||0).toLocaleString(),`${t.vol_momentum||''} (${(t.vol_mom_3v1||0).toFixed(2)}x)`,'$'+(t.liquidity_usd||0).toLocaleString()]);const tsv=[headers,...rows].map(row=>row.join('\t')).join('\n');navigator.clipboard.writeText(tsv).then(()=>{showToast('✅ Copied! Paste in Excel.')}).catch(()=>{showToast('❌ Copy failed')})}function downloadFile(content,filename,type){const blob=new Blob([content],{type});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url)}function showToast(message){const toast=document.getElementById('toast');toast.textContent=message;toast.classList.add('show');setTimeout(()=>{toast.classList.remove('show')},3000)}function openTokenModal(address){currentModalAddress=address;const modal=document.getElementById('tokenModal');const tokenHistory=fullHistoryData.filter(row=>row.address===address);if(tokenHistory.length===0){alert('No historical data available');return}tokenHistory.sort((a,b)=>new Date(a.date)-new Date(b.date));const latestData=tokenHistory[tokenHistory.length-1];const firstData=tokenHistory[0];document.getElementById('modalTitle').textContent=`${latestData.symbol||'Unknown'} - ${latestData.name||'Unknown'}`;document.getElementById('modalSubtitle').textContent=`${address.substring(0,8)}...${address.substring(address.length-6)}`;const daysTracked=tokenHistory.length;const firstSeen=new Date(firstData.date).toLocaleDateString();const concentrations=tokenHistory.map(d=>d.top_10_holders_pct).filter(v=>v!=null&&!isNaN(v));const firstConc=concentrations[0]||0;const lastConc=concentrations[concentrations.length-1]||0;const concChange=lastConc-firstConc;const concTrend=concChange>5?'📈 Increasing':concChange<-5?'📉 Decreasing':'➡️ Stable';const currentToken=allTokens.find(t=>t.address===address);const momentum=currentToken?.vol_momentum||'unknown';const mom3v1=currentToken?.vol_mom_3v1||0;generateAlerts(tokenHistory,concChange,momentum);const statsHTML=`<div class="modal-stat-card"><div class="modal-stat-label">Days Tracked</div><div class="modal-stat-value">${daysTracked}</div></div><div class="modal-stat-card"><div class="modal-stat-label">First Seen</div><div class="modal-stat-value">${firstSeen}</div></div><div class="modal-stat-card"><div class="modal-stat-label">Current Concentration</div><div class="modal-stat-value">${lastConc.toFixed(1)}%</div></div><div class="modal-stat-card"><div class="modal-stat-label">Trend</div><div class="modal-stat-value" style="font-size:1.2rem;">${concTrend}</div></div><div class="modal-stat-card"><div class="modal-stat-label">Change</div><div class="modal-stat-value" style="color:${concChange<0?'#10b981':'#ef4444'}">${concChange>0?'+':''}${concChange.toFixed(1)}%</div></div><div class="modal-stat-card"><div class="modal-stat-label">Volume Momentum</div><div class="modal-stat-value" style="font-size:1.2rem;">${momentum==='hot'?'🔥':momentum==='warming'?'📈':'📉'} ${mom3v1.toFixed(2)}x</div></div><div class="modal-stat-card"><div class="modal-stat-label">Current Risk</div><div class="modal-stat-value"><span class="risk-badge risk-${latestData.concentration_risk||'unknown'}" style="font-size:0.9rem;padding:6px 14px;">${(latestData.concentration_risk||'unknown').toUpperCase()}</span></div></div>`;document.getElementById('modalStats').innerHTML=statsHTML;createModalCharts(tokenHistory);modal.style.display='block'}function exportModalCSV(){if(!currentModalAddress)return;const tokenHistory=fullHistoryData.filter(row=>row.address===currentModalAddress);tokenHistory.sort((a,b)=>new Date(a.date)-new Date(b.date));const csv=Papa.unparse(tokenHistory);const token=allTokens.find(t=>t.address===currentModalAddress);const filename=`${token?.symbol||'token'}-history.csv`;downloadFile(csv,filename,'text/csv');showToast(`✅ ${filename} downloaded!`)}function generateAlerts(history,concChange,momentum){const alertsDiv=document.getElementById('modalAlerts');const alerts=[];if(concChange>15){alerts.push({type:'alert',title:'⚠️ RUG PULL RISK',message:`Concentration increased by ${concChange.toFixed(1)}% - possible whale accumulation!`})}if(concChange<-15){alerts.push({type:'info',title:'✅ IMPROVING DISTRIBUTION',message:`Concentration decreased by ${Math.abs(concChange).toFixed(1)}% - better decentralization!`})}if(momentum==='hot'){alerts.push({type:'warning',title:'🔥 HIGH VOLUME MOMENTUM',message:'Volume is 2x+ above average - increased trading activity detected!'})}if(history.length<=3){alerts.push({type:'warning',title:'🆕 NEW TOKEN',message:`Only ${history.length} days of data - exercise caution with new tokens.`})}if(Math.abs(concChange)<2&&history.length>7){alerts.push({type:'info',title:'ℹ️ STABLE PATTERN',message:'Concentration has remained stable over time.'})}alertsDiv.innerHTML=alerts.map(alert=>`<div class="alert-box ${alert.type}"><strong>${alert.title}</strong><br>${alert.message}</div>`).join('')}function createModalCharts(history){if(modalCharts.concentration)modalCharts.concentration.destroy();if(modalCharts.priceVolume)modalCharts.priceVolume.destroy();const dates=history.map(d=>new Date(d.date).toLocaleDateString());const top10=history.map(d=>d.top_10_holders_pct??null);const top5=history.map(d=>d.top_5_holders_pct??null);const prices=history.map(d=>d.price_usd??null);const volumes=history.map(d=>d.volume_24h_usd??null);modalCharts.concentration=new Chart(document.getElementById('modalConcentrationChart'),{type:'line',data:{labels:dates,datasets:[{label:'Top 10 Holders %',data:top10,borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,0.1)',tension:0.4,fill:true},{label:'Top 5 Holders %',data:top5,borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,0.1)',tension:0.4,fill:true}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#fff'}}},scales:{x:{ticks:{color:'#fff'},grid:{color:'rgba(255,255,255,0.1)'}},y:{ticks:{color:'#fff'},grid:{color:'rgba(255,255,255,0.1)'},min:0,max:100}}}});modalCharts.priceVolume=new Chart(document.getElementById('modalPriceVolumeChart'),{type:'line',data:{labels:dates,datasets:[{label:'Price (USD)',data:prices,borderColor:'#10b981',backgroundColor:'rgba(16,185,129,0.1)',yAxisID:'y',tension:0.4},{label:'24h Volume (USD)',data:volumes,borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,0.1)',yAxisID:'y1',tension:0.4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#fff'}}},scales:{x:{ticks:{color:'#fff'},grid:{color:'rgba(255,255,255,0.1)'}},y:{type:'linear',position:'left',ticks:{color:'#fff'},grid:{color:'rgba(255,255,255,0.1)'},title:{display:true,text:'Price (USD)',color:'#fff'}},y1:{type:'linear',position:'right',ticks:{color:'#fff'},grid:{display:false},title:{display:true,text:'Volume (USD)',color:'#fff'}}}}})}function closeModal(){document.getElementById('tokenModal').style.display='none';currentModalAddress=null}window.onclick=function(event){const modal=document.getElementById('tokenModal');if(event.target===modal){closeModal()}}
     </script>
 </body>
 </html>
