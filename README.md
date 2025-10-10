@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Daily Reports
 
-**Last Updated**: 2025-10-10 17:20 UTC
+**Last Updated**: 2025-10-10 17:25 UTC
 
 Automated daily analysis of Solana tokens with whale tracking and momentum indicators.
 
@@ -74,16 +74,16 @@ Top 10 tokens with the most distributed ownership:
 
 | Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |
 |------|--------|------|---------|------|------------|-----------|
-| 1 | XBT | XBT | 22.64% | 🟢 low | $95.91 | $665.08 |
+| 1 | XBT | XBT | 22.63% | 🟢 low | $95.91 | $665.08 |
 | 2 | RAGEGUY | Rage Guy | 28.21% | 🟢 low | $57.79K | $124.33K |
-| 3 | ELIZABETH | Just Elizabeth Cat | 28.65% | 🟢 low | $18.59 | $51.22 |
+| 3 | ELIZABETH | Just Elizabeth Cat | 28.66% | 🟢 low | $18.59 | $51.22 |
 | 4 | DREAM | Dreamsync | 31.64% | 🟢 low | $99.11K | $189.64K |
 | 5 | FLY | Nexa | 33.41% | 🟢 low | $2.42 | $9.26K |
-| 6 | FARTLESS | FARTLESS COIN | 34.66% | 🟢 low | $1.27K | $3.65K |
+| 6 | FARTLESS | FARTLESS COIN | 34.71% | 🟢 low | $1.28K | $3.63K |
 | 7 | USEFUL | USEFUL COIN | 41.02% | 🟢 low | $4.98 | $56.69 |
 | 8 | AI20X | Ai20x.ai | 41.39% | 🟢 low | $5.33K | $2.60M |
 | 9 | YAO | YAO MING | 43.17% | 🟢 low | $3.22 | $753.71 |
-| 10 | 1nu | 1nu | 43.84% | 🟢 low | $31.56K | $28.07K |
+| 10 | 1nu | 1nu | 43.84% | 🟢 low | $31.45K | $28.07K |
 
 ### ⚠️ Highest Risk Tokens (Highest Holder Concentration)
 
@@ -154,7 +154,7 @@ Historical holder concentration for top volume tokens:
           50.98,
           50.56,
           52.53,
-          50.79
+          50.84
         ],
         "borderColor": "#ef4444",
         "backgroundColor": "#ef444420",
@@ -276,16 +276,16 @@ Top tokens by 24h trading volume (color-coded by risk):
       {
         "label": "24h Volume (USD)",
         "data": [
-          397999363.68,
-          114670.91,
+          397192618.72,
+          114910.11,
           99109.55,
           57788.14,
-          31558.43,
-          27015.91,
+          31448.93,
+          26856.41,
           9353.62,
           5332.74,
           1761.04,
-          1267.79
+          1275.21
         ],
         "backgroundColor": [
           "#94a3b8",
@@ -348,8 +348,8 @@ Relationship between token valuation (FDV) and holder concentration:
         "label": "Tokens",
         "data": [
           {
-            "x": 203029.0,
-            "y": 50.79,
+            "x": 202293.0,
+            "y": 50.84,
             "symbol": "AI4",
             "risk": "low",
             "backgroundColor": "#22c55e"
@@ -404,8 +404,8 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#eab308"
           },
           {
-            "x": 791727.0,
-            "y": 34.66,
+            "x": 784233.0,
+            "y": 34.71,
             "symbol": "FARTLESS",
             "risk": "low",
             "backgroundColor": "#22c55e"
@@ -439,8 +439,8 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#eab308"
           },
           {
-            "x": 154161.0,
-            "y": 50.3,
+            "x": 153188.0,
+            "y": 50.27,
             "symbol": "RUECAT",
             "risk": "low",
             "backgroundColor": "#22c55e"
@@ -453,7 +453,7 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 5070.0,
+            "x": 4813.0,
             "y": 96.31,
             "symbol": "Streamless",
             "risk": "extreme",
@@ -502,7 +502,7 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 274956.0,
+            "x": 275288.0,
             "y": 91.74,
             "symbol": "HOODIE",
             "risk": "high",
@@ -517,7 +517,7 @@ Relationship between token valuation (FDV) and holder concentration:
           },
           {
             "x": 1761858.0,
-            "y": 22.64,
+            "y": 22.63,
             "symbol": "XBT",
             "risk": "low",
             "backgroundColor": "#22c55e"
@@ -552,7 +552,7 @@ Relationship between token valuation (FDV) and holder concentration:
           },
           {
             "x": 1131365.0,
-            "y": 28.65,
+            "y": 28.66,
             "symbol": "ELIZABETH",
             "risk": "low",
             "backgroundColor": "#22c55e"
@@ -678,7 +678,7 @@ Relationship between token valuation (FDV) and holder concentration:
           },
           {
             "x": 322108.0,
-            "y": 43.88,
+            "y": 43.87,
             "symbol": "gib",
             "risk": "low",
             "backgroundColor": "#22c55e"
@@ -789,8 +789,8 @@ Relationship between token valuation (FDV) and holder concentration:
 ## 🔥 Today's Top 50 Tokens
 
 **Total Tokens**: 50
-**Combined 24h Volume**: $398.35M
-**Combined Liquidity**: $62.22M
+**Combined 24h Volume**: $397.55M
+**Combined Liquidity**: $62.26M
 
 **Concentration Risk Distribution**:
 - 🔴 Extreme: 22 tokens
@@ -803,16 +803,16 @@ Relationship between token valuation (FDV) and holder concentration:
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $398.00M | $56.31M | 🟢 unknown |
-| 2 | AI4 | AI⁴ | $114.67K | $86.47K | 🟢 low |
+| 1 | wSOL | Wrapped SOL | $397.19M | $56.35M | 🟢 unknown |
+| 2 | AI4 | AI⁴ | $114.91K | $86.37K | 🟢 low |
 | 3 | DREAM | Dreamsync | $99.11K | $189.64K | 🟢 low |
 | 4 | RAGEGUY | Rage Guy | $57.79K | $124.33K | 🟢 low |
-| 5 | 1nu | 1nu | $31.56K | $28.07K | 🟢 low |
-| 6 | LION | Loaded Lions | $27.02K | $1.93M | 🟢 low |
+| 5 | 1nu | 1nu | $31.45K | $28.07K | 🟢 low |
+| 6 | LION | Loaded Lions | $26.86K | $1.93M | 🟢 low |
 | 7 | HAROLD | Harold | $9.35K | $539.64K | 🟢 medium |
 | 8 | AI20X | Ai20x.ai | $5.33K | $2.60M | 🟢 low |
 | 9 | SHITTER | SHITTERCOIN | $1.76K | $19.37K | 🟢 medium |
-| 10 | FARTLESS | FARTLESS COIN | $1.27K | $3.65K | 🟢 low |
+| 10 | FARTLESS | FARTLESS COIN | $1.28K | $3.63K | 🟢 low |
 
 📄 [Full data: daily_top50.csv](data/daily_top50.csv)
 
@@ -833,7 +833,7 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 | Symbol | Name | Age (days) | Volume 24h | Liquidity | Top 10% |
 |--------|------|------------|------------|-----------|---------|
-| wSOL | Wrapped SOL | 9 | $398.00M | $56.31M | 0.00% |
+| wSOL | Wrapped SOL | 9 | $397.19M | $56.35M | 0.00% |
 | DREAM | Dreamsync | 9 | $99.11K | $189.64K | 31.64% |
 | USDUT | unstable tether | 9 | $57.89K | $114.66K | 37.30% |
 | RAGEGUY | Rage Guy | 9 | $57.79K | $124.33K | 28.21% |
