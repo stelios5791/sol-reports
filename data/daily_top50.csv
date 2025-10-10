@@ -1,18 +1,18 @@
 date,symbol,name,address,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,source,data_status,missing_streak,top_10_holders_pct,top_5_holders_pct,holder_concentration,concentration_risk,volume_7d_avg,volume_change_pct,volume_spike,pv_divergence,liquidity_3d_trend,export_date
-2025-10-10,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,210.85,397192618.72,56349944.69,0.0,dexscreener,ok,0,0.0,0.0,unknown,unknown,,,unknown,none,unknown,2025-10-10
-2025-10-10,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0002023,114910.11,86366.91,202293.0,dexscreener,ok,0,50.84,40.64,low,low,,,unknown,none,unknown,2025-10-10
+2025-10-10,wSOL,Wrapped SOL,So11111111111111111111111111111111111111112,210.76,397750024.67,56345065.56,0.0,dexscreener,ok,0,0.0,0.0,unknown,unknown,,,unknown,none,unknown,2025-10-10
+2025-10-10,AI4,AI⁴,CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,0.0002052,114974.5,86982.31,205218.0,dexscreener,ok,0,50.81,40.61,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,DREAM,Dreamsync,B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,0.00184,99109.55,189642.77,1840820.0,dexscreener,ok,0,31.64,17.48,low,low,,,unknown,none,unknown,2025-10-10
-2025-10-10,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.0006299,57788.14,124326.3,629795.0,dexscreener,ok,0,28.21,20.63,low,low,,,unknown,none,unknown,2025-10-10
-2025-10-10,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,4.802e-05,31448.93,28067.82,48028.0,dexscreener,ok,0,43.84,37.43,low,low,,,unknown,none,unknown,2025-10-10
-2025-10-10,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01398,26856.41,1928176.19,69946297.0,dexscreener,ok,0,57.84,32.05,low,low,,,unknown,none,unknown,2025-10-10
+2025-10-10,RAGEGUY,Rage Guy,GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump,0.0006315,57300.18,124714.15,631423.0,dexscreener,ok,0,28.22,20.64,low,low,,,unknown,none,unknown,2025-10-10
+2025-10-10,1nu,1nu,44DNPJ2qisA7MMaUmKK5SXvAcPyV7bEzmnK7oYJkbonk,4.926e-05,31154.96,28427.94,49268.0,dexscreener,ok,0,43.44,37.04,low,low,,,unknown,none,unknown,2025-10-10
+2025-10-10,LION,Loaded Lions,7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3,0.01398,26257.25,1928176.19,69946297.0,dexscreener,ok,0,57.84,32.05,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,HAROLD,Harold,3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt,0.003572,9353.62,539638.21,3572267.0,dexscreener,ok,0,62.36,51.42,medium,medium,,,unknown,none,unknown,2025-10-10
 2025-10-10,AI20X,Ai20x.ai,DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,1.048,5332.74,2600668.6,22015464.0,dexscreener,ok,0,41.39,33.06,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,SHITTER,SHITTERCOIN,GuLvigFjAm1yyReTk6EeboHNnLj1tCi62pzWLorxbonk,1.902e-05,1761.04,19372.74,19029.0,dexscreener,ok,0,66.07,59.22,medium,medium,,,unknown,none,unknown,2025-10-10
-2025-10-10,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0007842,1275.21,3629.91,784233.0,dexscreener,ok,0,34.71,29.36,low,low,,,unknown,none,unknown,2025-10-10
+2025-10-10,FARTLESS,FARTLESS COIN,FyrBf5xKg5EwKZ9pHvSpJeLLuCWBicTpm3VvZcsibonk,0.0007866,1255.53,3635.54,786668.0,dexscreener,ok,0,34.68,29.33,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,$CrepSol,Crepe on Solana,HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump,4.07e-05,930.69,24748.5,40696.0,dexscreener,ok,0,54.21,46.51,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,SOL,Solana,9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,190.63,739.63,7546.66,3078724.0,dexscreener,ok,0,96.52,95.43,critical,extreme,,,unknown,none,unknown,2025-10-10
+2025-10-10,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,2.803e-05,615.47,21271.54,28037.0,dexscreener,ok,0,74.63,65.69,medium,medium,,,unknown,none,unknown,2025-10-10
 2025-10-10,1,1 pill can change your life,8wbfBYthc9fC4GsHgCtznZP1PAoXaZ8tnUGBtGMgpump,6.166e-06,568.28,10612.07,6163.0,dexscreener,ok,0,93.5,90.85,critical,extreme,,,unknown,none,unknown,2025-10-10
-2025-10-10,1Bull,One bull run to change your life,EVGox5PPxnFqTsMXMoUBSCUhszqK6UUYf9W7pkwfpump,2.806e-05,566.74,21244.58,28066.0,dexscreener,ok,0,74.45,65.51,medium,medium,,,unknown,none,unknown,2025-10-10
 2025-10-10,RUECAT,Rue Cat,AMKKkovbUqr5cxmsg22KxTgaRXq6z4f8umrze4JKpump,0.0002145,479.37,57244.83,153188.0,dexscreener,ok,0,50.27,37.67,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,19,Cult of 19,8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,4.684e-06,474.47,8643.39,4677.0,dexscreener,ok,0,98.89,98.43,critical,extreme,,,unknown,none,unknown,2025-10-10
 2025-10-10,Streamless,Streamless coin,C8Hyu6bjPtuaTJ4Fj6V6L99rhUkkCuKByNZTyXiCpump,4.83e-06,300.93,8945.89,4813.0,dexscreener,ok,0,96.31,94.95,critical,extreme,,,unknown,none,unknown,2025-10-10
@@ -24,7 +24,7 @@ date,symbol,name,address,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,source,d
 2025-10-10,viewer,in a streamers world,8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,4.56e-06,135.53,8690.4,4549.0,dexscreener,ok,0,97.61,96.98,critical,extreme,,,unknown,none,unknown,2025-10-10
 2025-10-10,HOODIE,Hoodie,JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,0.0002752,125.18,4996.73,275288.0,dexscreener,ok,0,91.74,81.07,high,high,,,unknown,none,unknown,2025-10-10
 2025-10-10,SUPRACOIN,GIVING CAR AWAY AT 10MIL MC!,LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,9.256e-06,101.81,13650.11,9253.0,dexscreener,ok,0,94.2,91.86,critical,extreme,,,unknown,none,unknown,2025-10-10
-2025-10-10,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001762,95.91,665.08,1761858.0,dexscreener,ok,0,22.63,16.95,low,low,,,unknown,none,unknown,2025-10-10
+2025-10-10,XBT,XBT,A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump,0.001762,95.91,665.08,1761858.0,dexscreener,ok,0,22.64,16.95,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,APOLLO,Apollo AI,6k1rwsNMBwbRJrWck3sEVCjn4MvF9ty8A6iSGfxjxREV,6.098e-06,68.39,5099.76,6099.0,dexscreener,ok,0,76.69,70.26,high,high,,,unknown,none,unknown,2025-10-10
 2025-10-10,Hosico,Hosico Cat,HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,4.964e-06,45.3,8801.86,4961.0,dexscreener,ok,0,96.96,94.67,critical,extreme,,,unknown,none,unknown,2025-10-10
 2025-10-10,pibble,pibble,GS3pHMUtYSu5PPuDFey74frkiRQhPdvx8jEeN6Qzbonk,4.89e-06,44.36,7725.47,4890.0,dexscreener,ok,0,93.32,87.37,high,high,,,unknown,none,unknown,2025-10-10
@@ -35,8 +35,8 @@ date,symbol,name,address,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,source,d
 2025-10-10,obvious,in hindsight,EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,4.947e-06,8.17,8844.89,4944.0,dexscreener,ok,0,97.07,95.85,critical,extreme,,,unknown,none,unknown,2025-10-10
 2025-10-10,MOCHI,MOCHI CULT,4ky1REfghVawQ6EPZGdx7zss5KNKStwE8swjii3uU5sD,1.244e-05,6.61,20732.01,12438.0,dexscreener,ok,0,90.96,87.78,high,high,,,unknown,none,unknown,2025-10-10
 2025-10-10,Mementoe,Mementoe,GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,4.395e-06,6.13,8293.62,4395.0,dexscreener,ok,0,99.4,99.21,critical,extreme,,,unknown,none,unknown,2025-10-10
-2025-10-10,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0001636,4.98,56.69,163649.0,dexscreener,ok,0,41.02,34.5,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,REVIVE,reviving the memes,4Y6HDaV4374KstQX8qD1L35WiQDwHZaHLez8xs6GrKcf,5.756e-06,4.97,11270.38,5754.0,dexscreener,ok,0,98.66,98.19,critical,extreme,,,unknown,none,unknown,2025-10-10
+2025-10-10,USEFUL,USEFUL COIN,HD3JBABeFkdZwUgKwhwJYqjLNrPWXEaDVfH4uMqRpump,0.0001636,4.8,56.69,163649.0,dexscreener,ok,0,41.02,34.5,low,low,,,unknown,none,unknown,2025-10-10
 2025-10-10,JIFFPOM,Jiffpom,7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,7.405e-06,4.21,2156.79,7403.0,dexscreener,ok,0,98.29,97.54,critical,extreme,,,unknown,none,unknown,2025-10-10
 2025-10-10,MoneyBear,The Money Bears,Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,4.484e-06,3.37,8869.51,4480.0,dexscreener,ok,0,99.44,99.08,critical,extreme,,,unknown,none,unknown,2025-10-10
 2025-10-10,YAO,YAO MING,VnqKnEybGaw6G5ZAdjvPDri5RzDLPXznqxBunG13GJE,9.804e-05,3.22,753.71,98000.0,dexscreener,ok,0,43.17,34.51,low,low,,,unknown,none,unknown,2025-10-10
