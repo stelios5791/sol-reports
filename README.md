@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Daily Reports
 
-**Last Updated**: 2025-10-10 17:29 UTC
+**Last Updated**: 2025-10-11 08:33 UTC
 
 Automated daily analysis of Solana tokens with whale tracking and momentum indicators.
 
@@ -35,8 +35,8 @@ Current distribution of concentration risk across all tracked tokens:
     "datasets": [
       {
         "data": [
-          22,
-          8,
+          24,
+          6,
           4,
           15,
           1
@@ -74,16 +74,16 @@ Top 10 tokens with the most distributed ownership:
 
 | Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |
 |------|--------|------|---------|------|------------|-----------|
-| 1 | XBT | XBT | 22.64% | 🟢 low | $95.91 | $665.08 |
-| 2 | RAGEGUY | Rage Guy | 28.22% | 🟢 low | $57.30K | $124.71K |
-| 3 | ELIZABETH | Just Elizabeth Cat | 28.66% | 🟢 low | $18.59 | $51.22 |
-| 4 | DREAM | Dreamsync | 31.64% | 🟢 low | $99.11K | $189.64K |
-| 5 | FLY | Nexa | 33.41% | 🟢 low | $2.42 | $9.26K |
-| 6 | FARTLESS | FARTLESS COIN | 34.68% | 🟢 low | $1.26K | $3.64K |
-| 7 | USEFUL | USEFUL COIN | 41.02% | 🟢 low | $4.80 | $56.69 |
-| 8 | AI20X | Ai20x.ai | 41.39% | 🟢 low | $5.33K | $2.60M |
-| 9 | YAO | YAO MING | 43.17% | 🟢 low | $3.22 | $753.71 |
-| 10 | 1nu | 1nu | 43.44% | 🟢 low | $31.15K | $28.43K |
+| 1 | XBT | XBT | 22.74% | 🟢 low | $494.48 | $569.60 |
+| 2 | RAGEGUY | Rage Guy | 28.11% | 🟢 low | $69.57K | $108.86K |
+| 3 | ELIZABETH | Just Elizabeth Cat | 29.51% | 🟢 low | $19.88 | $42.05 |
+| 4 | DREAM | Dreamsync | 31.64% | 🟢 low | $85.46K | $164.99K |
+| 5 | FLY | Nexa | 33.41% | 🟢 low | $12.67 | $7.63K |
+| 6 | FARTLESS | FARTLESS COIN | 34.88% | 🟢 low | $2.46K | $3.42K |
+| 7 | USEFUL | USEFUL COIN | 40.95% | 🟢 low | $7.08 | $46.80 |
+| 8 | AI20X | Ai20x.ai | 41.39% | 🟢 low | $393.49 | $2.17M |
+| 9 | YAO | YAO MING | 43.86% | 🟢 low | $3.51 | $683.04 |
+| 10 | gib | gib | 44.95% | 🟢 low | $5.25 | $69.63 |
 
 ### ⚠️ Highest Risk Tokens (Highest Holder Concentration)
 
@@ -92,15 +92,15 @@ Top 10 tokens with the most concentrated ownership:
 | Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |
 |------|--------|------|---------|------|------------|-----------|
 | 1 | Trey | Justice For Trey Reed | 100.00% | 🔴 extreme | $1.35 | $0.00 |
-| 2 | YOU | YOU can change your life. | 99.99% | 🔴 extreme | $0.69 | $0.00 |
-| 3 | Gaming | Gaming Cult | 99.97% | 🔴 extreme | $2.90 | $0.00 |
+| 2 | Gaming | Gaming Cult | 99.97% | 🔴 extreme | $2.90 | $0.00 |
+| 3 | 2 | TWO IS BETTER THAN ONE | 99.85% | 🔴 extreme | $0.53 | $0.00 |
 | 4 | Jewcat | Jewish Cat | 99.85% | 🔴 extreme | $0.18 | $0.00 |
-| 5 | MoneyBear | The Money Bears | 99.44% | 🔴 extreme | $3.37 | $8.87K |
-| 6 | Mementoe | Mementoe | 99.40% | 🔴 extreme | $6.13 | $8.29K |
-| 7 | 19 | Cult of 19 | 98.89% | 🔴 extreme | $474.47 | $8.64K |
-| 8 | REVIVE | reviving the memes | 98.66% | 🔴 extreme | $4.97 | $11.27K |
-| 9 | JIFFPOM | Jiffpom | 98.29% | 🔴 extreme | $4.21 | $2.16K |
-| 10 | Noxi | Noxi Labs AI | 98.28% | 🔴 extreme | $14.33 | $9.52K |
+| 5 | MOONCOIN | MOON COIN | 99.70% | 🔴 extreme | $38.40 | $7.34K |
+| 6 | MINDWORMS | mindworms | 99.63% | 🔴 extreme | $0.25 | $7.00K |
+| 7 | MoneyBear | The Money Bears | 99.45% | 🔴 extreme | $3.59 | $7.78K |
+| 8 | retail | retail | 99.37% | 🔴 extreme | $66.46 | $7.11K |
+| 9 | BEANS | BEANS | 99.15% | 🔴 extreme | $0.91 | $7.99K |
+| 10 | BEANIE | BEANIE | 99.05% | 🔴 extreme | $101.05 | $7.67K |
 
 ### 📈 Concentration Trends
 
@@ -125,7 +125,7 @@ Historical holder concentration for top volume tokens:
       "2025-10-05",
       "2025-10-06",
       "2025-10-07",
-      "2025-10-10"
+      "2025-10-11"
     ],
     "datasets": [
       {
@@ -154,10 +154,26 @@ Historical holder concentration for top volume tokens:
           50.98,
           50.56,
           52.53,
-          50.81
+          50.63
         ],
         "borderColor": "#ef4444",
         "backgroundColor": "#ef444420",
+        "tension": 0.1,
+        "fill": false
+      },
+      {
+        "label": "LION",
+        "data": [
+          0.0,
+          0.0,
+          0.0,
+          57.84,
+          57.84,
+          57.84,
+          57.84
+        ],
+        "borderColor": "#22c55e",
+        "backgroundColor": "#22c55e20",
         "tension": 0.1,
         "fill": false
       },
@@ -172,38 +188,21 @@ Historical holder concentration for top volume tokens:
           32.3,
           31.64
         ],
-        "borderColor": "#22c55e",
-        "backgroundColor": "#22c55e20",
-        "tension": 0.1,
-        "fill": false
-      },
-      {
-        "label": "RAGEGUY",
-        "data": [
-          0.0,
-          0.0,
-          0.0,
-          25.99,
-          26.1,
-          25.76,
-          28.22
-        ],
         "borderColor": "#eab308",
         "backgroundColor": "#eab30820",
         "tension": 0.1,
         "fill": false
       },
       {
-        "label": "1nu",
+        "label": "HAROLD",
         "data": [
           0.0,
           0.0,
           0.0,
-          0.0,
-          33.63,
-          33.3,
-          38.4,
-          43.44
+          61.9,
+          61.92,
+          62.0,
+          62.87
         ],
         "borderColor": "#8b5cf6",
         "backgroundColor": "#8b5cf620",
@@ -263,41 +262,41 @@ Top tokens by 24h trading volume (color-coded by risk):
     "labels": [
       "wSOL",
       "AI4",
+      "LION",
       "DREAM",
+      "HAROLD",
       "RAGEGUY",
       "1nu",
-      "LION",
-      "HAROLD",
-      "AI20X",
-      "SHITTER",
-      "FARTLESS"
+      "SOL",
+      "FARTLESS",
+      "1Bull"
     ],
     "datasets": [
       {
         "label": "24h Volume (USD)",
         "data": [
-          397750024.67,
-          114974.5,
-          99109.55,
-          57300.18,
-          31154.96,
-          26257.25,
-          9353.62,
-          5332.74,
-          1761.04,
-          1255.53
+          1236840689.03,
+          146646.22,
+          107607.75,
+          85456.84,
+          69673.07,
+          69573.39,
+          24423.13,
+          3882.24,
+          2460.9,
+          2077.7
         ],
         "backgroundColor": [
           "#94a3b8",
           "#22c55e",
           "#22c55e",
           "#22c55e",
-          "#22c55e",
-          "#22c55e",
           "#eab308",
           "#22c55e",
-          "#eab308",
-          "#22c55e"
+          "#22c55e",
+          "#ef4444",
+          "#22c55e",
+          "#eab308"
         ]
       }
     ]
@@ -348,102 +347,186 @@ Relationship between token valuation (FDV) and holder concentration:
         "label": "Tokens",
         "data": [
           {
-            "x": 205218.0,
-            "y": 50.81,
+            "x": 182268.0,
+            "y": 50.63,
             "symbol": "AI4",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 1840820.0,
-            "y": 31.64,
-            "symbol": "DREAM",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 631423.0,
-            "y": 28.22,
-            "symbol": "RAGEGUY",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 49268.0,
-            "y": 43.44,
-            "symbol": "1nu",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 69946297.0,
+            "x": 60393841.0,
             "y": 57.84,
             "symbol": "LION",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 3572267.0,
-            "y": 62.36,
+            "x": 1601688.0,
+            "y": 31.64,
+            "symbol": "DREAM",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 2953164.0,
+            "y": 62.87,
             "symbol": "HAROLD",
             "risk": "medium",
             "backgroundColor": "#eab308"
           },
           {
-            "x": 22015464.0,
+            "x": 558025.0,
+            "y": 28.11,
+            "symbol": "RAGEGUY",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 36581.0,
+            "y": 49.04,
+            "symbol": "1nu",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 4356322.0,
+            "y": 96.6,
+            "symbol": "SOL",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 695033.0,
+            "y": 34.88,
+            "symbol": "FARTLESS",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 26071.0,
+            "y": 73.43,
+            "symbol": "1Bull",
+            "risk": "medium",
+            "backgroundColor": "#eab308"
+          },
+          {
+            "x": 18889.0,
+            "y": 66.29,
+            "symbol": "SHITTER",
+            "risk": "medium",
+            "backgroundColor": "#eab308"
+          },
+          {
+            "x": 33897.0,
+            "y": 54.73,
+            "symbol": "$CrepSol",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 109640.0,
+            "y": 52.22,
+            "symbol": "RUECAT",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 1508198.0,
+            "y": 22.74,
+            "symbol": "XBT",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 18285366.0,
             "y": 41.39,
             "symbol": "AI20X",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 19029.0,
-            "y": 66.07,
-            "symbol": "SHITTER",
+            "x": 11045.0,
+            "y": 91.16,
+            "symbol": "MOCHI",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 8820.0,
+            "y": 88.65,
+            "symbol": "DARE",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 15930.0,
+            "y": 85.83,
+            "symbol": "AUSBAGWORK",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 14967.0,
+            "y": 79.74,
+            "symbol": "IDIOT",
             "risk": "medium",
             "backgroundColor": "#eab308"
           },
           {
-            "x": 786668.0,
-            "y": 34.68,
-            "symbol": "FARTLESS",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 40696.0,
-            "y": 54.21,
-            "symbol": "$CrepSol",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 3078724.0,
-            "y": 96.52,
-            "symbol": "SOL",
+            "x": 7908.0,
+            "y": 95.55,
+            "symbol": "7",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 28037.0,
-            "y": 74.63,
-            "symbol": "1Bull",
-            "risk": "medium",
-            "backgroundColor": "#eab308"
+            "x": 4702.0,
+            "y": 98.47,
+            "symbol": "Noxi",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
           },
           {
-            "x": 6163.0,
-            "y": 93.5,
+            "x": 6017.0,
+            "y": 93.57,
             "symbol": "1",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 153188.0,
-            "y": 50.27,
-            "symbol": "RUECAT",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
+            "x": 7490.0,
+            "y": 94.25,
+            "symbol": "SUPRACOIN",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 4041.0,
+            "y": 99.05,
+            "symbol": "BEANIE",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 3609.0,
+            "y": 99.37,
+            "symbol": "retail",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 4019.0,
+            "y": 97.39,
+            "symbol": "Hosico",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 7080.0,
+            "y": 86.58,
+            "symbol": "FARTWORM",
+            "risk": "high",
+            "backgroundColor": "#f97316"
           },
           {
             "x": 4677.0,
@@ -453,106 +536,22 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 4813.0,
-            "y": 96.31,
-            "symbol": "Streamless",
+            "x": 3734.0,
+            "y": 99.7,
+            "symbol": "MOONCOIN",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 17248.0,
-            "y": 79.74,
-            "symbol": "IDIOT",
-            "risk": "medium",
-            "backgroundColor": "#eab308"
-          },
-          {
-            "x": 4595.0,
-            "y": 97.3,
-            "symbol": "1",
+            "x": 4743.0,
+            "y": 96.88,
+            "symbol": "BULLCOIN",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 8415.0,
-            "y": 87.15,
-            "symbol": "FARTWORM",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 18952.0,
-            "y": 85.47,
-            "symbol": "AUSBAGWORK",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 9875.0,
-            "y": 88.84,
-            "symbol": "DARE",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 4549.0,
-            "y": 97.61,
-            "symbol": "viewer",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 275288.0,
-            "y": 91.74,
-            "symbol": "HOODIE",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 9253.0,
-            "y": 94.2,
-            "symbol": "SUPRACOIN",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 1761858.0,
-            "y": 22.64,
-            "symbol": "XBT",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 6099.0,
-            "y": 76.69,
-            "symbol": "APOLLO",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 4961.0,
-            "y": 96.96,
-            "symbol": "Hosico",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 4890.0,
-            "y": 93.32,
-            "symbol": "pibble",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 9772.0,
-            "y": 95.28,
-            "symbol": "7",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 1131365.0,
-            "y": 28.66,
+            "x": 744391.0,
+            "y": 29.51,
             "symbol": "ELIZABETH",
             "risk": "low",
             "backgroundColor": "#22c55e"
@@ -565,32 +564,46 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#f97316"
           },
           {
-            "x": 5706.0,
-            "y": 98.28,
-            "symbol": "Noxi",
+            "x": 5925.0,
+            "y": 76.7,
+            "symbol": "APOLLO",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 14642.0,
+            "y": 33.41,
+            "symbol": "FLY",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 4425.0,
+            "y": 96.46,
+            "symbol": "Streamless",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 4944.0,
-            "y": 97.07,
+            "x": 156169.0,
+            "y": 40.95,
+            "symbol": "USEFUL",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 4091.0,
+            "y": 97.21,
             "symbol": "obvious",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 12438.0,
-            "y": 90.96,
-            "symbol": "MOCHI",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 4395.0,
-            "y": 99.4,
-            "symbol": "Mementoe",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
+            "x": 270594.0,
+            "y": 44.95,
+            "symbol": "gib",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
           },
           {
             "x": 5754.0,
@@ -600,13 +613,6 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 163649.0,
-            "y": 41.02,
-            "symbol": "USEFUL",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
             "x": 7403.0,
             "y": 98.29,
             "symbol": "JIFFPOM",
@@ -614,15 +620,15 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 4480.0,
-            "y": 99.44,
+            "x": 3930.0,
+            "y": 99.45,
             "symbol": "MoneyBear",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 98000.0,
-            "y": 43.17,
+            "x": 89733.0,
+            "y": 43.86,
             "symbol": "YAO",
             "risk": "low",
             "backgroundColor": "#22c55e"
@@ -635,16 +641,9 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 17716.0,
-            "y": 33.41,
-            "symbol": "FLY",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 5585.0,
-            "y": 98.19,
-            "symbol": "FALCONS",
+            "x": 3939.0,
+            "y": 97.62,
+            "symbol": "viewer",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
@@ -656,32 +655,32 @@ Relationship between token valuation (FDV) and holder concentration:
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 5805.0,
-            "y": 96.82,
-            "symbol": "BULLCOIN",
+            "x": 4109.0,
+            "y": 99.15,
+            "symbol": "BEANS",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 7533.73,
-            "y": 99.99,
-            "symbol": "YOU",
+            "x": 4759.0,
+            "y": 98.19,
+            "symbol": "FALCONS",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 5010.0,
-            "y": 97.16,
-            "symbol": "Bagwork",
+            "x": 5230.48,
+            "y": 99.85,
+            "symbol": "2",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 322108.0,
-            "y": 43.87,
-            "symbol": "gib",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
+            "x": 3700.0,
+            "y": 99.63,
+            "symbol": "MINDWORMS",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
           },
           {
             "x": 6299.44,
@@ -695,41 +694,36 @@ Relationship between token valuation (FDV) and holder concentration:
           "#22c55e",
           "#22c55e",
           "#22c55e",
-          "#22c55e",
-          "#22c55e",
-          "#eab308",
-          "#22c55e",
           "#eab308",
           "#22c55e",
           "#22c55e",
           "#ef4444",
+          "#22c55e",
+          "#eab308",
+          "#eab308",
+          "#22c55e",
+          "#22c55e",
+          "#22c55e",
+          "#22c55e",
+          "#f97316",
+          "#f97316",
+          "#f97316",
           "#eab308",
           "#ef4444",
-          "#22c55e",
           "#ef4444",
           "#ef4444",
-          "#eab308",
           "#ef4444",
-          "#f97316",
-          "#f97316",
-          "#f97316",
+          "#ef4444",
+          "#ef4444",
           "#ef4444",
           "#f97316",
           "#ef4444",
-          "#22c55e",
-          "#f97316",
           "#ef4444",
-          "#f97316",
           "#ef4444",
           "#22c55e",
           "#f97316",
-          "#ef4444",
-          "#ef4444",
           "#f97316",
-          "#ef4444",
-          "#ef4444",
           "#22c55e",
-          "#ef4444",
           "#ef4444",
           "#22c55e",
           "#ef4444",
@@ -737,9 +731,14 @@ Relationship between token valuation (FDV) and holder concentration:
           "#ef4444",
           "#ef4444",
           "#ef4444",
-          "#ef4444",
-          "#ef4444",
           "#22c55e",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
           "#ef4444"
         ]
       }
@@ -789,13 +788,13 @@ Relationship between token valuation (FDV) and holder concentration:
 ## 🔥 Today's Top 50 Tokens
 
 **Total Tokens**: 50
-**Combined 24h Volume**: $398.10M
-**Combined Liquidity**: $62.26M
+**Combined 24h Volume**: $1.24B
+**Combined Liquidity**: $56.16M
 
 **Concentration Risk Distribution**:
-- 🔴 Extreme: 22 tokens
+- 🔴 Extreme: 24 tokens
 - 🟢 Low: 15 tokens
-- 🟡 High: 8 tokens
+- 🟡 High: 6 tokens
 - 🟢 Medium: 4 tokens
 - 🟢 Unknown: 1 tokens
 
@@ -803,16 +802,16 @@ Relationship between token valuation (FDV) and holder concentration:
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $397.75M | $56.35M | 🟢 unknown |
-| 2 | AI4 | AI⁴ | $114.97K | $86.98K | 🟢 low |
-| 3 | DREAM | Dreamsync | $99.11K | $189.64K | 🟢 low |
-| 4 | RAGEGUY | Rage Guy | $57.30K | $124.71K | 🟢 low |
-| 5 | 1nu | 1nu | $31.15K | $28.43K | 🟢 low |
-| 6 | LION | Loaded Lions | $26.26K | $1.93M | 🟢 low |
-| 7 | HAROLD | Harold | $9.35K | $539.64K | 🟢 medium |
-| 8 | AI20X | Ai20x.ai | $5.33K | $2.60M | 🟢 low |
-| 9 | SHITTER | SHITTERCOIN | $1.76K | $19.37K | 🟢 medium |
-| 10 | FARTLESS | FARTLESS COIN | $1.26K | $3.64K | 🟢 low |
+| 1 | wSOL | Wrapped SOL | $1.24B | $51.11M | 🟢 unknown |
+| 2 | AI4 | AI⁴ | $146.65K | $76.99K | 🟢 low |
+| 3 | LION | Loaded Lions | $107.61K | $1.68M | 🟢 low |
+| 4 | DREAM | Dreamsync | $85.46K | $164.99K | 🟢 low |
+| 5 | HAROLD | Harold | $69.67K | $460.32K | 🟢 medium |
+| 6 | RAGEGUY | Rage Guy | $69.57K | $108.86K | 🟢 low |
+| 7 | 1nu | 1nu | $24.42K | $24.53K | 🟢 low |
+| 8 | SOL | Solana | $3.88K | $8.40K | 🔴 extreme |
+| 9 | FARTLESS | FARTLESS COIN | $2.46K | $3.42K | 🟢 low |
+| 10 | 1Bull | One bull run to change your li | $2.08K | $19.22K | 🟢 medium |
 
 📄 [Full data: daily_top50.csv](data/daily_top50.csv)
 
@@ -822,7 +821,7 @@ Relationship between token valuation (FDV) and holder concentration:
 
 New tokens showing potential with healthy metrics and lower concentration risk.
 
-**Found**: 4 viable new tokens
+**Found**: 6 viable new tokens
 
 **Criteria**:
 - First seen 7-14 days ago
@@ -833,10 +832,12 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 | Symbol | Name | Age (days) | Volume 24h | Liquidity | Top 10% |
 |--------|------|------------|------------|-----------|---------|
-| wSOL | Wrapped SOL | 9 | $397.75M | $56.35M | 0.00% |
-| DREAM | Dreamsync | 9 | $99.11K | $189.64K | 31.64% |
-| USDUT | unstable tether | 9 | $57.89K | $114.66K | 37.30% |
-| RAGEGUY | Rage Guy | 9 | $57.30K | $124.71K | 28.22% |
+| wSOL | Wrapped SOL | 10 | $1.24B | $51.11M | 0.00% |
+| LION | Loaded Lions | 10 | $107.61K | $1.68M | 57.84% |
+| DREAM | Dreamsync | 10 | $85.46K | $164.99K | 31.64% |
+| HAROLD | Harold | 10 | $69.67K | $460.32K | 62.87% |
+| RAGEGUY | Rage Guy | 10 | $69.57K | $108.86K | 28.11% |
+| USDUT | unstable tether | 10 | $57.89K | $114.66K | 37.30% |
 
 📄 [Full data: new_viable.csv](data/new_viable.csv)
 
@@ -866,11 +867,11 @@ Tokens with significant price or volume changes in the last 24 hours.
 Signals filtered to exclude tokens with extreme concentration risk.
 
 **Signal Distribution**:
-- 👀 **Watch**: 3 tokens
+- 👀 **Watch**: 4 tokens
 
 ### 👀 Watch List
 
-*3 tokens showing elevated activity*
+*4 tokens showing elevated activity*
 
 📄 [Full data: signals_filtered.csv](data/signals_filtered.csv)
 
@@ -880,7 +881,7 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 **Total Historical Records**: 524
 **Unique Tokens Tracked**: 102
-**Date Range**: 2025-10-01 to 2025-10-10
+**Date Range**: 2025-10-01 to 2025-10-11
 
 **Master Aggregations**: 102 tokens
 **Performance Metrics**: 524 records
@@ -893,8 +894,8 @@ Signals filtered to exclude tokens with extreme concentration risk.
 | [master.csv](data/master.csv) | Aggregated per-token metrics | 102 |
 | [performance.csv](data/performance.csv) | Rolling performance indicators | 524 |
 | [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 50 |
-| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 4 |
-| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 3 |
+| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 6 |
+| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 4 |
 
 ---
 
