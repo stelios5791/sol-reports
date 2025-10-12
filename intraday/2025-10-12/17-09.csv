@@ -1,0 +1,9 @@
+timestamp,address,symbol,name,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,chain_id,dex,pair_address,top_10_holders_pct,top_5_holders_pct,holder_concentration,concentration_risk
+2025-10-12T17:09:42.235271+00:00,pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn,PUMP,Pump,0.004445,10031174.37,19724866.69,4445448468.0,solana,pumpswap,2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd,0.0,0.0,unknown,unknown
+2025-10-12T17:09:42.235271+00:00,JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN,JUP,Jupiter,0.374,1653412.83,698343.05,2618647158.0,solana,orca,C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz,0.0,0.0,unknown,unknown
+2025-10-12T17:09:42.235271+00:00,9tPeuW6hAw6YuKGypfuMwBrSrN2ktpdhqXQqxR9z5PCq,BONK,Bonk Coin,2.099e-05,71981.99,50395132.04,2057751026.0,solana,raydium,4RX3HeVhvDT1N2Qnn9wMVtHfSGE3NqU3GYnuhaCoKDUD,0.0,0.0,unknown,unknown
+2025-10-12T17:09:42.235271+00:00,EkJuyYyD3to61CHVPJn6wHb7xANxvqApnVJ4o2SdBAGS,PEPE,Pepe By Matt Furie,0.0008115,50261.6,459779.98,811439.0,solana,meteora,8Lvqv2jgNvcx1NDtMHd5Ahx8ZUjETfLwygq9MtDfPHxe,0.0,0.0,unknown,unknown
+2025-10-12T17:09:42.235271+00:00,9TY6DUg1VSssYH5tFE95qoq5hnAGFak4w3cn72sJNCoV,DOGE,Department of Gov Efficiency,0.02598,988.41,191514.92,257183.0,solana,raydium,3pvmL7M24uqzudAxUYmvixtkWTC5yaDhTUSyB8cewnJK,0.0,0.0,unknown,unknown
+2025-10-12T17:09:42.235271+00:00,A8iVH9ZpvVhXDqtbEpWfrvRd4fvZcQSGH2zmtAqEpump,WIF,wallahi im finished,2.061e-05,851.56,29843.57,20586.0,solana,raydium,FHy449nKbXxpxiHNnRuywQoAcrUyJG4XaUwWKHu8Fr6o,0.0,0.0,unknown,unknown
+2025-10-12T17:09:42.235271+00:00,9sjdR5pVYKVbkSALTG1CYhaq1gKxayJqo35sskm8bj4D,MEME,MEME,1.32e-05,671.59,15424.55,13181.0,solana,pumpswap,AXWzPzJGQZmBDFEVdhdtuDP9GXL4PppaM43oN5zcLyN,0.0,0.0,unknown,unknown
+2025-10-12T17:09:42.235271+00:00,fESbUKjuMY6jzDH9VP8cy4p3pu2q5W2rK2XghVfNseP,SOLANA,CatFrogDogShark,7.166e-05,298.25,72828.88,68953.0,solana,raydium,9ndJDvDYQyBDx7KBH3hvp47oCUafAdUEb8xP1ERehmVx,0.0,0.0,unknown,unknown
