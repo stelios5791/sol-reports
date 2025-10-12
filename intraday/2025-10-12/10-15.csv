@@ -1,0 +1,2 @@
+timestamp,address,symbol,name,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,top_10_holders_pct,top_5_holders_pct,holder_concentration,concentration_risk,dex,pair_address
+2025-10-12T10:15:55.060222+00:00,JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN,JUP,Jupiter,0.3433,1388883.58,642262.17,2403697986.0,0.0,0.0,unknown,unknown,orca,C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz
