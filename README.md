@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Daily Reports
 
-**Last Updated**: 2025-10-11 08:33 UTC
+**Last Updated**: 2025-10-12 08:33 UTC
 
 Automated daily analysis of Solana tokens with whale tracking and momentum indicators.
 
@@ -35,9 +35,9 @@ Current distribution of concentration risk across all tracked tokens:
     "datasets": [
       {
         "data": [
-          24,
-          6,
-          4,
+          19,
+          8,
+          3,
           15,
           1
         ],
@@ -74,16 +74,16 @@ Top 10 tokens with the most distributed ownership:
 
 | Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |
 |------|--------|------|---------|------|------------|-----------|
-| 1 | XBT | XBT | 22.74% | 🟢 low | $494.48 | $569.60 |
-| 2 | RAGEGUY | Rage Guy | 28.11% | 🟢 low | $69.57K | $108.86K |
-| 3 | ELIZABETH | Just Elizabeth Cat | 29.51% | 🟢 low | $19.88 | $42.05 |
-| 4 | DREAM | Dreamsync | 31.64% | 🟢 low | $85.46K | $164.99K |
-| 5 | FLY | Nexa | 33.41% | 🟢 low | $12.67 | $7.63K |
-| 6 | FARTLESS | FARTLESS COIN | 34.88% | 🟢 low | $2.46K | $3.42K |
-| 7 | USEFUL | USEFUL COIN | 40.95% | 🟢 low | $7.08 | $46.80 |
-| 8 | AI20X | Ai20x.ai | 41.39% | 🟢 low | $393.49 | $2.17M |
-| 9 | YAO | YAO MING | 43.86% | 🟢 low | $3.51 | $683.04 |
-| 10 | gib | gib | 44.95% | 🟢 low | $5.25 | $69.63 |
+| 1 | XBT | XBT | 23.39% | 🟢 low | $266.12 | $539.69 |
+| 2 | RAGEGUY | Rage Guy | 27.48% | 🟢 low | $31.52K | $116.91K |
+| 3 | ELIZABETH | Just Elizabeth Cat | 29.15% | 🟢 low | $15.02 | $43.32 |
+| 4 | DREAM | Dreamsync | 31.53% | 🟢 low | $172.00K | $169.53K |
+| 5 | FLY | Nexa | 33.41% | 🟢 low | $86.11 | $7.77K |
+| 6 | FARTLESS | FARTLESS COIN | 35.04% | 🟢 low | $1.31K | $3.34K |
+| 7 | USDUT | unstable tether | 39.84% | 🟢 low | $2.64 | $63.74 |
+| 8 | USEFUL | USEFUL COIN | 41.11% | 🟢 low | $1.41 | $47.64 |
+| 9 | AI20X | Ai20x.ai | 41.41% | 🟢 low | $3.98K | $2.07M |
+| 10 | gib | gib | 45.03% | 🟢 low | $0.44 | $68.81 |
 
 ### ⚠️ Highest Risk Tokens (Highest Holder Concentration)
 
@@ -91,16 +91,16 @@ Top 10 tokens with the most concentrated ownership:
 
 | Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |
 |------|--------|------|---------|------|------------|-----------|
-| 1 | Trey | Justice For Trey Reed | 100.00% | 🔴 extreme | $1.35 | $0.00 |
-| 2 | Gaming | Gaming Cult | 99.97% | 🔴 extreme | $2.90 | $0.00 |
-| 3 | 2 | TWO IS BETTER THAN ONE | 99.85% | 🔴 extreme | $0.53 | $0.00 |
-| 4 | Jewcat | Jewish Cat | 99.85% | 🔴 extreme | $0.18 | $0.00 |
-| 5 | MOONCOIN | MOON COIN | 99.70% | 🔴 extreme | $38.40 | $7.34K |
-| 6 | MINDWORMS | mindworms | 99.63% | 🔴 extreme | $0.25 | $7.00K |
-| 7 | MoneyBear | The Money Bears | 99.45% | 🔴 extreme | $3.59 | $7.78K |
-| 8 | retail | retail | 99.37% | 🔴 extreme | $66.46 | $7.11K |
-| 9 | BEANS | BEANS | 99.15% | 🔴 extreme | $0.91 | $7.99K |
-| 10 | BEANIE | BEANIE | 99.05% | 🔴 extreme | $101.05 | $7.67K |
+| 1 | pmo | PMOCOIN | 100.00% | 🔴 extreme | $936.70 | $0.00 |
+| 2 | TOKENIZER | TOKENIZER MEDIA | 99.98% | 🔴 extreme | $22.19 | $0.00 |
+| 3 | MOONCOIN | MOON COIN | 99.70% | 🔴 extreme | $8.41 | $6.53K |
+| 4 | MINDWORMS | mindworms | 99.68% | 🔴 extreme | $9.82 | $6.75K |
+| 5 | KENNY | KENNY KO | 99.66% | 🔴 extreme | $20.90 | $6.56K |
+| 6 | ACTIVITIES | REAL LIFE ACTIVITIES | 99.54% | 🔴 extreme | $8.26 | $6.54K |
+| 7 | Mementoe | Mementoe | 99.42% | 🔴 extreme | $1.61 | $6.62K |
+| 8 | BEANIE | BEANIE | 99.03% | 🔴 extreme | $0.59 | $7.74K |
+| 9 | JIFFPOM | Jiffpom | 98.38% | 🔴 extreme | $5.22 | $10.18K |
+| 10 | FALCONS | THE FALCONS | 98.28% | 🔴 extreme | $10.64 | $8.91K |
 
 ### 📈 Concentration Trends
 
@@ -125,7 +125,7 @@ Historical holder concentration for top volume tokens:
       "2025-10-05",
       "2025-10-06",
       "2025-10-07",
-      "2025-10-11"
+      "2025-10-12"
     ],
     "datasets": [
       {
@@ -146,6 +146,22 @@ Historical holder concentration for top volume tokens:
         "fill": false
       },
       {
+        "label": "DREAM",
+        "data": [
+          0.0,
+          0.0,
+          0.0,
+          31.97,
+          31.96,
+          32.3,
+          31.53
+        ],
+        "borderColor": "#ef4444",
+        "backgroundColor": "#ef444420",
+        "tension": 0.1,
+        "fill": false
+      },
+      {
         "label": "AI4",
         "data": [
           0.0,
@@ -154,10 +170,10 @@ Historical holder concentration for top volume tokens:
           50.98,
           50.56,
           52.53,
-          50.63
+          47.12
         ],
-        "borderColor": "#ef4444",
-        "backgroundColor": "#ef444420",
+        "borderColor": "#22c55e",
+        "backgroundColor": "#22c55e20",
         "tension": 0.1,
         "fill": false
       },
@@ -172,37 +188,21 @@ Historical holder concentration for top volume tokens:
           57.84,
           57.84
         ],
-        "borderColor": "#22c55e",
-        "backgroundColor": "#22c55e20",
-        "tension": 0.1,
-        "fill": false
-      },
-      {
-        "label": "DREAM",
-        "data": [
-          0.0,
-          0.0,
-          0.0,
-          31.97,
-          31.96,
-          32.3,
-          31.64
-        ],
         "borderColor": "#eab308",
         "backgroundColor": "#eab30820",
         "tension": 0.1,
         "fill": false
       },
       {
-        "label": "HAROLD",
+        "label": "RAGEGUY",
         "data": [
           0.0,
           0.0,
           0.0,
-          61.9,
-          61.92,
-          62.0,
-          62.87
+          25.99,
+          26.1,
+          25.76,
+          27.48
         ],
         "borderColor": "#8b5cf6",
         "backgroundColor": "#8b5cf620",
@@ -261,42 +261,42 @@ Top tokens by 24h trading volume (color-coded by risk):
   "data": {
     "labels": [
       "wSOL",
+      "DREAM",
       "AI4",
       "LION",
-      "DREAM",
-      "HAROLD",
       "RAGEGUY",
+      "HAROLD",
       "1nu",
       "SOL",
-      "FARTLESS",
-      "1Bull"
+      "AI20X",
+      "IDIOT"
     ],
     "datasets": [
       {
         "label": "24h Volume (USD)",
         "data": [
-          1236840689.03,
-          146646.22,
-          107607.75,
-          85456.84,
-          69673.07,
-          69573.39,
-          24423.13,
-          3882.24,
-          2460.9,
-          2077.7
+          338628688.16,
+          172003.14,
+          91957.62,
+          31697.75,
+          31515.62,
+          29610.09,
+          7927.34,
+          5087.1,
+          3979.28,
+          1362.72
         ],
         "backgroundColor": [
           "#94a3b8",
           "#22c55e",
           "#22c55e",
           "#22c55e",
-          "#eab308",
           "#22c55e",
+          "#eab308",
           "#22c55e",
           "#ef4444",
           "#22c55e",
-          "#eab308"
+          "#f97316"
         ]
       }
     ]
@@ -347,345 +347,317 @@ Relationship between token valuation (FDV) and holder concentration:
         "label": "Tokens",
         "data": [
           {
-            "x": 182268.0,
-            "y": 50.63,
+            "x": 1688094.0,
+            "y": 31.53,
+            "symbol": "DREAM",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 178784.0,
+            "y": 47.12,
             "symbol": "AI4",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 60393841.0,
+            "x": 60419519.0,
             "y": 57.84,
             "symbol": "LION",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 1601688.0,
-            "y": 31.64,
-            "symbol": "DREAM",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 2953164.0,
-            "y": 62.87,
-            "symbol": "HAROLD",
-            "risk": "medium",
-            "backgroundColor": "#eab308"
-          },
-          {
-            "x": 558025.0,
-            "y": 28.11,
+            "x": 640274.0,
+            "y": 27.48,
             "symbol": "RAGEGUY",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 36581.0,
-            "y": 49.04,
+            "x": 2882158.0,
+            "y": 62.94,
+            "symbol": "HAROLD",
+            "risk": "medium",
+            "backgroundColor": "#eab308"
+          },
+          {
+            "x": 32213.0,
+            "y": 50.44,
             "symbol": "1nu",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 4356322.0,
-            "y": 96.6,
+            "x": 6990582.0,
+            "y": 96.67,
             "symbol": "SOL",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 695033.0,
-            "y": 34.88,
-            "symbol": "FARTLESS",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 26071.0,
-            "y": 73.43,
-            "symbol": "1Bull",
-            "risk": "medium",
-            "backgroundColor": "#eab308"
-          },
-          {
-            "x": 18889.0,
-            "y": 66.29,
-            "symbol": "SHITTER",
-            "risk": "medium",
-            "backgroundColor": "#eab308"
-          },
-          {
-            "x": 33897.0,
-            "y": 54.73,
-            "symbol": "$CrepSol",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 109640.0,
-            "y": 52.22,
-            "symbol": "RUECAT",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 1508198.0,
-            "y": 22.74,
-            "symbol": "XBT",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 18285366.0,
-            "y": 41.39,
+            "x": 17445210.0,
+            "y": 41.41,
             "symbol": "AI20X",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 11045.0,
-            "y": 91.16,
-            "symbol": "MOCHI",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 8820.0,
-            "y": 88.65,
-            "symbol": "DARE",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 15930.0,
-            "y": 85.83,
-            "symbol": "AUSBAGWORK",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 14967.0,
-            "y": 79.74,
+            "x": 11554.0,
+            "y": 83.64,
             "symbol": "IDIOT",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 662512.0,
+            "y": 35.04,
+            "symbol": "FARTLESS",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 5111.7,
+            "y": 100.0,
+            "symbol": "pmo",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 26780.0,
+            "y": 73.79,
+            "symbol": "1Bull",
             "risk": "medium",
             "backgroundColor": "#eab308"
           },
           {
-            "x": 7908.0,
-            "y": 95.55,
+            "x": 33723.0,
+            "y": 54.7,
+            "symbol": "$CrepSol",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 9370.0,
+            "y": 95.18,
             "symbol": "7",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 4702.0,
-            "y": 98.47,
-            "symbol": "Noxi",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 6017.0,
-            "y": 93.57,
-            "symbol": "1",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 7490.0,
-            "y": 94.25,
-            "symbol": "SUPRACOIN",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 4041.0,
-            "y": 99.05,
-            "symbol": "BEANIE",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 3609.0,
-            "y": 99.37,
-            "symbol": "retail",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 4019.0,
-            "y": 97.39,
-            "symbol": "Hosico",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 7080.0,
-            "y": 86.58,
-            "symbol": "FARTWORM",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 4677.0,
-            "y": 98.89,
-            "symbol": "19",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 3734.0,
-            "y": 99.7,
-            "symbol": "MOONCOIN",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 4743.0,
-            "y": 96.88,
-            "symbol": "BULLCOIN",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 744391.0,
-            "y": 29.51,
-            "symbol": "ELIZABETH",
+            "x": 105716.0,
+            "y": 52.5,
+            "symbol": "RUECAT",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 5206.0,
-            "y": 90.0,
-            "symbol": "RWA",
-            "risk": "high",
-            "backgroundColor": "#f97316"
-          },
-          {
-            "x": 5925.0,
-            "y": 76.7,
+            "x": 4680.0,
+            "y": 78.01,
             "symbol": "APOLLO",
             "risk": "high",
             "backgroundColor": "#f97316"
           },
           {
-            "x": 14642.0,
+            "x": 1359316.0,
+            "y": 23.39,
+            "symbol": "XBT",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 18240.0,
+            "y": 67.34,
+            "symbol": "SHITTER",
+            "risk": "medium",
+            "backgroundColor": "#eab308"
+          },
+          {
+            "x": 15232.0,
             "y": 33.41,
             "symbol": "FLY",
             "risk": "low",
             "backgroundColor": "#22c55e"
           },
           {
-            "x": 4425.0,
+            "x": 14903.0,
+            "y": 86.07,
+            "symbol": "AUSBAGWORK",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 8397.0,
+            "y": 89.01,
+            "symbol": "DARE",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 7649.0,
+            "y": 93.84,
+            "symbol": "SUPRACOIN",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 5236.0,
+            "y": 94.23,
+            "symbol": "1",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 6908.0,
+            "y": 86.74,
+            "symbol": "FARTWORM",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 10727.0,
+            "y": 91.2,
+            "symbol": "MOCHI",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 5605.92,
+            "y": 99.98,
+            "symbol": "TOKENIZER",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 5148.0,
+            "y": 90.46,
+            "symbol": "RWA",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 3473.0,
+            "y": 99.66,
+            "symbol": "KENNY",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 779281.0,
+            "y": 29.15,
+            "symbol": "ELIZABETH",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 4598.0,
+            "y": 98.28,
+            "symbol": "FALCONS",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 4751.0,
+            "y": 96.88,
+            "symbol": "BULLCOIN",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 3561.0,
+            "y": 99.68,
+            "symbol": "MINDWORMS",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 3298.0,
+            "y": 99.7,
+            "symbol": "MOONCOIN",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 3297.0,
+            "y": 99.54,
+            "symbol": "ACTIVITIES",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 6198.0,
+            "y": 98.38,
+            "symbol": "JIFFPOM",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 3974.0,
+            "y": 97.49,
+            "symbol": "Hosico",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 178590.0,
+            "y": 39.84,
+            "symbol": "USDUT",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 3944.0,
+            "y": 97.67,
+            "symbol": "viewer",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 3507.0,
+            "y": 99.42,
+            "symbol": "Mementoe",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 1475.0,
+            "y": 96.41,
+            "symbol": "PROFIT",
+            "risk": "high",
+            "backgroundColor": "#f97316"
+          },
+          {
+            "x": 149608.0,
+            "y": 41.11,
+            "symbol": "USEFUL",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 4049.0,
+            "y": 99.03,
+            "symbol": "BEANIE",
+            "risk": "extreme",
+            "backgroundColor": "#ef4444"
+          },
+          {
+            "x": 258216.0,
+            "y": 45.03,
+            "symbol": "gib",
+            "risk": "low",
+            "backgroundColor": "#22c55e"
+          },
+          {
+            "x": 4158.0,
             "y": 96.46,
             "symbol": "Streamless",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           },
           {
-            "x": 156169.0,
-            "y": 40.95,
-            "symbol": "USEFUL",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 4091.0,
-            "y": 97.21,
+            "x": 4041.0,
+            "y": 97.22,
             "symbol": "obvious",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 270594.0,
-            "y": 44.95,
-            "symbol": "gib",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 5754.0,
-            "y": 98.66,
-            "symbol": "REVIVE",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 7403.0,
-            "y": 98.29,
-            "symbol": "JIFFPOM",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 3930.0,
-            "y": 99.45,
-            "symbol": "MoneyBear",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 89733.0,
-            "y": 43.86,
-            "symbol": "YAO",
-            "risk": "low",
-            "backgroundColor": "#22c55e"
-          },
-          {
-            "x": 5943.85,
-            "y": 99.97,
-            "symbol": "Gaming",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 3939.0,
-            "y": 97.62,
-            "symbol": "viewer",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 6199.51,
-            "y": 100.0,
-            "symbol": "Trey",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 4109.0,
-            "y": 99.15,
-            "symbol": "BEANS",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 4759.0,
-            "y": 98.19,
-            "symbol": "FALCONS",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 5230.48,
-            "y": 99.85,
-            "symbol": "2",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 3700.0,
-            "y": 99.63,
-            "symbol": "MINDWORMS",
-            "risk": "extreme",
-            "backgroundColor": "#ef4444"
-          },
-          {
-            "x": 6299.44,
-            "y": 99.85,
-            "symbol": "Jewcat",
             "risk": "extreme",
             "backgroundColor": "#ef4444"
           }
@@ -694,50 +666,46 @@ Relationship between token valuation (FDV) and holder concentration:
           "#22c55e",
           "#22c55e",
           "#22c55e",
-          "#eab308",
-          "#22c55e",
-          "#22c55e",
-          "#ef4444",
           "#22c55e",
           "#eab308",
+          "#22c55e",
+          "#ef4444",
+          "#22c55e",
+          "#f97316",
+          "#22c55e",
+          "#ef4444",
           "#eab308",
           "#22c55e",
-          "#22c55e",
-          "#22c55e",
+          "#ef4444",
           "#22c55e",
           "#f97316",
-          "#f97316",
-          "#f97316",
+          "#22c55e",
           "#eab308",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
-          "#f97316",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
           "#22c55e",
           "#f97316",
           "#f97316",
-          "#22c55e",
+          "#ef4444",
+          "#ef4444",
+          "#f97316",
+          "#f97316",
+          "#ef4444",
+          "#f97316",
           "#ef4444",
           "#22c55e",
           "#ef4444",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
+          "#ef4444",
           "#22c55e",
           "#ef4444",
           "#ef4444",
-          "#ef4444",
+          "#f97316",
           "#22c55e",
           "#ef4444",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
-          "#ef4444",
+          "#22c55e",
           "#ef4444",
           "#ef4444"
         ]
@@ -787,31 +755,31 @@ Relationship between token valuation (FDV) and holder concentration:
 
 ## 🔥 Today's Top 50 Tokens
 
-**Total Tokens**: 50
-**Combined 24h Volume**: $1.24B
-**Combined Liquidity**: $56.16M
+**Total Tokens**: 46
+**Combined 24h Volume**: $339.01M
+**Combined Liquidity**: $55.19M
 
 **Concentration Risk Distribution**:
-- 🔴 Extreme: 24 tokens
+- 🔴 Extreme: 19 tokens
 - 🟢 Low: 15 tokens
-- 🟡 High: 6 tokens
-- 🟢 Medium: 4 tokens
+- 🟡 High: 8 tokens
+- 🟢 Medium: 3 tokens
 - 🟢 Unknown: 1 tokens
 
 ### Top 10 by Volume
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $1.24B | $51.11M | 🟢 unknown |
-| 2 | AI4 | AI⁴ | $146.65K | $76.99K | 🟢 low |
-| 3 | LION | Loaded Lions | $107.61K | $1.68M | 🟢 low |
-| 4 | DREAM | Dreamsync | $85.46K | $164.99K | 🟢 low |
-| 5 | HAROLD | Harold | $69.67K | $460.32K | 🟢 medium |
-| 6 | RAGEGUY | Rage Guy | $69.57K | $108.86K | 🟢 low |
-| 7 | 1nu | 1nu | $24.42K | $24.53K | 🟢 low |
-| 8 | SOL | Solana | $3.88K | $8.40K | 🔴 extreme |
-| 9 | FARTLESS | FARTLESS COIN | $2.46K | $3.42K | 🟢 low |
-| 10 | 1Bull | One bull run to change your li | $2.08K | $19.22K | 🟢 medium |
+| 1 | wSOL | Wrapped SOL | $338.63M | $50.28M | 🟢 unknown |
+| 2 | DREAM | Dreamsync | $172.00K | $169.53K | 🟢 low |
+| 3 | AI4 | AI⁴ | $91.96K | $75.91K | 🟢 low |
+| 4 | LION | Loaded Lions | $31.70K | $1.67M | 🟢 low |
+| 5 | RAGEGUY | Rage Guy | $31.52K | $116.91K | 🟢 low |
+| 6 | HAROLD | Harold | $29.61K | $450.72K | 🟢 medium |
+| 7 | 1nu | 1nu | $7.93K | $23.04K | 🟢 low |
+| 8 | SOL | Solana | $5.09K | $10.59K | 🔴 extreme |
+| 9 | AI20X | Ai20x.ai | $3.98K | $2.07M | 🟢 low |
+| 10 | IDIOT | IDIOT | $1.36K | $13.47K | 🟡 high |
 
 📄 [Full data: daily_top50.csv](data/daily_top50.csv)
 
@@ -821,7 +789,7 @@ Relationship between token valuation (FDV) and holder concentration:
 
 New tokens showing potential with healthy metrics and lower concentration risk.
 
-**Found**: 6 viable new tokens
+**Found**: 2 viable new tokens
 
 **Criteria**:
 - First seen 7-14 days ago
@@ -832,12 +800,8 @@ New tokens showing potential with healthy metrics and lower concentration risk.
 
 | Symbol | Name | Age (days) | Volume 24h | Liquidity | Top 10% |
 |--------|------|------------|------------|-----------|---------|
-| wSOL | Wrapped SOL | 10 | $1.24B | $51.11M | 0.00% |
-| LION | Loaded Lions | 10 | $107.61K | $1.68M | 57.84% |
-| DREAM | Dreamsync | 10 | $85.46K | $164.99K | 31.64% |
-| HAROLD | Harold | 10 | $69.67K | $460.32K | 62.87% |
-| RAGEGUY | Rage Guy | 10 | $69.57K | $108.86K | 28.11% |
-| USDUT | unstable tether | 10 | $57.89K | $114.66K | 37.30% |
+| wSOL | Wrapped SOL | 11 | $338.63M | $50.28M | 0.00% |
+| DREAM | Dreamsync | 11 | $172.00K | $169.53K | 31.53% |
 
 📄 [Full data: new_viable.csv](data/new_viable.csv)
 
@@ -867,11 +831,11 @@ Tokens with significant price or volume changes in the last 24 hours.
 Signals filtered to exclude tokens with extreme concentration risk.
 
 **Signal Distribution**:
-- 👀 **Watch**: 4 tokens
+- 👀 **Watch**: 2 tokens
 
 ### 👀 Watch List
 
-*4 tokens showing elevated activity*
+*2 tokens showing elevated activity*
 
 📄 [Full data: signals_filtered.csv](data/signals_filtered.csv)
 
@@ -879,23 +843,23 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 ## 📈 Historical Data
 
-**Total Historical Records**: 524
-**Unique Tokens Tracked**: 102
-**Date Range**: 2025-10-01 to 2025-10-11
+**Total Historical Records**: 520
+**Unique Tokens Tracked**: 103
+**Date Range**: 2025-10-01 to 2025-10-12
 
-**Master Aggregations**: 102 tokens
-**Performance Metrics**: 524 records
+**Master Aggregations**: 103 tokens
+**Performance Metrics**: 520 records
 
 ### Available Datasets
 
 | File | Description | Records |
 |------|-------------|---------|
-| [history.csv](data/history.csv) | Complete historical snapshots | 524 |
-| [master.csv](data/master.csv) | Aggregated per-token metrics | 102 |
-| [performance.csv](data/performance.csv) | Rolling performance indicators | 524 |
-| [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 50 |
-| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 6 |
-| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 4 |
+| [history.csv](data/history.csv) | Complete historical snapshots | 520 |
+| [master.csv](data/master.csv) | Aggregated per-token metrics | 103 |
+| [performance.csv](data/performance.csv) | Rolling performance indicators | 520 |
+| [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 46 |
+| [new_viable.csv](data/new_viable.csv) | New tokens with potential | 2 |
+| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 2 |
 
 ---
 
