@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-13  
-**Generated:** 18:25 UTC
+**Generated:** 18:44 UTC
 
 ---
 
@@ -12,111 +12,21 @@
 ======================================================================
 
 ✅ Loaded 29 snapshots (959 datapoints)
-📊 Top 20 tokens ranked by opportunity score:
-
- 1. 📌 POORLESS 🟡 HOLD
-    Price: $0.00009848
-    Volatility:  63.2% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 39.0
-
- 2. 📌 CAPRA    🟡 HOLD
-    Price: $0.00005547
-    Volatility:  35.6% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 30.7
-
- 3. 📌 MSGA     🟡 HOLD
-    Price: $0.00001278
-    Volatility:  27.2% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 28.2
-
- 4. 📌 INSIDER  🟡 HOLD
-    Price: $0.00004051
-    Volatility:  20.7% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 26.2
-
- 5. 📌 ADELOS   🟡 HOLD
-    Price: $0.00087870
-    Volatility:  17.1% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 25.1
-
- 6. 📌 FUTARDIO 🟡 HOLD
-    Price: $0.00027320
-    Volatility:  12.8% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 23.8
-
- 7. 📌 FURBIES  🟡 HOLD
-    Price: $0.00039500
-    Volatility:  12.3% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 23.7
-
- 8. 📌 ROOTS    🟡 HOLD
-    Price: $0.00026710
-    Volatility:  12.3% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 23.7
-
- 9. 📌 EDG      🟡 HOLD
-    Price: $0.00004128
-    Volatility:  10.9% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 23.3
-
-10. 📌 DAVE     🟡 HOLD
-    Price: $0.00016830
-    Volatility:  10.0% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 23.0
-
-11. 📌 TROLLOWE 🟡 HOLD
-    Price: $0.00026780
-    Volatility:   8.4% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 22.5
-
-12. 📌 BARNEY   🟡 HOLD
-    Price: $0.00002089
-    Volatility:   7.3% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 22.2
-
-13. 📌 SORA     🟡 HOLD
-    Price: $0.00078890
-    Volatility:   6.1% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 21.8
-
-14. 📌 KITTY    🟡 HOLD
-    Price: $0.00030660
-    Volatility:   4.8% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 21.4
-
-15. 🆕 6        🟡 HOLD
-    Price: $0.00000957
-    Volatility:  45.1% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 13.5
-
-16. 🆕 ONECOIN  🟡 HOLD
-    Price: $0.00006814
-    Volatility:  20.7% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 6.2
-
-17. 🆕 OPENLIE  🟡 HOLD
-    Price: $0.00002107
-    Volatility:  14.6% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 4.4
-
-18. 🆕 MAILI    🟡 HOLD
-    Price: $0.00011810
-    Volatility:   9.8% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 2.9
-
-19. 🆕 MOOBA    🟡 HOLD
-    Price: $0.00000829
-    Volatility:   8.4% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 2.5
-
-20. 🆕 COIN     🟡 HOLD
-    Price: $0.00008974
-    Volatility:   1.5% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 0.4
-
-======================================================================
-Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
-======================================================================
+Traceback (most recent call last):
+  File "/home/runner/work/solana/solana/analyze.py", line 301, in <module>
+    main()
+  File "/home/runner/work/solana/solana/analyze.py", line 291, in main
+    analyze_opportunities(args)
+  File "/home/runner/work/solana/solana/analyze.py", line 28, in analyze_opportunities
+    opportunities = analyzer.get_top_opportunities(date=args.date, top_n=args.top)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solana/solana/utils/intraday_analyzer.py", line 337, in get_top_opportunities
+    token_data = self.generate_signals(token_data)  # Keep legacy signals for comparison
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solana/solana/utils/intraday_analyzer.py", line 253, in generate_signals
+    if self.debug:
+       ^^^^^^^^^^
+AttributeError: 'IntradayAnalyzer' object has no attribute 'debug'
 ```
 
 ![Top Opportunities](../charts/opportunities_2025-10-13.png)
