@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-13  
-**Generated:** 15:13 UTC
+**Generated:** 15:18 UTC
 
 ---
 
@@ -11,96 +11,106 @@
 🎯 SCALPING OPPORTUNITIES - TODAY
 ======================================================================
 
-✅ Loaded 24 snapshots (680 datapoints)
-📊 Top 18 tokens ranked by opportunity score:
+✅ Loaded 25 snapshots (733 datapoints)
+📊 Top 20 tokens ranked by opportunity score:
 
  1. 📌 EDG      🟡 HOLD
-    Price: $0.00004303
-    Volatility: 123.3% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 57.0
+    Price: $0.00004162
+    Volatility: 125.6% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 57.7
 
  2. 📌 PEACEMAK 🟡 HOLD
-    Price: $0.00042680
-    Volatility:  42.7% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 32.8
+    Price: $0.00054910
+    Volatility:  41.1% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 32.3
 
- 3. 📌 ADELOS   🟡 HOLD
-    Price: $0.00047510
+ 3. 📌 INSIDER  🟡 HOLD
+    Price: $0.00003164
+    Volatility:  16.0% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 24.8
+
+ 4. 📌 ADELOS   🟡 HOLD
+    Price: $0.00048350
     Volatility:  15.9% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 24.8
 
- 4. 📌 GMGN     🟡 HOLD
-    Price: $0.00005275
-    Volatility:  13.0% | Momentum:   +0.0% | Volume:    +0%
+ 5. 📌 OPENLIE  🟡 HOLD
+    Price: $0.00002480
+    Volatility:  12.9% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 23.9
 
- 5. 📌 OPENLIE  🟡 HOLD
-    Price: $0.00003111
-    Volatility:  10.4% | Momentum:   +0.0% | Volume:    +0%
+ 6. 📌 FURBIES  🟡 HOLD
+    Price: $0.00063410
+    Volatility:  10.5% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 23.1
 
- 6. 📌 MOOBA    🟡 HOLD
-    Price: $0.00000829
-    Volatility:   8.4% | Momentum:   +0.0% | Volume:    +0%
+ 7. 📌 ONECOIN  🟡 HOLD
+    Price: $0.00005378
+    Volatility:   9.8% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 22.9
+
+ 8. 📌 ROOTS    🟡 HOLD
+    Price: $0.00028540
+    Volatility:   8.3% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 22.5
 
- 7. 📌 ROOTS    🟡 HOLD
-    Price: $0.00028030
-    Volatility:   7.5% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 22.2
-
- 8. 📌 PFP      🟡 HOLD
-    Price: $0.00331200
-    Volatility:   5.1% | Momentum:   +0.0% | Volume:    +0%
+ 9. 📌 PFP      🟡 HOLD
+    Price: $0.00330900
+    Volatility:   5.0% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 21.5
 
- 9. 📌 BULLISH  🟡 HOLD
-    Price: $0.00777900
+10. 📌 BULLISH  🟡 HOLD
+    Price: $0.00783000
     Volatility:   4.7% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 21.4
 
-10. 📌 NOBODY   🟡 HOLD
-    Price: $0.06216000
-    Volatility:   2.6% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 20.8
+11. 📌 NOBODY   🟡 HOLD
+    Price: $0.06258000
+    Volatility:   2.2% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 20.7
 
-11. 📌 USDT     🟡 HOLD
+12. 📌 USDT     🟡 HOLD
     Price: $0.00000664
-    Volatility:   0.4% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 20.1
+    Volatility:   0.1% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 20.0
 
-12. 🆕 6        🟡 HOLD
+13. 🆕 6        🟡 HOLD
     Price: $0.00000957
     Volatility:  45.1% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 13.5
 
-13. 🆕 FUTARDIO 🟡 HOLD
+14. 🆕 FUTARDIO 🟡 HOLD
     Price: $0.00023090
     Volatility:  14.7% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 4.4
 
-14. 🆕 SATOSHI  🟡 HOLD
+15. 🆕 MOOBA    🟡 HOLD
+    Price: $0.00000829
+    Volatility:   8.4% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 2.5
+
+16. 📌 TROLLOWE 🟡 HOLD
+    Price: $0.00024870
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: nan
+
+17. 🆕 SATOSHI  🟡 HOLD
     Price: $0.00001027
     Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: nan
 
-15. 🆕 DON'T    🟡 HOLD
+18. 🆕 DON'T    🟡 HOLD
     Price: $0.00009147
     Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: nan
 
-16. 📌 FURBIES  🟡 HOLD
-    Price: $0.00057140
+19. 📌 BARNEY   🟡 HOLD
+    Price: $0.00003755
     Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: nan
 
-17. 📌 ONECOIN  🟡 HOLD
-    Price: $0.00006489
-    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: nan
-
-18. 📌 INSIDER  🟡 HOLD
-    Price: $0.00003636
+20. 📌 CAPRA    🟡 HOLD
+    Price: $0.00001971
     Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: nan
 
@@ -119,28 +129,28 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 📋 WATCHLIST PERFORMANCE - TODAY
 ======================================================================
 
-✅ Loaded 24 snapshots (680 datapoints)
-📊 49 watchlist tokens tracked today:
+✅ Loaded 25 snapshots (733 datapoints)
+📊 47 watchlist tokens tracked today:
 
 🟢 TOP GAINERS
-  EDG      +369.76% @ $0.00004303
-  PEACEMAK +172.89% @ $0.00042680
-  DBULL    +77.25% @ $0.00014760
-  SELFLESS +27.89% @ $0.00001307
-  ADELOS   +23.18% @ $0.00047510
+  EDG      +354.37% @ $0.00004162
+  PEACEMAK +251.09% @ $0.00054910
+  DBULL    +74.61% @ $0.00014540
+  SELFLESS +35.32% @ $0.00001383
+  ADELOS   +25.36% @ $0.00048350
 
 🔴 TOP LOSERS
-  JEWCOIN  -54.48% @ $0.00018320
+  MSGA     -64.39% @ $0.00002596
   USDT     -69.71% @ $0.00000664
-  TRENCHER -81.09% @ $0.00001416
-  MANIFEST -82.46% @ $0.00001544
-  AI6900   -94.53% @ $0.00001565
+  MANIFEST -82.14% @ $0.00001572
+  TRENCHER -84.00% @ $0.00001198
+  AI6900   -93.81% @ $0.00001769
 
 📈 STATS
-  Average Change: -2.58%
-  Median Change: -5.49%
+  Average Change: -0.89%
+  Median Change: -3.06%
   Gainers: 14
-  Losers: 34
+  Losers: 32
 
 ======================================================================
 ```
