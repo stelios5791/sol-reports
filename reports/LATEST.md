@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-13  
-**Generated:** 16:50 UTC
+**Generated:** 17:00 UTC
 
 ---
 
@@ -119,6 +119,8 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ======================================================================
 ```
 
+![Top Opportunities](../charts/opportunities_2025-10-13.png)
+
 
 ---
 
@@ -154,6 +156,10 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 
 ======================================================================
 ```
+
+### Correlation Heatmap
+
+![Watchlist Correlation](../charts/watchlist_correlation_2025-10-13.png)
 
 ---
 
