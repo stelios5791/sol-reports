@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-13  
-**Generated:** 19:01 UTC
+**Generated:** 19:15 UTC
 
 ---
 
@@ -11,7 +11,7 @@
 🎯 SCALPING OPPORTUNITIES - TODAY
 ======================================================================
 
-✅ Loaded 29 snapshots (959 datapoints)
+✅ Loaded 30 snapshots (1018 datapoints)
 📊 Top 20 tokens ranked by opportunity score:
 
  1. 🆕 SANCHO   🟡 HOLD 
@@ -21,46 +21,46 @@
     Score: 153.2
 
  2. 📌 POORLESS 🟡 HOLD 
-    Price: $0.00009848
-    Volatility:  63.2% | Momentum: +197.9% | Volume:   +60%
+    Price: $0.00009892
+    Volatility:  60.4% | Momentum: +274.8% | Volume:   +52%
     Signal Strength: 0.0/5.0
-    Score: 86.2
+    Score: 104.6
 
- 3. 📌 CAPRA    🟡 HOLD 
-    Price: $0.00005547
-    Volatility:  35.6% | Momentum: +226.5% | Volume:   -46%
+ 3. 📌 ADELOS   🟡 HOLD 
+    Price: $0.00177300
+    Volatility:  39.2% | Momentum: +273.2% | Volume:   +24%
     Signal Strength: 0.0/5.0
-    Score: 84.8
+    Score: 98.5
 
- 4. 📌 MSGA     🟡 HOLD 
-    Price: $0.00001278
-    Volatility:  27.2% | Momentum:  -82.5% | Volume:   +16%
+ 4. 📌 CAPRA    🟡 HOLD 
+    Price: $0.00004843
+    Volatility:  37.9% | Momentum: +181.9% | Volume:   -44%
     Signal Strength: 0.0/5.0
-    Score: 47.7
+    Score: 74.3
 
- 5. 📌 ADELOS   🟡 HOLD 
-    Price: $0.00087870
-    Volatility:  17.1% | Momentum:  +84.1% | Volume:   +23%
+ 5. 📌 FUTARDIO 🟡 HOLD 
+    Price: $0.00040860
+    Volatility:  21.3% | Momentum: +109.8% | Volume:    -1%
     Signal Strength: 0.0/5.0
-    Score: 45.6
+    Score: 52.8
 
- 6. 📌 TRENCHER 🟡 HOLD 
-    Price: $0.00000528
-    Volatility:   9.0% | Momentum:  -69.3% | Volume:    +1%
+ 6. 📌 MSGA     🟡 HOLD 
+    Price: $0.00001176
+    Volatility:  23.1% | Momentum:  -66.9% | Volume:   +10%
     Signal Strength: 0.0/5.0
-    Score: 39.6
+    Score: 42.6
 
- 7. 📌 BARNEY   🟡 HOLD 
-    Price: $0.00002089
-    Volatility:   7.3% | Momentum:  -57.6% | Volume:    +1%
+ 7. 📌 TRENCHER 🟡 HOLD 
+    Price: $0.00000510
+    Volatility:  10.7% | Momentum:  -64.0% | Volume:    +1%
     Signal Strength: 0.0/5.0
-    Score: 36.2
+    Score: 38.7
 
- 8. 📌 FUTARDIO 🟡 HOLD 
-    Price: $0.00027320
-    Volatility:  12.8% | Momentum:  +52.1% | Volume:    -8%
-    Signal Strength: 0.0/5.0
-    Score: 36.1
+ 8. 📌 REM      🟡 HOLD ⭐⭐⭐
+    Price: $0.00016110
+    Volatility:  18.4% | Momentum:   -0.6% | Volume:   -10%
+    Signal Strength: 4.8/5.0
+    Score: 36.7
 
  9. 🆕 6        🟡 HOLD 
     Price: $0.00000957
@@ -68,71 +68,71 @@
     Signal Strength: 0.0/5.0
     Score: 36.0
 
-10. 📌 FARTCOIN 🟡 HOLD ⭐⭐⭐
-    Price: $0.44740000
-    Volatility:   1.0% | Momentum:   +5.7% | Volume:   -13%
-    Signal Strength: 4.8/5.0
-    Score: 33.6
+10. 📌 BARNEY   🟡 HOLD 
+    Price: $0.00002349
+    Volatility:  12.8% | Momentum:  -48.9% | Volume:    +1%
+    Signal Strength: 0.0/5.0
+    Score: 35.4
 
 11. 📌 GMGN     🟡 HOLD 
-    Price: $0.00003971
-    Volatility:  22.3% | Momentum:  -29.0% | Volume:   -23%
+    Price: $0.00003305
+    Volatility:  22.9% | Momentum:  -37.3% | Volume:   -25%
     Signal Strength: 0.0/5.0
-    Score: 32.5
+    Score: 34.7
 
-12. 📌 PEPE     🟡 HOLD ⭐⭐⭐
+12. 📌 PUMP     🟡 HOLD ⭐⭐⭐
+    Price: $0.00427700
+    Volatility:   1.7% | Momentum:   +6.3% | Volume:    -4%
+    Signal Strength: 4.8/5.0
+    Score: 34.1
+
+13. 📌 FARTCOIN 🟡 HOLD ⭐⭐⭐
+    Price: $0.45460000
+    Volatility:   1.0% | Momentum:   +6.4% | Volume:    -8%
+    Signal Strength: 4.6/5.0
+    Score: 33.2
+
+14. 📌 FURBIES  🟡 HOLD 
+    Price: $0.00035750
+    Volatility:  12.2% | Momentum:  -37.4% | Volume:    -9%
+    Signal Strength: 0.0/5.0
+    Score: 32.3
+
+15. 📌 INSIDER  🟡 HOLD 
+    Price: $0.00002711
+    Volatility:  22.8% | Momentum:  -25.4% | Volume:    +8%
+    Signal Strength: 0.0/5.0
+    Score: 32.2
+
+16. 📌 PEPE     🟡 HOLD ⭐⭐⭐
     Price: $0.00072170
-    Volatility:   4.2% | Momentum:   +2.5% | Volume:    +4%
+    Volatility:   4.2% | Momentum:   +3.1% | Volume:    +3%
     Signal Strength: 4.0/5.0
-    Score: 31.7
+    Score: 31.9
 
-13. 📌 PUMP     🟡 HOLD ⭐⭐⭐
-    Price: $0.00424500
-    Volatility:   1.9% | Momentum:   +4.4% | Volume:    -8%
-    Signal Strength: 4.0/5.0
-    Score: 31.5
-
-14. 📌 POPCAT   🟡 HOLD ⭐⭐⭐
-    Price: $0.17090000
-    Volatility:   0.6% | Momentum:   +4.7% | Volume:    -3%
-    Signal Strength: 4.0/5.0
-    Score: 31.3
-
-15. 📌 JUP      🟡 HOLD ⭐⭐⭐
-    Price: $0.39270000
-    Volatility:   0.7% | Momentum:   +3.5% | Volume:    +1%
-    Signal Strength: 4.0/5.0
-    Score: 31.1
-
-16. 📌 FURBIES  🟡 HOLD 
-    Price: $0.00039500
-    Volatility:  12.3% | Momentum:  -31.9% | Volume:   -13%
+17. 📌 PEACEMAK 🟡 HOLD 
+    Price: $0.00032100
+    Volatility:  20.3% | Momentum:  -24.8% | Volume:   +20%
     Signal Strength: 0.0/5.0
+    Score: 31.6
+
+18. 📌 GOAT     🟡 HOLD ⭐⭐⭐
+    Price: $0.06235000
+    Volatility:   0.6% | Momentum:   +3.4% | Volume:    -3%
+    Signal Strength: 4.0/5.0
     Score: 30.9
 
-17. 📌 GOAT     🟡 HOLD ⭐⭐⭐
-    Price: $0.06179000
-    Volatility:   0.6% | Momentum:   +2.7% | Volume:    -7%
-    Signal Strength: 4.0/5.0
-    Score: 30.7
-
-18. 📌 PNUT     🟡 HOLD ⭐⭐
-    Price: $0.15810000
-    Volatility:   0.9% | Momentum:   +3.9% | Volume:   -15%
+19. 📌 JUP      🟡 HOLD ⭐⭐
+    Price: $0.39420000
+    Volatility:   0.5% | Momentum:   +4.3% | Volume:    +3%
     Signal Strength: 3.8/5.0
-    Score: 30.3
+    Score: 30.6
 
-19. 📌 INSIDER  🟡 HOLD 
-    Price: $0.00004051
-    Volatility:  20.7% | Momentum:  -16.0% | Volume:    +9%
-    Signal Strength: 0.0/5.0
-    Score: 29.3
-
-20. 📌 TROLLOWE 🟡 HOLD 
-    Price: $0.00026780
-    Volatility:   8.4% | Momentum:  +24.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0
-    Score: 28.1
+20. 📌 POPCAT   🟡 HOLD ⭐⭐
+    Price: $0.17250000
+    Volatility:   0.6% | Momentum:   +4.4% | Volume:    +0%
+    Signal Strength: 3.8/5.0
+    Score: 30.6
 
 ======================================================================
 Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
@@ -151,28 +151,28 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 📋 WATCHLIST PERFORMANCE - TODAY
 ======================================================================
 
-✅ Loaded 29 snapshots (959 datapoints)
-📊 49 watchlist tokens tracked today:
+✅ Loaded 30 snapshots (1018 datapoints)
+📊 48 watchlist tokens tracked today:
 
 🟢 TOP GAINERS
-  EDG      +350.66% @ $0.00004128
-  POORLESS +315.70% @ $0.00009848
-  PEACEMAK +155.37% @ $0.00039940
-  ADELOS   +127.82% @ $0.00087870
-  CAPRA    +98.60% @ $0.00005547
+  ADELOS   +359.68% @ $0.00177300
+  POORLESS +317.56% @ $0.00009892
+  FUTARDIO +116.30% @ $0.00040860
+  PEACEMAK +105.24% @ $0.00032100
+  CAPRA    +73.40% @ $0.00004843
 
 🔴 TOP LOSERS
-  BARNEY   -65.10% @ $0.00002089
-  MSGA     -82.47% @ $0.00001278
-  MANIFEST -85.93% @ $0.00001238
-  TRENCHER -92.95% @ $0.00000528
-  AI6900   -94.11% @ $0.00001685
+  GMGN     -65.10% @ $0.00003305
+  MSGA     -83.87% @ $0.00001176
+  MANIFEST -86.35% @ $0.00001201
+  TRENCHER -93.18% @ $0.00000510
+  AI6900   -94.22% @ $0.00001653
 
 📈 STATS
-  Average Change: +11.53%
-  Median Change: +2.22%
-  Gainers: 28
-  Losers: 20
+  Average Change: +4.81%
+  Median Change: +1.56%
+  Gainers: 25
+  Losers: 22
 
 ======================================================================
 ```
@@ -191,7 +191,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ======================================================================
 
 🔄 Backtesting 50 watchlist tokens...
-  [1/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [1/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -199,7 +199,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [2/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [2/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -207,7 +207,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [3/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [3/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -215,7 +215,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [4/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [4/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -223,7 +223,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [5/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [5/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -231,7 +231,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [6/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [6/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -239,7 +239,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [7/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [7/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -247,7 +247,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [8/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [8/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -255,7 +255,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [9/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [9/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -263,7 +263,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [10/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [10/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -271,7 +271,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [11/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [11/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -279,7 +279,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [12/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [12/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -287,7 +287,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [13/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [13/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -295,7 +295,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [14/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [14/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -303,7 +303,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [15/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [15/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -311,7 +311,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [16/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [16/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -319,7 +319,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [17/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [17/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -327,7 +327,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [18/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [18/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -335,7 +335,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [19/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [19/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -343,7 +343,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [20/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [20/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -351,7 +351,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [21/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [21/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -359,7 +359,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [22/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [22/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -367,7 +367,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [23/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [23/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -375,7 +375,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [24/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [24/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -383,7 +383,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [25/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [25/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -391,7 +391,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [26/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [26/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -399,7 +399,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [27/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [27/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -407,7 +407,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [28/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [28/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -415,7 +415,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [29/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [29/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -423,7 +423,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [30/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [30/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -431,7 +431,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [31/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [31/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -439,7 +439,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [32/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [32/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -447,7 +447,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [33/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [33/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -455,7 +455,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [34/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [34/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -463,7 +463,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [35/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [35/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -471,7 +471,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [36/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [36/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -479,7 +479,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [37/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [37/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -487,7 +487,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [38/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [38/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -495,7 +495,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [39/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [39/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -503,7 +503,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [40/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [40/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -511,7 +511,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [41/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [41/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -519,7 +519,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [42/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [42/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -527,7 +527,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [43/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [43/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -535,7 +535,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [44/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [44/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -543,7 +543,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [45/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [45/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -551,7 +551,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [46/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [46/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -559,7 +559,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [47/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [47/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -567,7 +567,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [48/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [48/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -575,7 +575,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [49/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [49/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
@@ -583,7 +583,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-07
 ✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
-  [50/50] Testing...✅ Loaded 29 snapshots (959 datapoints)
+  [50/50] Testing...✅ Loaded 30 snapshots (1018 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
 ❌ No data for 2025-10-10
