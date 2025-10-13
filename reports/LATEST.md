@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-13  
-**Generated:** 17:16 UTC
+**Generated:** 17:22 UTC
 
 ---
 
@@ -160,6 +160,422 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ### Correlation Heatmap
 
 ![Watchlist Correlation](../charts/watchlist_correlation_2025-10-13.png)
+
+---
+
+## 🔬 Backtesting Results (7-day)
+
+```
+======================================================================
+🔬 BACKTESTING WATCHLIST (7 days)
+======================================================================
+
+🔄 Backtesting 50 watchlist tokens...
+  [1/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [2/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [3/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [4/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [5/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [6/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [7/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [8/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [9/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [10/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [11/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [12/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [13/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [14/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [15/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [16/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [17/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [18/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [19/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [20/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [21/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [22/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [23/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [24/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [25/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [26/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [27/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [28/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [29/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [30/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [31/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [32/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [33/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [34/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [35/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [36/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [37/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [38/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [39/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [40/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [41/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [42/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [43/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [44/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [45/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [46/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [47/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [48/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [49/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+  [50/50] Testing...✅ Loaded 27 snapshots (843 datapoints)
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 14 snapshots (25 datapoints)
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-07
+✅ Loaded 3 days of data: 2025-10-13 to 2025-10-11
+
+❌ No backtest results
+❌ No results
+```
+
 
 ---
 
