@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-13  
-**Generated:** 15:01 UTC
+**Generated:** 15:13 UTC
 
 ---
 
@@ -12,14 +12,14 @@
 ======================================================================
 
 ✅ Loaded 24 snapshots (680 datapoints)
-📊 Top 20 tokens ranked by opportunity score:
+📊 Top 18 tokens ranked by opportunity score:
 
  1. 📌 EDG      🟡 HOLD
     Price: $0.00004303
     Volatility: 123.3% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 57.0
 
- 2. 📌 PEACEMAKER 🟡 HOLD
+ 2. 📌 PEACEMAK 🟡 HOLD
     Price: $0.00042680
     Volatility:  42.7% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 32.8
@@ -79,15 +79,34 @@
     Volatility:  14.7% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 4.4
 
-Traceback (most recent call last):
-  File "/home/runner/work/solana/solana/analyze.py", line 250, in <module>
-    main()
-  File "/home/runner/work/solana/solana/analyze.py", line 240, in main
-    analyze_opportunities(args)
-  File "/home/runner/work/solana/solana/analyze.py", line 40, in analyze_opportunities
-    print(f"{opp['rank']:2d}. {watchlist_icon} {opp['symbol']:8s} {signal_icon} {opp['signal']}")
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: Unknown format code 's' for object of type 'float'
+14. 🆕 SATOSHI  🟡 HOLD
+    Price: $0.00001027
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: nan
+
+15. 🆕 DON'T    🟡 HOLD
+    Price: $0.00009147
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: nan
+
+16. 📌 FURBIES  🟡 HOLD
+    Price: $0.00057140
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: nan
+
+17. 📌 ONECOIN  🟡 HOLD
+    Price: $0.00006489
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: nan
+
+18. 📌 INSIDER  🟡 HOLD
+    Price: $0.00003636
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: nan
+
+======================================================================
+Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
+======================================================================
 ```
 
 
@@ -105,7 +124,7 @@ ValueError: Unknown format code 's' for object of type 'float'
 
 🟢 TOP GAINERS
   EDG      +369.76% @ $0.00004303
-  PEACEMAKER +172.89% @ $0.00042680
+  PEACEMAK +172.89% @ $0.00042680
   DBULL    +77.25% @ $0.00014760
   SELFLESS +27.89% @ $0.00001307
   ADELOS   +23.18% @ $0.00047510
