@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-13  
-**Generated:** 18:44 UTC
+**Generated:** 18:47 UTC
 
 ---
 
@@ -12,21 +12,131 @@
 ======================================================================
 
 ✅ Loaded 29 snapshots (959 datapoints)
-Traceback (most recent call last):
-  File "/home/runner/work/solana/solana/analyze.py", line 301, in <module>
-    main()
-  File "/home/runner/work/solana/solana/analyze.py", line 291, in main
-    analyze_opportunities(args)
-  File "/home/runner/work/solana/solana/analyze.py", line 28, in analyze_opportunities
-    opportunities = analyzer.get_top_opportunities(date=args.date, top_n=args.top)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/solana/solana/utils/intraday_analyzer.py", line 337, in get_top_opportunities
-    token_data = self.generate_signals(token_data)  # Keep legacy signals for comparison
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/solana/solana/utils/intraday_analyzer.py", line 253, in generate_signals
-    if self.debug:
-       ^^^^^^^^^^
-AttributeError: 'IntradayAnalyzer' object has no attribute 'debug'
+📊 Top 20 tokens ranked by opportunity score:
+
+ 1. 🆕 SANCHO   🟡 HOLD 
+    Price: $0.00004613
+    Volatility: 144.9% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 36.2
+
+ 2. 📌 POORLESS 🟡 HOLD 
+    Price: $0.00009848
+    Volatility:  63.2% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 35.8
+
+ 3. 📌 CAPRA    🟡 HOLD 
+    Price: $0.00005547
+    Volatility:  35.6% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 28.9
+
+ 4. 📌 MSGA     🟡 HOLD 
+    Price: $0.00001278
+    Volatility:  27.2% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 26.8
+
+ 5. 📌 GMGN     🟡 HOLD 
+    Price: $0.00003971
+    Volatility:  22.3% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 25.6
+
+ 6. 📌 INSIDER  🟡 HOLD 
+    Price: $0.00004051
+    Volatility:  20.7% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 25.2
+
+ 7. 📌 PEACEMAK 🟡 HOLD 
+    Price: $0.00039940
+    Volatility:  18.5% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 24.6
+
+ 8. 📌 PIGEON   🟡 HOLD 
+    Price: $0.00012260
+    Volatility:  18.4% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 24.6
+
+ 9. 📌 ADELOS   🟡 HOLD 
+    Price: $0.00087870
+    Volatility:  17.1% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 24.3
+
+10. 📌 REM      🟡 HOLD 
+    Price: $0.00020090
+    Volatility:  15.9% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 24.0
+
+11. 📌 FUTARDIO 🟡 HOLD 
+    Price: $0.00027320
+    Volatility:  12.8% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 23.2
+
+12. 📌 FURBIES  🟡 HOLD 
+    Price: $0.00039500
+    Volatility:  12.3% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 23.1
+
+13. 📌 ROOTS    🟡 HOLD 
+    Price: $0.00026710
+    Volatility:  12.3% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 23.1
+
+14. 📌 JEWCOIN  🟡 HOLD 
+    Price: $0.00017840
+    Volatility:  11.2% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 22.8
+
+15. 📌 EDG      🟡 HOLD 
+    Price: $0.00004128
+    Volatility:  10.9% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 22.7
+
+16. 📌 DAVE     🟡 HOLD 
+    Price: $0.00016830
+    Volatility:  10.0% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 22.5
+
+17. 📌 PFB      🟡 HOLD 
+    Price: $0.00005256
+    Volatility:   9.5% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 22.4
+
+18. 📌 TRENCHER 🟡 HOLD 
+    Price: $0.00000528
+    Volatility:   9.0% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 22.2
+
+19. 📌 TROLLOWE 🟡 HOLD 
+    Price: $0.00026780
+    Volatility:   8.4% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 22.1
+
+20. 📌 DBULL    🟡 HOLD 
+    Price: $0.00015550
+    Volatility:   7.5% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 21.9
+
+======================================================================
+Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
+======================================================================
 ```
 
 ![Top Opportunities](../charts/opportunities_2025-10-13.png)
