@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-13  
-**Generated:** 15:41 UTC
+**Generated:** 16:22 UTC
 
 ---
 
@@ -11,93 +11,93 @@
 🎯 SCALPING OPPORTUNITIES - TODAY
 ======================================================================
 
-✅ Loaded 26 snapshots (787 datapoints)
+✅ Loaded 27 snapshots (843 datapoints)
 📊 Top 20 tokens ranked by opportunity score:
 
- 1. 📌 PEACEMAK 🟡 HOLD
-    Price: $0.00039280
-    Volatility:  44.7% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 33.4
+ 1. 📌 ONECOIN  🟡 HOLD
+    Price: $0.00007485
+    Volatility:  21.3% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 26.4
 
- 2. 📌 BARNEY   🟡 HOLD
-    Price: $0.00003698
-    Volatility:  18.7% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 25.6
+ 2. 📌 CAPRA    🟡 HOLD
+    Price: $0.00002564
+    Volatility:  18.5% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 25.5
 
- 3. 📌 CAPRA    🟡 HOLD
-    Price: $0.00001861
+ 3. 📌 INSIDER  🟡 HOLD
+    Price: $0.00003774
+    Volatility:  15.5% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 24.7
+
+ 4. 📌 BARNEY   🟡 HOLD
+    Price: $0.00002980
+    Volatility:  14.8% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 24.4
+
+ 5. 📌 EDG      🟡 HOLD
+    Price: $0.00003745
+    Volatility:  14.3% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 24.3
+
+ 6. 📌 OPENLIE  🟡 HOLD
+    Price: $0.00002478
     Volatility:  13.9% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 24.2
 
- 4. 📌 OPENLIE  🟡 HOLD
-    Price: $0.00002101
-    Volatility:  13.8% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 24.1
+ 7. 📌 MAILI    🟡 HOLD
+    Price: $0.00014260
+    Volatility:  11.3% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 23.4
 
- 5. 📌 INSIDER  🟡 HOLD
-    Price: $0.00003102
-    Volatility:  13.8% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 24.1
-
- 6. 📌 EDG      🟡 HOLD
-    Price: $0.00003407
-    Volatility:  12.8% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 23.9
-
- 7. 📌 FURBIES  🟡 HOLD
-    Price: $0.00055340
-    Volatility:  10.8% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 23.2
-
- 8. 📌 ONECOIN  🟡 HOLD
-    Price: $0.00005298
-    Volatility:   9.8% | Momentum:   +0.0% | Volume:    +0%
+ 8. 📌 TROLLOWE 🟡 HOLD
+    Price: $0.00029800
+    Volatility:   9.5% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 22.9
 
  9. 📌 ADELOS   🟡 HOLD
-    Price: $0.00054210
-    Volatility:   9.1% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 22.7
-
-10. 📌 TROLLOWE 🟡 HOLD
-    Price: $0.00026260
-    Volatility:   8.5% | Momentum:   +0.0% | Volume:    +0%
+    Price: $0.00054920
+    Volatility:   8.6% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 22.6
 
-11. 📌 ROOTS    🟡 HOLD
-    Price: $0.00027090
-    Volatility:   8.3% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 22.5
+10. 📌 ROOTS    🟡 HOLD
+    Price: $0.00023340
+    Volatility:   8.1% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 22.4
 
-12. 📌 PFP      🟡 HOLD
-    Price: $0.00336200
-    Volatility:   4.6% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 21.4
+11. 📌 FURBIES  🟡 HOLD
+    Price: $0.00053290
+    Volatility:   7.8% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 22.3
 
-13. 📌 COIN     🟡 HOLD
-    Price: $0.00008974
-    Volatility:   2.9% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 20.9
+12. 📌 KITTY    🟡 HOLD
+    Price: $0.00030290
+    Volatility:   5.3% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 21.6
 
-14. 📌 NOBODY   🟡 HOLD
-    Price: $0.06487000
-    Volatility:   2.6% | Momentum:   +0.0% | Volume:    +0%
-    Signal Strength: 0.0/5.0 | Score: 20.8
+13. 📌 NOBODY   🟡 HOLD
+    Price: $0.06556000
+    Volatility:   2.4% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 20.7
 
-15. 🆕 6        🟡 HOLD
+14. 🆕 6        🟡 HOLD
     Price: $0.00000957
     Volatility:  45.1% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 13.5
 
-16. 🆕 FUTARDIO 🟡 HOLD
+15. 🆕 FUTARDIO 🟡 HOLD
     Price: $0.00023090
     Volatility:  14.7% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 4.4
 
-17. 🆕 MOOBA    🟡 HOLD
+16. 🆕 MOOBA    🟡 HOLD
     Price: $0.00000829
     Volatility:   8.4% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: 2.5
+
+17. 🆕 COIN     🟡 HOLD
+    Price: $0.00008974
+    Volatility:   1.5% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0 | Score: 0.4
 
 18. 🆕 SATOSHI  🟡 HOLD
     Price: $0.00001027
@@ -109,8 +109,8 @@
     Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: nan
 
-20. 📌 KITTY    🟡 HOLD
-    Price: $0.00030500
+20. 📌 POORLESS 🟡 HOLD
+    Price: $0.00010860
     Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
     Signal Strength: 0.0/5.0 | Score: nan
 
@@ -129,26 +129,26 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 📋 WATCHLIST PERFORMANCE - TODAY
 ======================================================================
 
-✅ Loaded 26 snapshots (787 datapoints)
+✅ Loaded 27 snapshots (843 datapoints)
 📊 46 watchlist tokens tracked today:
 
 🟢 TOP GAINERS
-  EDG      +271.94% @ $0.00003407
-  PEACEMAK +151.15% @ $0.00039280
-  POORLESS +84.59% @ $0.00004373
-  DBULL    +82.66% @ $0.00015210
-  ADELOS   +40.55% @ $0.00054210
+  POORLESS +358.42% @ $0.00010860
+  EDG      +308.84% @ $0.00003745
+  PEACEMAK +137.40% @ $0.00037130
+  DBULL    +82.30% @ $0.00015180
+  ADELOS   +42.39% @ $0.00054920
 
 🔴 TOP LOSERS
-  JEWCOIN  -53.74% @ $0.00018620
-  MSGA     -57.30% @ $0.00003113
-  MANIFEST -82.92% @ $0.00001503
-  TRENCHER -89.07% @ $0.00000818
-  AI6900   -93.91% @ $0.00001741
+  GMGN     -66.66% @ $0.00003157
+  MSGA     -78.53% @ $0.00001565
+  MANIFEST -83.66% @ $0.00001438
+  TRENCHER -91.43% @ $0.00000642
+  AI6900   -93.85% @ $0.00001760
 
 📈 STATS
-  Average Change: -1.23%
-  Median Change: -2.84%
+  Average Change: +4.83%
+  Median Change: -3.78%
   Gainers: 17
   Losers: 28
 
