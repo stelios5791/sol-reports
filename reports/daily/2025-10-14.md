@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-14  
-**Generated:** 01:17 UTC
+**Generated:** 02:46 UTC
 
 ---
 
@@ -11,7 +11,7 @@
 🎯 SCALPING OPPORTUNITIES - TODAY
 ======================================================================
 
-✅ Loaded 1 snapshots (58 datapoints)
+✅ Loaded 2 snapshots (115 datapoints)
 Traceback (most recent call last):
   File "/home/runner/work/solana/solana/analyze.py", line 304, in <module>
     main()
@@ -41,21 +41,30 @@ KeyError: 'opportunity_score'
 📋 WATCHLIST PERFORMANCE - TODAY
 ======================================================================
 
-✅ Loaded 1 snapshots (58 datapoints)
-Traceback (most recent call last):
-  File "/home/runner/work/solana/solana/analyze.py", line 304, in <module>
-    main()
-  File "/home/runner/work/solana/solana/analyze.py", line 298, in main
-    watchlist_performance(args)
-  File "/home/runner/work/solana/solana/analyze.py", line 243, in watchlist_performance
-    perf_df = pd.DataFrame(performance).sort_values('change_pct', ascending=False)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 7211, in sort_values
-    k = self._get_label_or_level_values(by[0], axis=axis)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/generic.py", line 1914, in _get_label_or_level_values
-    raise KeyError(key)
-KeyError: 'change_pct'
+✅ Loaded 2 snapshots (115 datapoints)
+📊 49 watchlist tokens tracked today:
+
+🟢 TOP GAINERS
+  🟩⬜️      +169.90% @ $0.00027260
+  BRUH     +105.26% @ $0.00019260
+  FUTARDIO +57.52% @ $0.00052580
+  POLYPORT +39.91% @ $0.00087570
+  FURBIES  +21.89% @ $0.00041980
+
+🔴 TOP LOSERS
+  KIDNEYS  -22.54% @ $0.00002649
+  PEACEMAK -28.88% @ $0.00020240
+  BURN     -32.43% @ $0.00028780
+  RC69000  -33.73% @ $0.00023280
+  ADELOS   -53.28% @ $0.00099570
+
+📈 STATS
+  Average Change: +3.17%
+  Median Change: -1.65%
+  Gainers: 15
+  Losers: 33
+
+======================================================================
 ```
 
 ---
@@ -68,7 +77,7 @@ KeyError: 'change_pct'
 ======================================================================
 
 🔄 Backtesting 50 watchlist tokens...
-  [1/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [1/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -76,7 +85,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [2/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [2/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -84,7 +93,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [3/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [3/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -92,7 +101,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [4/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [4/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -100,7 +109,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [5/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [5/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -108,7 +117,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [6/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [6/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -116,7 +125,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [7/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [7/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -124,7 +133,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [8/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [8/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -132,7 +141,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [9/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [9/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -140,7 +149,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [10/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [10/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -148,7 +157,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [11/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [11/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -156,7 +165,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [12/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [12/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -164,7 +173,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [13/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [13/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -172,7 +181,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [14/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [14/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -180,7 +189,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [15/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [15/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -188,7 +197,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [16/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [16/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -196,7 +205,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [17/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [17/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -204,7 +213,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [18/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [18/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -212,7 +221,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [19/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [19/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -220,7 +229,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [20/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [20/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -228,7 +237,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [21/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [21/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -236,7 +245,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [22/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [22/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -244,7 +253,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [23/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [23/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -252,7 +261,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [24/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [24/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -260,7 +269,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [25/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [25/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -268,7 +277,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [26/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [26/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -276,7 +285,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [27/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [27/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -284,7 +293,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [28/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [28/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -292,7 +301,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [29/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [29/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -300,7 +309,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [30/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [30/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -308,7 +317,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [31/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [31/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -316,7 +325,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [32/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [32/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -324,7 +333,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [33/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [33/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -332,7 +341,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [34/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [34/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -340,7 +349,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [35/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [35/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -348,7 +357,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [36/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [36/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -356,7 +365,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [37/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [37/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -364,7 +373,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [38/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [38/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -372,7 +381,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [39/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [39/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -380,7 +389,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [40/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [40/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -388,7 +397,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [41/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [41/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -396,7 +405,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [42/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [42/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -404,7 +413,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [43/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [43/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -412,7 +421,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [44/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [44/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -420,7 +429,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [45/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [45/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -428,7 +437,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [46/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [46/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -436,7 +445,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [47/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [47/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -444,7 +453,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [48/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [48/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -452,7 +461,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [49/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [49/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -460,7 +469,7 @@ KeyError: 'change_pct'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [50/50] Testing...✅ Loaded 1 snapshots (58 datapoints)
+  [50/50] Testing...✅ Loaded 2 snapshots (115 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
