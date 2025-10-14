@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-14  
-**Generated:** 11:40 UTC
+**Generated:** 11:45 UTC
 
 ---
 
@@ -190,15 +190,54 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 🔬 BACKTESTING WATCHLIST (7 days)
 ======================================================================
 
-Traceback (most recent call last):
-  File "/home/runner/work/solana/solana/backtest.py", line 356, in <module>
-    main()
-  File "/home/runner/work/solana/solana/backtest.py", line 346, in main
-    backtest_watchlist(args)
-  File "/home/runner/work/solana/solana/backtest.py", line 35, in backtest_watchlist
-    watchlist = analyzer.load_watchlist()
-                ^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'IntradayAnalyzer' object has no attribute 'load_watchlist'. Did you mean: '_load_watchlist'?
+🔄 Backtesting 10 watchlist tokens...
+
+🔄 Backtesting 10 tokens over 7 days...
+
+✅ Loaded 19 snapshots (1066 datapoints)
+✅ Loaded 1066 datapoints for 2025-10-14
+✅ Loaded 38 snapshots (1473 datapoints)
+✅ Loaded 1473 datapoints for 2025-10-13
+✅ Loaded 47 snapshots (493 datapoints)
+✅ Loaded 493 datapoints for 2025-10-12
+✅ Loaded 14 snapshots (25 datapoints)
+✅ Loaded 25 datapoints for 2025-10-11
+❌ No data for 2025-10-10
+❌ No data for 2025-10-10
+❌ No data for 2025-10-09
+❌ No data for 2025-10-09
+❌ No data for 2025-10-08
+❌ No data for 2025-10-08
+✅ Loaded 4 days of data: 2025-10-11 to 2025-10-14
+   Total datapoints: 3057
+
+  [1/10] Testing 9tPeuW6hAw6Y...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [2/10] Testing EiGmw1g6fJ22...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [3/10] Testing pumpCmXqMfrs...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [4/10] Testing 9BB6NFEcjBCt...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [5/10] Testing 7GCihgDB8fe6...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [6/10] Testing 2qEHjDLDLbuB...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [7/10] Testing C29ebrgYjYoJ...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [8/10] Testing GHE4fYyf3wwZ...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [9/10] Testing AZHSuKdwAezJ...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [10/10] Testing JUPyiwrYJFsk...
+    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+
+❌ No trades generated
+
+Possible reasons:
+  - Signal strength threshold too high
+  - Not enough data points
+  - No strong signals in the period
 ```
 
 
