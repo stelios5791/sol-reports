@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-14  
-**Generated:** 11:24 UTC
+**Generated:** 11:38 UTC
 
 ---
 
@@ -11,128 +11,128 @@
 🎯 SCALPING OPPORTUNITIES - TODAY
 ======================================================================
 
-✅ Loaded 18 snapshots (1010 datapoints)
+✅ Loaded 19 snapshots (1066 datapoints)
 📊 Top 20 tokens ranked by opportunity score:
 
- 1. 📌 NETWORK  🟡 HOLD 
-    Price: $0.00015530
-    Volatility:  73.3% | Momentum:  +41.1% | Volume:    +6%
+ 1. 📌 RC69000  🟡 HOLD 
+    Price: $0.00018230
+    Volatility:  30.6% | Momentum:  +95.0% | Volume:    +3%
     Signal Strength: 0.0/5.0
-    Score: 48.7
+    Score: 51.5
 
- 2. 📌 中华币      🟡 HOLD 
-    Price: $0.00001811
-    Volatility:  18.7% | Momentum:  -69.8% | Volume:    +4%
+ 2. 📌 GAY      🟡 HOLD 
+    Price: $0.00001099
+    Volatility:  20.8% | Momentum:  -82.7% | Volume:    +8%
     Signal Strength: 0.0/5.0
-    Score: 42.2
+    Score: 46.0
 
- 3. 📌 RC69000  🟡 HOLD 
+ 3. 📌 NETWORK  🟡 HOLD 
     Price: $0.00013230
-    Volatility:  28.6% | Momentum:  +46.2% | Volume:    +2%
+    Volatility:  74.6% | Momentum:  +12.2% | Volume:    +5%
     Signal Strength: 0.0/5.0
-    Score: 38.7
+    Score: 41.8
 
- 4. 📌 POORLESS 🟡 HOLD 
-    Price: $0.00001663
-    Volatility:  14.6% | Momentum:  -51.1% | Volume:    +1%
+ 4. 📌 中华币      🟡 HOLD 
+    Price: $0.00001697
+    Volatility:  19.1% | Momentum:  -65.2% | Volume:    +3%
     Signal Strength: 0.0/5.0
-    Score: 36.4
+    Score: 41.1
 
- 5. 📌 BOB      🟡 HOLD 
-    Price: $0.00002276
-    Volatility:  16.0% | Momentum:  -33.6% | Volume:    +0%
+ 5. 📌 ADELOS   🟡 HOLD 
+    Price: $0.00009957
+    Volatility:  22.7% | Momentum:  -61.3% | Volume:    -3%
     Signal Strength: 0.0/5.0
-    Score: 32.4
+    Score: 41.0
 
- 6. 📌 FUTARDIO 🟡 HOLD 
-    Price: $0.00068410
-    Volatility:  11.1% | Momentum:  +34.1% | Volume:    +5%
-    Signal Strength: 0.0/5.0
-    Score: 31.4
-
- 7. 📌 PIGEON   🟡 HOLD 
-    Price: $0.00007083
-    Volatility:  23.2% | Momentum:  +21.7% | Volume:    -5%
+ 6. 📌 DAVE     🟡 HOLD 
+    Price: $0.00017110
+    Volatility:   6.3% | Momentum:  -38.2% | Volume:    +5%
     Signal Strength: 0.0/5.0
     Score: 31.2
 
- 8. 📌 PEACEMAK 🟡 HOLD 
-    Price: $0.00006369
-    Volatility:  16.1% | Momentum:  -26.4% | Volume:    -7%
+ 7. 📌 🟩⬜️      🟡 HOLD 
+    Price: $0.00019420
+    Volatility:  14.4% | Momentum:  -25.9% | Volume:    +3%
     Signal Strength: 0.0/5.0
-    Score: 30.5
+    Score: 30.1
 
- 9. 📌 USDISC   🟡 HOLD 
-    Price: $0.00000649
-    Volatility:   7.6% | Momentum:  +25.7% | Volume:   +10%
+ 8. 📌 🟪        🟡 HOLD 
+    Price: $0.00033160
+    Volatility:  14.7% | Momentum:  -23.7% | Volume:    +2%
     Signal Strength: 0.0/5.0
-    Score: 28.5
+    Score: 29.6
 
-10. 📌 🟪        🟡 HOLD 
-    Price: $0.00040110
-    Volatility:  15.8% | Momentum:  +11.9% | Volume:    +2%
+ 9. 📌 POORLESS 🟡 HOLD 
+    Price: $0.00001614
+    Volatility:   7.8% | Momentum:  -26.4% | Volume:    +0%
     Signal Strength: 0.0/5.0
-    Score: 26.9
+    Score: 28.6
 
-11. 📌 ADELOS   🟡 HOLD 
-    Price: $0.00020760
-    Volatility:  11.7% | Momentum:  -15.6% | Volume:    -2%
+10. 📌 PIGEON   🟡 HOLD 
+    Price: $0.00007287
+    Volatility:  23.0% | Momentum:  +10.9% | Volume:    -5%
     Signal Strength: 0.0/5.0
-    Score: 26.8
+    Score: 28.4
 
-12. 📌 🟩⬜️      🟡 HOLD 
-    Price: $0.00021590
-    Volatility:  14.6% | Momentum:  -12.3% | Volume:    +4%
+11. 📌 PEACEMAK 🟡 HOLD 
+    Price: $0.00007989
+    Volatility:  19.9% | Momentum:  -13.6% | Volume:    -7%
     Signal Strength: 0.0/5.0
-    Score: 26.8
+    Score: 28.3
 
-13. 📌 DAVE     🟡 HOLD 
-    Price: $0.00021060
-    Volatility:   4.5% | Momentum:  -21.7% | Volume:    +0%
+12. 📌 FUTARDIO 🟡 HOLD 
+    Price: $0.00068880
+    Volatility:  10.6% | Momentum:  +20.1% | Volume:    +4%
     Signal Strength: 0.0/5.0
-    Score: 26.5
+    Score: 27.8
 
-14. 📌 INSIDER  🟡 HOLD 
-    Price: $0.00000872
-    Volatility:   5.1% | Momentum:  -18.2% | Volume:    +0%
+13. 📌 USDISC   🟡 HOLD 
+    Price: $0.00000654
+    Volatility:   7.7% | Momentum:  +20.5% | Volume:   +14%
     Signal Strength: 0.0/5.0
-    Score: 25.8
+    Score: 27.3
 
-15. 📌 JEWCOIN  🟡 HOLD 
-    Price: $0.00012100
-    Volatility:   6.5% | Momentum:  -14.4% | Volume:    +1%
+14. 📌 JEWCOIN  🟡 HOLD 
+    Price: $0.00012150
+    Volatility:   6.3% | Momentum:  -15.7% | Volume:    +1%
+    Signal Strength: 0.0/5.0
+    Score: 25.5
+
+15. 📌 ROOTS    🟡 HOLD 
+    Price: $0.00018170
+    Volatility:  12.3% | Momentum:   -9.8% | Volume:    -4%
+    Signal Strength: 0.0/5.0
+    Score: 25.5
+
+16. 📌 BOB      🟡 HOLD 
+    Price: $0.00002982
+    Volatility:  21.2% | Momentum:   -0.1% | Volume:    +0%
     Signal Strength: 0.0/5.0
     Score: 25.3
 
-16. 📌 REM      🟡 HOLD 
-    Price: $0.00010680
-    Volatility:   4.0% | Momentum:  -16.6% | Volume:    +1%
+17. 📌 BULLISH  🟡 HOLD 
+    Price: $0.00680400
+    Volatility:   3.6% | Momentum:  -15.2% | Volume:    +0%
     Signal Strength: 0.0/5.0
-    Score: 25.2
+    Score: 24.7
 
-17. 📌 BSSC     🟡 HOLD 
-    Price: $0.00023150
-    Volatility:   5.1% | Momentum:  -15.1% | Volume:    -1%
+18. 📌 BSSC     🟡 HOLD 
+    Price: $0.00023470
+    Volatility:   5.3% | Momentum:  -13.2% | Volume:    -1%
     Signal Strength: 0.0/5.0
-    Score: 25.0
+    Score: 24.6
 
-18. 📌 ICM      🟡 HOLD 
-    Price: $0.00036280
-    Volatility:   8.0% | Momentum:  +11.5% | Volume:    -0%
-    Signal Strength: 0.0/5.0
-    Score: 24.9
-
-19. 📌 LUMINARI 🟡 HOLD 
-    Price: $0.00006349
-    Volatility:   5.5% | Momentum:  -12.7% | Volume:    -1%
-    Signal Strength: 0.0/5.0
-    Score: 24.5
-
-20. 📌 POLYPORT 🟡 HOLD 
-    Price: $0.00093210
-    Volatility:   2.9% | Momentum:  +13.3% | Volume:    +6%
+19. 📌 67       🟡 HOLD 
+    Price: $0.00108200
+    Volatility:   6.2% | Momentum:   +9.9% | Volume:    +3%
     Signal Strength: 0.0/5.0
     Score: 24.1
+
+20. 📌 BURN     🟡 HOLD 
+    Price: $0.00024190
+    Volatility:  10.8% | Momentum:   -4.9% | Volume:    -3%
+    Signal Strength: 0.0/5.0
+    Score: 23.9
 
 ======================================================================
 Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
@@ -151,27 +151,27 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 📋 WATCHLIST PERFORMANCE - TODAY
 ======================================================================
 
-✅ Loaded 18 snapshots (1010 datapoints)
-📊 50 watchlist tokens tracked today:
+✅ Loaded 19 snapshots (1066 datapoints)
+📊 49 watchlist tokens tracked today:
 
 🟢 TOP GAINERS
-  🟩⬜️      +113.76% @ $0.00021590
-  FUTARDIO +104.94% @ $0.00068410
-  POLYPORT +48.92% @ $0.00093210
-  USDISC   +26.22% @ $0.00000649
-  BULLISH   +6.55% @ $0.00738200
+  FUTARDIO +106.35% @ $0.00068880
+  🟩⬜️      +92.28% @ $0.00019420
+  POLYPORT +54.03% @ $0.00096410
+  USDISC   +27.20% @ $0.00000654
+  TROLLOWE  +4.03% @ $0.00027080
 
 🔴 TOP LOSERS
-  RC69000  -62.34% @ $0.00013230
-  PEACEMAK -77.62% @ $0.00006369
-  GAY      -81.18% @ $0.00001193
-  中华币      -82.52% @ $0.00001811
-  ADELOS   -90.26% @ $0.00020760
+  POORLESS -60.60% @ $0.00001614
+  PEACEMAK -71.93% @ $0.00007989
+  GAY      -82.66% @ $0.00001099
+  中华币      -83.62% @ $0.00001697
+  ADELOS   -95.33% @ $0.00009957
 
 📈 STATS
-  Average Change: -16.48%
-  Median Change: -14.05%
-  Gainers: 7
+  Average Change: -16.43%
+  Median Change: -12.72%
+  Gainers: 6
   Losers: 42
 
 ======================================================================
@@ -190,410 +190,15 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 🔬 BACKTESTING WATCHLIST (7 days)
 ======================================================================
 
-🔄 Backtesting 50 watchlist tokens...
-  [1/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [2/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [3/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [4/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [5/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [6/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [7/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [8/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [9/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [10/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [11/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [12/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [13/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [14/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [15/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [16/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [17/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [18/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [19/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [20/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [21/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [22/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [23/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [24/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [25/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [26/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [27/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [28/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [29/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [30/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [31/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [32/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [33/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [34/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [35/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [36/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [37/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [38/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [39/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [40/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [41/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [42/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [43/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [44/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [45/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [46/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [47/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [48/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [49/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [50/50] Testing...✅ Loaded 18 snapshots (1010 datapoints)
-✅ Loaded 38 snapshots (1473 datapoints)
-✅ Loaded 47 snapshots (493 datapoints)
-✅ Loaded 14 snapshots (25 datapoints)
-❌ No data for 2025-10-10
-❌ No data for 2025-10-09
-❌ No data for 2025-10-08
-✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-
-❌ No backtest results
-❌ No results
+Traceback (most recent call last):
+  File "/home/runner/work/solana/solana/backtest.py", line 356, in <module>
+    main()
+  File "/home/runner/work/solana/solana/backtest.py", line 346, in main
+    backtest_watchlist(args)
+  File "/home/runner/work/solana/solana/backtest.py", line 35, in backtest_watchlist
+    watchlist = analyzer.load_watchlist()
+                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntradayAnalyzer' object has no attribute 'load_watchlist'. Did you mean: '_load_watchlist'?
 ```
 
 
