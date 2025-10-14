@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-14  
-**Generated:** 04:43 UTC
+**Generated:** 05:18 UTC
 
 ---
 
@@ -11,25 +11,135 @@
 🎯 SCALPING OPPORTUNITIES - TODAY
 ======================================================================
 
-✅ Loaded 5 snapshots (283 datapoints)
-Traceback (most recent call last):
-  File "/home/runner/work/solana/solana/analyze.py", line 304, in <module>
-    main()
-  File "/home/runner/work/solana/solana/analyze.py", line 294, in main
-    analyze_opportunities(args)
-  File "/home/runner/work/solana/solana/analyze.py", line 28, in analyze_opportunities
-    opportunities = analyzer.get_top_opportunities(date=args.date, top_n=args.top)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/solana/solana/utils/intraday_analyzer.py", line 409, in get_top_opportunities
-    opp_df = opp_df.sort_values('opportunity_score', ascending=False).head(top_n)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 7211, in sort_values
-    k = self._get_label_or_level_values(by[0], axis=axis)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/pandas/core/generic.py", line 1914, in _get_label_or_level_values
-    raise KeyError(key)
-KeyError: 'opportunity_score'
+✅ Loaded 6 snapshots (340 datapoints)
+📊 Top 20 tokens ranked by opportunity score:
+
+ 1. 📌 BONK     🟡 HOLD 
+    Price: $0.00002099
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+ 2. 📌 PUMP     🟡 HOLD 
+    Price: $0.00405200
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +2%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+ 3. 📌 FARTCOIN 🟡 HOLD 
+    Price: $0.42990000
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +5%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+ 4. 📌 ADELOS   🟡 HOLD 
+    Price: $0.00048460
+    Volatility:   nan% | Momentum:   +0.0% | Volume:   +12%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+ 5. 📌 POPCAT   🟡 HOLD 
+    Price: $0.16680000
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +2%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+ 6. 📌 AI6900   🟡 HOLD 
+    Price: $0.00001614
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+ 7. 📌 PNUT     🟡 HOLD 
+    Price: $0.15450000
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +1%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+ 8. 📌 NOBODY   🟡 HOLD 
+    Price: $0.05977000
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +3%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+ 9. 📌 JUP      🟡 HOLD 
+    Price: $0.38380000
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    -0%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+10. 📌 GOAT     🟡 HOLD 
+    Price: $0.05928000
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +1%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+11. 📌 PEACEMAK 🟡 HOLD 
+    Price: $0.00023720
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +4%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+12. 📌 🟪        🟡 HOLD 
+    Price: $0.00023850
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +6%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+13. 📌 BARNEY   🟡 HOLD 
+    Price: $0.00001132
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+14. 📌 BOB      🟡 HOLD 
+    Price: $0.00002835
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +1%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+15. 📌 ROOTS    🟡 HOLD 
+    Price: $0.00018350
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    -9%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+16. 📌 PFP      🟡 HOLD 
+    Price: $0.00284700
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +7%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+17. 📌 BOT      🟡 HOLD 
+    Price: $0.00959500
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    -0%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+18. 📌 BULLISH  🟡 HOLD 
+    Price: $0.00836300
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +2%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+19. 📌 PIGEON   🟡 HOLD 
+    Price: $0.00007393
+    Volatility:   nan% | Momentum:   +0.0% | Volume:   -10%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+20. 📌 RC69000  🟡 HOLD 
+    Price: $0.00008901
+    Volatility:   nan% | Momentum:   +0.0% | Volume:    +8%
+    Signal Strength: 0.0/5.0
+    Score: nan
+
+======================================================================
+Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
+======================================================================
 ```
+
+![Top Opportunities](../charts/opportunities_2025-10-14.png)
 
 
 ---
@@ -41,31 +151,35 @@ KeyError: 'opportunity_score'
 📋 WATCHLIST PERFORMANCE - TODAY
 ======================================================================
 
-✅ Loaded 5 snapshots (283 datapoints)
+✅ Loaded 6 snapshots (340 datapoints)
 📊 50 watchlist tokens tracked today:
 
 🟢 TOP GAINERS
-  🟩⬜️      +145.74% @ $0.00024820
-  FUTARDIO +128.43% @ $0.00076250
-  POLYPORT +42.05% @ $0.00088910
-  FURBIES  +35.13% @ $0.00046540
-  BRUH     +25.87% @ $0.00011810
+  🟩⬜️      +108.42% @ $0.00021050
+  FUTARDIO +105.42% @ $0.00068570
+  POLYPORT +43.44% @ $0.00089780
+  BRUH     +31.30% @ $0.00012320
+  FURBIES  +27.58% @ $0.00043940
 
 🔴 TOP LOSERS
-  KIDNEYS  -48.01% @ $0.00001778
-  NETWORK  -48.39% @ $0.00010750
-  BURN     -54.05% @ $0.00019570
-  ADELOS   -69.51% @ $0.00064970
-  RC69000  -75.37% @ $0.00008651
+  BURN     -47.97% @ $0.00022160
+  INSIDER  -49.27% @ $0.00000818
+  KIDNEYS  -50.23% @ $0.00001702
+  RC69000  -74.66% @ $0.00008901
+  ADELOS   -77.26% @ $0.00048460
 
 📈 STATS
-  Average Change: -6.14%
-  Median Change: -5.87%
-  Gainers: 13
-  Losers: 36
+  Average Change: -8.12%
+  Median Change: -8.09%
+  Gainers: 10
+  Losers: 39
 
 ======================================================================
 ```
+
+### Correlation Heatmap
+
+![Watchlist Correlation](../charts/watchlist_correlation_2025-10-14.png)
 
 ---
 
@@ -77,7 +191,7 @@ KeyError: 'opportunity_score'
 ======================================================================
 
 🔄 Backtesting 50 watchlist tokens...
-  [1/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [1/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -85,7 +199,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [2/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [2/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -93,7 +207,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [3/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [3/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -101,7 +215,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [4/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [4/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -109,7 +223,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [5/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [5/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -117,7 +231,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [6/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [6/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -125,7 +239,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [7/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [7/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -133,7 +247,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [8/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [8/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -141,7 +255,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [9/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [9/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -149,7 +263,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [10/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [10/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -157,7 +271,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [11/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [11/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -165,7 +279,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [12/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [12/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -173,7 +287,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [13/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [13/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -181,7 +295,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [14/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [14/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -189,7 +303,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [15/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [15/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -197,7 +311,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [16/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [16/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -205,7 +319,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [17/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [17/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -213,7 +327,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [18/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [18/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -221,7 +335,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [19/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [19/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -229,7 +343,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [20/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [20/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -237,7 +351,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [21/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [21/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -245,7 +359,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [22/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [22/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -253,7 +367,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [23/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [23/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -261,7 +375,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [24/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [24/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -269,7 +383,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [25/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [25/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -277,7 +391,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [26/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [26/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -285,7 +399,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [27/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [27/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -293,7 +407,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [28/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [28/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -301,7 +415,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [29/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [29/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -309,7 +423,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [30/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [30/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -317,7 +431,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [31/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [31/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -325,7 +439,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [32/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [32/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -333,7 +447,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [33/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [33/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -341,7 +455,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [34/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [34/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -349,7 +463,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [35/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [35/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -357,7 +471,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [36/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [36/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -365,7 +479,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [37/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [37/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -373,7 +487,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [38/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [38/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -381,7 +495,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [39/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [39/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -389,7 +503,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [40/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [40/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -397,7 +511,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [41/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [41/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -405,7 +519,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [42/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [42/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -413,7 +527,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [43/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [43/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -421,7 +535,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [44/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [44/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -429,7 +543,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [45/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [45/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -437,7 +551,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [46/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [46/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -445,7 +559,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [47/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [47/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -453,7 +567,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [48/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [48/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -461,7 +575,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [49/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [49/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
@@ -469,7 +583,7 @@ KeyError: 'opportunity_score'
 ❌ No data for 2025-10-09
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-14 to 2025-10-11
-  [50/50] Testing...✅ Loaded 5 snapshots (283 datapoints)
+  [50/50] Testing...✅ Loaded 6 snapshots (340 datapoints)
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 47 snapshots (493 datapoints)
 ✅ Loaded 14 snapshots (25 datapoints)
