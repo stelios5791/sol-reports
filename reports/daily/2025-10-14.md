@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-14  
-**Generated:** 14:46 UTC
+**Generated:** 15:21 UTC
 
 ---
 
@@ -11,128 +11,128 @@
 🎯 SCALPING OPPORTUNITIES - TODAY
 ======================================================================
 
-✅ Loaded 24 snapshots (1360 datapoints)
+✅ Loaded 25 snapshots (1415 datapoints)
 📊 Top 20 tokens ranked by opportunity score:
 
- 1. 📌 LENNY    🟡 HOLD 
-    Price: $0.00131000
-    Volatility:  29.9% | Momentum:  +48.3% | Volume:   +14%
+ 1. 📌 BURN     🟡 HOLD 
+    Price: $0.00008842
+    Volatility:  14.2% | Momentum:  -63.4% | Volume:    -8%
     Signal Strength: 0.0/5.0
-    Score: 39.7
+    Score: 39.3
 
- 2. 📌 ADELOS   🟡 HOLD 
-    Price: $0.00014520
-    Volatility:  32.5% | Momentum:  -30.1% | Volume:    -6%
+ 2. 📌 LENNY    🟡 HOLD 
+    Price: $0.00119500
+    Volatility:  30.6% | Momentum:  +37.2% | Volume:   +11%
     Signal Strength: 0.0/5.0
-    Score: 35.6
+    Score: 37.1
 
- 3. 📌 GAY      🟡 HOLD 
-    Price: $0.00000655
-    Volatility:  16.9% | Momentum:  -45.1% | Volume:    +1%
+ 3. 📌 🟩⬜️      🟡 HOLD 
+    Price: $0.00009308
+    Volatility:  14.4% | Momentum:  -52.1% | Volume:    +2%
     Signal Strength: 0.0/5.0
-    Score: 35.5
+    Score: 36.7
 
- 4. 📌 BRUH     🟡 HOLD 
-    Price: $0.00011460
-    Volatility:  18.7% | Momentum:  +41.8% | Volume:    +2%
+ 4. 📌 NETWORK  🟡 HOLD 
+    Price: $0.00020190
+    Volatility:  12.9% | Momentum:  +52.6% | Volume:    +4%
     Signal Strength: 0.0/5.0
-    Score: 35.2
+    Score: 36.4
 
- 5. 📌 FURBIES  🟡 HOLD 
-    Price: $0.00044780
-    Volatility:  11.5% | Momentum:  +47.2% | Volume:    -1%
+ 5. 📌 GAY      🟡 HOLD 
+    Price: $0.00000611
+    Volatility:  16.9% | Momentum:  -44.4% | Volume:    +0%
     Signal Strength: 0.0/5.0
-    Score: 34.7
+    Score: 35.3
 
- 6. 📌 🟩⬜️      🟡 HOLD 
-    Price: $0.00012100
-    Volatility:  13.1% | Momentum:  -44.0% | Volume:    +2%
+ 6. 📌 FOREVER  🟡 HOLD 
+    Price: $0.00063540
+    Volatility:   7.2% | Momentum:  +53.0% | Volume:    +3%
     Signal Strength: 0.0/5.0
-    Score: 34.3
+    Score: 35.1
 
- 7. 📌 BURN     🟡 HOLD 
-    Price: $0.00013160
-    Volatility:  13.8% | Momentum:  -40.3% | Volume:    -8%
+ 7. 📌 ADELOS   🟡 HOLD 
+    Price: $0.00013840
+    Volatility:  21.3% | Momentum:  +39.0% | Volume:    -4%
     Signal Strength: 0.0/5.0
-    Score: 33.4
+    Score: 35.0
 
- 8. 📌 PIGEON   🟡 HOLD 
-    Price: $0.00010170
-    Volatility:   9.0% | Momentum:  +43.6% | Volume:    -2%
+ 8. 📌 FURBIES  🟡 HOLD 
+    Price: $0.00042810
+    Volatility:  12.1% | Momentum:  +42.0% | Volume:    -1%
     Signal Strength: 0.0/5.0
-    Score: 33.1
+    Score: 33.5
 
- 9. 📌 JEWCOIN  🟡 HOLD 
-    Price: $0.00007333
-    Volatility:  10.7% | Momentum:  -39.4% | Volume:    -2%
+ 9. 📌 RC69000  🟡 HOLD 
+    Price: $0.00015490
+    Volatility:  32.2% | Momentum:  -15.0% | Volume:    +3%
     Signal Strength: 0.0/5.0
-    Score: 32.5
+    Score: 31.9
 
-10. 📌 RC69000  🟡 HOLD 
-    Price: $0.00010740
-    Volatility:  30.6% | Momentum:  -18.8% | Volume:    +3%
+10. 📌 PIGEON   🟡 HOLD 
+    Price: $0.00010060
+    Volatility:   9.4% | Momentum:  +38.1% | Volume:    -3%
     Signal Strength: 0.0/5.0
-    Score: 32.4
+    Score: 31.8
 
-11. 📌 FOREVER  🟡 HOLD 
-    Price: $0.00057340
-    Volatility:   7.8% | Momentum:  +36.2% | Volume:    +2%
+11. 📌 JEWCOIN  🟡 HOLD 
+    Price: $0.00008002
+    Volatility:  12.4% | Momentum:  -34.1% | Volume:    -1%
     Signal Strength: 0.0/5.0
-    Score: 31.0
+    Score: 31.6
 
-12. 📌 DAVE     🟡 HOLD 
-    Price: $0.00014970
-    Volatility:   8.3% | Momentum:  -28.9% | Volume:    +0%
+12. 📌 中华币      🟡 HOLD 
+    Price: $0.00001295
+    Volatility:  21.5% | Momentum:  -23.7% | Volume:    +1%
     Signal Strength: 0.0/5.0
-    Score: 29.3
+    Score: 31.3
 
-13. 📌 FUTARDIO 🟡 HOLD 
-    Price: $0.00085860
-    Volatility:   9.1% | Momentum:  +25.5% | Volume:    +5%
+13. 📌 BRUH     🟡 HOLD 
+    Price: $0.00011610
+    Volatility:  18.4% | Momentum:  +24.7% | Volume:    +2%
     Signal Strength: 0.0/5.0
-    Score: 28.7
+    Score: 30.8
 
-14. 📌 中华币      🟡 HOLD 
-    Price: $0.00001569
-    Volatility:  20.4% | Momentum:  -13.4% | Volume:    +1%
+14. 📌 ROOTS    🟡 HOLD 
+    Price: $0.00012800
+    Volatility:   7.2% | Momentum:  -29.6% | Volume:    -8%
+    Signal Strength: 0.0/5.0
+    Score: 29.1
+
+15. 📌 FUTARDIO 🟡 HOLD 
+    Price: $0.00085510
+    Volatility:   9.2% | Momentum:  +24.1% | Volume:    +4%
     Signal Strength: 0.0/5.0
     Score: 28.4
 
-15. 📌 ROOTS    🟡 HOLD 
-    Price: $0.00013780
-    Volatility:   7.3% | Momentum:  -25.3% | Volume:    -7%
-    Signal Strength: 0.0/5.0
-    Score: 28.0
-
-16. 📌 PEACEMAK 🟡 HOLD 
-    Price: $0.00007228
-    Volatility:  18.1% | Momentum:  +13.5% | Volume:    -9%
-    Signal Strength: 0.0/5.0
-    Score: 27.8
-
-17. 📌 BOT      🟡 HOLD 
-    Price: $0.00783400
-    Volatility:   5.0% | Momentum:  -22.7% | Volume:    +4%
-    Signal Strength: 0.0/5.0
-    Score: 27.0
-
-18. 📌 🟪        🟡 HOLD 
-    Price: $0.00034580
-    Volatility:  13.7% | Momentum:  -13.8% | Volume:    +2%
+16. 📌 BOT      🟡 HOLD 
+    Price: $0.00771300
+    Volatility:   5.0% | Momentum:  -22.7% | Volume:    +2%
     Signal Strength: 0.0/5.0
     Score: 26.9
 
-19. 📌 BOB      🟡 HOLD 
-    Price: $0.00002366
-    Volatility:  17.6% | Momentum:   +4.0% | Volume:    +0%
+17. 📌 PEACEMAK 🟡 HOLD 
+    Price: $0.00007002
+    Volatility:  14.6% | Momentum:  -12.4% | Volume:   -12%
     Signal Strength: 0.0/5.0
-    Score: 25.4
+    Score: 26.6
 
-20. 📌 BULLISH  🟡 HOLD 
-    Price: $0.00801200
-    Volatility:  11.1% | Momentum:   +8.5% | Volume:    +1%
+18. 📌 BULLISH  🟡 HOLD 
+    Price: $0.00778200
+    Volatility:  10.4% | Momentum:  +14.4% | Volume:    +3%
     Signal Strength: 0.0/5.0
-    Score: 24.9
+    Score: 26.2
+
+19. 📌 BOB      🟡 HOLD 
+    Price: $0.00002600
+    Volatility:  11.7% | Momentum:  -12.8% | Volume:    +0%
+    Signal Strength: 0.0/5.0
+    Score: 26.1
+
+20. 📌 DAVE     🟡 HOLD 
+    Price: $0.00013860
+    Volatility:   5.4% | Momentum:  -19.0% | Volume:    -0%
+    Signal Strength: 0.0/5.0
+    Score: 26.1
 
 ======================================================================
 Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
@@ -151,28 +151,28 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 📋 WATCHLIST PERFORMANCE - TODAY
 ======================================================================
 
-✅ Loaded 24 snapshots (1360 datapoints)
+✅ Loaded 25 snapshots (1415 datapoints)
 📊 50 watchlist tokens tracked today:
 
 🟢 TOP GAINERS
-  FUTARDIO +157.22% @ $0.00085860
-  POLYPORT +44.72% @ $0.00090580
-  LENNY    +36.90% @ $0.00131000
-  USDISC   +35.07% @ $0.00000695
-  FURBIES  +30.02% @ $0.00044780
+  FUTARDIO +156.17% @ $0.00085510
+  POLYPORT +36.51% @ $0.00085440
+  USDISC   +33.59% @ $0.00000687
+  BSTRG    +33.38% @ $0.00038880
+  DOG      +29.09% @ $0.00010580
 
 🔴 TOP LOSERS
-  RC69000  -69.43% @ $0.00010740
-  PEACEMAK -74.60% @ $0.00007228
-  中华币      -84.86% @ $0.00001569
-  GAY      -89.66% @ $0.00000655
-  ADELOS   -93.19% @ $0.00014520
+  PEACEMAK -75.40% @ $0.00007002
+  BURN     -79.24% @ $0.00008842
+  中华币      -87.50% @ $0.00001295
+  GAY      -90.36% @ $0.00000611
+  ADELOS   -93.51% @ $0.00013840
 
 📈 STATS
-  Average Change: -13.39%
-  Median Change: -10.99%
-  Gainers: 13
-  Losers: 36
+  Average Change: -14.04%
+  Median Change: -11.65%
+  Gainers: 12
+  Losers: 37
 
 ======================================================================
 ```
@@ -188,8 +188,8 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ```
 🔄 Backtesting 2 tokens over 7 days...
 
-✅ Loaded 24 snapshots (1360 datapoints)
-✅ Loaded 1360 datapoints for 2025-10-14
+✅ Loaded 25 snapshots (1415 datapoints)
+✅ Loaded 1415 datapoints for 2025-10-14
 ✅ Loaded 38 snapshots (1473 datapoints)
 ✅ Loaded 1473 datapoints for 2025-10-13
 ✅ Loaded 47 snapshots (493 datapoints)
@@ -203,7 +203,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ❌ No data for 2025-10-08
 ❌ No data for 2025-10-08
 ✅ Loaded 4 days of data: 2025-10-11 to 2025-10-14
-   Total datapoints: 3351
+   Total datapoints: 3406
 
   [1/2] Testing JUPyiwrYJFsk...
     ❌ Error: 'signal'
