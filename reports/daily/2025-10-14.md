@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
 **Date:** 2025-10-14  
-**Generated:** 11:45 UTC
+**Generated:** 11:48 UTC
 
 ---
 
@@ -186,13 +186,7 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ## 🔬 Backtesting Results (7-day)
 
 ```
-======================================================================
-🔬 BACKTESTING WATCHLIST (7 days)
-======================================================================
-
-🔄 Backtesting 10 watchlist tokens...
-
-🔄 Backtesting 10 tokens over 7 days...
+🔄 Backtesting 2 tokens over 7 days...
 
 ✅ Loaded 19 snapshots (1066 datapoints)
 ✅ Loaded 1066 datapoints for 2025-10-14
@@ -211,33 +205,13 @@ Legend: 📌 Watchlist | 🆕 Dynamic | 🟢 Buy | 🔴 Sell | 🟡 Hold
 ✅ Loaded 4 days of data: 2025-10-11 to 2025-10-14
    Total datapoints: 3057
 
-  [1/10] Testing 9tPeuW6hAw6Y...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [2/10] Testing EiGmw1g6fJ22...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [3/10] Testing pumpCmXqMfrs...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [4/10] Testing 9BB6NFEcjBCt...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [5/10] Testing 7GCihgDB8fe6...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [6/10] Testing 2qEHjDLDLbuB...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [7/10] Testing C29ebrgYjYoJ...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [8/10] Testing GHE4fYyf3wwZ...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [9/10] Testing AZHSuKdwAezJ...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
-  [10/10] Testing JUPyiwrYJFsk...
-    ❌ Error: 'EnhancedSignalGenerator' object has no attribute 'generate_signals'
+  [1/2] Testing JUPyiwrYJFsk...
+    ❌ Error: 'signal'
+  [2/2] Testing 9BB6NFEcjBCt...
+    ❌ Error: 'signal'
 
-❌ No trades generated
-
-Possible reasons:
-  - Signal strength threshold too high
-  - Not enough data points
-  - No strong signals in the period
+❌ No trades
+✅ Results saved: reports/backtest_results.json
 ```
 
 
