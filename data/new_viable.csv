@@ -1,4 +1,4 @@
 address,symbol,name,first_seen_date,days_since_first_seen,price_usd,volume_24h_usd,liquidity_usd,fdv_usd,data_status,missing_streak,top_10_holders_pct,top_5_holders_pct,holder_concentration,concentration_risk
-So11111111111111111111111111111111111111112,wSOL,Wrapped SOL,2025-10-01,14,193.31,436623656.88,56308857.42,0.0,ok,0,0.0,0.0,unknown,unknown
-CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,AI4,AI⁴,2025-10-01,14,0.00032,144345.98,105262.49,319982.0,ok,0,47.47,38.7,low,low
+So11111111111111111111111111111111111111112,wSOL,Wrapped SOL,2025-10-01,14,192.77,438133683.33,56293660.53,0.0,ok,0,0.0,0.0,unknown,unknown
+CZkxnM5PNPak31JSFNzJ76CWcYRu4mgxvBwcHaBJpump,AI4,AI⁴,2025-10-01,14,0.0003187,145089.34,104922.87,318693.0,ok,0,47.49,38.71,low,low
 B9zze29or7CJs1nBrigSCWSibfxvkmieFXcGg5cxbonk,DREAM,Dreamsync,2025-10-01,14,0.001761,103284.86,180447.53,1761415.0,ok,0,31.62,17.46,low,low
