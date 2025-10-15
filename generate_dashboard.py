@@ -65,6 +65,7 @@ def create_chart_block(chart_id: str, chart_config: dict, width: str = "900px") 
     config_json = json.dumps(chart_config, indent=2)
     
     return f"""
+    <canvas id="{chart_id}"></canvas>
 <div style="max-width: {width}; margin: 20px auto;">
   <canvas id="{chart_id}"></canvas>
 </div>
