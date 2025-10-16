@@ -1,8 +1,8 @@
 {
   "initial_capital": 10000,
-  "final_value": 10000,
+  "final_value": 10000.0,
   "total_return_pct": 0.0,
-  "total_trades": 0,
+  "total_trades": 4,
   "max_positions": 5,
-  "timestamp": "2025-10-16T21:14:26.591722"
+  "timestamp": "2025-10-16T21:16:31.071051"
 }
