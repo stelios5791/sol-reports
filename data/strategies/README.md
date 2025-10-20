@@ -1,22 +1,22 @@
 # 🎯 Strategy Optimization Report
 
-**Generated:** 2025-10-20 16:52 UTC
+**Generated:** 2025-10-20 17:01 UTC
 
 ## 📊 Summary
 
 Tested **6** different strategy configurations over historical data.
 
-### 🏆 Best Strategy: F: Conservative
+### 🏆 Best Strategy: A: Current (Baseline)
 
 | Metric | Value |
 |--------|-------|
-| **Total Return** | -20.00% |
-| **Win Rate** | 0.0% |
-| **Completed Trades** | 0 |
-| **Final Value** | $8,000.00 |
-| **Stop Loss** | 0.0% |
-| **Take Profit** | 0.0% |
-| **Min Fusion Score** | 0.00 |
+| **Total Return** | -44.28% |
+| **Win Rate** | 22.2% |
+| **Completed Trades** | 9 |
+| **Final Value** | $5,571.67 |
+| **Stop Loss** | -10.0% |
+| **Take Profit** | 20.0% |
+| **Min Fusion Score** | 0.50 |
 
 ## 📈 All Strategies Comparison
 
@@ -43,7 +43,6 @@ Tested **6** different strategy configurations over historical data.
 
 ### Strategy Insights:
 
-- **Improvement over baseline:** +24.28%
 - **Most active strategy:** C: Very Tight (13 trades)
 - **Highest win rate:** A: Current (Baseline) (22.2%)
 
@@ -52,9 +51,9 @@ Tested **6** different strategy configurations over historical data.
 
 ```python
 # Update signal_fusion_bot.py with:
-stop_loss_pct = 0
-take_profit_pct = 0
-min_fusion_score = 0
+stop_loss_pct = -0.1
+take_profit_pct = 0.2
+min_fusion_score = 0.5
 ```
 
 ---
