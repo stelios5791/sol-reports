@@ -159,7 +159,7 @@
 <body>
     <div class="container">
         <h1>📊 Paper Trading Dashboard</h1>
-        <p class="subtitle">Last updated: 2025-10-20 08:37:35</p>
+        <p class="subtitle">Last updated: 2025-11-01 08:33:43</p>
         
         <div class="metrics-grid">
             <div class="metric-card">
@@ -169,32 +169,32 @@
             
             <div class="metric-card">
                 <div class="metric-label">Current Value</div>
-                <div class="metric-value neutral">$8,445</div>
+                <div class="metric-value neutral">$6,714</div>
             </div>
             
             <div class="metric-card">
                 <div class="metric-label">Total Return</div>
                 <div class="metric-value negative">
-                    -15.55%
+                    -32.86%
                 </div>
             </div>
             
             <div class="metric-card">
                 <div class="metric-label">Total Trades</div>
-                <div class="metric-value neutral">21</div>
+                <div class="metric-value neutral">23</div>
             </div>
             
             <div class="metric-card">
                 <div class="metric-label">Win Rate</div>
                 <div class="metric-value negative">
-                    25.0%
+                    30.0%
                 </div>
             </div>
             
             <div class="metric-card">
                 <div class="metric-label">Avg P&L</div>
                 <div class="metric-value negative">
-                    -12.69%
+                    -12.09%
                 </div>
             </div>
         </div>
@@ -221,6 +221,20 @@
                 </thead>
                 <tbody>
                     
+                    <tr>
+                        <td>2025-10-31</td>
+                        <td><span class="badge sell">SELL</span></td>
+                        <td><strong>AI4</strong></td>
+                        <td>$0.000299</td>
+                        <td>+28.08%</td>
+                    </tr>
+                    <tr>
+                        <td>2025-10-31</td>
+                        <td><span class="badge sell">SELL</span></td>
+                        <td><strong>XBT</strong></td>
+                        <td>$0.001063</td>
+                        <td>-47.45%</td>
+                    </tr>
                     <tr>
                         <td>2025-10-07</td>
                         <td><span class="badge buy">BUY</span></td>
@@ -277,26 +291,12 @@
                         <td>$0.000666</td>
                         <td>+35.07%</td>
                     </tr>
-                    <tr>
-                        <td>2025-10-04</td>
-                        <td><span class="badge buy">BUY</span></td>
-                        <td><strong>Noxi</strong></td>
-                        <td>$0.000006</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>2025-10-04</td>
-                        <td><span class="badge buy">BUY</span></td>
-                        <td><strong>MOON</strong></td>
-                        <td>$0.000011</td>
-                        <td>-</td>
-                    </tr>
                 </tbody>
             </table>
         </div>
         
         <div class="chart-section">
-            <h2 class="chart-title">Active Positions (4)</h2>
+            <h2 class="chart-title">Active Positions (3)</h2>
             
             <table class="trades-table">
                 <thead>
@@ -310,13 +310,6 @@
                 </thead>
                 <tbody>
                     
-                    <tr>
-                        <td><strong>Noxi</strong></td>
-                        <td>2025-10-04</td>
-                        <td>$0.000006</td>
-                        <td>101009408.12</td>
-                        <td>$632.42</td>
-                    </tr>
                     <tr>
                         <td><strong>MOON</strong></td>
                         <td>2025-10-04</td>
@@ -332,11 +325,11 @@
                         <td>$680.49</td>
                     </tr>
                     <tr>
-                        <td><strong>AI4</strong></td>
-                        <td>2025-10-07</td>
-                        <td>$0.000233</td>
-                        <td>3678562.35</td>
-                        <td>$858.21</td>
+                        <td><strong>Noxi</strong></td>
+                        <td>2025-10-04</td>
+                        <td>$0.000006</td>
+                        <td>101009408.12</td>
+                        <td>$632.42</td>
                     </tr>
                 </tbody>
             </table>
@@ -348,10 +341,10 @@
         new Chart(ctx, {
             type: 'line',
             data: {
-                labels: ['2025-10-02', '2025-10-03', '2025-10-04', '2025-10-05', '2025-10-06', '2025-10-07'],
+                labels: ['2025-10-02', '2025-10-03', '2025-10-04', '2025-10-05', '2025-10-06', '2025-10-07', '2025-10-31'],
                 datasets: [{
                     label: 'Portfolio Value',
-                    data: [10000.0, 7757.40282941588, 9289.000141571916, 9613.288365337405, 9354.140706119751, 8445.164468135641],
+                    data: [10000.0, 7757.40282941588, 9289.000141571916, 9613.288365337405, 9354.140706119751, 8445.164468135641, 6713.923009011982],
                     borderColor: '#667eea',
                     backgroundColor: 'rgba(102, 126, 234, 0.1)',
                     borderWidth: 3,
