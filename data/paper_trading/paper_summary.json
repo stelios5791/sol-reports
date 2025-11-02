@@ -1,8 +1,9 @@
 {
   "initial_capital": 10000,
-  "final_value": 5372.259995761443,
-  "total_return_pct": -46.27740004238557,
-  "total_trades": 16,
+  "final_value": 5571.873204297505,
+  "total_return_pct": -44.28126795702495,
+  "total_trades": 14,
   "ml_enabled": true,
-  "timestamp": "2025-11-02T18:14:17.976167"
+  "narrative_enabled": true,
+  "timestamp": "2025-11-02T18:34:37.306376"
 }
