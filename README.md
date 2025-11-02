@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Live Dashboard
 
-**Last Updated**: 2025-11-02 14:29 UTC
+**Last Updated**: 2025-11-02 14:37 UTC
 
 Automated daily analysis of Solana tokens with whale tracking, momentum indicators, and pattern detection.
 
@@ -14,9 +14,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 
 ## 📈 Quick Stats
 
-🎯 **28 tokens tracked** | 
-💰 **$126.16M 24h volume** | 
-💧 **$69.37M liquidity** | 
+🎯 **27 tokens tracked** | 
+💰 **$126.64M 24h volume** | 
+💧 **$69.38M liquidity** | 
 🟢 **13 low-risk tokens**
 
 ---
@@ -54,7 +54,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
           13,
           3,
           4,
-          7,
+          6,
           1
         ],
         "backgroundColor": [
@@ -192,11 +192,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
       {
         "label": "24h Volume (USD)",
         "data": [
-          53642.77,
-          25621.27,
-          21997.62,
+          53737.96,
+          25394.43,
+          23474.62,
           10588.65,
-          7216.92,
+          7578.16,
           2293.59,
           1498.24,
           1085.75,
@@ -303,7 +303,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
           31.97,
           31.96,
           32.3,
-          33.41
+          33.42
         ],
         "borderColor": "#ef4444",
         "backgroundColor": "#ef444420",
@@ -423,22 +423,22 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         "label": "Low Risk",
         "data": [
           {
-            "x": 251418.0,
+            "x": 251627.0,
             "y": 51.61,
             "r": 8,
-            "label": "AI4: $251,418 FDV, 51.6% concentration (low risk)"
+            "label": "AI4: $251,627 FDV, 51.6% concentration (low risk)"
           },
           {
-            "x": 747352.0,
-            "y": 33.41,
+            "x": 745641.0,
+            "y": 33.42,
             "r": 8,
-            "label": "DREAM: $747,352 FDV, 33.4% concentration (low risk)"
+            "label": "DREAM: $745,641 FDV, 33.4% concentration (low risk)"
           },
           {
-            "x": 66314.0,
+            "x": 66331.0,
             "y": 45.68,
             "r": 8,
-            "label": "1nu: $66,314 FDV, 45.7% concentration (low risk)"
+            "label": "1nu: $66,331 FDV, 45.7% concentration (low risk)"
           },
           {
             "x": 559659.0,
@@ -447,10 +447,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "RAGEGUY: $559,659 FDV, 29.8% concentration (low risk)"
           },
           {
-            "x": 52602724.0,
+            "x": 52605484.0,
             "y": 57.84,
             "r": 8,
-            "label": "LION: $52,602,724 FDV, 57.8% concentration (low risk)"
+            "label": "LION: $52,605,484 FDV, 57.8% concentration (low risk)"
           },
           {
             "x": 71255.0,
@@ -460,7 +460,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
           },
           {
             "x": 446206.0,
-            "y": 36.68,
+            "y": 36.73,
             "r": 8,
             "label": "FARTLESS: $446,206 FDV, 36.7% concentration (low risk)"
           },
@@ -472,7 +472,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
           },
           {
             "x": 410884.0,
-            "y": 35.41,
+            "y": 35.42,
             "r": 8,
             "label": "ELIZABETH: $410,884 FDV, 35.4% concentration (low risk)"
           },
@@ -597,12 +597,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "viewer: $3,987 FDV, 98.0% concentration (extreme risk)"
           },
           {
-            "x": 3913.0,
-            "y": 99.5,
-            "r": 8,
-            "label": "MoneyBear: $3,913 FDV, 99.5% concentration (extreme risk)"
-          },
-          {
             "x": 5517.0,
             "y": 93.86,
             "r": 8,
@@ -668,14 +662,14 @@ Top 10 tokens with the most distributed ownership:
 |------|--------|------|---------|------|------------|-----------|
 | 1 | XBT | XBT | 24.95% | 🟢 low | $30.28 | $494.03 |
 | 2 | RAGEGUY | Rage Guy | 29.82% | 🟢 low | $10.59K | $110.90K |
-| 3 | DREAM | Dreamsync | 33.41% | 🟢 low | $25.62K | $114.51K |
-| 4 | ELIZABETH | Just Elizabeth Cat | 35.41% | 🟢 low | $2.52 | $31.42 |
-| 5 | FARTLESS | FARTLESS COIN | 36.68% | 🟢 low | $266.09 | $2.78K |
+| 3 | DREAM | Dreamsync | 33.42% | 🟢 low | $25.39K | $114.45K |
+| 4 | ELIZABETH | Just Elizabeth Cat | 35.42% | 🟢 low | $2.52 | $31.42 |
+| 5 | FARTLESS | FARTLESS COIN | 36.73% | 🟢 low | $266.09 | $2.78K |
 | 6 | USDUT | unstable tether | 39.76% | 🟢 low | $0.39 | $42.90 |
 | 7 | YAO | YAO MING | 40.69% | 🟢 low | $1.94 | $811.12 |
 | 8 | USEFUL | USEFUL COIN | 44.73% | 🟢 low | $0.23 | $40.74 |
 | 9 | gib | gib | 45.33% | 🟢 low | $0.59 | $29.58 |
-| 10 | 1nu | 1nu | 45.68% | 🟢 low | $22.00K | $34.14K |
+| 10 | 1nu | 1nu | 45.68% | 🟢 low | $23.47K | $34.15K |
 
 ### ⚠️ Highest Risk Tokens (Highest Holder Concentration)
 
@@ -683,16 +677,16 @@ Top 10 tokens with the most concentrated ownership:
 
 | Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |
 |------|--------|------|---------|------|------------|-----------|
-| 1 | MoneyBear | The Money Bears | 99.50% | 🔴 extreme | $4.06 | $7.76K |
-| 2 | viewer | in a streamers world | 98.04% | 🔴 extreme | $4.46 | $7.65K |
-| 3 | Hosico | Hosico Cat | 97.84% | 🔴 extreme | $1.50K | $7.60K |
-| 4 | SOL | Solana | 96.80% | 🔴 extreme | $1.09K | $16.44K |
-| 5 | pibble | pibble | 96.34% | 🔴 extreme | $6.80 | $7.38K |
-| 6 | 1 | 1 pill can change your li | 95.92% | 🔴 extreme | $546.48 | $9.43K |
-| 7 | 1 | 1 pill can change your li | 95.27% | 🟠 high | $804.13 | $8.54K |
-| 8 | MOCHI | MOCHI CULT | 93.86% | 🔴 extreme | $1.49 | $0.97 |
-| 9 | FARTWORM | FARTWORM | 92.01% | 🟠 high | $5.83 | $9.15K |
-| 10 | DARE | DareCoin | 90.18% | 🟠 high | $35.20 | $11.34K |
+| 1 | viewer | in a streamers world | 98.04% | 🔴 extreme | $4.46 | $7.65K |
+| 2 | Hosico | Hosico Cat | 97.84% | 🔴 extreme | $1.50K | $7.60K |
+| 3 | SOL | Solana | 96.80% | 🔴 extreme | $1.09K | $16.44K |
+| 4 | pibble | pibble | 96.34% | 🔴 extreme | $6.80 | $7.38K |
+| 5 | 1 | 1 pill can change your li | 95.92% | 🔴 extreme | $546.48 | $9.43K |
+| 6 | 1 | 1 pill can change your li | 95.27% | 🟠 high | $804.13 | $8.54K |
+| 7 | MOCHI | MOCHI CULT | 93.86% | 🔴 extreme | $1.49 | $0.97 |
+| 8 | FARTWORM | FARTWORM | 92.01% | 🟠 high | $5.83 | $9.15K |
+| 9 | DARE | DareCoin | 90.18% | 🟠 high | $35.20 | $11.34K |
+| 10 | AUSBAGWORK | AUSSIE BAG WORKERS | 89.79% | 🟠 high | $176.40 | $15.63K |
 
 ---
 
@@ -704,13 +698,13 @@ Top 10 tokens with the most concentrated ownership:
 
 ## 🔥 Today's Top 50 Tokens
 
-**Total Tokens**: 28
-**Combined 24h Volume**: $126.16M
-**Combined Liquidity**: $69.37M
+**Total Tokens**: 27
+**Combined 24h Volume**: $126.64M
+**Combined Liquidity**: $69.38M
 
 **Concentration Risk Distribution**:
 - 🟢 Low: 13 tokens
-- 🔴 Extreme: 7 tokens
+- 🔴 Extreme: 6 tokens
 - 🟡 High: 4 tokens
 - 🟢 Medium: 3 tokens
 - 🟢 Unknown: 1 tokens
@@ -719,12 +713,12 @@ Top 10 tokens with the most concentrated ownership:
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $126.03M | $66.79M | 🟢 unknown |
-| 2 | AI4 | AI⁴ | $53.64K | $93.19K | 🟢 low |
-| 3 | DREAM | Dreamsync | $25.62K | $114.51K | 🟢 low |
-| 4 | 1nu | 1nu | $22.00K | $34.14K | 🟢 low |
+| 1 | wSOL | Wrapped SOL | $126.51M | $66.80M | 🟢 unknown |
+| 2 | AI4 | AI⁴ | $53.74K | $93.28K | 🟢 low |
+| 3 | DREAM | Dreamsync | $25.39K | $114.45K | 🟢 low |
+| 4 | 1nu | 1nu | $23.47K | $34.15K | 🟢 low |
 | 5 | RAGEGUY | Rage Guy | $10.59K | $110.90K | 🟢 low |
-| 6 | LION | Loaded Lions | $7.22K | $1.57M | 🟢 low |
+| 6 | LION | Loaded Lions | $7.58K | $1.57M | 🟢 low |
 | 7 | HAROLD | Harold | $2.29K | $484.81K | 🟢 medium |
 | 8 | Hosico | Hosico Cat | $1.50K | $7.60K | 🔴 extreme |
 | 9 | SOL | Solana | $1.09K | $16.44K | 🔴 extreme |
@@ -788,21 +782,21 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 ## 📈 Historical Data
 
-**Total Historical Records**: 502
+**Total Historical Records**: 501
 **Unique Tokens Tracked**: 101
 **Date Range**: 2025-10-01 to 2025-11-02
 
 **Master Aggregations**: 101 tokens
-**Performance Metrics**: 502 records
+**Performance Metrics**: 501 records
 
 ### Available Datasets
 
 | File | Description | Records |
 |------|-------------|---------|
-| [history.csv](data/history.csv) | Complete historical snapshots | 502 |
+| [history.csv](data/history.csv) | Complete historical snapshots | 501 |
 | [master.csv](data/master.csv) | Aggregated per-token metrics | 101 |
-| [performance.csv](data/performance.csv) | Rolling performance indicators | 502 |
-| [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 28 |
+| [performance.csv](data/performance.csv) | Rolling performance indicators | 501 |
+| [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 27 |
 | [new_viable.csv](data/new_viable.csv) | New tokens with potential | 0 |
 | [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 117 |
 
