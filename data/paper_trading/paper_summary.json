@@ -1,10 +1,10 @@
 {
   "initial_capital": 10000,
-  "final_value": 5621.612587394682,
-  "total_return_pct": -43.78387412605318,
+  "final_value": 5630.226684795407,
+  "total_return_pct": -43.697733152045934,
   "total_trades": 14,
   "ml_enabled": true,
   "narrative_enabled": true,
   "market_regime": "Sideways",
-  "timestamp": "2025-11-02T23:41:36.266319"
+  "timestamp": "2025-11-03T08:40:22.285384"
 }
