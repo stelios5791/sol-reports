@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-11-04T18:29:26.547351",
+  "timestamp": "2025-11-04T18:40:18.157977",
   "regime": "Bear",
-  "confidence": 0.6426043425255764,
-  "regime_score": -64.26043425255764,
+  "confidence": 0.639831448133823,
+  "regime_score": -63.983144813382296,
   "indicators": {
     "price_momentum_7d": -0.682249479287202,
-    "volume_ratio": 1.0099599823200298,
+    "volume_ratio": 1.0145814729729523,
     "volatility_7d": 0.1657202212783962
   },
   "parameters": {
