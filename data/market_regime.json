@@ -1,22 +1,22 @@
 {
-  "timestamp": "2025-11-04T19:35:36.001711",
-  "regime": "Bear",
-  "confidence": 0.605787530633577,
-  "regime_score": -60.57875306335771,
+  "timestamp": "2025-11-05T08:45:11.745683",
+  "regime": "Sideways",
+  "confidence": 0.3220903093631662,
+  "regime_score": 20.337290719105013,
   "indicators": {
-    "price_momentum_7d": -0.657787549178431,
-    "volume_ratio": 1.0477468546163748,
-    "volatility_7d": 0.15629042893560138
+    "price_momentum_7d": 2.585744040731312,
+    "volume_ratio": 1.1722881786517503,
+    "volatility_7d": 2.4889016029330993
   },
   "parameters": {
-    "stop_loss_pct": -0.1,
+    "stop_loss_pct": -0.15,
     "take_profit_levels": [
-      0.3,
-      0.6,
-      1.0
+      0.5,
+      1.0,
+      2.0
     ],
-    "min_fusion_score": 0.6,
-    "max_positions": 3,
-    "position_size_pct": 0.08
+    "min_fusion_score": 0.5,
+    "max_positions": 5,
+    "position_size_pct": 0.1
   }
 }
