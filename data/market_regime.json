@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-11-05T21:29:16.973311",
+  "timestamp": "2025-11-06T08:45:36.465103",
   "regime": "Bear",
-  "confidence": 0.7357734223108201,
-  "regime_score": -73.57734223108201,
+  "confidence": 0.782331326939969,
+  "regime_score": -78.2331326939969,
   "indicators": {
-    "price_momentum_7d": -0.31543624161073824,
-    "volume_ratio": 0.9403776294819663,
-    "volatility_7d": 0.244540624547584
+    "price_momentum_7d": -0.5061559824114789,
+    "volume_ratio": 0.7349506320112631,
+    "volatility_7d": 0.14886780409781789
   },
   "parameters": {
     "stop_loss_pct": -0.1,
