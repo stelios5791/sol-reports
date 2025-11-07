@@ -1,10 +1,10 @@
 {
   "initial_capital": 10000,
-  "final_value": 8995.113563392744,
-  "total_return_pct": -10.048864366072557,
+  "final_value": 8987.04342055366,
+  "total_return_pct": -10.129565794463396,
   "total_trades": 6,
   "ml_enabled": true,
   "narrative_enabled": true,
   "market_regime": "Bear",
-  "timestamp": "2025-11-06T08:39:02.658434"
+  "timestamp": "2025-11-07T08:38:47.349714"
 }
