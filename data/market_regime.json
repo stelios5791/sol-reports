@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-11-08T17:21:12.355567",
+  "timestamp": "2025-11-08T18:03:19.223469",
   "regime": "Sideways",
   "confidence": 0.33333333333333337,
   "regime_score": -20,
   "indicators": {
     "price_momentum_7d": 3.1592224022217072,
-    "volume_ratio": 0.67461608622954,
+    "volume_ratio": 0.6403854469975562,
     "volatility_7d": 2.9398843073793786
   },
   "parameters": {
