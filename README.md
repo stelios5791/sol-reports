@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Live Dashboard
 
-**Last Updated**: 2025-11-08 17:06 UTC
+**Last Updated**: 2025-11-08 17:16 UTC
 
 Automated daily analysis of Solana tokens with whale tracking, momentum indicators, and pattern detection.
 
@@ -15,8 +15,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 ## 📈 Quick Stats
 
 🎯 **29 tokens tracked** | 
-💰 **$195.59M 24h volume** | 
-💧 **$45.39M liquidity** | 
+💰 **$193.82M 24h volume** | 
+💧 **$45.31M liquidity** | 
 🟢 **14 low-risk tokens**
 
 ---
@@ -192,14 +192,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
       {
         "label": "24h Volume (USD)",
         "data": [
-          24480.99,
+          23629.98,
           17546.3,
-          13271.17,
+          13272.19,
           9986.33,
-          9836.66,
+          9727.06,
           4588.58,
           3320.74,
-          1901.81,
+          1618.07,
           890.65,
           385.33
         ],
@@ -423,10 +423,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         "label": "Low Risk",
         "data": [
           {
-            "x": 42687859.0,
+            "x": 42521606.0,
             "y": 57.84,
             "r": 8,
-            "label": "LION: $42,687,859 FDV, 57.8% concentration (low risk)"
+            "label": "LION: $42,521,606 FDV, 57.8% concentration (low risk)"
           },
           {
             "x": 77499.0,
@@ -435,16 +435,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "1nu: $77,499 FDV, 45.5% concentration (low risk)"
           },
           {
-            "x": 698144.0,
+            "x": 699086.0,
             "y": 33.06,
             "r": 8,
-            "label": "DREAM: $698,144 FDV, 33.1% concentration (low risk)"
+            "label": "DREAM: $699,086 FDV, 33.1% concentration (low risk)"
           },
           {
-            "x": 409165.0,
+            "x": 413435.0,
             "y": 30.58,
             "r": 8,
-            "label": "RAGEGUY: $409,165 FDV, 30.6% concentration (low risk)"
+            "label": "RAGEGUY: $413,435 FDV, 30.6% concentration (low risk)"
           },
           {
             "x": 186871.0,
@@ -459,16 +459,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "SHITTER: $29,159 FDV, 57.3% concentration (low risk)"
           },
           {
-            "x": 354858.0,
-            "y": 36.83,
+            "x": 352698.0,
+            "y": 36.87,
             "r": 8,
-            "label": "FARTLESS: $354,858 FDV, 36.8% concentration (low risk)"
+            "label": "FARTLESS: $352,698 FDV, 36.9% concentration (low risk)"
           },
           {
             "x": 813795.0,
-            "y": 26.66,
+            "y": 26.65,
             "r": 8,
-            "label": "XBT: $813,795 FDV, 26.7% concentration (low risk)"
+            "label": "XBT: $813,795 FDV, 26.6% concentration (low risk)"
           },
           {
             "x": 541347.0,
@@ -502,9 +502,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
           },
           {
             "x": 106480.0,
-            "y": 42.16,
+            "y": 42.31,
             "r": 8,
-            "label": "USDUT: $106,480 FDV, 42.2% concentration (low risk)"
+            "label": "USDUT: $106,480 FDV, 42.3% concentration (low risk)"
           }
         ],
         "backgroundColor": "#22c55e",
@@ -672,13 +672,13 @@ Top 10 tokens with the most distributed ownership:
 
 | Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |
 |------|--------|------|---------|------|------------|-----------|
-| 1 | XBT | XBT | 26.66% | 🟢 low | $16.03 | $384.33 |
+| 1 | XBT | XBT | 26.65% | 🟢 low | $16.03 | $384.33 |
 | 2 | FLY | Nexa | 27.46% | 🟢 low | $5.42 | $2.42K |
-| 3 | RAGEGUY | Rage Guy | 30.58% | 🟢 low | $9.84K | $87.59K |
-| 4 | DREAM | Dreamsync | 33.06% | 🟢 low | $13.27K | $102.14K |
+| 3 | RAGEGUY | Rage Guy | 30.58% | 🟢 low | $9.73K | $87.93K |
+| 4 | DREAM | Dreamsync | 33.06% | 🟢 low | $13.27K | $102.27K |
 | 5 | ELIZABETH | Just Elizabeth Cat | 35.04% | 🟢 low | $13.96 | $36.07 |
-| 6 | FARTLESS | FARTLESS COIN | 36.83% | 🟢 low | $318.33 | $2.49K |
-| 7 | USDUT | unstable tether | 42.16% | 🟢 low | $0.19 | $36.44 |
+| 6 | FARTLESS | FARTLESS COIN | 36.87% | 🟢 low | $317.88 | $2.48K |
+| 7 | USDUT | unstable tether | 42.31% | 🟢 low | $0.19 | $36.44 |
 | 8 | YAO | YAO MING | 42.65% | 🟢 low | $1.01 | $614.20 |
 | 9 | 1nu | 1nu | 45.45% | 🟢 low | $17.55K | $37.68K |
 | 10 | USEFUL | USEFUL COIN | 46.37% | 🟢 low | $0.65 | $36.67 |
@@ -691,7 +691,7 @@ Top 10 tokens with the most concentrated ownership:
 |------|--------|------|---------|------|------------|-----------|
 | 1 | BLUB | Blub | 97.93% | 🔴 extreme | $0.28 | $6.47K |
 | 2 | Streamless | Streamless coin | 97.24% | 🔴 extreme | $0.14 | $6.66K |
-| 3 | SOL | Solana | 96.80% | 🔴 extreme | $1.90K | $13.53K |
+| 3 | SOL | Solana | 96.80% | 🔴 extreme | $1.62K | $13.53K |
 | 4 | RWA | Real World Asses | 95.91% | 🔴 extreme | $76.25 | $7.37K |
 | 5 | pibble | pibble | 95.60% | 🟠 high | $169.23 | $7.78K |
 | 6 | 1 | 1 pill can change your li | 95.17% | 🔴 extreme | $258.27 | $8.72K |
@@ -711,8 +711,8 @@ Top 10 tokens with the most concentrated ownership:
 ## 🔥 Today's Top 50 Tokens
 
 **Total Tokens**: 29
-**Combined 24h Volume**: $195.59M
-**Combined Liquidity**: $45.39M
+**Combined 24h Volume**: $193.82M
+**Combined Liquidity**: $45.31M
 
 **Concentration Risk Distribution**:
 - 🟢 Low: 14 tokens
@@ -725,15 +725,15 @@ Top 10 tokens with the most concentrated ownership:
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $195.50M | $43.18M | 🟢 unknown |
-| 2 | LION | Loaded Lions | $24.48K | $1.30M | 🟢 low |
+| 1 | wSOL | Wrapped SOL | $193.74M | $43.10M | 🟢 unknown |
+| 2 | LION | Loaded Lions | $23.63K | $1.30M | 🟢 low |
 | 3 | 1nu | 1nu | $17.55K | $37.68K | 🟢 low |
-| 4 | DREAM | Dreamsync | $13.27K | $102.14K | 🟢 low |
+| 4 | DREAM | Dreamsync | $13.27K | $102.27K | 🟢 low |
 | 5 | HAROLD | Harold | $9.99K | $440.12K | 🟢 medium |
-| 6 | RAGEGUY | Rage Guy | $9.84K | $87.59K | 🟢 low |
+| 6 | RAGEGUY | Rage Guy | $9.73K | $87.93K | 🟢 low |
 | 7 | 1 | 1 pill can change your life | $4.59K | $10.35K | 🟡 high |
 | 8 | AI4 | AI⁴ | $3.32K | $74.36K | 🟢 low |
-| 9 | SOL | Solana | $1.90K | $13.53K | 🔴 extreme |
+| 9 | SOL | Solana | $1.62K | $13.53K | 🔴 extreme |
 | 10 | RUECAT | Rue Cat | $890.65 | $31.90K | 🟢 medium |
 
 📄 [Full data: daily_top50.csv](data/daily_top50.csv)
