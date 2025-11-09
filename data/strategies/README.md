@@ -1,6 +1,6 @@
 # 🎯 Strategy Optimization Report
 
-**Generated:** 2025-11-02 09:18 UTC
+**Generated:** 2025-11-09 09:19 UTC
 
 ## 📊 Summary
 
@@ -10,10 +10,10 @@ Tested **6** different strategy configurations over historical data.
 
 | Metric | Value |
 |--------|-------|
-| **Total Return** | -9.91% |
+| **Total Return** | -11.48% |
 | **Win Rate** | 0.0% |
 | **Completed Trades** | 1 |
-| **Final Value** | $9,009.39 |
+| **Final Value** | $8,851.71 |
 | **Stop Loss** | -6.0% |
 | **Take Profit** | 12.0% |
 | **Min Fusion Score** | 0.80 |
@@ -22,18 +22,18 @@ Tested **6** different strategy configurations over historical data.
 
 | Rank | Strategy | Return | Win Rate | Trades | Final Value |
 |------|----------|--------|----------|--------|-------------|
-| 🥇 | A: Current (Baseline) | -34.35% | 22.2% | 9 | $6,565.41 |
-| 🥈 | B: Tighter Stops | -33.05% | 16.7% | 12 | $6,694.82 |
-| 🥉 | C: Very Tight | -27.91% | 23.1% | 13 | $7,209.39 |
-| 4. | D: Breakout Only | -12.35% | 0.0% | 2 | $8,764.62 |
-| 5. | E: High Conviction | -12.35% | 0.0% | 2 | $8,764.62 |
-| 6. | F: Conservative | -9.91% | 0.0% | 1 | $9,009.39 |
+| 🥇 | A: Current (Baseline) | -38.65% | 20.0% | 10 | $6,134.81 |
+| 🥈 | B: Tighter Stops | -42.25% | 16.7% | 12 | $5,775.04 |
+| 🥉 | C: Very Tight | -35.42% | 15.4% | 13 | $6,458.20 |
+| 4. | D: Breakout Only | -13.89% | 0.0% | 2 | $8,611.22 |
+| 5. | E: High Conviction | -13.89% | 0.0% | 2 | $8,611.22 |
+| 6. | F: Conservative | -11.48% | 0.0% | 1 | $8,851.71 |
 
 ## 💡 Analysis
 
 ### Key Findings:
 
-📉 Average return across active strategies: **-21.65%**
+📉 Average return across active strategies: **-25.93%**
 
 ⚠️ **Market Conditions:** All strategies showed losses, indicating:
 - Challenging market environment during test period
@@ -43,9 +43,9 @@ Tested **6** different strategy configurations over historical data.
 
 ### Strategy Insights:
 
-- **Improvement over baseline:** +24.44%
+- **Improvement over baseline:** +27.17%
 - **Most active strategy:** C: Very Tight (13 trades)
-- **Highest win rate:** C: Very Tight (23.1%)
+- **Highest win rate:** A: Current (Baseline) (20.0%)
 
 
 ## 🔧 Recommended Configuration
