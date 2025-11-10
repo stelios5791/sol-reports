@@ -11,10 +11,10 @@ Real-time analysis of Solana tokens for scalping opportunities.
 Reports are generated every 30 minutes and updated continuously.
 
 ### Recent Reports
-- [2025-10-20](2025-10-20.md)
-- [2025-10-31](2025-10-31.md)
 - [2025-11-01](2025-11-01.md)
 - [2025-11-02](2025-11-02.md)
 - [2025-11-03](2025-11-03.md)
 - [2025-11-04](2025-11-04.md)
 - [2025-11-05](2025-11-05.md)
+- [2025-11-06](2025-11-06.md)
+- [2025-11-07](2025-11-07.md)
