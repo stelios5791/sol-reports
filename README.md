@@ -1,6 +1,6 @@
 # 📊 Solana Radar - Live Dashboard
 
-**Last Updated**: 2025-11-11 17:02 UTC
+**Last Updated**: 2025-11-11 17:48 UTC
 
 Automated daily analysis of Solana tokens with whale tracking, momentum indicators, and pattern detection.
 
@@ -15,8 +15,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 ## 📈 Quick Stats
 
 🎯 **39 tokens tracked** | 
-💰 **$259.34M 24h volume** | 
-💧 **$47.86M liquidity** | 
+💰 **$258.84M 24h volume** | 
+💧 **$47.44M liquidity** | 
 🟢 **14 low-risk tokens**
 
 ---
@@ -192,16 +192,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
       {
         "label": "24h Volume (USD)",
         "data": [
-          57736.4,
-          20498.62,
-          17882.07,
-          8820.46,
-          6157.83,
+          58623.44,
+          20598.13,
+          17239.0,
+          8433.35,
+          6254.98,
           2820.15,
           2074.83,
-          1653.99,
+          1653.35,
           1442.53,
-          1169.58
+          1170.63
         ],
         "backgroundColor": [
           "#eab308",
@@ -287,7 +287,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
           61.9,
           61.92,
           62.0,
-          64.52
+          64.53
         ],
         "borderColor": "#3b82f6",
         "backgroundColor": "#3b82f620",
@@ -320,7 +320,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
           33.63,
           33.3,
           38.4,
-          42.18
+          41.39
         ],
         "borderColor": "#22c55e",
         "backgroundColor": "#22c55e20",
@@ -352,7 +352,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
           25.99,
           26.1,
           25.76,
-          31.32
+          30.56
         ],
         "borderColor": "#8b5cf6",
         "backgroundColor": "#8b5cf620",
@@ -423,16 +423,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         "label": "Low Risk",
         "data": [
           {
-            "x": 44857640.0,
+            "x": 44276664.0,
             "y": 57.84,
             "r": 8,
-            "label": "LION: $44,857,640 FDV, 57.8% concentration (low risk)"
+            "label": "LION: $44,276,664 FDV, 57.8% concentration (low risk)"
           },
           {
-            "x": 84281.0,
-            "y": 42.18,
+            "x": 86991.0,
+            "y": 41.39,
             "r": 8,
-            "label": "1nu: $84,281 FDV, 42.2% concentration (low risk)"
+            "label": "1nu: $86,991 FDV, 41.4% concentration (low risk)"
           },
           {
             "x": 681283.0,
@@ -441,10 +441,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "DREAM: $681,283 FDV, 33.2% concentration (low risk)"
           },
           {
-            "x": 381491.0,
-            "y": 31.32,
+            "x": 387875.0,
+            "y": 30.56,
             "r": 8,
-            "label": "RAGEGUY: $381,491 FDV, 31.3% concentration (low risk)"
+            "label": "RAGEGUY: $387,875 FDV, 30.6% concentration (low risk)"
           },
           {
             "x": 173446.0,
@@ -453,28 +453,28 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "AI4: $173,446 FDV, 54.7% concentration (low risk)"
           },
           {
-            "x": 30660.0,
-            "y": 56.24,
+            "x": 30688.0,
+            "y": 56.22,
             "r": 8,
-            "label": "SHITTER: $30,660 FDV, 56.2% concentration (low risk)"
+            "label": "SHITTER: $30,688 FDV, 56.2% concentration (low risk)"
           },
           {
-            "x": 317896.0,
-            "y": 37.79,
+            "x": 327823.0,
+            "y": 37.45,
             "r": 8,
-            "label": "FARTLESS: $317,896 FDV, 37.8% concentration (low risk)"
+            "label": "FARTLESS: $327,823 FDV, 37.5% concentration (low risk)"
           },
           {
-            "x": 900275.0,
-            "y": 26.4,
+            "x": 838743.0,
+            "y": 26.17,
             "r": 8,
-            "label": "XBT: $900,275 FDV, 26.4% concentration (low risk)"
+            "label": "XBT: $838,743 FDV, 26.2% concentration (low risk)"
           },
           {
-            "x": 739072.0,
-            "y": 29.56,
+            "x": 784783.0,
+            "y": 29.52,
             "r": 8,
-            "label": "ELIZABETH: $739,072 FDV, 29.6% concentration (low risk)"
+            "label": "ELIZABETH: $784,783 FDV, 29.5% concentration (low risk)"
           },
           {
             "x": 83247.0,
@@ -489,22 +489,22 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "FLY: $21,070 FDV, 27.5% concentration (low risk)"
           },
           {
-            "x": 122601.0,
-            "y": 40.23,
+            "x": 143909.0,
+            "y": 47.98,
             "r": 8,
-            "label": "USDUT: $122,601 FDV, 40.2% concentration (low risk)"
+            "label": "gib: $143,909 FDV, 48.0% concentration (low risk)"
+          },
+          {
+            "x": 122601.0,
+            "y": 40.26,
+            "r": 8,
+            "label": "USDUT: $122,601 FDV, 40.3% concentration (low risk)"
           },
           {
             "x": 96150.0,
             "y": 48.68,
             "r": 8,
             "label": "USEFUL: $96,150 FDV, 48.7% concentration (low risk)"
-          },
-          {
-            "x": 149915.0,
-            "y": 47.52,
-            "r": 8,
-            "label": "gib: $149,915 FDV, 47.5% concentration (low risk)"
           }
         ],
         "backgroundColor": "#22c55e",
@@ -515,10 +515,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         "label": "Medium Risk",
         "data": [
           {
-            "x": 3595259.0,
-            "y": 64.52,
+            "x": 3549698.0,
+            "y": 64.53,
             "r": 8,
-            "label": "HAROLD: $3,595,259 FDV, 64.5% concentration (medium risk)"
+            "label": "HAROLD: $3,549,698 FDV, 64.5% concentration (medium risk)"
           },
           {
             "x": 63145.0,
@@ -591,10 +591,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "1: $5,424 FDV, 95.2% concentration (extreme risk)"
           },
           {
-            "x": 12313331.0,
+            "x": 12274084.0,
             "y": 96.8,
             "r": 8,
-            "label": "SOL: $12,313,331 FDV, 96.8% concentration (extreme risk)"
+            "label": "SOL: $12,274,084 FDV, 96.8% concentration (extreme risk)"
           },
           {
             "x": 3565.0,
@@ -609,16 +609,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
             "label": "pibble: $4,384 FDV, 96.6% concentration (extreme risk)"
           },
           {
-            "x": 8829.0,
-            "y": 94.22,
-            "r": 8,
-            "label": "MOCHI: $8,829 FDV, 94.2% concentration (extreme risk)"
-          },
-          {
             "x": 3608.0,
             "y": 97.42,
             "r": 8,
             "label": "Streamless: $3,608 FDV, 97.4% concentration (extreme risk)"
+          },
+          {
+            "x": 8829.0,
+            "y": 94.22,
+            "r": 8,
+            "label": "MOCHI: $8,829 FDV, 94.2% concentration (extreme risk)"
           },
           {
             "x": 4075.0,
@@ -732,16 +732,16 @@ Top 10 tokens with the most distributed ownership:
 
 | Rank | Symbol | Name | Top 10% | Risk | Volume 24h | Liquidity |
 |------|--------|------|---------|------|------------|-----------|
-| 1 | XBT | XBT | 26.40% | 🟢 low | $15.31 | $411.57 |
+| 1 | XBT | XBT | 26.17% | 🟢 low | $23.00 | $395.21 |
 | 2 | FLY | Nexa | 27.46% | 🟢 low | $1.29 | $145.57 |
-| 3 | ELIZABETH | Just Elizabeth Cat | 29.56% | 🟢 low | $9.15 | $42.15 |
-| 4 | RAGEGUY | Rage Guy | 31.32% | 🟢 low | $6.16K | $85.56K |
-| 5 | DREAM | Dreamsync | 33.24% | 🟢 low | $8.82K | $102.86K |
-| 6 | FARTLESS | FARTLESS COIN | 37.79% | 🟢 low | $396.11 | $2.36K |
-| 7 | USDUT | unstable tether | 40.23% | 🟢 low | $0.45 | $39.36 |
-| 8 | 1nu | 1nu | 42.18% | 🟢 low | $17.88K | $39.41K |
+| 3 | ELIZABETH | Just Elizabeth Cat | 29.52% | 🟢 low | $9.42 | $43.43 |
+| 4 | RAGEGUY | Rage Guy | 30.56% | 🟢 low | $6.25K | $86.03K |
+| 5 | DREAM | Dreamsync | 33.24% | 🟢 low | $8.43K | $102.86K |
+| 6 | FARTLESS | FARTLESS COIN | 37.45% | 🟢 low | $387.48 | $2.39K |
+| 7 | USDUT | unstable tether | 40.26% | 🟢 low | $0.35 | $39.36 |
+| 8 | 1nu | 1nu | 41.39% | 🟢 low | $17.24K | $40.04K |
 | 9 | YAO | YAO MING | 42.61% | 🟢 low | $3.48 | $543.93 |
-| 10 | gib | gib | 47.52% | 🟢 low | $0.15 | $27.13 |
+| 10 | gib | gib | 47.98% | 🟢 low | $0.50 | $26.58 |
 
 ### ⚠️ Highest Risk Tokens (Highest Holder Concentration)
 
@@ -771,8 +771,8 @@ Top 10 tokens with the most concentrated ownership:
 ## 🔥 Today's Top 50 Tokens
 
 **Total Tokens**: 39
-**Combined 24h Volume**: $259.34M
-**Combined Liquidity**: $47.86M
+**Combined 24h Volume**: $258.84M
+**Combined Liquidity**: $47.44M
 
 **Concentration Risk Distribution**:
 - 🔴 Extreme: 16 tokens
@@ -785,12 +785,12 @@ Top 10 tokens with the most concentrated ownership:
 
 | # | Symbol | Name | Volume 24h | Liquidity | Risk |
 |---|--------|------|------------|-----------|------|
-| 1 | wSOL | Wrapped SOL | $259.21M | $45.50M | 🟢 unknown |
-| 2 | HAROLD | Harold | $57.74K | $473.66K | 🟢 medium |
-| 3 | LION | Loaded Lions | $20.50K | $1.35M | 🟢 low |
-| 4 | 1nu | 1nu | $17.88K | $39.41K | 🟢 low |
-| 5 | DREAM | Dreamsync | $8.82K | $102.86K | 🟢 low |
-| 6 | RAGEGUY | Rage Guy | $6.16K | $85.56K | 🟢 low |
+| 1 | wSOL | Wrapped SOL | $258.72M | $45.10M | 🟢 unknown |
+| 2 | HAROLD | Harold | $58.62K | $467.37K | 🟢 medium |
+| 3 | LION | Loaded Lions | $20.60K | $1.33M | 🟢 low |
+| 4 | 1nu | 1nu | $17.24K | $40.04K | 🟢 low |
+| 5 | DREAM | Dreamsync | $8.43K | $102.86K | 🟢 low |
+| 6 | RAGEGUY | Rage Guy | $6.25K | $86.03K | 🟢 low |
 | 7 | 1 | 1 pill can change your life | $2.82K | $9.76K | 🟡 high |
 | 8 | AUSBAGWORK | AUSSIE BAG WORKERS | $2.07K | $13.54K | 🟡 high |
 | 9 | AI4 | AI⁴ | $1.65K | $72.52K | 🟢 low |
@@ -832,7 +832,7 @@ Tokens with significant price or volume changes in the last 24 hours.
 Signals filtered to exclude tokens with extreme concentration risk.
 
 **Signal Distribution**:
-- 👀 **Watch**: 115 tokens
+- 👀 **Watch**: 114 tokens
 - 🚀 **Breakout**: 3 tokens
 - ❄️ **Cooling**: 1 tokens
 
@@ -846,7 +846,7 @@ Signals filtered to exclude tokens with extreme concentration risk.
 
 ### 👀 Watch List
 
-*115 tokens showing elevated activity*
+*114 tokens showing elevated activity*
 
 📄 [Full data: signals_filtered.csv](data/signals_filtered.csv)
 
@@ -859,7 +859,7 @@ Signals filtered to exclude tokens with extreme concentration risk.
 **Date Range**: 2025-10-01 to 2025-11-11
 
 **Master Aggregations**: 101 tokens
-**Performance Metrics**: 505 records
+**Performance Metrics**: 513 records
 
 ### Available Datasets
 
@@ -867,10 +867,10 @@ Signals filtered to exclude tokens with extreme concentration risk.
 |------|-------------|---------|
 | [history.csv](data/history.csv) | Complete historical snapshots | 513 |
 | [master.csv](data/master.csv) | Aggregated per-token metrics | 101 |
-| [performance.csv](data/performance.csv) | Rolling performance indicators | 505 |
+| [performance.csv](data/performance.csv) | Rolling performance indicators | 513 |
 | [daily_top50.csv](data/daily_top50.csv) | Today's top 50 tokens | 39 |
 | [new_viable.csv](data/new_viable.csv) | New tokens with potential | 0 |
-| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 119 |
+| [signals_filtered.csv](data/signals_filtered.csv) | Whale-filtered trading signals | 118 |
 
 ---
 

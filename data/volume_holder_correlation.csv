@@ -7,13 +7,11 @@ address,symbol,date,volume_spike_ratio,holder_change_7d,pattern,confidence,volum
 3BrXeqzNKUKsM6MgkWFZX4E2cY8SiwYNwwmVzP2Rpump,walkusa,2025-10-07,0.43,1.77,neutral,0.0,4800.56,11086.76
 3hiutVNCbwCY1vmoPKdXtMtuzg4epn1WzuU1jgpHpump,Gaming,2025-10-06,1.36,0.01,neutral,0.0,13.04,9.61
 3nJXYRGSFdfhVAg48cLE3iF3Hhda4CXqTt9XS56Mpump,YOU,2025-10-07,2.04,0.0,retail_fomo,16.3,29.77,14.6
-447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,FALCONS,2025-10-07,1.76,0.02,neutral,0.0,4.4,2.5
 4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,grandma,2025-10-07,1.47,-0.18,neutral,0.0,780.47,529.38
 4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,DARE,2025-10-06,0.2,0.58,neutral,0.0,150.85,745.36
 4h49bD28nPPLXWB1ZmP8JPuv4iKk3KzFpS8bSmGJpump,MOONCOIN,2025-10-05,0.56,0.0,neutral,0.0,8.06,14.38
 4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,ORE,2025-10-07,0.02,0.01,neutral,0.0,0.16,6.71
 5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,Useless,2025-10-07,0.34,2.86,neutral,0.0,27295.0,80705.28
-6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,gib,2025-10-07,1.23,0.97,neutral,0.0,30560.87,24753.06
 6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,Bagwork,2025-10-07,0.05,0.27,neutral,0.0,0.64,12.63
 6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,FATMEOW,2025-10-07,0.36,0.15,neutral,0.0,6.92,19.0
 6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,retail,2025-10-06,0.39,0.04,neutral,0.0,15.17,39.25
@@ -21,8 +19,6 @@ address,symbol,date,volume_spike_ratio,holder_change_7d,pattern,confidence,volum
 7PzU4m13VqkdgWcserfBdxX4cAPQXaZuFNuKarnT1deV,VIBECODER,2025-10-07,0.79,-0.23,neutral,0.0,10066.49,12779.82
 7Rw4dgDuwESJEcCAbhxAghLcmkXM5QotupWq8PPc1UeC,JIFFPOM,2025-10-07,0.57,0.22,neutral,0.0,16.03,28.24
 7ukFzJA7V6f28YieCjXcEXqiK8tAfbyXyvK6b36pump,early,2025-10-07,1.96,10.41,accumulation,57.3,119186.84,60950.99
-8AgJibpuXYU79bMSzhBv9BCUioxYkoeRVDYz3Tjopump,19,2025-10-07,0.04,0.12,neutral,0.0,72.0,1989.24
-8X4TnmkHzavxEJuaYTkqjFbUgrwBgaXVuRHhGFR2pump,viewer,2025-10-07,2.4,0.12,retail_fomo,19.2,7.93,3.31
 8erRtd8mLgNcNoWy2bhMdTgZyXaRR6u7t2hyXRc1pump,1dog,2025-10-07,0.23,-0.21,neutral,0.0,893.28,3850.73
 8z55m3BmsPkmDfi5b5dAomBvYi1cDmW92hrEJTLdpump,PILL,2025-10-07,0.69,0.43,neutral,0.0,260.6,376.08
 99YFbXS6iA7s1qkRDTMBXEywtLNmrRtHtGKvNxpKWcdT,MOON,2025-10-07,0.24,-1.22,neutral,0.0,151.07,616.8
@@ -39,12 +35,9 @@ CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,Pochita,2025-10-07,0.15,0.13,neutra
 DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,AI20X,2025-10-06,0.11,0.0,neutral,0.0,2.34,20.49
 Eo2cfEkpeVZrKjRtG34WZc3qzyeZeXjCRGWsEs4JTaNH,MoneyBear,2025-10-06,0.03,0.0,neutral,0.0,2.51,74.28
 Et2bFLuPCW77hGW2g7UdrboPVuxatFZt4BaCzhCqpump,BAR,2025-10-07,0.74,0.5,neutral,0.0,18576.9,25246.92
-EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,obvious,2025-10-07,3.09,0.23,retail_fomo,24.7,113.86,36.84
 F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,Noxi,2025-10-07,0.07,0.04,neutral,0.0,2.56,34.32
-Fk6e19okXWGxtrHmXBLzkFeDPR2uuyeVYsqGyt89pump,GAZABOY,2025-10-06,0.91,0.0,neutral,0.0,52.6,57.55
 GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,Mementoe,2025-10-05,0.05,0.0,neutral,0.0,0.78,17.22
 HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,PROFIT,2025-10-07,1.41,0.32,neutral,0.0,9.71,6.89
-HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,1% Club,2025-10-05,0.32,0.0,neutral,0.0,149.27,473.52
+HovYQgKum9HALgJmxGdESHNjsn3xezzio5HQVgiPHo1t,Hosico,2025-10-07,0.12,1.95,neutral,0.0,52.47,445.39
 HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,BLUB,2025-10-07,0.01,0.01,neutral,0.0,0.35,23.5
 JFjfTn5VJkHpacwz7rbnGXDxRUCySZhZ2EdTkrAmoon,HOODIE,2025-10-07,1.35,-0.03,neutral,0.0,351.54,260.22
-LGiKAMtb4BuPdhpThjEbNWbDddqdM5FnxMMHqtzpump,SUPRACOIN,2025-10-07,0.62,0.93,neutral,0.0,157.13,253.78
