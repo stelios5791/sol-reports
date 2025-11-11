@@ -1,6 +1,6 @@
 # Solana Scalping Analysis Report
-**Date:** 2025-11-10  
-**Generated:** 23:40 UTC
+**Date:** 2025-11-11  
+**Generated:** 01:24 UTC
 
 ---
 
@@ -17,8 +17,6 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'advanced_patterns'
 ```
 
-![Top Opportunities](../charts/opportunities_2025-11-10.png)
-
 
 ---
 
@@ -34,10 +32,6 @@ Traceback (most recent call last):
     from advanced_patterns import AdvancedPatternDetector
 ModuleNotFoundError: No module named 'advanced_patterns'
 ```
-
-### Correlation Heatmap
-
-![Watchlist Correlation](../charts/watchlist_correlation_2025-11-10.png)
 
 ---
 
