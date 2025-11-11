@@ -9,11 +9,11 @@ address,symbol,name,date,current_top10_pct,current_top5_pct,trend_7d,slope_7d,ve
 3nJXYRGSFdfhVAg48cLE3iF3Hhda4CXqTt9XS56Mpump,YOU,YOU can change your life.,2025-10-07,99.99,99.93,stable,0.0,0.0,,extreme,3
 447veSTPUpNG16GxaNFm8tEC8sc5sao5AEkM6amgn55R,FALCONS,THE FALCONS,2025-10-07,98.07,97.15,stable,0.01,0.01,0.01,extreme,3
 4CBToKTRKfBsv8RMfzMr6VfKQ8PLRYeG6RFGZmq4pump,grandma,101 Year Old Pumpfun Livestreamr,2025-10-07,84.6,79.97,stable,-0.09,-0.04,,extreme,6
-4Xs7RvaV3nbWBvb6yWjxvwPKkBxefXe1bPJcvnVspump,BULLCOIN,BULLCOIN,2025-10-07,96.61,95.03,stable,0.165,0.06,,extreme,6
 4bLnK5YuJaqkVX4uWtJ1Qtx3XoZ8eHH37STXSwujpump,DARE,DareCoin,2025-10-06,88.96,0.0,increasing,0.58,0.13,,extreme,5
 4h49bD28nPPLXWB1ZmP8JPuv4iKk3KzFpS8bSmGJpump,MOONCOIN,MOON COIN,2025-10-05,99.65,0.0,stable,0.0,0.0,,extreme,3
 4w4Kj3PmKjJWpsBVCNPeziC2ySdJ6A7cPfqnhyXxpump,ORE,Ore Labs,2025-10-07,99.18,98.64,stable,0.01,0.0,,extreme,5
 5NnL7oRMtVW3ZqAt95gJQs12Fbz2caCYh9rgy1kQpump,Useless,Useless Coin,2025-10-07,44.31,35.33,increasing,1.43,1.15,,medium,6
+6FtbGaqgZzti1TxJksBV4PSya5of9VqA9vJNDxPwbonk,gib,gib,2025-10-07,43.52,35.88,stable,0.485,0.33,,medium,7
 6NVo6X8ouYRVoKRWe7Y9J6CT4pWZXDthSJCBZ3vgUg8z,Bagwork,African Bagwork,2025-10-07,97.14,96.1,stable,0.135,0.05,,extreme,6
 6UMuZxH9jLT3txQkQo6jWXX2HpHrM1mPkGRjE66pzhEp,FATMEOW,BIG FAT CAT,2025-10-07,98.65,98.14,stable,0.075,0.04,,extreme,4
 6jPg6gSrwtJyHWGTs7tUh2Zs1GzfKzHQNUGfAK1xpump,retail,retail,2025-10-06,99.35,0.0,stable,0.04,0.01,,extreme,4
@@ -33,6 +33,7 @@ AkhHVVk58FmoS8h1fDWzHMZ9YrnqHcZi97mFzhjbpump,KENNY,KENNY KO,2025-10-03,0.0,0.0,s
 Axix4KAvD9m5iYvUx7wztZnKJfJs7KXxPzPmMv6Npump,MMGA,MAKE MEMES GREAT AGAIN,2025-10-07,99.24,98.73,stable,0.06,0.03,,extreme,4
 B1PrDviUajpkxghL1v2w2P8jnxu3FNjcxUDdBNanPLyR,Supershiro,Super Shiro,2025-10-05,99.51,0.0,stable,0.0,0.0,,extreme,3
 BVvSqvTb9ZVNEkP5UsamR1egAWSGEZiQDU42FS7mmoon,CRND,Crundle,2025-10-07,30.08,24.93,increasing,0.595,0.69,,low,6
+CAamcXXVWM8b8DcpcT2rpEwwfNfBD2MXjHjCwRDBpump,7,7 Coin,2025-10-07,94.96,0.0,stable,0.0,0.0,,extreme,6
 CEqFiJoB6HLncfeieBw3PKKm9wyqrpSHV3VH4qZApump,CHARLIE,RIP CHARLIE KIRK,2025-10-07,42.84,33.44,increasing,3.365,3.11,,medium,6
 CmLrhRd762bfytq6f3ZV5iuivN1Q8oyPw4evyW4Mbonk,Pochita,Pochita,2025-10-07,92.41,90.06,stable,0.065,0.02,,extreme,6
 DKffyw1oEVWR3ik7q7tb2shhmZ3jbTkRzT6R5banCxai,AI20X,Ai20x.ai,2025-10-06,39.37,0.0,stable,0.0,0.0,,low,6
@@ -42,7 +43,6 @@ EzcwA7anSrdoH1TMKjbBTd91GD7KwMco9kFZh1AApump,obvious,in hindsight,2025-10-07,96.
 F2yfGhxEi7Hw2mr2XQ3MLrdamiPt2rkdMf8PSyAGpump,Noxi,Noxi Labs AI,2025-10-07,98.01,95.28,stable,0.04,0.01,,extreme,6
 Fk6e19okXWGxtrHmXBLzkFeDPR2uuyeVYsqGyt89pump,GAZABOY,GAZA BOY,2025-10-06,99.06,0.0,stable,0.0,0.0,,extreme,3
 GCU5AT6U8bKYK76KBssLf5a3a3KoNoMGStaVdfeipump,Mementoe,Mementoe,2025-10-05,99.33,0.0,stable,0.0,0.0,,extreme,4
-GcPf1ZsZHvnjauhXoFvGMmc2gM73aJ63AYxYC6JAQVoG,IDIOT,IDIOT,2025-10-07,79.6,66.75,stable,0.1,0.04,,high,6
 HJ5HdKrTmvE26k7oKq8JFWvudnzge1gFpe6EKZXUbREV,PROFIT,Profit Protocol,2025-10-07,96.18,89.55,stable,0.32,0.11,,extreme,3
 HpQUbEAcHrhwSJyYfXLNZvJz9SBksRJJStn86gFdbonk,1% Club,The 1% Club,2025-10-05,98.01,0.0,stable,0.0,0.0,,extreme,4
 HxMQWY4DLbUrPXyejuKvu2KJ618zdTRs9dXEuFGrpump,BLUB,Blub,2025-10-07,97.48,96.32,stable,0.01,0.0,,extreme,5
